@@ -1,0 +1,433 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deepwoken - Faction Reputation Viewer</title>
+
+    <link href="/assets/css/reputation.css" rel="stylesheet" type="text/css" media="all">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+    
+    <meta name="title" content="Deepwoken">
+    <meta name="description" content="A Deepwoken reputation viewer, for quests and requirements!">
+    
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://deepwoken.neocities.org/"> 
+    <meta property="og:title" content="Deepwoken">
+    <meta property="og:description" content="A Deepwoken reputation viewer, for quests and requirements!">
+    <meta property="og:image" content="https://deepwoken.neocities.org/icon.png"> 
+    
+    <meta property="twitter:url" content="https://deepwoken.neocities.org/"> 
+    <meta property="twitter:title" content="Deepwoken">
+    <meta property="twitter:description" content="A collection of useful pages featuring Deepwoken-related content.">
+    <meta property="twitter:image" content="https://deepwoken.neocities.org/favicon.png"> 
+    
+    <link rel="icon" href="/favicon.png">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="apple-touch-icon" sizes="256x256" href="/favicon.png">
+
+    <meta name="theme-color" content="#9c31f7">
+    <meta name="mobile-web-app-capable" content="yes">
+
+    <meta name="robots" content="index, follow">
+    <meta name="keywords" content="Deepwoken, Mantra Preview, Deepwoken Card Creator, Deepwoken Build Maker, Deepwoken Website">
+    <meta name="author" content="zalaxis">
+    <meta name="copyright" content="Deepwoken">
+</head>
+
+<body>
+    <section class="faction-frame" id="etrea" style="left: -30%; top: -80%">
+      <div class="circle-background"></div>
+      
+      <img src="/assets/img/icons/reputation/guild.png" class="faction-background">
+      <img src="/assets/img/icons/reputation/neutral.png" class="neutral-icon">
+      <img src="/assets/img/icons/factions/etrea.png" class="faction-icon">
+      
+      <p class="faction-text">Etrea</p>
+      <p class="status-text">Friend</p>
+      
+      <div class="progress-bar">
+        <img src="/assets/img/icons/reputation/indicator.png" class="neutral-icon" style="transform: translate(145px, 0px);" hidden>
+        <img src="/assets/img/icons/reputation/enemy.png" class="re-icon" style="transform: translate(-151.5px, 0px);" hidden>
+        <img src="/assets/img/icons/reputation/ally.png" class="rep-icon" style="transform: translate(145.5px, 0px);">
+        <input type="range" min="-300" max="300" value="180" step="20" list="marks" class="slider" id="myRange">
+        
+         <datalist id="marks">
+            <option value="300" label="hero"></option>
+            <option value="150" label="ally"></option>
+            <option value="1" label="friend"></option>
+            <option value="0" label="neutral"></option>
+            <option value="-1" label="enemy"></option>
+            <option value="-150" label="hunted"></option>
+            <option value="-300" label="vilain"></option>
+        </datalist>
+      </div>
+     </section>
+     
+    <section class="faction-frame" id="divers" style="left: -30%; top: -50%">
+      <div class="circle-background"></div>
+      
+      <img src="/assets/img/icons/reputation/guild.png" class="faction-background">
+      <img src="/assets/img/icons/reputation/neutral.png" class="neutral-icon">
+      <img src="/assets/img/icons/factions/divers.png" class="faction-icon">
+      
+      <p class="faction-text">The Divers</p>
+      <p class="status-text">Friend</p>
+      
+      <div class="progress-bar">
+        <img src="/assets/img/icons/reputation/indicator.png" class="neutral-icon" style="transform: translate(145px, 0px);" hidden>
+        <img src="/assets/img/icons/reputation/enemy.png" class="re-icon" style="transform: translate(-151.5px, 0px);" hidden>
+        <img src="/assets/img/icons/reputation/ally.png" class="rep-icon" style="transform: translate(145.5px, 0px);">
+        <input type="range" min="-300" max="300" value="180" step="20" list="marks" class="slider" id="myRange">
+        
+        <datalist id="marks">
+            <option value="300" label="hero"></option>
+            <option value="150" label="ally"></option>
+            <option value="1" label="friend"></option>
+            <option value="0" label="neutral"></option>
+            <option value="-1" label="enemy"></option>
+            <option value="-150" label="hunted"></option>
+            <option value="-300" label="vilain"></option>
+        </datalist>
+      </div>
+     </section>
+
+    <section class="faction-frame" id="ignition" style="left: -30%; top: -20%">
+      <div class="circle-background"></div>
+      
+      <img src="/assets/img/icons/reputation/guild.png" class="faction-background">
+      <img src="/assets/img/icons/reputation/neutral.png" class="neutral-icon">
+      <img src="/assets/img/icons/factions/ignition_union.png" class="faction-icon">
+      
+      <p class="faction-text">The Ignition Union</p>
+      <p class="status-text">Friend</p>
+      
+      <div class="progress-bar">
+        <img src="/assets/img/icons/reputation/indicator.png" class="neutral-icon" style="transform: translate(145px, 0px);" hidden>
+        <img src="/assets/img/icons/reputation/enemy.png" class="re-icon" style="transform: translate(-151.5px, 0px);" hidden>
+        <img src="/assets/img/icons/reputation/ally.png" class="rep-icon" style="transform: translate(145.5px, 0px);">
+        <input type="range" min="-300" max="300" value="180" step="20" list="marks" class="slider" id="myRange">
+        
+        <datalist id="marks">
+            <option value="300" label="hero"></option>
+            <option value="150" label="ally"></option>
+            <option value="1" label="friend"></option>
+            <option value="0" label="neutral"></option>
+            <option value="-1" label="enemy"></option>
+            <option value="-150" label="hunted"></option>
+            <option value="-300" label="vilain"></option>
+        </datalist>
+      </div>
+     </section>
+     
+    <section class="faction-frame" id="navae" style="left: -30%; top: 10%">
+      <div class="circle-background"></div>
+      
+      <img src="/assets/img/icons/reputation/guild.png" class="faction-background">
+      <img src="/assets/img/icons/reputation/neutral.png" class="neutral-icon">
+      <img src="/assets/img/icons/factions/navae.png" class="faction-icon">
+      
+      <p class="faction-text">The Children Of Navae</p>
+      <p class="status-text">Friend</p>
+      
+      <div class="progress-bar">
+        <img src="/assets/img/icons/reputation/indicator.png" class="neutral-icon" style="transform: translate(145px, 0px);" hidden>
+        <img src="/assets/img/icons/reputation/enemy.png" class="re-icon" style="transform: translate(-151.5px, 0px);" hidden>
+        <img src="/assets/img/icons/reputation/ally.png" class="rep-icon" style="transform: translate(145.5px, 0px);">
+        <input type="range" min="-300" max="300" value="180" step="20" list="marks" class="slider" id="myRange">
+        
+        <datalist id="marks">
+            <option value="300" label="hero"></option>
+            <option value="150" label="ally"></option>
+            <option value="1" label="friend"></option>
+            <option value="0" label="neutral"></option>
+            <option value="-1" label="enemy"></option>
+            <option value="-150" label="hunted"></option>
+            <option value="-300" label="vilain"></option>
+        </datalist>
+      </div>
+     </section>
+
+    <section class="faction-frame" id="eylis" style="left: -30%; top: 40%">
+      <div class="circle-background"></div>
+      
+      <img src="/assets/img/icons/reputation/guild.png" class="faction-background">
+      <img src="/assets/img/icons/reputation/neutral.png" class="neutral-icon">
+      <img src="/assets/img/icons/factions/knives_of_eylis.png" class="faction-icon">
+      
+      <p class="faction-text">The Knives of Eylis</p>
+      <p class="status-text">Friend</p>
+      
+      <div class="progress-bar">
+        <img src="/assets/img/icons/reputation/indicator.png" class="neutral-icon" style="transform: translate(145px, 0px);" hidden>
+        <img src="/assets/img/icons/reputation/enemy.png" class="re-icon" style="transform: translate(-151.5px, 0px);" hidden>
+        <img src="/assets/img/icons/reputation/ally.png" class="rep-icon" style="transform: translate(145.5px, 0px);">
+        <input type="range" min="-300" max="300" value="180" step="20" list="marks" class="slider" id="myRange">
+        
+        <datalist id="marks">
+            <option value="300" label="hero"></option>
+            <option value="150" label="ally"></option>
+            <option value="1" label="friend"></option>
+            <option value="0" label="neutral"></option>
+            <option value="-1" label="enemy"></option>
+            <option value="-150" label="hunted"></option>
+            <option value="-300" label="vilain"></option>
+        </datalist>
+      </div>
+     </section>
+     
+    <section class="faction-frame" id="ministry" style="left: -30%; top: 70%">
+      <div class="circle-background"></div>
+      
+      <img src="/assets/img/icons/reputation/guild.png" class="faction-background">
+      <img src="/assets/img/icons/reputation/neutral.png" class="neutral-icon">
+      <img src="/assets/img/icons/factions/ministry.png" class="faction-icon">
+      
+      <p class="faction-text">The Ministry</p>
+      <p class="status-text">Friend</p>
+      
+      <div class="progress-bar">
+        <img src="/assets/img/icons/reputation/indicator.png" class="neutral-icon" style="transform: translate(145px, 0px);" hidden>
+        <img src="/assets/img/icons/reputation/enemy.png" class="re-icon" style="transform: translate(-151.5px, 0px);" hidden>
+        <img src="/assets/img/icons/reputation/ally.png" class="rep-icon" style="transform: translate(145.5px, 0px);">
+        <input type="range" min="-300" max="300" value="180" step="20" list="marks" class="slider" id="myRange">
+        
+        <datalist id="marks">
+            <option value="300" label="hero"></option>
+            <option value="150" label="ally"></option>
+            <option value="1" label="friend"></option>
+            <option value="0" label="neutral"></option>
+            <option value="-1" label="enemy"></option>
+            <option value="-150" label="hunted"></option>
+            <option value="-300" label="vilain"></option>
+        </datalist>
+      </div>
+     </section>
+
+    <section class="faction-frame" id="authority" style="left: 30%; top: -80%">
+      <div class="circle-background"></div>
+      
+      <img src="/assets/img/icons/reputation/guild.png" class="faction-background">
+      <img src="/assets/img/icons/reputation/neutral.png" class="neutral-icon">
+      <img src="/assets/img/icons/factions/central_authority.png" class="faction-icon">
+      
+      <p class="faction-text">The Central Authority</p>
+      <p class="status-text">Friend</p>
+      
+      <div class="progress-bar">
+        <img src="/assets/img/icons/reputation/indicator.png" class="neutral-icon" style="transform: translate(145px, 0px);" hidden>
+        <img src="/assets/img/icons/reputation/enemy.png" class="re-icon" style="transform: translate(-151.5px, 0px);" hidden>
+        <img src="/assets/img/icons/reputation/ally.png" class="rep-icon" style="transform: translate(145.5px, 0px);">
+        <input type="range" min="-300" max="300" value="180" step="20" list="marks" class="slider" id="myRange">
+        
+        <datalist id="marks">
+            <option value="300" label="hero"></option>
+            <option value="150" label="ally"></option>
+            <option value="1" label="friend"></option>
+            <option value="0" label="neutral"></option>
+            <option value="-1" label="enemy"></option>
+            <option value="-150" label="hunted"></option>
+            <option value="-300" label="vilain"></option>
+        </datalist>
+      </div>
+     </section>
+     
+    <section class="faction-frame" id="hive" style="left: 30%; top: -50%">
+      <div class="circle-background"></div>
+      
+      <img src="/assets/img/icons/reputation/guild.png" class="faction-background">
+      <img src="/assets/img/icons/reputation/neutral.png" class="neutral-icon">
+      <img src="/assets/img/icons/factions/hive.png" class="faction-icon">
+      
+      <p class="faction-text">The Hive</p>
+      <p class="status-text">Friend</p>
+      
+      <div class="progress-bar">
+        <img src="/assets/img/icons/reputation/indicator.png" class="neutral-icon" style="transform: translate(145px, 0px);" hidden>
+        <img src="/assets/img/icons/reputation/enemy.png" class="re-icon" style="transform: translate(-151.5px, 0px);" hidden>
+        <img src="/assets/img/icons/reputation/ally.png" class="rep-icon" style="transform: translate(145.5px, 0px);">
+        <input type="range" min="-300" max="300" value="180" step="20" list="marks" class="slider" id="myRange">
+        
+        <datalist id="marks">
+            <option value="300" label="hero"></option>
+            <option value="150" label="ally"></option>
+            <option value="1" label="friend"></option>
+            <option value="0" label="neutral"></option>
+            <option value="-1" label="enemy"></option>
+            <option value="-150" label="hunted"></option>
+            <option value="-300" label="vilain"></option>
+        </datalist>
+      </div>
+     </section>
+     
+    <section class="faction-frame" id="summer" style="left: 30%; top: -20%">
+      <div class="circle-background"></div>
+      
+      <img src="/assets/img/icons/reputation/guild.png" class="faction-background">
+      <img src="/assets/img/icons/reputation/neutral.png" class="neutral-icon">
+      <img src="/assets/img/icons/factions/summer_company.png" class="faction-icon">
+      
+      <p class="faction-text">The Summer Company</p>
+      <p class="status-text">Friend</p>
+      
+      <div class="progress-bar">
+        <img src="/assets/img/icons/reputation/indicator.png" class="neutral-icon" style="transform: translate(145px, 0px);" hidden>
+        <img src="/assets/img/icons/reputation/enemy.png" class="re-icon" style="transform: translate(-151.5px, 0px);" hidden>
+        <img src="/assets/img/icons/reputation/ally.png" class="rep-icon" style="transform: translate(145.5px, 0px);">
+        <input type="range" min="-300" max="300" value="180" step="20" list="marks" class="slider" id="myRange">
+        
+        <datalist id="marks">
+            <option value="300" label="hero"></option>
+            <option value="150" label="ally"></option>
+            <option value="1" label="friend"></option>
+            <option value="0" label="neutral"></option>
+            <option value="-1" label="enemy"></option>
+            <option value="-150" label="hunted"></option>
+            <option value="-300" label="vilain"></option>
+        </datalist>
+      </div>
+     </section>
+     
+    <section class="faction-frame" id="legion" style="left: 30%; top: 10%">
+      <div class="circle-background"></div>
+      
+      <img src="/assets/img/icons/reputation/guild.png" class="faction-background">
+      <img src="/assets/img/icons/reputation/neutral.png" class="neutral-icon">
+      <img src="/assets/img/icons/factions/hundred_legions.png" class="faction-icon">
+      
+      <p class="faction-text">The Hundred Legions</p>
+      <p class="status-text">Friend</p>
+      
+      <div class="progress-bar">
+        <img src="/assets/img/icons/reputation/indicator.png" class="neutral-icon" style="transform: translate(145px, 0px);" hidden>
+        <img src="/assets/img/icons/reputation/enemy.png" class="re-icon" style="transform: translate(-151.5px, 0px);" hidden>
+        <img src="/assets/img/icons/reputation/ally.png" class="rep-icon" style="transform: translate(145.5px, 0px);">
+        <input type="range" min="-300" max="300" value="180" step="20" list="marks" class="slider" id="myRange">
+        
+        <datalist id="marks">
+            <option value="300" label="hero"></option>
+            <option value="150" label="ally"></option>
+            <option value="1" label="friend"></option>
+            <option value="0" label="neutral"></option>
+            <option value="-1" label="enemy"></option>
+            <option value="-150" label="hunted"></option>
+            <option value="-300" label="vilain"></option>
+        </datalist>
+      </div>
+     </section>
+     
+    <section class="faction-frame" id="celtor" style="left: 30%; top: 40%">
+      <div class="circle-background"></div>
+      
+      <img src="/assets/img/icons/reputation/guild.png" class="faction-background">
+      <img src="/assets/img/icons/reputation/neutral.png" class="neutral-icon">
+      <img src="/assets/img/icons/factions/lost_celtor.png" class="faction-icon">
+      
+      <p class="faction-text">Lost Celtor</p>
+      <p class="status-text">Friend</p>
+      
+      <div class="progress-bar">
+        <img src="/assets/img/icons/reputation/indicator.png" class="neutral-icon" style="transform: translate(145px, 0px);" hidden>
+        <img src="/assets/img/icons/reputation/enemy.png" class="re-icon" style="transform: translate(-151.5px, 0px);" hidden>
+        <img src="/assets/img/icons/reputation/ally.png" class="rep-icon" style="transform: translate(145.5px, 0px);">
+        <input type="range" min="-300" max="300" value="180" step="20" list="marks" class="slider" id="myRange">
+        
+        <datalist id="marks">
+            <option value="300" label="hero"></option>
+            <option value="150" label="ally"></option>
+            <option value="1" label="friend"></option>
+            <option value="0" label="neutral"></option>
+            <option value="-1" label="enemy"></option>
+            <option value="-150" label="hunted"></option>
+            <option value="-300" label="vilain"></option>
+        </datalist>
+      </div>
+     </section>
+     
+    <section class="faction-frame" id="deep" style="left: 30%; top: 70%" hidden>
+      <div class="circle-background"></div>
+      
+      <img src="/assets/img/icons/reputation/guild.png" class="faction-background">
+      <img src="/assets/img/icons/reputation/neutral.png" class="neutral-icon">
+      <img class="faction-icon">
+      
+      <p class="faction-text">The Deep</p>
+      <p class="status-text">Neutral</p>
+      
+      <div class="progress-bar">
+        <img src="/assets/img/icons/reputation/indicator.png" class="neutral-icon" style="transform: translate(145px, 0px);" hidden>
+        <img src="/assets/img/icons/reputation/enemy.png" class="re-icon" style="transform: translate(-151.5px, 0px);" hidden>
+        <img src="/assets/img/icons/reputation/ally.png" class="rep-icon" style="transform: translate(145.5px, 0px);">
+        <input type="range" min="-300" max="300" value="180" step="20" list="marks" class="slider" id="myRange">
+        
+        <datalist id="marks">
+            <option value="300" label="hero"></option>
+            <option value="150" label="ally"></option>
+            <option value="1" label="friend"></option>
+            <option value="0" label="neutral"></option>
+            <option value="-1" label="enemy"></option>
+            <option value="-150" label="hunted"></option>
+            <option value="-300" label="vilain"></option>
+            </datalist>
+        </div>
+     </section>
+     
+    <section class="faction-frame" id="drownedgods" style="left: -30%; top: 100%" hidden>
+      <div class="circle-background"></div>
+      
+      <img src="/assets/img/icons/reputation/guild.png" class="faction-background">
+      <img src="/assets/img/icons/reputation/neutral.png" class="neutral-icon">
+      <img class="faction-icon">
+      
+      <p class="faction-text">Drowned Gods</p>
+      <p class="status-text">Neutral</p>
+      
+      <div class="progress-bar">
+        <img src="/assets/img/icons/reputation/indicator.png" class="neutral-icon" style="transform: translate(145px, 0px);" hidden>
+        <img src="/assets/img/icons/reputation/enemy.png" class="re-icon" style="transform: translate(-151.5px, 0px);" hidden>
+        <img src="/assets/img/icons/reputation/ally.png" class="rep-icon" style="transform: translate(145.5px, 0px);">
+        <input type="range" min="-300" max="300" value="180" step="20" list="marks" class="slider" id="myRange">
+        
+        <datalist id="marks">
+            <option value="300" label="hero"></option>
+            <option value="150" label="ally"></option>
+            <option value="1" label="friend"></option>
+            <option value="0" label="neutral"></option>
+            <option value="-1" label="enemy"></option>
+            <option value="-150" label="hunted"></option>
+            <option value="-300" label="vilain"></option>
+            </datalist>
+        </div>
+    </section>
+     
+    <section class="faction-frame" id="prison" style="left: 30%; top: 100%" hidden>
+      <div class="circle-background"></div>
+      
+      <img src="/assets/img/icons/reputation/guild.png" class="faction-background">
+      <img src="/assets/img/icons/reputation/neutral.png" class="neutral-icon">
+      <img class="faction-icon">
+      
+      <p class="faction-text">Authority Prison</p>
+      <p class="status-text">Neutral</p>
+      
+      <div class="progress-bar">
+        <img src="/assets/img/icons/reputation/indicator.png" class="neutral-icon" style="transform: translate(145px, 0px);" hidden>
+        <img src="/assets/img/icons/reputation/enemy.png" class="re-icon" style="transform: translate(-151.5px, 0px);" hidden>
+        <img src="/assets/img/icons/reputation/ally.png" class="rep-icon" style="transform: translate(145.5px, 0px);">
+        <input type="range" min="-300" max="300" value="180" step="20" list="marks" class="slider" id="myRange">
+        
+        <datalist id="marks">
+            <option value="300" label="hero"></option>
+            <option value="150" label="ally"></option>
+            <option value="1" label="friend"></option>
+            <option value="0" label="neutral"></option>
+            <option value="-1" label="enemy"></option>
+            <option value="-150" label="hunted"></option>
+            <option value="-300" label="vilain"></option>
+        </datalist>
+      </div>
+     </section>
+    </body>
+</html>

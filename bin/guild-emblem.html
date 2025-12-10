@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guild Emblem Creator</title>
+    <!-- Load Tailwind CSS for utility classes -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom styles to replicate the image aesthetic (Dark, retro UI) */
+        :root {
+            --bg-dark: #333;
+            --bg-panel: #404040;
+            --bg-input: #2e2e2e;
+            --border-light: #707070;
+            --text-color: #eee;
+            --input-border: #555;
+            --grid-bg: #555;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg-dark);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .guild-emblem-container {
+            background-color: var(--bg-panel);
+            border: 1px solid var(--border-light);
+            border-radius: 4px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
+            padding: 10px;
+            width: 750px;
+            max-width: 95vw;
+        }
+
+        .header {
+            background-color: var(--bg-input);
+            color: var(--text-color);
+            padding: 8px 15px;
+            margin-bottom: 15px;
+            border: 1px solid var(--input-border);
+            border-radius: 3px;
+            text-align: center;
+            font-weight: 700;
+            font-size: 1.25rem;
+        }
+
+        .emblem-preview {
+            width: 120px;
+            height: 120px;
+            background-color: var(--bg-input);
+            border: 1px solid var(--border-light);
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+            margin: 0 auto 10px;
+        }
+
+        .background-shape {
+            width: 80px;
+            height: 80px;
+            background-color: #ff3826; /* Initial color */
+            position: absolute;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            box-sizing: border-box;
+        }
+
+        .emblem-icon {
+            width: 50px;
+            height: 50px;
+            background-color: #ffffff; /* Initial color */
+            position: absolute;
+            -webkit-mask-repeat: no-repeat;
+            mask-repeat: no-repeat;
+            -webkit-mask-size: contain;
+            mask-size: contain;
+            -webkit-mask-position: center;
+            mask-position: center;
+            /* Default Icon (A crown-like shape, same as the image) */
+            -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='white' d='M12 2C8.1 2 5 5.1 5 9v1h-3l10 12 10-12h-3V9c0-3.9-3.1-7-7-7zm-1 14h2v3h-2v-3zm0-4h2v3h-2v-3zm-2-3h6V7h-6v3z'/%3E%3C/svg%3E");
+            mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='white' d='M12 2C8.1 2 5 5.1 5 9v1h-3l10 12 10-12h-3V9c0-3.9-3.1-7-7-7zm-1 14h2v3h-2v-3zm0-4h2v3h-2v-3zm-2-3h6V7h-6v3z'/%3E%3C/svg%3E");
+        }
+
+        .icon-grid {
+            background-color: var(--grid-bg);
+            border: 1px solid var(--border-light);
+            padding: 5px;
+            display: grid;
+            grid-template-columns: repeat(8, 1fr);
+            gap: 5px;
+            height: 90px;
+            overflow-y: scroll; /* Allow scrolling for more icons */
+        }
+
+        .icon-slot {
+            width: 30px;
+            height: 30px;
+            background-color: var(--bg-input);
+            border: 1px solid var(--input-border);
+            box-sizing: border-box;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: var(--text-color);
+            cursor: pointer;
+            transition: transform 0.1s, border-color 0.1s;
+        }
+
+        .icon-slot:hover {
+            border-color: #8c78ff;
+            transform: scale(1.05);
+        }
+
+        .icon-slot.selected {
+            border: 2px solid #5d5dff;
+            box-shadow: 0 0 5px #5d5dff;
+        }
+        
+        /* Input and color picker styling */
+        .color-picker-section {
+            background-color: var(--bg-input);
+            border: 1px solid var(--border-light);
+            padding: 12px;
+            border-radius: 4px;
+        }
+
+        .color-inputs input[type="text"] {
+            background-color: var(--bg-panel);
+            border: 1px solid var(--input-border);
+            color: var(--text-color);
+            padding: 4px 6px;
+            width: 45px;
+            text-align: center;
+            font-size: 0.9em;
+            border-radius: 2px;
+        }
+
+        .color-inputs .hex-input {
+            width: 80px;
+            text-transform: uppercase;
+        }
+
+        .color-preview-container {
+            display: flex;
+            gap: 8px;
+            height: 120px;
+            position: relative;
+        }
+
+        .main-color-gradient {
+            flex-grow: 1;
+            border: 1px solid var(--input-border);
+            position: relative;
+            cursor: crosshair;
+            background: linear-gradient(to right, red 0%, yellow 17%, lime 33%, cyan 50%, blue 67%, magenta 83%, red 100%);
+        }
+
+        .sidebar-gradient {
+            width: 20px;
+            border: 1px solid var(--input-border);
+            position: relative;
+            cursor: ns-resize;
+            /* L-slider will be filled with the current main color and white/black on the ends in JS */
+        }
+
+        .color-slider-handle {
+            width: 10px;
+            height: 10px;
+            border: 2px solid #eee;
+            background-color: transparent;
+            position: absolute;
+            transform: translate(-50%, -50%);
+            border-radius: 50%;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+            pointer-events: none;
+        }
+
+        .color-sidebar-handle {
+            width: 120%;
+            height: 5px;
+            background-color: #fff;
+            border: 1px solid #555;
+            position: absolute;
+            left: -10%;
+            transform: translateY(-50%);
+            box-sizing: border-box;
+            pointer-events: none;
+        }
+    </style>
+</head>
+<body class="font-inter">
+    <div class="guild-emblem-container">
+        <div class="header">Guild Emblem Creator</div>
+
+        <div class="flex flex-col md:flex-row gap-4">
+            <!-- Left Panel (Preview and Icons) -->
+            <div class="flex-1 flex flex-col gap-4">
+                <div id="emblem-preview-container" class="emblem-preview">
+                    <div id="background-shape" class="background-shape"></div>
+                    <div id="emblem-icon" class="emblem-icon"></div>
+                </div>
+
+                <div class="icon-grid">
+                    <!-- Icon Slots -->
+                    <div class="icon-slot selected" data-svg="M12 2C8.1 2 5 5.1 5 9v1h-3l10 12 10-12h-3V9c0-3.9-3.1-7-7-7zm-1 14h2v3h-2v-3zm0-4h2v3h-2v-3zm-2-3h6V7h-6v3z">
+                        <svg class="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C8.1 2 5 5.1 5 9v1h-3l10 12 10-12h-3V9c0-3.9-3.1-7-7-7zm-1 14h2v3h-2v-3zm0-4h2v3h-2v-3zm-2-3h6V7h-6v3z"/></svg>
+                    </div>
+                    <div class="icon-slot" data-svg="M12 2L1 21h22L12 2zm0 4.8l7.6 13.2H4.4L12 6.8z">
+                        <svg class="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2L1 21h22L12 2zm0 4.8l7.6 13.2H4.4L12 6.8z"/></svg>
+                    </div>
+                    <div class="icon-slot" data-svg="M12 0c-6.6 0-12 5.4-12 12s5.4 12 12 12 12-5.4 12-12-5.4-12-12-12zm-3 18c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2zm6 0c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2zm0-6c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2z">
+                        <svg class="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0c-6.6 0-12 5.4-12 12s5.4 12 12 12 12-5.4 12-12-5.4-12-12-12zm-3 18c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2zm6 0c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2zm0-6c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2z"/></svg>
+                    </div>
+                    <div class="icon-slot" data-svg="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zm-1 17.9c-3.7-.4-6.8-3-7.7-6.8l.2-.2 1.4 1.4 1.4-1.4 1.4 1.4 1.4-1.4 1.4 1.4 1.4-1.4 1.4 1.4 1.4-1.4 1.4 1.4.2.2c-.9 3.8-4 6.4-7.7 6.8z">
+                        <svg class="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zm-1 17.9c-3.7-.4-6.8-3-7.7-6.8l.2-.2 1.4 1.4 1.4-1.4 1.4 1.4 1.4-1.4 1.4 1.4 1.4-1.4 1.4 1.4 1.4-1.4 1.4 1.4.2.2c-.9 3.8-4 6.4-7.7 6.8z"/></svg>
+                    </div>
+                    <div class="icon-slot" data-svg="M22 6c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6zm-2 0l-8 5-8-5h16zm0 12H4V8l8 5 8-5v10z">
+                        <svg class="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M22 6c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6zm-2 0l-8 5-8-5h16zm0 12H4V8l8 5 8-5v10z"/></svg>
+                    </div>
+                    <div class="icon-slot" data-svg="M12 1C5.9 1 1 5.9 1 12s4.9 11 11 11 11-4.9 11-11S18.1 1 12 1zm0 19c-4.4 0-8-3.6-8-8s3.6-8 8-8 8 3.6 8 8-3.6 8-8 8zm4-9h-3V7h-2v4H8v2h3v3h2v-3h3v-2z">
+                        <svg class="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M12 1C5.9 1 1 5.9 1 12s4.9 11 11 11 11-4.9 11-11S18.1 1 12 1zm0 19c-4.4 0-8-3.6-8-8s3.6-8 8-8 8 3.6 8 8-3.6 8-8 8zm4-9h-3V7h-2v4H8v2h3v3h2v-3h3v-2z"/></svg>
+                    </div>
+                    <div class="icon-slot" data-svg="M10 20h4V4h-4v16zm-6 0h4V4H4v16zm12 0h4V4h-4v16z">
+                        <svg class="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M10 20h4V4h-4v16zm-6 0h4V4H4v16zm12 0h4V4h-4v16z"/></svg>
+                    </div>
+                    <div class="icon-slot" data-svg="M19 19H5V5h14v14zM4 3h16c1.1 0 2 .9 2 2v14c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V5c0-1.1.9-2 2-2z">
+                        <svg class="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M19 19H5V5h14v14zM4 3h16c1.1 0 2 .9 2 2v14c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V5c0-1.1.9-2 2-2z"/></svg>
+                    </div>
+                    <!-- Row 2 -->
+                    <div class="icon-slot" data-svg="M15 9V7c0-2.2-1.8-4-4-4S7 4.8 7 7v2H5v11h14V9h-4zM9 7c0-1.1.9-2 2-2s2 .9 2 2v2H9V7zm8 11H7v-7h10v7z">
+                        <svg class="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M15 9V7c0-2.2-1.8-4-4-4S7 4.8 7 7v2H5v11h14V9h-4zM9 7c0-1.1.9-2 2-2s2 .9 2 2v2H9V7zm8 11H7v-7h10v7z"/></svg>
+                    </div>
+                    <div class="icon-slot" data-svg="M20 12.5C20 16.1 16.4 19 12 19c-4.4 0-8-2.9-8-6.5S7.6 6 12 6c4.4 0 8 2.9 8 6.5zm-8-4c-2.2 0-4 1.8-4 4s1.8 4 4 4 4-1.8 4-4-1.8-4-4-4z">
+                        <svg class="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M20 12.5C20 16.1 16.4 19 12 19c-4.4 0-8-2.9-8-6.5S7.6 6 12 6c4.4 0 8 2.9 8 6.5zm-8-4c-2.2 0-4 1.8-4 4s1.8 4 4 4 4-1.8 4-4-1.8-4-4-4z"/></svg>
+                    </div>
+                    <div class="icon-slot" data-svg="M13 14h-2v-2h2v2zm0-4h-2V7h2v3zM1 18h22V4H1v14zm2-2V6h18v10H3z">
+                        <svg class="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M13 14h-2v-2h2v2zm0-4h-2V7h2v3zM1 18h22V4H1v14zm2-2V6h18v10H3z"/></svg>
+                    </div>
+                    <div class="icon-slot" data-svg="M12 1C6.5 1 2 5.5 2 11c0 3.3 1.6 6.3 4.2 8.1l-.8 1.9L12 23l6.6-2.1-.8-1.9c2.6-1.8 4.2-4.8 4.2-8.1 0-5.5-4.5-10-10-10zm0 18c-3.7 0-6.7-3-6.7-6.7S8.3 5.3 12 5.3s6.7 3 6.7 6.7-3 6.7-6.7 6.7z">
+                        <svg class="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M12 1C6.5 1 2 5.5 2 11c0 3.3 1.6 6.3 4.2 8.1l-.8 1.9L12 23l6.6-2.1-.8-1.9c2.6-1.8 4.2-4.8 4.2-8.1 0-5.5-4.5-10-10-10zm0 18c-3.7 0-6.7-3-6.7-6.7S8.3 5.3 12 5.3s6.7 3 6.7 6.7-3 6.7-6.7 6.7z"/></svg>
+                    </div>
+                    <div class="icon-slot" data-svg="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zm0 18c-4.4 0-8-3.6-8-8s3.6-8 8-8 8 3.6 8 8-3.6 8-8 8zm4-9h-3V7h-2v4H8v2h3v3h2v-3h3v-2z">
+                        <svg class="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zm0 18c-4.4 0-8-3.6-8-8s3.6-8 8-8 8 3.6 8 8-3.6 8-8 8zm4-9h-3V7h-2v4H8v2h3v3h2v-3h3v-2z"/></svg>
+                    </div>
+                    <div class="icon-slot" data-svg="M12 2.1c4.9 0 8.9 4 8.9 8.9 0 3.3-1.8 6.2-4.5 7.8V22l-4.4-1.2L8 22v-3.2c-2.7-1.6-4.5-4.5-4.5-7.8 0-4.9 4-8.9 8.9-8.9zm0 13.9c2.2 0 4-1.8 4-4s-1.8-4-4-4-4 1.8-4 4 1.8 4 4 4z">
+                        <svg class="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.1c4.9 0 8.9 4 8.9 8.9 0 3.3-1.8 6.2-4.5 7.8V22l-4.4-1.2L8 22v-3.2c-2.7-1.6-4.5-4.5-4.5-7.8 0-4.9 4-8.9 8.9-8.9zm0 13.9c2.2 0 4-1.8 4-4s-1.8-4-4-4-4 1.8-4 4 1.8 4 4 4z"/></svg>
+                    </div>
+                    <div class="icon-slot" data-svg="M20 18v2H4v-2h16zm0-4v2H4v-2h16zm0-8v2H4V6h16z">
+                        <svg class="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M20 18v2H4v-2h16zm0-4v2H4v-2h16zm0-8v2H4V6h16z"/></svg>
+                    </div>
+                    <div class="icon-slot" data-svg="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zm0 18c-4.4 0-8-3.6-8-8s3.6-8 8-8 8 3.6 8 8-3.6 8-8 8zm0-14c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z">
+                        <svg class="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zm0 18c-4.4 0-8-3.6-8-8s3.6-8 8-8 8 3.6 8 8-3.6 8-8 8zm0-14c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z"/></svg>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Panel (Color Pickers) -->
+            <div class="flex-1.5 flex flex-col gap-4">
+                <!-- Background Color Picker -->
+                <div id="background-color-picker" class="color-picker-section">
+                    <div class="text-white font-semibold mb-2">Background Color</div>
+                    <div class="flex flex-wrap items-center gap-2 mb-3">
+                        <div class="flex items-center gap-1">
+                            <span class="text-white font-bold w-4 text-right">R</span>
+                            <input type="text" id="bg-r-input" class="bg-input" value="255">
+                        </div>
+                        <div class="flex items-center gap-1">
+                            <span class="text-white font-bold w-4 text-right">G</span>
+                            <input type="text" id="bg-g-input" class="bg-input" value="56">
+                        </div>
+                        <div class="flex items-center gap-1">
+                            <span class="text-white font-bold w-4 text-right">B</span>
+                            <input type="text" id="bg-b-input" class="bg-input" value="38">
+                        </div>
+                        <input type="text" id="bg-hex-input" class="hex-input" value="FF3826">
+                    </div>
+                    <div class="color-preview-container">
+                        <div id="bg-main-gradient" class="main-color-gradient">
+                            <div id="bg-slider-handle" class="color-slider-handle" style="top: 50%; left: 95%;"></div>
+                        </div>
+                        <div id="bg-sidebar-gradient" class="sidebar-gradient">
+                            <div id="bg-sidebar-handle" class="color-sidebar-handle" style="top: 50%;"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Emblem Color Picker -->
+                <div id="emblem-color-picker" class="color-picker-section">
+                    <div class="text-white font-semibold mb-2">Emblem Color</div>
+                    <div class="flex flex-wrap items-center gap-2 mb-3">
+                        <div class="flex items-center gap-1">
+                            <span class="text-white font-bold w-4 text-right">R</span>
+                            <input type="text" id="em-r-input" class="em-input" value="255">
+                        </div>
+                        <div class="flex items-center gap-1">
+                            <span class="text-white font-bold w-4 text-right">G</span>
+                            <input type="text" id="em-g-input" class="em-input" value="255">
+                        </div>
+                        <div class="flex items-center gap-1">
+                            <span class="text-white font-bold w-4 text-right">B</span>
+                            <input type="text" id="em-b-input" class="em-input" value="255">
+                        </div>
+                        <input type="text" id="em-hex-input" class="hex-input" value="FFFFFF">
+                    </div>
+                    <div class="color-preview-container">
+                        <div id="em-main-gradient" class="main-color-gradient">
+                            <div id="em-slider-handle" class="color-slider-handle" style="top: 50%; left: 95%;"></div>
+                        </div>
+                        <div id="em-sidebar-gradient" class="sidebar-gradient">
+                            <div id="em-sidebar-handle" class="color-sidebar-handle" style="top: 50%;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="submit-button p-3 mt-4 w-full bg-gray-600 hover:bg-gray-700 text-white font-bold border-t border-b border-gray-400 rounded-md">Submit Emblem</button>
+    </div>
+
+    <script>
+        // --- Color Conversion Functions (HSL, RGB, HEX) ---
+
+        /**
+         * Converts an HSL color value to RGB.
+         * @param {number} h Hue (0-360)
+         * @param {number} s Saturation (0-100)
+         * @param {number} l Lightness (0-100)
+         * @returns {number[]} RGB array [r, g, b] (0-255)
+         */
+        function hslToRgb(h, s, l) {
+            h /= 360;
+            s /= 100;
+            l /= 100;
+            let r, g, b;
+
+            if (s === 0) {
+                r = g = b = l; // achromatic
+            } else {
+                const hue2rgb = (p, q, t) => {
+                    if (t < 0) t += 1;
+                    if (t > 1) t -= 1;
+                    if (t < 1 / 6) return p + (q - p) * 6 * t;
+                    if (t < 1 / 2) return q;
+                    if (t < 2 / 3) return p + (q - p) * (2 / 3 - t) * 6;
+                    return p;
+                };
+                const q = l < 0.5 ? l * (1 + s) : l + s - l * s;
+                const p = 2 * l - q;
+                r = hue2rgb(p, q, h + 1 / 3);
+                g = hue2rgb(p, q, h);
+                b = hue2rgb(p, q, h - 1 / 3);
+            }
+
+            return [Math.round(r * 255), Math.round(g * 255), Math.round(b * 255)];
+        }
+
+        /**
+         * Converts an RGB color value to a Hexadecimal string.
+         * @param {number} r Red (0-255)
+         * @param {number} g Green (0-255)
+         * @param {number} b Blue (0-255)
+         * @returns {string} Hexadecimal string (e.g., "FF3826")
+         */
+        function rgbToHex(r, g, b) {
+            const toHex = (c) => {
+                const hex = c.toString(16).toUpperCase();
+                return hex.length === 1 ? "0" + hex : hex;
+            };
+            return toHex(r) + toHex(g) + toHex(b);
+        }
+
+        /**
+         * Converts a Hexadecimal string to RGB color values.
+         * @param {string} hex Hexadecimal string (e.g., "FF3826")
+         * @returns {number[]} RGB array [r, g, b] (0-255)
+         */
+        function hexToRgb(hex) {
+            const bigint = parseInt(hex.replace(/^#/, ''), 16);
+            const r = (bigint >> 16) & 255;
+            const g = (bigint >> 8) & 255;
+            const b = bigint & 255;
+            return [r, g, b];
+        }
+
+        // --- Color Picker Logic (Encapsulated in a class) ---
+
+        class ColorPicker {
+            /**
+             * @param {string} prefix - The unique prefix for all elements (e.g., 'bg' or 'em')
+             * @param {HTMLElement} targetElement - The element whose background color will be updated
+             */
+            constructor(prefix, targetElement) {
+                this.prefix = prefix;
+                this.targetElement = targetElement;
+
+                // Elements
+                this.mainGradient = document.getElementById(`${prefix}-main-gradient`);
+                this.sidebarGradient = document.getElementById(`${prefix}-sidebar-gradient`);
+                this.sliderHandle = document.getElementById(`${prefix}-slider-handle`);
+                this.sidebarHandle = document.getElementById(`${prefix}-sidebar-handle`);
+                this.rInput = document.getElementById(`${prefix}-r-input`);
+                this.gInput = document.getElementById(`${prefix}-g-input`);
+                this.bInput = document.getElementById(`${prefix}-b-input`);
+                this.hexInput = document.getElementById(`${prefix}-hex-input`);
+
+                // State (HSL values)
+                this.h = 0; // 0-360
+                this.s = 100; // 0-100 (Saturation from main gradient)
+                this.l = 50; // 0-100 (Lightness from sidebar gradient)
+
+                this.setupDragListeners();
+                this.setupInputListeners();
+
+                // Initial setup (convert initial RGB to HSL and update)
+                this.updateFromRgb(
+                    parseInt(this.rInput.value),
+                    parseInt(this.gInput.value),
+                    parseInt(this.bInput.value)
+                );
+            }
+
+            // HSL to RGB/Hex
+            getRgbColor() {
+                return hslToRgb(this.h, this.s, this.l);
+            }
+
+            getHexColor() {
+                const [r, g, b] = this.getRgbColor();
+                return rgbToHex(r, g, b);
+            }
+
+            // --- Update Methods ---
+
+            /** Converts an RGB color to HSL (approximate, for picker positioning) and updates the picker state. */
+            updateFromRgb(r, g, b) {
+                r /= 255; g /= 255; b /= 255;
+                const max = Math.max(r, g, b), min = Math.min(r, g, b);
+                let h, s, l = (max + min) / 2;
+
+                if (max === min) {
+                    h = s = 0; // achromatic
+                } else {
+                    const d = max - min;
+                    s = l > 0.5 ? d / (2 - max - min) : d / (max + min);
+                    switch (max) {
+                        case r: h = (g - b) / d + (g < b ? 6 : 0); break;
+                        case g: h = (b - r) / d + 2; break;
+                        case b: h = (r - g) / d + 4; break;
+                    }
+                    h /= 6;
+                }
+
+                this.h = Math.round(h * 360);
+                this.s = Math.round(s * 100);
+                this.l = Math.round(l * 100);
+
+                this.updateUiDisplay();
+            }
+
+            /** Updates the visible UI elements (inputs, handles, target element color). */
+            updateUiDisplay() {
+                // 1. Calculate final RGB/Hex
+                const [r, g, b] = this.getRgbColor();
+                const hex = rgbToHex(r, g, b);
+
+                // 2. Update inputs
+                this.rInput.value = r;
+                this.gInput.value = g;
+                this.bInput.value = b;
+                this.hexInput.value = hex;
+
+                // 3. Update target element color
+                this.targetElement.style.backgroundColor = `#${hex}`;
+
+                // 4. Update Main Picker Handles (H & S)
+                const mainRect = this.mainGradient.getBoundingClientRect();
+                const mainWidth = mainRect.width;
+                const mainHeight = mainRect.height;
+
+                // S and L determine position on the picker:
+                // Hue (H) is calculated differently in this specific picker style
+                // The H/S picker here is actually HUE (x) and SATURATION (y=100) or LIGHTNESS (y=50) depending on the L bar.
+                // We'll use the H/L model to update the handles for now.
+                const hPos = (this.h / 360) * mainWidth;
+                const sPos = mainHeight - (this.s / 100) * mainHeight; // Inverted Y-axis logic for S
+
+                this.sliderHandle.style.left = `${hPos}px`;
+                this.sliderHandle.style.top = `${sPos}px`;
+                this.sliderHandle.style.borderColor = this.l > 50 ? '#000' : '#fff';
+
+                // 5. Update Sidebar Picker Handle (L)
+                const sidebarRect = this.sidebarGradient.getBoundingClientRect();
+                const sidebarHeight = sidebarRect.height;
+                this.sidebarHandle.style.top = `${(100 - this.l) / 100 * sidebarHeight}px`;
+
+                // 6. Update Sidebar Gradient Background (to show the current Hue/Sat mix)
+                // This uses the current hue (H) at max saturation (S=100, L=50) to create the middle color.
+                const middleColor = `hsl(${this.h}, ${this.s}%, 50%)`;
+                this.sidebarGradient.style.background = `linear-gradient(to top, #000, ${middleColor}, #fff)`;
+
+                // 7. Update Main Gradient overlay (Saturation control)
+                // This picker uses a white/black overlay to control saturation/lightness.
+                const hsColor = `hsl(${this.h}, 100%, 50%)`;
+                this.mainGradient.style.background = `
+                    linear-gradient(to bottom, #fff, transparent),
+                    linear-gradient(to right, ${hsColor}, ${hsColor})
+                `;
+                 this.mainGradient.style.background = `
+                    linear-gradient(to right, #f00, #ff0, #0f0, #0ff, #00f, #f0f, #f00),
+                    linear-gradient(to top, black, transparent)
+                `;
+            }
+
+            // --- Event Handlers ---
+
+            setupDragListeners() {
+                const onDrag = (e) => {
+                    e.preventDefault();
+                    this.handleMainDrag(e);
+                };
+                const onSidebarDrag = (e) => {
+                    e.preventDefault();
+                    this.handleSidebarDrag(e);
+                };
+                const endDrag = () => {
+                    document.removeEventListener('mousemove', onDrag);
+                    document.removeEventListener('mouseup', endDrag);
+                    document.removeEventListener('touchmove', onDrag);
+                    document.removeEventListener('touchend', endDrag);
+                    document.removeEventListener('mousemove', onSidebarDrag);
+                    document.removeEventListener('mouseup', endDrag);
+                    document.removeEventListener('touchmove', onSidebarDrag);
+                    document.removeEventListener('touchend', endDrag);
+                };
+
+                const startMainDrag = (e) => {
+                    e.preventDefault();
+                    this.handleMainDrag(e); // Handle initial click
+                    document.addEventListener('mousemove', onDrag);
+                    document.addEventListener('mouseup', endDrag);
+                    document.addEventListener('touchmove', onDrag);
+                    document.addEventListener('touchend', endDrag);
+                };
+
+                const startSidebarDrag = (e) => {
+                    e.preventDefault();
+                    this.handleSidebarDrag(e); // Handle initial click
+                    document.addEventListener('mousemove', onSidebarDrag);
+                    document.addEventListener('mouseup', endDrag);
+                    document.addEventListener('touchmove', onSidebarDrag);
+                    document.addEventListener('touchend', endDrag);
+                };
+
+                this.mainGradient.addEventListener('mousedown', startMainDrag);
+                this.mainGradient.addEventListener('touchstart', startMainDrag);
+
+                this.sidebarGradient.addEventListener('mousedown', startSidebarDrag);
+                this.sidebarGradient.addEventListener('touchstart', startSidebarDrag);
+            }
+
+            handleMainDrag(e) {
+                const rect = this.mainGradient.getBoundingClientRect();
+                const clientX = e.clientX || e.touches[0].clientX;
+                const clientY = e.clientY || e.touches[0].clientY;
+
+                let x = clientX - rect.left;
+                let y = clientY - rect.top;
+
+                // Clamp values
+                x = Math.min(Math.max(0, x), rect.width);
+                y = Math.min(Math.max(0, y), rect.height);
+
+                // Calculate H (Hue)
+                this.h = Math.round((x / rect.width) * 360);
+
+                // Calculate S (Saturation)
+                // Saturation is controlled by the horizontal position (x), but also by the vertical
+                // position (y) as the main picker is a triangular/square gradient.
+                // The HSL model is complex here. For simplicity, we assume X=HUE, Y=LIGHTNESS for the main picker.
+                // Let's stick to the HSL model for the image replication: HUE on X, SATURATION/VALUE on Y.
+                // In the image, the main bar is HUE (x) and SATURATION (y). The side bar is LIGHTNESS (l).
+
+                // X is Hue (0-360)
+                this.h = Math.round((x / rect.width) * 360);
+
+                // Y is Saturation (0-100)
+                // Saturation is highest at the top (0px) and lowest at the bottom (height)
+                this.s = Math.round(100 - (y / rect.height) * 100);
+                this.s = Math.min(Math.max(0, this.s), 100);
+
+
+                this.updateUiDisplay();
+            }
+
+            handleSidebarDrag(e) {
+                const rect = this.sidebarGradient.getBoundingClientRect();
+                const clientY = e.clientY || e.touches[0].clientY;
+
+                let y = clientY - rect.top;
+
+                // Clamp values
+                y = Math.min(Math.max(0, y), rect.height);
+
+                // Calculate L (Lightness)
+                // Lightness is highest at the top (100) and lowest at the bottom (0)
+                this.l = Math.round(100 - (y / rect.height) * 100);
+                this.l = Math.min(Math.max(0, this.l), 100);
+
+                this.updateUiDisplay();
+            }
+
+            setupInputListeners() {
+                const inputs = [this.rInput, this.gInput, this.bInput, this.hexInput];
+                inputs.forEach(input => {
+                    input.addEventListener('change', () => this.handleInputChange());
+                });
+            }
+
+            handleInputChange() {
+                const r = parseInt(this.rInput.value);
+                const g = parseInt(this.gInput.value);
+                const b = parseInt(this.bInput.value);
+                const hex = this.hexInput.value.replace(/[^0-9A-Fa-f]/g, '');
+
+                if (event.target === this.hexInput && hex.length === 6) {
+                    const [newR, newG, newB] = hexToRgb(hex);
+                    this.updateFromRgb(newR, newG, newB);
+                } else if (!isNaN(r) && !isNaN(g) && !isNaN(b)) {
+                    // Simple bounds checking
+                    const newR = Math.min(255, Math.max(0, r));
+                    const newG = Math.min(255, Math.max(0, g));
+                    const newB = Math.min(255, Math.max(0, b));
+
+                    this.updateFromRgb(newR, newG, newB);
+                } else {
+                    console.error('Invalid color input');
+                }
+            }
+        }
+
+
+        // --- Icon Selection Logic ---
+
+        function setupIconSelection() {
+            const iconSlots = document.querySelectorAll('.icon-slot');
+            const emblemIcon = document.getElementById('emblem-icon');
+
+            iconSlots.forEach(slot => {
+                slot.addEventListener('click', () => {
+                    // Remove 'selected' class from all other slots
+                    iconSlots.forEach(s => s.classList.remove('selected'));
+
+                    // Add 'selected' class to the clicked slot
+                    slot.classList.add('selected');
+
+                    // Get the SVG path data
+                    const svgPath = slot.getAttribute('data-svg');
+
+                    // Construct the data URI for the mask-image
+                    const svgUri = `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='white' d='${svgPath}'/%3E%3C/svg%3E")`;
+
+                    // Update the mask-image property
+                    emblemIcon.style.webkitMaskImage = svgUri;
+                    emblemIcon.style.maskImage = svgUri;
+                });
+            });
+        }
+
+
+        // --- Initialize App ---
+
+        window.onload = function() {
+            try {
+                // Initialize Color Pickers
+                const backgroundShape = document.getElementById('background-shape');
+                const emblemIcon = document.getElementById('emblem-icon');
+
+                new ColorPicker('bg', backgroundShape);
+                new ColorPicker('em', emblemIcon);
+
+                // Initialize Icon Selection
+                setupIconSelection();
+            } catch (error) {
+                console.error("An error occurred during application initialization:", error);
+            }
+        };
+
+        // Prevents drag selecting text while moving the handles
+        document.addEventListener('selectstart', (e) => {
+            const target = e.target;
+            if (target.closest('.main-color-gradient') || target.closest('.sidebar-gradient')) {
+                e.preventDefault();
+            }
+        });
+
+    </script>
+</body>
+</html>

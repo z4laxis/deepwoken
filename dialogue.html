@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deepwoken - Dialogue Creator</title>
+
+    <link href="/assets/css/dialogue.css" rel="stylesheet" type="text/css" media="all">
+    <link href="/assets/css/template.css" rel="stylesheet" type="text/css" media="all">
+    <link href="/assets/css/styles.css" rel="stylesheet" type="text/css" media="all">
+    <link href="/assets/css/menu.css" rel="stylesheet" type="text/css" media="all">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+        
+    <meta name="title" content="Deepwoken">
+    <meta name="description" content="A custom Deepwoken item creator for thumbnails and suggestions!">
+    
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://deepwoken.neocities.org/"> 
+    <meta property="og:title" content="Deepwoken">
+    <meta property="og:description" content="A custom Deepwoken dialogue creator for thumbnails and suggestions!">
+    <meta property="og:image" content="https://deepwoken.neocities.org/icon.png"> 
+    
+    <meta property="twitter:url" content="https://deepwoken.neocities.org/"> 
+    <meta property="twitter:title" content="Deepwoken">
+    <meta property="twitter:description" content="A collection of useful pages featuring Deepwoken-related content.">
+    <meta property="twitter:image" content="https://deepwoken.neocities.org/favicon.png"> 
+    
+    <link rel="icon" href="/favicon.png">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="apple-touch-icon" sizes="256x256" href="/favicon.png">
+
+    <meta name="theme-color" content="#9c31f7">
+    <meta name="mobile-web-app-capable" content="yes">
+
+    <meta name="robots" content="index, follow">
+    <meta name="keywords" content="Deepwoken, Mantra Preview, Deepwoken Card Creator, Deepwoken Build Maker, Deepwoken Website">
+    <meta name="author" content="zalaxis">
+    <meta name="copyright" content="Deepwoken">
+</head>
+<body>
+    <div class="left-panel">
+        <div class="panel-item" data-active="true" id="name">
+            <p>NPC</p>
+        </div>
+
+        <div class="panel-item" data-active="false" id="rarity">
+            <p>Dialogue</p>
+        </div>
+
+        <div class="panel-item" data-active="false" id="icon">
+            <p>Options</p>
+        </div>
+        
+        <div class="panel-item" data-active="false" id="mantra">
+            <p>Text effects</p>
+        </div>
+
+        <div class="panel-item" data-active="false" id=".">
+            <p>.</p>
+        </div>
+
+        <div class="panel-item" data-active="false">
+            <p>Miscellaneous</p>
+        </div>
+    </div>
+        
+    <section class="center">
+        <section class="center dialogue-background"></section>
+        <div class="border"></div>
+        <p class="name">Zalaxis</p>
+        <p class="name shadow">Zalaxis</p>
+        <div class="message line" style="top: -15px;"></div>
+        <div class="message">
+            <p>I dont care about about aura.</p>
+        </div>
+        <div class="message line" style="top: 110px;transform: rotate(180deg);"></div>
+        <ol>
+            <li>Cause right now im hyyyyper [Charisma]</li>
+            <li>It's a beautiful day [Lifeweave]</li>
+            <li>[End Dialogue]</li>
+        </ol>  
+    </section>
+
+    <div class="right-panel" id="name-window">
+        <div class="background"></div>
+        <div class="border"></div>
+        <header>
+            <h1>Name</h1>
+        </header>
+
+        <center>
+            <label for="title-input">Text:</label>
+            <input type="text" id="title-input" placeholder="Enter title">
+
+            <label for="title-size-input">Text size:</label>
+            <input type="number" id="title-size-input" placeholder="Enter title size" min="20" max="24">
+        </center>
+    </div>
+
+    <div class="right-panel hidden" id="description-window">
+        <div class="background"></div>
+        <div class="border"></div>
+        <header>
+            <h1>Dialogue</h1>
+        </header>
+
+        <center>
+            <label for="description-input">Text :</label>
+            <textarea id="description-input" rows="4" placeholder="Enter description"></textarea>
+
+            <label for="desc-size-input">Text size:</label>
+            <input type="number" id="desc-size-input" placeholder="Enter description size" min="14" max="20">
+        </center>
+    </div>
+    
+    <div class="right-panel hidden" id="icon-window">
+        <div class="background"></div>
+        <div class="border"></div>
+        <header>
+            <h1>Icon</h1>
+        </header>
+
+        <center>
+          <img src="/assets/img/icons/talent/question.png" id="center-image" class="icon-preview">
+          <br>
+          <br>
+          <button onclick="previousIcon()" class="left-button">&lt;</button>
+          <button onclick="nextIcon()" class="right-button">&gt;</button>
+          
+          <label for="custom-icon-url">Custom Icon URL:</label>
+          <input type="text" id="icon-input" placeholder="Enter image link">
+          
+          <label for="custom-border-url">Custom Icon Image:</label>
+          <input type="file" id="imageInput" accept="image/*">
+        </center>
+    </div>
+
+    <div class="right-panel hidden" id="mantra-window">
+        <div class="background"></div>
+        <div class="border"></div>
+        <header>
+            <h1>Mantra</h1>
+        </header>
+
+        <center>
+            <label for="atun-input">Stars:</label>
+            <select id="atun">
+                <option value="0 stars" selected>Attunementless</option>
+                <option value="1 star">Flamecharm</option>
+                <option value="2 stars">Frostdraw</option>
+                <option value="3 stars">Galebreathe</option>
+                <option value="1 star">Lightingcast</option>
+                <option value="2 stars">Shadowcast</option>
+                <option value="3 stars">Ironsing</option>
+                <option value="1 star">Bloodrend</option>
+            </select>
+            
+          <label for="stars-input">Stars:</label>
+          <select id="stars">
+            <option value="0 stars" selected>0 stars</option>
+            <option value="1 star">1 star</option>
+            <option value="2 stars">2 stars</option>
+            <option value="3 stars">3 stars</option>
+          </select>
+        </center>
+    </div>
+
+    <button class="update-button" id="update-card">Update Dialogue</button>
+
+    <script src="/assets/js/item.js"></script>
+    <script src="/assets/js/menu.js"></script>
+</body>
+</html>

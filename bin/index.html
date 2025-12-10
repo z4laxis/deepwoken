@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <link rel="stylesheet" href="/assets/css/builder.css">
+<style>
+    .stat-item {
+    position: relative;
+    width: 45px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stat-item .stat-label {
+    position: absolute;
+    top: -10px;
+    font-size: 8px;
+    font-family: SourceSans;
+    font-weight: bold;
+    color: wheat;
+    width: 100%;
+    text-align: center;
+}
+
+.stat-item .stat-value {
+    position: absolute;
+    top: 6px;
+    width: 100%;
+    font-size: 12px;
+    color: white;
+    font-family: LibreBaskerville;
+    text-align: center;
+    text-shadow: -1px -1px 0 #000000,
+                 1px -1px 0 #000000,
+                 -1px 1px 0 #000000,
+                 1px 1px 0 #000000;
+}
+
+.stat-item .stat-border {
+    position: absolute;
+    width: 28px;
+    height: 28px;
+}
+
+.stat-item .stat-lock {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    top: 18px;
+    left: 18px;
+}
+
+.stat-item .stat-name {
+    position: absolute;
+    bottom: -10px;
+    width: 100%;
+    font-size: 9px;
+    font-family: SourceSans;
+    font-weight: bold;
+    color: wheat;
+    text-align: center;
+}
+
+</style>
+</head>
+<body>
+
+<div class="stats-container">
+    <h1 id="power">20</h1>
+    <div class="power-icon"></div>
+    <div class="orbs-icon"></div>
+    <p class="stat-name" style="left: 22px;top: 58px;">POWER</p>
+    
+    <div class="stat-row" style="left: 67px;top: 8px;width: 150px;gap: 1px;">
+        <div class="detail" style="width: 75px;">
+            <p><b>Origin:</b> Stranded</p>
+        </div>
+        
+        <div class="detail" style="width: 95px;">
+            <p><b>Oath:</b> Blightsurger</p>
+        </div>
+        
+        <div class="detail" style="width: 90px;">
+            <p><b>Aspect:</b> Vesperian</p>
+        </div>
+        
+        <div class="detail" style="width: 135px;">
+            <p><b>Age:</b> 18 <span>(Born Summer, 1622 CE)</span></p>
+        </div>
+    </div>
+    
+    <div class="stat-row" style="left: 220px;top: 10px;width: 75px;gap: 15px 17px;">
+        <h2 id="vitality">6</h2>
+        <img class="stat-border" style="content: url(/assets/img/builder/vitality.png);">
+        <h2 id="erudition">4</h2>
+        <img class="stat-border" style="content: url(/assets/img/builder/erudition.png);">
+        <h2 id="proficiency">2</h2>
+        <img class="stat-border" style="content: url(/assets/img/builder/proficiency.png);">
+        <h2 id="songchant">0</h2>
+        <img class="stat-border" style="content: url(/assets/img/builder/songchant.png);">
+    </div>
+    
+<div class="stat-row">
+    <div class="stat-item">
+        <p class="stat-label">STR</p>
+        <h2 id="strength" class="stat-value">50</h2>
+        <img class="stat-border" src="/assets/img/builder/stat_border.png">
+        <img class="stat-lock" src="/assets/img/builder/lock.png">
+        <p class="stat-name">Strength</p>
+    </div>
+
+    <div class="stat-item">
+        <p class="stat-label">FTD</p>
+        <h2 id="fortitude" class="stat-value">50</h2>
+        <img class="stat-border" src="/assets/img/builder/stat_border.png">
+        <img class="stat-lock" src="/assets/img/builder/lock.png">
+        <p class="stat-name">Fortitude</p>
+    </div>
+
+    <div class="stat-item">
+        <p class="stat-label">AGL</p>
+        <h2 id="agility" class="stat-value">50</h2>
+        <img class="stat-border" src="/assets/img/builder/stat_border.png">
+        <img class="stat-lock" src="/assets/img/builder/lock.png">
+        <p class="stat-name">Agility</p>
+    </div>
+</div>
+
+    <div class="stat-row" style="left: 191px; top: 127px;">
+        <p class="stat-label" style="left: 7.5px;">HVY</p>
+        <h2 id="heavyweapons">50</h2>
+        <img class="stat-border">         
+        <img class="stat-lock">
+        <p class="stat-name" style="left: -2px;;">Heavy <br> Weapons</p>
+        
+        <p class="stat-label" style="left: 52.5px;">MED</p>
+        <h2 id="mediumweapons">50</h2>
+        <img class="stat-border">         
+        <img class="stat-lock" style="left: 64px">
+        <p class="stat-name" style="left: 42px;">Medium <br> Weapons</p>
+        
+        <p class="stat-label" style="left: 97.5px;">LHT</p>
+        <h2 id="lightweapons">50</h2>
+        <img class="stat-border">         
+        <img class="stat-lock" style="left: 110px">
+        <p class="stat-name" style="left: 88px;">Light <br> Weapons</p>
+    </div>
+
+    <div class="stat-row" style="left: 23px; top: 189px;">
+        <p class="stat-label" style="left: 7.5px;">INT</p>
+        <h2 id="intelligence">50</h2>
+        <img class="stat-border">         
+        <img class="stat-lock">
+        <p class="stat-name" style="left: -6px">Intelligence</p>
+        
+        <p class="stat-label" style="left: 52.5px;">WLL</p>
+        <h2 id="willpower">50</h2>
+        <img class="stat-border">         
+        <img class="stat-lock" style="left: 64px">
+        <p class="stat-name" style="left: 44px;">Willpower</p>
+    
+        <p class="stat-label" style="left: 97.5px;">CHA</p>
+        <h2 id="charisma">50</h2>
+        <img class="stat-border">         
+        <img class="stat-lock" style="left: 110px">
+        <p class="stat-name" style="left: 88px;">Charisma</p>
+    </div>
+
+    <div class="stat-row" style="left: 191px; top: 196px;">
+        <img class="stat-border">         
+        <img class="stat-lock" style="left: 64px">
+        
+        <img class="stat-border"> 
+        <img class="stat-lock" style="left: 64px">
+        
+        <img class="stat-border">        
+        <img class="stat-lock" style="left: 64px">
+    </div>
+
+</div>
+
+<img src="/bin/Screenshot_1565.webp" class="bg-image">
+
+</body>
+</html>

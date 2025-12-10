@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Page</title>
+  <link rel="stylesheet" href="/assets/css/styles.css" type="text/css" media="all">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden;
+      font-family: sans-serif;
+    }
+
+    .center {
+      display: block;
+      margin: 0 auto;
+    }
+
+    h1 {
+      position: absolute;
+      top: 10%;
+      left: 50%;
+      transform: translateX(-50%);
+      text-align: center;
+      color: white;
+    }
+
+    .overlay {
+      width: 100%;
+      height: 500px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-image: linear-gradient(
+        to top,
+        transparent,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5),
+        transparent
+      );
+    }
+
+    .image-container {
+      width: 200px;
+      height: 400px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .image-container img {
+      width: 55px;
+    }
+  </style>
+</head>
+
+<body>
+  <img src="/vowiron.png" class="center" width="85.27%" height="100%" alt="Background Image">
+
+  <h1>What story will you tell?</h1>
+
+  <div class="overlay">
+    <div class="image-container">
+      <img src="/assets/img/icons/build/pathfinder.png" alt="Pathfinder Icon">
+    </div>
+    <div class="image-container">
+      <img src="/assets/img/icons/build/vowofiron.png" alt="Vow of Iron Icon">
+    </div>
+  </div>
+</body>
+</html>

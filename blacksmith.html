@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deepwoken - Blacksmith</title>
+
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <link rel="stylesheet" href="/assets/css/template.css">
+    <link rel="stylesheet" href="/assets/css/blacksmith.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+        
+    <meta name="title" content="Deepwoken">
+    <meta name="description" content="A blacksmith where you can view every outfit with statistics and requirements!">
+    
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://deepwoken.neocities.org/"> 
+    <meta property="og:title" content="Deepwoken">
+    <meta property="og:description" content="A custom deepwoken item creator for thumbnails and suggestions!">
+    <meta property="og:image" content="https://deepwoken.neocities.org/icon.png"> 
+    
+    <meta property="twitter:url" content="https://deepwoken.neocities.org/"> 
+    <meta property="twitter:title" content="Deepwoken">
+    <meta property="twitter:description" content="A collection of useful pages featuring Deepwoken-related content.">
+    <meta property="twitter:image" content="https://deepwoken.neocities.org/favicon.png"> 
+    
+    <link rel="icon" href="/favicon.png">
+    <link rel="manifest" href="/manifest.json">
+
+    <meta name="theme-color" content="#000000">
+    <meta name="mobile-web-app-capable" content="yes">
+
+    <link rel="apple-touch-icon" sizes="256x256" href="/favicon.png">
+
+    <meta name="robots" content="index, follow">
+    <meta name="keywords" content="Deepwoken, Mantra Preview, Deepwoken Card Creator, Deepwoken Build Maker, Deepwoken Website">
+    <meta name="author" content="zalaxis">
+    <meta name="copyright" content="deepwoken">
+</head>
+
+<body>
+    <div class="window">
+        <img src="blacksmith.png" style="width: 100%;">
+    </div>
+    
+    <div class="window">
+      <div class="background"></div>
+      <div class="border"></div>
+    
+      <div class="list">
+        <p class="rarity" style="margin: 10px 0 0 20px;" hidden>NPC</p>
+        <ol class="outfits" hidden>
+            <li class="panel-item" id="blacksmith" data-active="false">Blacksmith</li>
+            <li class="panel-item" id="eylis" data-active="false">Eylis</li>
+            <li class="panel-item" id="lordregent" data-active="false">Lord Regent</li>
+            <li class="panel-item" id="tavernkeep" data-active="false">Tavernkeep</li>
+            <li class="panel-item" id="winterwarrior" data-active="false">Winter Warrior</li>
+        </ol>
+        
+        <p class="rarity" style="margin: 10px 0 0 20px;">Exclusive</p>
+        <div class="line-seperator"></div>
+
+        <ol class="outfits">
+            <li class="panel-item" id="aurorangremor" data-active="false">Auroran Gremor</li>
+            <li class="panel-item" id="hiveleadersgarment" data-active="false">Hive Leader's Garment</li>
+            <li class="panel-item" id="modbusinesscasual" data-active="false">Mod Business Casual</li>
+            <li class="panel-item" id="modbusinesscompetitive" data-active="false">Mod Business Competitive</li>
+            <li class="panel-item" id="modhoodie" data-active="false">Mod Hoodie</li>
+            <li class="panel-item" id="modsuit" data-active="false">Mod Suit</li>
+            <li class="panel-item" id="moonseye" data-active="false">Moonseye</li>
+            <li class="panel-item" id="mrtoon" data-active="false">Mr Toon</li>
+            <li class="panel-item" id="prototypeblackdiver" data-active="false">Prototype Black Diver</li>
+            <li class="panel-item" id="soren" data-active="false">Soren</li>
+            <li class="panel-item" id="unsung" data-active="false">Unsung</li>
+            <li class="panel-item" id="wishmaker" data-active="false">Wishmaker</li>
+            <li class="panel-item" id="wyvern" data-active="false" hidden>Wyvern</li>
+            <li class="panel-item" id="wyvernofficer" data-active="false" hidden>Wyvern Officer</li>
+            <li class="panel-item" id="wyvernleader" data-active="false" hidden>Wyvern Leader</li>
+        </ol>
+        
+        <p class="rarity">Unique</p>
+        <div class="line-seperator"></div>
+
+        <ol  class="outfits">
+            <li class="panel-item" id="arachnidsweave" data-active="false">Arachnid's Weave</li>
+            <li class="panel-item" id="authoritycommander" data-active="false">Authority Commander</li>
+            <li class="panel-item" id="darkenedbastion" data-active="false">Darkened Bastion</li>
+            <li class="panel-item" id="familiarassasinsarmor" data-active="false">Familiar Assasin's Armor</li>
+            <li class="panel-item" id="familiardemonsarmor" data-active="false">Familiar Demon's Armor</li>
+            <li class="panel-item" id="familiarhereticsarmor" data-active="false">Familiar Heretic's Armor</li>
+            <li class="panel-item" id="familiarknightsarmor" data-active="false">Familiar Knight's Armor</li>
+            <li class="panel-item" id="familiaroccultistsarmor" data-active="false">Familiar Occultist's Armor</li>
+            <li class="panel-item" id="ferrymanscoat" data-active="false">Ferryman's Coat</li>
+            <li class="panel-item" id="hereticsmemento" data-active="false">Heretic's Momento</li>
+            <li class="panel-item" id="icebringersvestments" data-active="false">Icebringer's Vestments</li>
+            <li class="panel-item" id="inquisitionlight" data-active="false">Inquisition Light</li>
+            <li class="panel-item" id="jadevigilsweave" data-active="false">Jade Vigil's Weave</li>
+            <li class="panel-item" id="jestersgrab" data-active="false">Jester's Grab</li>
+            <li class="panel-item" id="sanguinefinery" data-active="false">Sanguine Finery</li>
+            <li class="panel-item" id="shockcorpslight" data-active="false">Shock Corps Light</li>
+            <li class="panel-item" id="stormchantersraiments" data-active="false">Stormchanter's Raiments</li>
+            <li class="panel-item" id="tempestmakersthreads" data-active="false">Tempestmaker's Threads</li>
+            <li class="panel-item" id="titanslayersadornment" data-active="false">Titanslayer's Adornment</li>
+            <li class="panel-item" id="titusraiment" data-active="false">Titus's Raiment</li>
+            <li class="panel-item" id="trickstershabit" data-active="false">Trickster's Habit</li>
+            <li class="panel-item" id="vigilsentinel" data-active="false">Vigil Sentinel</li>
+        </ol>
+        
+        <p class="rarity">Master</p>
+        <div class="line-seperator"></div>
+        
+        <ol class="outfits">
+            <li class="panel-item" id="blackdiver" data-active="false">Black Diver</li>
+            <li class="panel-item" id="calamariner" data-active="false">Cala-Mariner</li>
+            <li class="panel-item" id="celtoriantideknight" data-active="false">Celtorian Tideknight</li>
+            <li class="panel-item" id="hiveadjudicator" data-active="false">Hive Adjudicator</li>
+            <li class="panel-item" id="ignitiondeepdelver" data-active="false">Ignition Deepdelver</li>
+            <li class="panel-item" id="justicarsarmor" data-active="false">Justicar's Armor</li>
+            <li class="panel-item" id="legioncenturion" data-active="false">Legion Centurion</li>
+            <li class="panel-item" id="navaenwarchief" data-active="false">Navaen War Chief</li>
+            <li class="panel-item" id="prophetscloak" data-active="false">Prophet's Cloak</li>
+            <li class="panel-item" id="royaletreanguard" data-active="false">Royal Etrean Guard</li>
+            <li class="panel-item" id="summerdragoon" data-active="false">Summer Dragoon</li>
+            <li class="panel-item" id="windrunnerrobes" data-active="false">Windrunner Robes</li>
+        </ol>
+        
+        <p class="rarity">Expert</p>
+        <div class="line-seperator"></div>
+        
+        <ol class="outfits">
+            <li class="panel-item" id="authoritycaptainuniform" data-active="false">Authority Captain Uniform</li>
+            <li class="panel-item" id="ceruleangown" data-active="false">Cerulean Gown</li>
+            <li class="panel-item" id="cloakofwinds" data-active="false">Cloak of Winds</li>
+            <li class="panel-item" id="darksteelplate" data-active="false">Darksteel Plate</li>
+            <li class="panel-item" id="diverjourneymanrobes" data-active="false">Diver Journeyman Robes</li>
+            <li class="panel-item" id="etreanguard" data-active="false">Etrean Guard</li>
+            <li class="panel-item" id="grandpathfindercloak" data-active="false">Grand Pathfinder Cloak</li>
+            <li class="panel-item" id="hivedrone" data-active="false">Hive Drone</li>
+            <li class="panel-item" id="hivetacticianarmor" data-active="false">Hive Tactician Armor</li>
+            <li class="panel-item" id="ignitiontrailblazer" data-active="false">Ignition Trailblazer</li>
+            <li class="panel-item" id="ignitionwelder" data-active="false">Ignition Welder</li>
+            <li class="panel-item" id="martialartist" data-active="false">Martial Artist</li>
+            <li class="panel-item" id="pathfinderarchsorcerer" data-active="false">Pathfinder Arch-Sorcerer</li>
+            <li class="panel-item" id="seamstressattire" data-active="false">Seamstress's Attire</li>
+            <li class="panel-item" id="troublemakersovercoat" data-active="false">Troublemaker's Overcoat</li>
+            <li class="panel-item" id="varicosanfinery" data-active="false">Varicosan Finery</li>
+            <li class="panel-item" id="verdantsniper" data-active="false">Verdant Sniper</li>
+            <li class="panel-item" id="veteranadventurer" data-active="false">Veteran Adventurer</li>
+            <li class="panel-item" id="whalercoat" data-active="false">Whaler Coat</li>
+        </ol>
+        
+        <p class="rarity">Adept</p>
+        <div class="line-seperator"></div>
+        
+        <ol class="outfits">
+            <li class="panel-item" id="11thlegionplate" data-active="false">11th Legion Plate</li>
+            <li class="panel-item" id="authoritypeacekeeperarmour" data-active="false">Authority Peacekeeper Armour</li>
+            <li class="panel-item" id="bountyhunter" data-active="false">Bounty Hunter</li>
+            <li class="panel-item" id="carefreegarments" data-active="false">Carefree Garments</li>
+            <li class="panel-item" id="cutthroatlightarmor" data-active="false">Cutthroat Light Armor</li>
+            <li class="panel-item" id="diverapprenticerobes" data-active="false">Diver Apprentice Robes</li>
+            <li class="panel-item" id="duelistattire" data-active="false">Duelist's Attire</li>
+            <li class="panel-item" id="experiencedadventurer" data-active="false">Experienced Adventurer</li>
+            <li class="panel-item" id="flameworshiperarmor" data-active="false">Flame Worshiper Armor</li>
+            <li class="panel-item" id="ignitionunionuniform" data-active="false">Ignition Union Uniform</li>
+            <li class="panel-item" id="keeper" data-active="false">Keeper</li>
+            <li class="panel-item" id="navaennomadrobes" data-active="false">Navaen Nomad Robes</li>
+            <li class="panel-item" id="pathfindercloak" data-active="false">Pathfinder Cloak</li>
+            <li class="panel-item" id="pathfinderthaumaturge" data-active="false">Pathfinder Thaumaturge</li>
+            <li class="panel-item" id="shadowhunter" data-active="false">Shadow Hunter</li>
+            <li class="panel-item" id="steelplate" data-active="false">Steel Plate</li>
+            <li class="panel-item" id="summercompanyuniform" data-active="false">Summer Company Uniform</li>
+            <li class="panel-item" id="vigilinitiate" data-active="false">Vigil Initiate</li>
+        </ol>
+        
+        <p class="rarity">Starter</p>
+        <div class="line-seperator"></div>
+                
+        <ol  class="outfits">
+            <li class="panel-item" id="corsairoutlaw" data-active="false">Corsair Outlaw</li>
+            <li class="panel-item" id="eagertradesman" data-active="false">Eager Tradesman</li>
+            <li class="panel-item" id="null" data-active="false">Etrean Rogue</li>
+            <li class="panel-item" id="hiredmercenary" data-active="false">Hired Mercenary</li>
+            <li class="panel-item" id="merchantrobes" data-active="false">Merchant Robes</li>
+            <li class="panel-item" id="pathfindersorcerer" data-active="false">Pathfinder Sorcerer</li>
+            <li class="panel-item" id="scholar" data-active="false">Scholar</li>
+            <li class="panel-item" id="skepticpioneer" data-active="false">Skeptic Pioneer</li>
+            <li class="panel-item" id="null" data-active="true">Stranded</li>
+            <li class="panel-item" id="travelersjacket" data-active="false">Traveler's Jacket</li>
+            <li class="panel-item" id="unioninitiate" data-active="false">Union Initiate</li>
+            <li class="panel-item" id="whalerinitate" data-active="false">Whaler Initate</li>
+        </ol>
+      </div>
+              
+      <div class="content">
+        <iframe src="/assets/iframes/blacksmith" class="outfit" id="iframe"></iframe>
+
+        <div class="requirements">
+            <h1>Craft Reqs</h1>
+            <ol  class="stats">
+                <li>- Crystal Lens Gem x3</li>
+                <li>- Spark Glands x3</li>
+            </ol>
+            
+            <h1 style="margin: 10px 0 0 0;">Stat Reqs</h1>
+            <ol  class="stats">
+                <li>- 30 Agility</li>
+            </ol>
+        </div>
+        
+        <div class="statistics">
+            <h1>Armor Stats</h1>
+            <ol  class="stats">
+                 <li>+500 Durability</li>
+                 <li>+20% Slash Armor</li>
+                 <li>+30% Physical Armor</li>
+                 <li>+50% Ether Regen</li>
+                 <li>+Talent: Test</li>
+                 <li class="talent">ts still wip keep it niche ✌</li>
+            </ol>
+        </div>
+        
+        <center class="info">
+            <h1>Black Diver</h1>
+            <p>Coat of an esteemed Black Diver, one of the few in many generations of Divers from the Markor Citadel.</p>
+            <button class="button">Learn</button>
+            <p style="top: 10px;color: #fffddd;">1000 Notes</p>
+            <div class="styles">
+                <button class="button">A</button>
+                <button class="button">B</button>
+            </div>
+        </center>
+      </div>
+    </div>
+    
+    <script src="/assets/js/menu.js"></script>
+    <script src="/assets/js/blacksmith.js"></script>
+</body>
+</html>

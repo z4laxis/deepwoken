@@ -1,0 +1,83 @@
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deepwoken - Mantra API</title>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="Deepwoken">
+    <meta name="description" content="A collection of useful pages featuring Deepwoken-related content.">
+    
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://deepwoken.neocities.org/"> 
+    <meta property="og:title" content="deepwoken">
+    <meta property="og:description" content="A collection of useful pages featuring Deepwoken-related content.">
+    <meta property="og:image" content="https://deepwoken.neocities.org/icon.png"> 
+    
+    <meta property="twitter:url" content="https://deepwoken.neocities.org/"> 
+    <meta property="twitter:title" content="deepwoken">
+    <meta property="twitter:description" content="A collection of useful pages featuring Deepwoken-related content.">
+    <meta property="twitter:image" content="https://deepwoken.neocities.org/favicon.png"> 
+    
+    <link rel="icon" href="/favicon.png">
+    <link rel="manifest" href="/manifest.json">
+
+    <meta name="theme-color" content="#9c31f7">
+    <meta name="mobile-web-app-capable" content="yes">
+
+    <link rel="apple-touch-icon" sizes="256x256" href="/favicon.png">
+
+    <meta name="robots" content="index, follow">
+    <meta name="keywords" content="Deepwoken, Mantra Preview, Deepwoken Card Creator, Deepwoken Build Maker, Deepwoken Website">
+    <meta name="author" content="zalaxis">
+    <meta name="copyright" content="deepwoken">
+
+    <link rel="stylesheet" href="/assets/css/card-creator.css">
+    <link rel="stylesheet" href="/assets/css/template.css">
+    <link rel="stylesheet" href="/assets/css/styles.css">
+  </head>
+
+  <body>
+    <div class="customization-panel" style="overflow-y: hidden;">
+      <label for="title-input">Title:</label>
+      <input type="text" id="title-input" placeholder="Enter title">
+      
+      <select id="rarities" hidden>
+        <option value="Common" selected="">Blast</option>
+        <option value="Advanced">Tornado</option>
+        <option value="Legendary">Reversal</option>
+        <option value="Rare">Round</option>
+      </select>
+      <button class="button" id="update-card">Submit</button>
+      
+      <br>
+    <div class="card-container" style="transform: scale(0.85);">
+        <div class="card-color" style="background-color: var(--color-card-mantra);"></div>
+        <img class="card-outline" src="/assets/img/card/outline.png">
+        <img class="card-front" src="/assets/img/card/front.png">
+        <img class="card-frozen" src="/assets/img/card/frozen.png" hidden>
+        
+        <div class="card">
+            <div class="title" id="card-title">Fire Blade</div>
+            <div class="image">
+                <img class="icon-background" src="/assets/img/card/icon.png">
+                <img class="card-icon" src="/assets/img/icons/talent/fire_blade.png">
+            </div>
+            
+            <div class="card-class" id="card-class">Fire Combat</div>
+            <div class="description-container">
+                <div class="description" id="card-description">Release a slash of flames downwards that deals heavy posture damage.</div>
+            </div>
+            
+            <img src="/assets/img/card/1star.png" alt="1 Star" class="onestar" hidden>
+            <img src="/assets/img/card/2star.png" alt="2 Star" class="twostar" hidden>
+            <img src="/assets/img/card/3star.png" alt="3 Star" class="threestar" hidden>
+            </div>
+        </div>
+    </div>
+
+    <img src="https://static.wikia.nocookie.net/project-deepwoken/images/a/a1/FireBlade1.gif" style="margin-left: auto; margin-right: auto;" alt="Icon" id="mantra-preview">
+
+    <script src="/assets/js/mantra.js"></script>
+  </body>
+</html>

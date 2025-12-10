@@ -1,0 +1,578 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deepwoken Talent Creator</title>
+
+    <link href="/assets/css/card-creator.css" rel="stylesheet" type="text/css" media="all">
+    <link href="/assets/css/template.css" rel="stylesheet" type="text/css" media="all">
+    <link href="/assets/css/styles.css" rel="stylesheet" type="text/css" media="all">
+    <link href="/assets/css/menu.css" rel="stylesheet" type="text/css" media="all">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+        
+    <meta name="title" content="deepwoken">
+    <meta name="description" content="A custom deepwoken talent creator, with multiple options for suggestions & more!">
+    
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://deepwoken.neocities.org/"> 
+    <meta property="og:title" content="deepwoken">
+    <meta property="og:description" content="A custom deepwoken talent creator, with multiple options for suggestions & more!">
+    <meta property="og:image" content="https://deepwoken.neocities.org/icon.png"> 
+    
+    <meta property="twitter:url" content="https://deepwoken.neocities.org/"> 
+    <meta property="twitter:title" content="deepwoken">
+    <meta property="twitter:description" content="A collection of useful pages featuring Deepwoken-related content.">
+    <meta property="twitter:image" content="https://deepwoken.neocities.org/favicon.png"> 
+    
+    <link rel="icon" href="/favicon.png">
+    <link rel="manifest" href="/manifest.json">
+
+    <meta name="theme-color" content="#9c31f7">
+    <meta name="mobile-web-app-capable" content="yes">
+
+    <link rel="apple-touch-icon" sizes="256x256" href="/favicon.png">
+
+    <meta name="robots" content="index, follow">
+    <meta name="keywords" content="Deepwoken, Mantra Preview, Deepwoken Card Creator, Deepwoken Build Maker, Deepwoken Website">
+    <meta name="author" content="zalaxis">
+    <meta name="copyright" content="deepwoken">
+    </head>
+<body>
+    <div class="left-panel">
+        <div class="panel-item" data-active="true" id="title">
+            <p>Title</p>
+        </div>
+
+        <div class="panel-item" data-active="false" id="class">
+            <p>Class</p>
+        </div>
+
+        <div class="panel-item" data-active="false" id="description">
+            <p>Description</p>
+        </div>
+
+        <div class="panel-item" data-active="false" id="icon">
+            <p>Icon</p>
+        </div>
+
+        <div class="panel-item" data-active="false" id="color">
+            <p>Color</p>
+        </div>
+
+        <div class="panel-item" data-active="false" id="misc">
+            <p>Miscellaneous</p>
+        </div>
+        
+        <div class="panel-item" data-active="false" id="bonus">
+            <p>Bonuses</p>
+        </div>
+
+        <div class="panel-item" data-active="false" id="mantra">
+            <p>Mantra</p>
+        </div>
+        
+        <div class="panel-item" data-active="false" id="background">
+            <p>Background</p>
+        </div>
+
+        <div class="panel-item" data-active="false" id="animation">
+            <p>Animations</p>
+        </div>
+    </div>
+
+    <div class="card-container">
+        <div class="card-color"></div>
+        <img class="card-outline" src="/assets/img/card/outline.png">
+        <img class="card-front" src="/assets/img/card/front.png">
+        <img class="card-frozen" src="/assets/img/card/frozen.png" hidden>
+
+        <div class="card">
+            <div class="title" id="card-title">The Sound from Below</div>
+            <div class="image">
+                <img class="icon-background" src="/assets/img/card/icon.png">
+                <img class="card-icon" id="card-icon" src="/assets/img/icons/talent/open_eye.png">
+            </div>
+
+            <div class="card-class" id="card-class">Deepwoken</div>
+            <div class="description-container">
+                <div class="description" id="card-description">
+                  You can hear it pounding in your head. The sound that comes from beneath the waves. Will you respond?
+                </div>
+            </div>
+
+            <img src="/assets/img/card/1star.png" alt="1 Star" class="onestar" hidden>
+            <img src="/assets/img/card/2star.png" alt="2 Star" class="twostar" hidden>
+            <img src="/assets/img/card/3star.png" alt="3 Star" class="threestar" hidden>
+
+            <div class="bonuses" id="card-bonuses">
+                <div class="bonus" id="bonus-1"></div>
+                <div class="bonus" id="bonus-2"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="right-panel" id="title-window">
+        <div class="background"></div>
+        <div class="border"></div>
+        <header>
+            <h1>Title</h1>
+        </header>
+
+        <center>
+            <label for="title-input">Title:</label>
+            <input type="text" id="title-input" placeholder="Enter title">
+
+            <label for="title-size-input">Title size:</label>
+            <input type="number" id="title-size-input" placeholder="Enter title size" min="20" max="24">
+        </center>
+    </div>
+
+    <div class="right-panel hidden" id="class-window">
+        <div class="background"></div>
+        <div class="border"></div>
+        <header>
+            <h1>Class</h1>
+        </header>
+
+        <center>
+            <label for="class-input">Class:</label>
+            <input type="text" id="class-input" placeholder="Enter class name">
+
+            <label for="category-input">Category:</label>
+            <select id="categories" name="categories">
+                <optgroup label="Agility">
+                    <option value="acrobat">Acrobat</option>
+                    <option value="alleycat">Alley Cat</option>
+                    <option value="assasin">Assasin</option>
+                    <option value="butterfly">Butterfly</option>
+                    <option value="alleycat">Cutthroat</option>
+                    <option value="leafinthewind">Leaf in the Wind</option>
+                    <option value="nimbleblade">Nimble Blade</option>
+                    <option value="pursuer">Pursuer</option>
+                    <option value="swiftshade">Swiftshade</option>
+                    <option value="thief">Thief</option>
+                    <option value="trickster">Trickster</option>
+                    <option value="vigil swordsman">Vigil Swordsman</option>
+                    <option value="winrunner">Windrunner</option>
+                </optgroup>
+                
+                <optgroup label="Charisma">
+                    <option value="charmcaster">Charm Caster</option>
+                    <option value="empath">Empath</option>
+                    <option value="leader">Leader</option>
+                    <option value="mrcharm">Mr Charm</option>
+                    <option value="politician">Politician</option>
+                    <option value="publicfigure">Public Figure</option>
+                    <option value="showboater">Showboater</option>
+                    <option value="silvertongue">Silvertongue</option>
+                    <option value="thenegotiator">The Negotiator</option>
+                    <option value="toxicpersonality">Toxic Personality</option>
+                    <option value="tyrant">Tyrant</option>
+                    <option value="vocalist">Vocalist</option>
+                    <option value="vowofmastery">Vow of Mastery</option>
+                </optgroup>
+                
+                <optgroup label="Fortitude">
+                    <option value="bastion">Bastion</option>
+                    <option value="bulwark">Bulwark</option>
+                    <option value="comrade">Comrade</option>
+                    <option value="freakofnature">Freak Of Nature</option>
+                    <option value="greatwall">Great Wall</option>
+                    <option value="mediativetrance">Mediative Trance</option>
+                    <option value="shieldmaster">Shieldmaster</option>
+                </optgroup>
+                
+                <optgroup label="Intelligence">
+                    <option value="adeptcaster">Adept Caster</option>
+                    <option value="alchemist">Alchemist</option>
+                    <option value="all-knowing">All-Knowing</option>
+                    <option value="arstisan">Artisan</option>
+                    <option value="etherconduit">Ether Conduit</option>
+                    <option value="etherendeavors">Ether Endeavors</option>
+                    <option value="mastersurvivalist">Master Survivalist</option>
+                    <option value="omniscient">Omniscient</option>
+                    <option value="songmaster">Songmaster</option>
+                    <option value="tactician">Tactician</option>
+                </optgroup>
+                
+                <optgroup label="Strength">
+                    <option value="annihilator">Annihilator</option>
+                    <option value="berserker">Berserker</option>
+                    <option value="colossus">Colossus</option>
+                    <option value="duelist">Duelist</option>
+                    <option value="elementalrebound">Elemental Rebound</option>
+                    <option value="oneeyedking">One Eyed King</option>
+                    <option value="ragingbull">Raging Bull</option>
+                    <option value="rampagingbrute">Rampaging Brute</option>
+                </optgroup>
+                
+                <optgroup label="Willpower">
+                    <option value="absolutefocus">Absolute Focus</option>
+                    <option value="champion">Champion</option>
+                    <option value="heretic">Heretic</option>
+                    <option value="humanarchitecture">Human Architecture</option>
+                    <option value="hunter">Hunter</option>
+                    <option value="ironwill">Iron Will</option>
+                    <option value="liberator">Liberator</option>
+                    <option value="limitbreaker">Limitbreaker</option>
+                    <option value="mentalfortress">Mental Fortress</option>
+                    <option value="mindbreaker">Mindbreaker</option>
+                    <option value="sturdyresolve">Sturdy Resolve</option>
+                    <option value="survivalinstinct">Survival Instinct</option>
+                </optgroup>
+                
+                <hr>
+                
+                <optgroup label="Bloodrend">
+                    <option value="bloodhound">Bloodhound</option>
+                    <option value="bloodrender">Bloodrender</option>
+                    <option value="bloodrend master">Bloodrend Master</option>
+                    <option value="bloodsong">Bloodsong</option>
+                    <option value="quackdoctor">Quack Doctor</option>
+                    <option value="speticemia">Speticemia</option>
+                    <option value="transitoryvitality">Transitory Vitality</option>
+                </optgroup>
+                
+                <optgroup label="Flamecharm">
+                    <option value="amoranseeker">Amoran Seeker</option>
+                    <option value="duelistflame">Duelist Flame</option>
+                    <option value="fallingstarguard">Falling Star Guard</option>
+                    <option value="flamedancer">Flame Dancer</option>
+                    <option value="flamewarden">Flame Warden</option>
+                    <option value="flamecharmer">Flamecharmer</option>
+                    <option value="flamecharmmaster">Flamecharm Master</option>
+                    <option value="immolator">Immolator</option>
+                    <option value="inferno">Inferno</option>
+                    <option value="lavaserpent">Lava Serpent</option>
+                    <option value="pyromancer">Pyromancer</option>
+                    <option value="tamedflame">Tamed Flame</option>
+                    <option value="thedemonblade">The Demon Blade</option>
+                    <option value="theemperorsblade">The Emmperor's Blade</option>
+                    <option value="twistedpuppets">Twisted Puppets</option>
+                    <option value="undyingember">Undying Ember</option>
+                    <option value="witheredflame">Withered Flame</option>
+                </optgroup>
+                
+                <optgroup label="Frostdraw">
+                    <option value="cryomancer">Cryomancer</option>
+                    <option value="crystallinegold">Crystalline Gold</option>
+                    <option value="flashfreeze">Flashfreeze</option>
+                    <option value="frostforger">Frost Forger</option>
+                    <option value="frostdrawer">Frostdrawer</option>
+                    <option value="frostdrawmaster">Frostdraw Master</option>
+                    <option value="frostthorn">Frostthorn</option>
+                    <option value="frozenwarrior">Frozen Warrior</option>
+                    <option value="glassdancer">Glassdancer</option>
+                    <option value="iceage">Ice Age</option>
+                    <option value="pyroclast">Pyroclast</option>
+                    <option value="vaporborne">Vaporborne</option>
+                </optgroup>
+                
+                <optgroup label="Galebreathe">
+                    <option value="aeromancer">Aeromancer</option>
+                    <option value="coldphantom">Cold Phantom</option>
+                    <option value="cosmicwind">Cosmic Wind</option>
+                    <option value="galeduelist">Gale Duelist</option>
+                    <option value="galebreather">Galebreather</option>
+                    <option value="galebreathemaster">Galebreathe Master</option>
+                    <option value="galeforce">Galeforce</option>
+                    <option value="heatcolumn">Heat Column</option>
+                    <option value="etherendeavors">Legion Shock Trooper</option>
+                    <option value="maestrostechnique">Maestro's Technique</option>
+                    <option value="scholarofthecloud">Scholar of the Cloud</option>
+                    <option value="silencer">Silencer</option>
+                    <option value="specter">Specter</option>
+                    <option value="whisper">Whisper</option>
+                </optgroup>
+                
+                <optgroup label="Ironsing">
+                    <option value="adaptivearsenal">Adaptive Arsenal</option>
+                    <option value="ironsinger">Ironsinger</option>
+                    <option value="ironsingmaster">Ironsing Master</option>
+                    <option value="metallurgist">Metallurgist</option>
+                    <option value="rendingneedle">Rending Needle</option>
+                    <option value="scrapsinger">Scrapsinger</option>
+                    <option value="superconductor">Super Conductor</option>
+                </optgroup>
+                
+                <optgroup label="Shadowcast">
+                    <option value="darksiphon">Darksiphon</option>
+                    <option value="deathspeaker">Death Speaker</option>
+                    <option value="evilendeavors">Evil Endeavors</option>
+                    <option value="shadowcaster">Shadowcaster</option>
+                    <option value="shadowcastmaster">Shadowcast Master</option>
+                </optgroup>
+                
+                <optgroup label="Thundercall">
+                    <option value="authorityinterrogator">Authority Interrogator</option>
+                    <option value="doomsdayengine">Doomsday Engine</option>
+                    <option value="frozenlightning">Frozen Lightning</option>
+                    <option value="javelinlord">Javelin Lord</option>
+                    <option value="kickstarter">Kickstarter</option>
+                    <option value="lichtenberg">Lichtenberg</option>
+                    <option value="rampantstatic">Rampant Static</option>
+                    <option value="sapper">Sapper</option>
+                    <option value="self-shocker">Self-Shocker</option>
+                    <option value="shocktherapy">Shock Therapy</option>
+                    <option value="staticweaver">Static Weaver</option>
+                    <option value="stormcaller">Stormcaller</option>
+                    <option value="thunderbrawler">Thunder Brawler</option>
+                    <option value="thundercaster">Thunder Caster</option>
+                    <option value="thunderblade">Thunderblade</option>
+                    <option value="thundercaller">Thundercaller</option>
+                    <option value="thundercallermaster">Thundercaller Master</option>
+                </optgroup>
+                
+                <hr>
+                
+                <optgroup label="Oaths">
+                    <option value="arcwarder">Arcwarder</option>
+                    <option value="bladeharper">Bladeharper</option>
+                    <option value="blindseer">Blindseer</option>
+                    <option value="blightsurger">Blightsurger</option>
+                    <option value="chainwarden">Chainwarden</option>
+                    <option value="contractor">Contractor</option>
+                    <option value="dawnwalker">Dawnwalker</option>
+                    <option value="fadetrimmer">Fadetrimmer</option>
+                    <option value="jetstriker">Jetstriker</option>
+                    <option value="linkstrider">Linkstrider</option>
+                    <option value="oathless">Oathless</option>
+                    <option value="saintsworn">Saintsworn</option>
+                    <option value="saltchemist">Saltchemist</option>
+                    <option value="silentheart">Silentheart</option>
+                    <option value="soulbreaker">Soulbreaker</option>
+                    <option value="starkindred">Starkindred</option>
+                    <option value="visionshaper">Visionshaper</option>
+                </optgroup>
+                
+                <optgroup label="Origins">
+                    <option value="authorityensign">Authority Ensign</option>
+                    <option value="bladeharper">Authority Soldier</option>
+                    <option value="deepboundcontract">Deepbound Contract</option>
+                    <option value="ignitiondelver">Ignition Delver</option>
+                    <option value="ignitionunion">Ignition Union</option>
+                    <option value="theknivesofeylis">The Knives of Eylis</option>
+                </optgroup>
+                
+                <optgroup label="Authority">
+                    <option value="battlereadiness">Battle Readiness</option>
+                    <option value="dreadimperium">Dread Imperium</option>
+                    <option value="inquisitivelethality">Inquisitive Lethality</option>
+                    <option value="operatorstechnique">Operator's Technique</option>
+                </optgroup>
+                
+                <hr>
+                
+                <optgroup label="Weapon">
+                    <option value="aerialdancer">Aerial Dancer</option>
+                    <option value="brawler">Bralwer</option>
+                    <option value="bruiser">Bruiser</option>
+                    <option value="criticalspecialist">Critical Specialist</option>
+                    <option value="gunsligner">Gunsligner</option>
+                    <option value="hammerrage">Hammer Rage</option>
+                    <option value="justiciar">Justiciar</option>
+                    <option value="lancer">Lancer</option>
+                    <option value="marksman">Marskman</option>
+                    <option value="needle">Needle</option>
+                    <option value="outlaw">Outlaw</option>
+                    <option value="saintofblades">Saint of Blades</option>
+                    <option value="scoundrel">Scoundrel</option>
+                    <option value="weaponmaster">Weapon Master</option>
+                </optgroup>
+                
+                <optgroup label="Quest">
+                    <option value="drownedsecret">Drowned Secret</option>
+                    <option value="galekata">Gale Kata</option>
+                    <option value="marauder">Marauder</option>
+                    <option value="metamancer">Metamancer</option>
+                    <option value="murmur">Murmur</option>
+                    <option value="navaennomad">Navaen Nomad</option>
+                    <option value="prospector">Prospector</option>
+                    <option value="saboteur">Saboteur</option>
+                    <option value="sovereignofslaughter">Sovereign of Slauther</option>
+                    <option value="warrior">Warrior</option>
+                </optgroup>
+                
+                <optgroup label="Power">
+                    <option value="apexpredator">Apex Predator</option>
+                    <option value="escapeartist">Escape Artist</option>
+                    <option value="fish">Fish</option>
+                    <option value="miscellanous">Miscellanous</option>
+                    <option value="naturalarmor">Natural Armor</option>
+                    <option value="soulconverter">Soul Converter</option>
+                    <option value="warrior">Warrior</option>
+                    <option value="waterborne">Waterborne</option>
+                </optgroup>
+                
+                <optgroup label="Outfit">
+                    <option value="darksiphon">Darksiphon</option>
+                    <option value="deathspeaker">Death Speaker</option>
+                    <option value="evilendeavors">Evil Endeavors</option>
+                    <option value="shadowcaster">Shadowcaster</option>
+                    <option value="shadowcastmaster">Shadowcast Master</option>
+                </optgroup>
+                
+                <optgroup label="Others">
+                    <option value="christmasmiracle">Christmas Miracle</option>
+                    <option value="deepwoken">Deepwoken</option>
+                    <option value="merchant">Merchant</option>
+                    <option value="ministry prophet">Ministry Prophet</option>
+                    <option value="sage of wisps">Sage of Wisps</option>
+                    <option value="shipwright">Shipwright</option>
+                    <option value="tavernkeep">Tavernkeep</option>
+                </optgroup>
+            </select>
+        </center>
+    </div>
+
+    <div class="right-panel hidden" id="description-window">
+        <div class="background"></div>
+        <div class="border"></div>
+        <header>
+            <h1>Description</h1>
+        </header>
+
+        <center>
+            <label for="description-input">Text :</label>
+            <textarea id="description-input" rows="4" placeholder="Enter description"></textarea>
+
+            <label for="desc-size-input">Text size:</label>
+            <input type="number" id="desc-size-input" placeholder="Enter description size" min="14" max="20">
+        </center>
+    </div>
+    
+    <div class="right-panel hidden" id="icon-window">
+        <div class="background"></div>
+        <div class="border"></div>
+        <header>
+            <h1>Icon</h1>
+        </header>
+
+        <center>
+          <img src="/assets/img/icons/talent/question.png" id="center-image" class="icon-preview">
+          <br>
+          <br>
+          <button onclick="previousIcon()" class="left-button">&lt;</button>
+          <button onclick="nextIcon()" class="right-button">&gt;</button>
+          
+          <label for="custom-icon-url">Custom Icon URL:</label>
+          <input type="text" id="icon-input" placeholder="Enter image link">
+          
+          <label for="custom-border-url">Custom Icon Image:</label>
+          <input type="file" id="imageInput" accept="image/*">
+        </center>
+    </div>
+    
+    <div class="right-panel hidden" id="color-window">
+        <div class="background"></div>
+        <div class="border"></div>
+        <header>
+            <h1>Color</h1>
+        </header>
+        <center>
+          <label for="color-input">Rarity:</label>
+          <select id="rarities">
+              <optgroup label="Talent">
+                  <option value="Common" selected>Common</option>
+                  <option value="Rare">Rare</option>
+                  <option value="Advanced">Advanced</option>
+                  <option value="Legendary">Legendary</option>
+                  <option value="Oath">Oath</option>
+              </optgroup>
+              <optgroup label="Bell">
+                  <option value="Bell">Bell</option>
+                  <option value="Legendary Bell">Legendary Bell</option>
+                  <option value="Corrupted Bell">Corrupted Bell</option>
+                  <option value="Drowned Bell">Drowned Bell</option>
+              </optgroup>
+              <optgroup label="Misc.">
+                  <option value="Mantra">Mantra</option>
+                  <option value="Mystery">Mystery</option>
+                  <option value="Trait">Trait</option>
+                  <option value="Faction">Faction</option>
+              </optgroup>
+          </select>
+          
+          <label for="custom-card-color">Custom Color:</label>
+          <input type="text" id="color-input" placeholder="Enter HEX code">
+        </center>
+    </div>
+    
+    <div class="right-panel hidden" id="bonus-window">
+        <div class="background"></div>
+        <div class="border"></div>
+        <header>
+            <h1>Bonuses</h1>
+        </header>
+        <center>
+          <label for="bonuses-input">Bonuses (comma-separated):</label>
+          <input type="text" id="bonuses-input" placeholder="Enter bonuses">
+        </center>
+    </div>
+
+    <div class="right-panel hidden" id="misc-window">
+        <div class="background"></div>
+        <div class="border"></div>
+        <header>
+            <h1>Miscellaneous</h1>
+        </header>
+        <center>
+          <label for="custom-border-url">Custom Border URL:</label>
+          <input type="text" id="border-input" placeholder="Enter image link">
+          
+          <label for="custom-border-url">Custom Border Image:</label>
+          <input type="file" id="border-file-input" accept="image/*">
+        </center>
+    </div>
+    
+    <div class="right-panel hidden" id="mantra-window">
+        <div class="background"></div>
+        <div class="border"></div>
+        <header>
+            <h1>Mantra</h1>
+        </header>
+
+        <center>
+          <label for="stars-input">Stars:</label>
+          <select id="stars">
+            <option value="0 stars" selected>0 stars</option>
+            <option value="1 star">1 star</option>
+            <option value="2 stars">2 stars</option>
+            <option value="3 stars">3 stars</option>
+          </select>
+          
+          <label class="checkbox-label">
+              Frozen:
+              <input id="frozen-input" type="checkbox" name="enableFeature" value="yes">
+          </label>
+        </center>
+    </div>
+    
+    <div class="right-panel hidden" id="background-window">
+        <div class="background"></div>
+        <div class="border"></div>
+        <header>
+            <h1>Background</h1>
+        </header>
+
+        <center>
+          <label for="custom-background-color">Custom Background Color:</label>
+          <input type="text" id="background-color-input" placeholder="Enter HEX code">
+          
+          <label for="custom-background-url">Custom Background URL:</label>
+          <input type="text" id="background-input" placeholder="Enter image link">
+          
+          <label for="custom-background-image">Custom Background Image:</label>
+          <input type="file" id="backgroundInput" accept="image/*">
+        </center>
+    </div>
+
+    <button class="update-button" id="update-card">Update Card</button>
+
+    <script src="/assets/js/card.js"></script>
+    <script src="/assets/js/menu.js"></script>
+</body>
+</html>
