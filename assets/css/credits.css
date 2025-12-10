@@ -1,0 +1,103 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fadedlinethingy {
+    height: 3px;
+    background-image: radial-gradient(white, rgb(109, 109, 109), transparent 90%)
+}
+
+.continue {
+    margin-top: 5%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.continuetext {
+    color:#afb0af;
+    font-family: deepfont;
+    font-size: 26px;
+    transition: color 0.2s;
+    text-decoration: none;
+    margin-bottom: 2px;
+    margin-top: 20px;
+    border: none;
+    background: transparent;
+}
+
+.continuetext:hover {
+    color: white;
+}
+
+.hide1 {
+    width: 165px;
+    opacity: 0%;
+    margin-top: -28px; 
+    margin-bottom: 45px;
+    margin-left: 17.5px;
+}
+
+.continuetext:hover + .hide1 {
+    opacity: 100%;
+    transition: opacity 0.2s;
+    color: white;
+}
+
+.bigtext {
+    font-family: creditfont;
+    font-size: 20px;
+    margin-bottom: 1px;
+    text-align: center;
+    color: white;
+}
+
+main {
+    width: 750px;
+}
+
+ul {
+    font-family: SourceSans;
+    list-style: none;
+    padding: 0;
+    margin-top: 2px;
+    margin-bottom: 0;
+}
+
+li {
+    color: #bdbdbd;
+    padding-bottom: 8px;
+}
+
+b {
+    color: white;
+}
+
+b::after {
+    content: url(icons/dash.png);
+    position: fixed;
+}
+
+i {
+    color: rgb(223, 223, 223);
+}
+
+.username {
+    color: white;
+}
+
+.role {
+    font-style: italic;
+    color: rgb(200, 200, 200);
+}
+    
+.section {
+    font-family: creditfont;
+    font-size: 20px;
+    margin-top: 25px;
+    margin-bottom: 2px;
+    text-align: center;
+    color: white;
+}

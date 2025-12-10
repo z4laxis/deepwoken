@@ -1,0 +1,76 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Source Sans 3";
+}
+
+main {
+    width: 375px;
+    height: 375px;
+}
+
+.border,
+.background {
+    position: absolute;
+    height: 100%;
+    width: 99%;
+}
+
+.border {
+    z-index: 2;
+    pointer-events: none;
+    border: 1px solid transparent;
+    border-image: var(--border-window) 20 stretch;
+    border-image-width: 20px;
+    border-image-outset: 2px;
+}
+
+.background {
+    background-image: var(--background);
+    background-size: 30px;
+}
+
+.header {
+    font-family: SourceSans;
+    position: relative;
+    text-align: center;
+    border: 1px solid transparent;
+    border-image: var(--border-bar) 3.5 stretch;
+    border-image-width: 8px;
+    color: var(--header-text-color);
+}
+
+.content {
+    gap: 0;
+    position: relative;
+    height: calc(100% - 35px);  
+    display: flex;
+    align-items: center;
+    overflow-y: auto;
+    overflow-x: auto;
+    background-color: var(--background-color);
+}
+
+input {
+    color: white;
+    outline: none;
+    text-align: center;
+    background-color: var(--input-bg-color);
+    border: 1px solid transparent;
+    border-image: var(--border-input) 7 stretch;
+    border-image-width: 10;
+    border-image-outset: 2px;
+}
+
+.button {
+    width: 75px;
+    height: 25px;
+    color: white;
+    cursor: pointer;
+    background-color: var(--button-bg-color);
+    border: 1px solid transparent;
+    border-image: var(--border-button) 7 stretch;
+    border-image-width: 10;
+    border-image-outset: 1px;
+}

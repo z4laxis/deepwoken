@@ -1,0 +1,106 @@
+body {
+    display: flex;
+}
+
+.faction-frame {
+    transform: scale(0.375);
+    height: 192px;
+    width: 732px;
+}
+
+.faction-background {
+    image-rendering: pixelated;
+}
+
+.faction-frame, .faction-background {
+    position: absolute;
+    margin: auto;
+    inset: 0;
+}
+
+.neutral-icon {
+    transform: translateX(82.5px);
+    image-rendering: pixelated;
+    width: 40px;
+    position: absolute;
+    margin: auto;
+    inset: 0;
+}
+
+.rep-icon {
+    image-rendering: pixelated;
+    width: 27.5px;
+    position: absolute;
+    margin: auto;
+    inset: 0;
+}
+
+.faction-icon {
+    z-index: 1;
+    image-rendering: pixelated;
+    filter: drop-shadow(0px 2px 1px #000);
+    position: absolute;
+    width: 130px;
+    transform: translate(25px, 30px);
+}
+
+.faction-text,
+.status-text {
+    color: rgba(0, 0, 0, 0.75);
+    font-family: "Garamond";
+    font-size: 48px;
+    margin: auto;
+    margin-left: auto;
+    width: 500px;
+}
+
+.faction-text {
+    transform: translate(75px, -7.5px);
+}
+
+.status-text {
+    transform: translate(80px, 80px);
+}
+
+.circle-background {
+    position: absolute;
+    margin: auto;
+    inset: 0;
+    height: 175px;
+    width: 175px;
+    transform: translateX(-275px);
+    background: radial-gradient(circle, rgba(67, 57, 53, 1) 0%, rgba(103, 88, 83, 1) 50%);
+    border-radius: 100px;
+}
+
+.progress-bar {
+    z-index: 3;
+    width: 525px;
+    height: 50px;
+    margin: auto;
+    inset: 0;
+    position: absolute;
+    transform: translateX(85px);
+}
+
+.slider {
+    transform: translateX(-10px);
+    width: 102%;
+    height: 92.5%;
+    appearance: none;
+    border: 0;
+    cursor: pointer;
+    background: transparent;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 40px; 
+  height: 40px;
+  cursor: pointer;
+  background: url(/assets/img/icons/reputation/indicator.png) no-repeat center center;
+  background-size: contain; 
+  border: none;             
+  box-shadow: none;       
+}

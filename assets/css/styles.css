@@ -1,0 +1,124 @@
+@font-face {
+    font-family: "Garamond";
+    src: url("/assets/fonts/Garamond.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Fondamento";
+    src: url("/assets/fonts/Fondamento-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Lato";
+    src: url("/assets/fonts/Lato-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Guru";
+    src: url("/assets/fonts/Guru Regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "SourceSans";
+    src: url("/assets/fonts/sourcesans.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "BookAntiqua";
+    src: url("/assets/fonts/bookantiqua.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "LibreBaskerville";
+    src: url("/assets/fonts/LibreBaskerville-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Balthazar";
+    src: url("/assets/fonts/Balthazar-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "LTMuseum";
+    src: url("/assets/fonts/LTMuseum-Light.ttf") format("truetype");
+}
+
+:root {
+    --background: url(/assets/img/background/black.png);
+    
+    /* Colors */
+    /* Talent Card Rarity Colors */
+    --color-card-mystery: #97a3af;
+    --color-card-trait: #a6782a;
+    --color-card-common: #64605b;
+    --color-card-rare: #915e5d;
+    --color-card-legendary: #3a7581;
+    --color-card-advanced: #3c7f78;
+    --color-card-mantra: #8f7490;
+    --color-card-bell: #3e4d7e;
+    --color-card-legendary-bell: #e2d5c5;
+    --color-card-drowned-bell: #c7c6fe;
+    --color-card-corrupted-bell: #753050;
+    --color-card-oath: #172b3d;
+    --color-card-faction: #345329;
+    
+    /* Template */
+    --color-button: #5f6e65;
+    --background-color-button: #97a3af;
+    --background-color: #e6e1cc;
+    --button-bg-color: #3f504d;
+    --input-bg-color: #5f6e65;
+    --header-text-color: #e9eed1;
+
+    /* Loot Colors */
+    --color-item-mantra: #bbcecd;
+    --color-loot-mob: #a3d1b4;
+    --color-loot-schematic: #b1cac4;
+    --color-loot-training: #c9c2b2;
+    --color-loot-weapon: #a9928e;
+    --color-loot-equipment: #aa9f8d;
+    --color-loot-enchanted: #9693a8;
+    
+    /* Template Borders */
+    --border-window: url(/assets/img/border/border.png);
+    --border-thin: url(/assets/img/border/borderthin.png);
+    --border-bar: url(/assets/img/border/bar.png);
+    --border-button: url(/assets/img/border/button.png);
+    --border-input: url(/assets/img/border/input.png);
+    
+    /* Scrollbars */
+    --scrollbar-vertical-start: url(/assets/img/scrollbar/vertical/start.png);
+    --scrollbar-vertical-end: url(/assets/img/scrollbar/vertical/end.png);
+    --scrollbar-vertical-middle: url(/assets/img/scrollbar/vertical/middle.png);
+
+    --scrollbar-horizontal-start: url(/assets/img/scrollbar/horizontal/start.png);
+    --scrollbar-horizontal-end: url(/assets/img/scrollbar/horizontal/end.png);
+    --scrollbar-horizontal-middle: url(/assets/img/scrollbar/horizontal/middle.png);
+}
+
+html {
+    cursor: url("/assets/img/cursor/cursor.png"), auto;
+}
+
+body {
+    background-image: radial-gradient(#223125, #06110e);
+/*  background-image: radial-gradient(#223125, #06110e); Dephts */
+/*  background-image: radial-gradient(#ffffff, #c3bcba); Layer 2 */
+/*  background-image: radial-gradient(#4f3c29, #1a1814); Hallowtide */
+
+    background-attachment: fixed;
+}
+
+a, button, input[type="button"], input[type="submit"] {
+    cursor: url("/assets/img/cursor/pointer.png"), pointer;
+}
+
+a:hover, button:hover, input[type="button"]:hover, input[type="submit"]:hover {
+    cursor: url("/assets/img/cursor/pointer.png"), pointer;
+}
+
+.center {
+    margin: auto;
+    inset: 0;
+    position: absolute;
+}

@@ -1,0 +1,1 @@
+const orb = document.querySelector("rep-icon")

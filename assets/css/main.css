@@ -1,0 +1,50 @@
+@font-face {
+    font-family: "Fondamento";
+    src: url("/assets/fonts/Fondamento-Regular.ttf") format("opentype");
+}
+
+body {
+    font-family: Fondamento;
+}
+
+.container {
+    overflow-y: auto;
+    overflow-x: hidden;
+    width: 45%;
+    height: 85%;
+    margin: auto;
+    inset: 0;
+    position: absolute;
+    display: block; 
+}
+
+.page {
+    margin-right: auto;
+    margin-left: auto;
+    width: 95%;
+    background: rgba(0, 0, 0, 0.375);
+    height: 10%;
+    margin-bottom: 10px;
+    border: 1px solid transparent;
+    border-image: url(/assets/img/border/charborder.png) 23 stretch;
+    border-image-width: 23px;
+    border-image-outset: 2px;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+    color: white;
+    font-weight: normal;
+    margin: 5 0 0 10;
+    font-size: 20px;
+}
+
+h2 {
+    color: lightgrey;
+    font-weight: normal;
+    margin: 0 0 0 10;
+    font-size: 20px;
+}

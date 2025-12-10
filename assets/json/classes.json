@@ -1,0 +1,1738 @@
+[
+    {
+      "acrobat": {
+        "name": "Acrobat",
+        "talents": [
+          "Kick Off",
+          "Steady Footing",
+          "Time To Go"
+        ]
+      },
+      "adaptive arsenal": {
+        "name": "Adaptive Arsenal",
+        "talents": [
+          "An Ironsinger's Instinct",
+          "Phantom Edge",
+          "Exposed Durability"
+        ]
+      },
+      "adept caster": {
+        "name": "Adept Caster",
+        "talents": [
+          "Neural Overload",
+          "Everchanging Aegis",
+          "Overflowing Dam",
+          "Perfect Flash"
+        ]
+      },
+      "aerial dancer": {
+        "name": "Aerial Dancer",
+        "talents": [
+          "Wyvern's Claw [HVY]",
+          "Wyvern's Claw [LHT]",
+          "Wyvern's Claw [MED]"
+        ]
+      },
+      "aeromancer": {
+        "name": "Aeromancer",
+        "talents": [
+          "Aerogliding",
+          "Stifled Jump",
+          "Aeronade",
+          "Gale Trap",
+          "Suffocating Impact",
+          "Vacuum Punch"
+        ]
+      },
+      "alchemist": {
+        "name": "Alchemist",
+        "talents": [
+          "Placebo Effect",
+          "Potion Quaffer [FTD]",
+          "Potion Quaffer [WIL]",
+          "Apothecary",
+          "Chain Reaction",
+          "Chemist's Bag",
+          "Wild Alchemy"
+        ]
+      },
+      "all-knowing": {
+        "name": "All-Knowing",
+        "talents": [
+          "Approaching Singularity"
+        ]
+      },
+      "alley cat": {
+        "name": "Alley Cat",
+        "talents": [
+          "Conditioned Runner",
+          "Endurance Runner",
+          "Scaredy Cat"
+        ]
+      },
+      "amoran seeker": {
+        "name": "Amoran Seeker",
+        "talents": [
+          "Flame Within"
+        ]
+      },
+      "angler": {
+        "name": "Angler",
+        "talents": [
+          "Fisher's Lure",
+          "Hook, Line, and Sinker",
+          "Proficient Baiting"
+        ]
+      },
+      "annihilator": {
+        "name": "Annihilator",
+        "talents": [
+          "Collapsed Lung"
+        ]
+      },
+      "apex predator": {
+        "name": "Apex Predator",
+        "talents": [
+          "Grand Feast",
+          "Sunken Predator",
+          "Carnivore"
+        ]
+      },
+      "archsorcerer": {
+        "name": "Archsorcerer",
+        "talents": [
+          "Devastating Power"
+        ]
+      },
+      "arcwarder": {
+        "name": "Arcwarder",
+        "talents": [
+          "Oath: Arcwarder",
+          "Arc Module: Dash",
+          "Arc Module: Eject",
+          "Arc Module: Guard",
+          "Arc Module: Leap",
+          "Arc Module: Null"
+        ]
+      },
+      "artisan": {
+        "name": "Artisan",
+        "talents": [
+          "Master Craftsman"
+        ]
+      },
+      "assassin": {
+        "name": "Assassin",
+        "talents": [
+          "Deep Wound",
+          "Lights Out",
+          "Lowstride",
+          "Unseen Threat"
+        ]
+      },
+      "athlete": {
+        "name": "Athlete",
+        "talents": [
+          "Pitcher",
+          "Triathlete"
+        ]
+      },
+      "authority commander": {
+        "name": "Authority Commander",
+        "talents": [
+          "Riot Breaker"
+        ]
+      },
+      "authority interrogator": {
+        "name": "Authority Interrogator",
+        "talents": [
+          "Authority Intimidation",
+          "First Interrogation",
+          "Resolve Crusher",
+          "Second Interrogation"
+        ]
+      },
+      "bastion": {
+        "name": "Bastion",
+        "talents": [
+          "Reinforced Armor",
+          "Battle Tendency",
+          "Braced Collapse",
+          "Moving Fortress",
+          "Perseverance"
+        ]
+      },
+      "berserker": {
+        "name": "Berserker",
+        "talents": [
+          "Berserk"
+        ]
+      },
+      "bladeharper": {
+        "name": "Bladeharper",
+        "talents": [
+          "Float Like a Butterfly",
+          "Lithe Step",
+          "Oath: Bladeharper",
+          "Reveal",
+          "Untouchable",
+          "Soaring Storm"
+        ]
+      },
+      "blindseer": {
+        "name": "Blindseer",
+        "talents": [
+          "All-Seeing Eye",
+          "Oath: Blindseer"
+        ]
+      },
+      "bloodrender": {
+        "name": "Bloodrender",
+        "talents": [
+          "Hemorrhaging Blow",
+          "Rush Hour",
+          "Adept Bloodrender",
+          "Bloodrender",
+          "Crimson Fountain",
+          "Expert Bloodrender",
+          "First Blood",
+          "Master Bloodrender",
+          "Sheltering Grasp",
+          "Sanguine Siphon"
+        ]
+      },
+      "bloodhound": {
+        "name": "Bloodhound",
+        "talents": [
+          "Smell of Blood",
+          "Bloodwarden's Sense"
+        ]
+      },
+      "bloodrend master": {
+        "name": "Bloodrend Master",
+        "talents": [
+          "Bloodrend Unbounded"
+        ]
+      },
+      "bloodsong": {
+        "name": "Bloodsong",
+        "talents": [
+          "Blood and Iron",
+          "Brain Death",
+          "Cold Blooded",
+          "Electrolyte",
+          "Malevolent Sapper",
+          "Scorchblood"
+        ]
+      },
+      "brawler": {
+        "name": "Brawler",
+        "talents": [
+          "Bruiser's Mixup",
+          "Trained Fist"
+        ]
+      },
+      "bruiser": {
+        "name": "Bruiser",
+        "talents": [
+          "Heavy Fatigue",
+          "Rending Impact",
+          "Brazen Blow",
+          "Impairing Blow"
+        ]
+      },
+      "bulwark": {
+        "name": "Bulwark",
+        "talents": [
+          "Dancing Guard",
+          "Defensive Reprisal",
+          "Down to your Level",
+          "Knuckle Guard"
+        ]
+      },
+      "butterfly": {
+        "name": "Butterfly",
+        "talents": [
+          "Ghost",
+          "Evasive Expert",
+          "Risky Moves",
+          "Swift Rebound"
+        ]
+      },
+      "chainwarden": {
+        "name": "Chainwarden",
+        "talents": [
+          "Oath: Chainwarden",
+          "Chainlash",
+          "Perpetual Wrath"
+        ]
+      },
+      "champion": {
+        "name": "Champion",
+        "talents": [
+          "Champion's Regalia",
+          "Defiance",
+          "Underdog"
+        ]
+      },
+      "charm caster": {
+        "name": "Charm Caster",
+        "talents": [
+          "Dazing Finisher",
+          "Charismatic Cast",
+          "Chaotic Charm",
+          "Lasting Charisma",
+          "Tough Love"
+        ]
+      },
+      "christmas miracle": {
+        "name": "Christmas Miracle",
+        "talents": [
+          "Christmas Miracle"
+        ]
+      },
+      "cold phantom": {
+        "name": "Cold Phantom",
+        "talents": [
+          "Freezing Wight"
+        ]
+      },
+      "colossus": {
+        "name": "Colossus",
+        "talents": [
+          "Destructive Recovery",
+          "Unstoppable Force",
+          "Harsh Response",
+          "Heavy Hitter"
+        ]
+      },
+      "comrade": {
+        "name": "Comrade",
+        "talents": [
+          "Grand Support",
+          "Lord's Tithe"
+        ]
+      },
+      "contractor": {
+        "name": "Contractor",
+        "talents": [
+          "Hidden Tendril",
+          "Oath: Contractor",
+          "String Trick"
+        ]
+      },
+      "cosmic wind": {
+        "name": "Cosmic Wind",
+        "talents": [
+          "Pressure Detonation"
+        ]
+      },
+      "credits": {
+        "name": "Credits",
+        "talents": [
+          "Thank You"
+        ]
+      },
+      "critical specialist": {
+        "name": "Critical Specialist",
+        "talents": [
+          "Knife's Journey",
+          "Decisive Blow",
+          "Finishing Touch",
+          "Successive Throw"
+        ]
+      },
+      "cryomancer": {
+        "name": "Cryomancer",
+        "talents": [
+          "Chilling Flourish",
+          "Condensation Drip",
+          "Cool Head",
+          "Fragile Freeze",
+          "Spike Traps"
+        ]
+      },
+      "cryoni": {
+        "name": "Cryoni",
+        "talents": [
+          "Preceding Chill",
+          "Cryostasis"
+        ]
+      },
+      "cutthroat": {
+        "name": "Cutthroat",
+        "talents": [
+          "Blood Thirsty",
+          "In a Hurry",
+          "Muffled Screams"
+        ]
+      },
+      "darksiphon": {
+        "name": "Darksiphon",
+        "talents": [
+          "Dark Rift",
+          "Blighted Song",
+          "Dark God",
+          "Dark Hours",
+          "Dark Replenishment",
+          "Dark Synergy",
+          "Overwhelming Drain",
+          "Shadow Overflow"
+        ]
+      },
+      "dawnwalker": {
+        "name": "Dawnwalker",
+        "talents": [
+          "Absolute Radiance",
+          "Luminous Flash",
+          "Oath: Dawnwalker",
+          "Protagonist Syndrome"
+        ]
+      },
+      "death speaker": {
+        "name": "Death Speaker",
+        "talents": [
+          "Blackhole",
+          "Energy Siphon"
+        ]
+      },
+      "deepwoken": {
+        "name": "Deepwoken",
+        "talents": [
+          "Depths Connection",
+          "The Sound from Below",
+          "Spell Shout"
+        ]
+      },
+      "doomsday engine": {
+        "name": "Doomsday Engine",
+        "talents": [
+          "Frozen Web"
+        ]
+      },
+      "drowned secret": {
+        "name": "Drowned Secret",
+        "talents": [
+          "Ethiron's Gaze"
+        ]
+      },
+      "duelist": {
+        "name": "Duelist",
+        "talents": [
+          "Concussion",
+          "Spine Cutter",
+          "Strong Stern",
+          "Tap Dancer",
+          "Concussive Force",
+          "Duelist's Dance",
+          "Precise Swing",
+          "Steady Nerves",
+          "Strong Hold"
+        ]
+      },
+      "duelist flame": {
+        "name": "Duelist Flame",
+        "talents": [
+          "Concussive Flash"
+        ]
+      },
+      "elementalist": {
+        "name": "Elementalist",
+        "talents": [
+          "Ether Overdrive [FLM]",
+          "Ether Overdrive [ICE]",
+          "Ether Overdrive [LTN]",
+          "Ether Overdrive [WND]",
+          "Ether Overdrive [SDW]",
+          "Ether Overdrive [MTL]",
+          "Ether Overdrive [BLD]"
+        ]
+      },
+      "empath": {
+        "name": "Empath",
+        "talents": [
+          "Cornered Fool",
+          "Give and Take",
+          "Off Your Game"
+        ]
+      },
+      "escape artist": {
+        "name": "Escape Artist",
+        "talents": [
+          "Robber Baron"
+        ]
+      },
+      "ether adept": {
+        "name": "Ether Adept",
+        "talents": [
+          "Eureka",
+          "Ether Absorption",
+          "Ether Blade",
+          "Ether Conduit",
+          "Mantra Permanence",
+          "Nullifying Clarity",
+          "Charged Return"
+        ]
+      },
+      "fadetrimmer": {
+        "name": "Fadetrimmer",
+        "talents": [
+          "Barber's Skillset",
+          "Oath: Fadetrimmer",
+          "Hair Products",
+          "Hair Spray"
+        ]
+      },
+      "falling star guard": {
+        "name": "Falling Star Guard",
+        "talents": [
+          "Meteor Impact",
+          "Phoenix Impact"
+        ]
+      },
+      "ferryman's coat": {
+        "name": "Ferryman's Coat",
+        "talents": [
+          "Ferryman's Curse"
+        ]
+      },
+      "fish": {
+        "name": "Fish",
+        "talents": [
+          "Fishman"
+        ]
+      },
+      "flame dancer": {
+        "name": "Flame Dancer",
+        "talents": [
+          "Graceful Steps",
+          "The Final Act",
+          "Dancing Steps"
+        ]
+      },
+      "flame warden": {
+        "name": "Flame Warden",
+        "talents": [
+          "Warding Radiance",
+          "Cauterized Wounds",
+          "Flamewalker",
+          "Hell's Partisan [WARDING]",
+          "Hell's Partisan [FIRE FORGE]"
+        ]
+      },
+      "flamecharm master": {
+        "name": "Flamecharm Master",
+        "talents": [
+          "Flamecharm Unbounded"
+        ]
+      },
+      "flamecharmer": {
+        "name": "Flamecharmer",
+        "talents": [
+          "Azure Flames",
+          "Produce Spark",
+          "Unyielding Inferno",
+          "Flamecharmer",
+          "Adept Flamecharmer",
+          "Expert Flamecharmer",
+          "Master Flamecharmer",
+          "Intrepid Flame"
+        ]
+      },
+      "flashfreeze": {
+        "name": "Flashfreeze",
+        "talents": [
+          "Temperature Shock"
+        ]
+      },
+      "flow": {
+        "name": "Flow",
+        "talents": [
+          "Agility Unbounded"
+        ]
+      },
+      "forest hunter": {
+        "name": "Forest Hunter",
+        "talents": [
+          "Hunter's Reflexes"
+        ]
+      },
+      "freak of nature": {
+        "name": "Freak of Nature",
+        "talents": [
+          "Exoskeleton",
+          "To The Finish"
+        ]
+      },
+      "frost forger": {
+        "name": "Frost Forger",
+        "talents": [
+          "Glacial Mobility",
+          "Glacial Finish"
+        ]
+      },
+      "frostdraw master": {
+        "name": "Frostdraw Master",
+        "talents": [
+          "Frostdraw Unbounded"
+        ]
+      },
+      "frostdrawer": {
+        "name": "Frostdrawer",
+        "talents": [
+          "Cold Front",
+          "Glacial Ice",
+          "Frostdrawer",
+          "Adept Frostdrawer",
+          "Expert Frostdrawer",
+          "Master Frostdrawer"
+        ]
+      },
+      "frostthorn": {
+        "name": "Frostthorn",
+        "talents": [
+          "Glacial Coasting",
+          "Orbital Ice"
+        ]
+      },
+      "frozen lightning": {
+        "name": "Frozen Lightning",
+        "talents": [
+          "Fulgurite Formation"
+        ]
+      },
+      "frozen warrior": {
+        "name": "Frozen Warrior",
+        "talents": [
+          "Frozen Legs"
+        ]
+      },
+      "gale duelist": {
+        "name": "Gale Duelist",
+        "talents": [
+          "Tempest Wind"
+        ]
+      },
+      "gale kata": {
+        "name": "Gale Kata",
+        "talents": [
+          "Legion Kata"
+        ]
+      },
+      "galebreathe master": {
+        "name": "Galebreathe Master",
+        "talents": [
+          "Galebreathe Unbounded"
+        ]
+      },
+      "galebreather": {
+        "name": "Galebreather",
+        "talents": [
+          "Galebreather",
+          "Adept Galebreather",
+          "Expert Galebreather",
+          "Master Galebreather"
+        ]
+      },
+      "galeforce": {
+        "name": "Galeforce",
+        "talents": [
+          "After Cut",
+          "Breathing Impact",
+          "Inhale"
+        ]
+      },
+      "genius intellect": {
+        "name": "Genius Intellect",
+        "talents": [
+          "Neuroplasticity"
+        ]
+      },
+      "glassdancer": {
+        "name": "Glassdancer",
+        "talents": [
+          "Crystal Shrapnel",
+          "Glass Path: Crystallization",
+          "Reclaimed Glass"
+        ]
+      },
+      "grand pathfinder": {
+        "name": "Grand Pathfinder",
+        "talents": [
+          "Legendary"
+        ]
+      },
+      "great wall": {
+        "name": "Great Wall",
+        "talents": [
+          "Fortitude Unbounded"
+        ]
+      },
+      "gunslinger": {
+        "name": "Gunslinger",
+        "talents": [
+          "Armor Piercing [LHT]",
+          "Armor Piercing [MED]",
+          "Hip Shooter [HVY]",
+          "Hip Shooter [MED]",
+          "True Ether Bullets [LHT]",
+          "True Ether Bullets [MED]",
+          "Bulletproof [FTD]",
+          "Bulletproof [LHT]",
+          "Bulletproof [MED]",
+          "Quickdraw"
+        ]
+      },
+      "hammer rage": {
+        "name": "Hammer Rage",
+        "talents": [
+          "Brain Rattler",
+          "Dispatch",
+          "Hammerfall"
+        ]
+      },
+      "heat column": {
+        "name": "Heat Column",
+        "talents": [
+          "Fan the Flames"
+        ]
+      },
+      "heretic": {
+        "name": "Heretic",
+        "talents": [
+          "All the Dead Gods",
+          "Heretic's Sutra"
+        ]
+      },
+      "human architecture": {
+        "name": "Human Architecture",
+        "talents": [
+          "Brick Wall",
+          "Not A Scratch",
+          "Mythic Stability"
+        ]
+      },
+      "hunter": {
+        "name": "Hunter",
+        "talents": [
+          "Peripheral Vision"
+        ]
+      },
+      "ice age": {
+        "name": "Ice Age",
+        "talents": [
+          "Unyielding Frost",
+          "Frozen Pin-Cushion",
+          "Saint Jay",
+          "Bottom Freeze",
+          "Cryonis",
+          "Frost Buster",
+          "Frostbite"
+        ]
+      },
+      "ignition delver": {
+        "name": "Ignition Delver",
+        "talents": [
+          "Union Pager"
+        ]
+      },
+      "ignition union": {
+        "name": "Ignition Union",
+        "talents": [
+          "Force Your Way",
+          "Union Hook"
+        ]
+      },
+      "immolator": {
+        "name": "Immolator",
+        "talents": [
+          "Phoenix Flames",
+          "Agitating Spark",
+          "Immolation"
+        ]
+      },
+      "inferno": {
+        "name": "Inferno",
+        "talents": [
+          "Corpse Explosion",
+          "Pleeksty's Faith"
+        ]
+      },
+      "innate": {
+        "name": "Innate",
+        "talents": [
+          "Chitin",
+          "Deepbound Contract",
+          "Deepfolk",
+          "Feathered Glider",
+          "Loyalty",
+          "Mark of Jurik",
+          "Mark of Ku",
+          "Mark of Nemit",
+          "Maudet",
+          "Molt",
+          "Mothwing Dust",
+          "Navae's Guidance",
+          "Nightchild",
+          "Seaborne",
+          "Versatile",
+          "Voidwalker Contract",
+          "Union Card"
+        ]
+      },
+      "iron will": {
+        "name": "Iron Will",
+        "talents": [
+          "Willpower Unbounded"
+        ]
+      },
+      "ironsing master": {
+        "name": "Ironsing Master",
+        "talents": [
+          "Ironsing Unbounded"
+        ]
+      },
+      "ironsinger": {
+        "name": "Ironsinger",
+        "talents": [
+          "Alloyblood",
+          "Heavy Shoulders",
+          "Laced Traps",
+          "Metal Shackles",
+          "Oh The Irony",
+          "Piercing Metal",
+          "Thornmail",
+          "Ironsinger",
+          "Adept Ironsinger",
+          "Expert Ironsinger",
+          "Master Ironsinger",
+          "Ironclad Punishment"
+        ]
+      },
+      "javelin lord": {
+        "name": "Javelin Lord",
+        "talents": [
+          "Grand Skewer"
+        ]
+      },
+      "jetstriker": {
+        "name": "Jetstriker",
+        "talents": [
+          "Acceleration Points",
+          "Decisive Winds",
+          "Jetstream Pursuit",
+          "Oath: Jetstriker",
+          "Rush of Ancients",
+          "Stratos Step"
+        ]
+      },
+      "jus karita": {
+        "name": "Jus Karita",
+        "talents": [
+          "The Path, Unveiled"
+        ]
+      },
+      "justicar": {
+        "name": "Justicar",
+        "talents": [
+          "Jus Karita",
+          "Justicar's Prowess",
+          "Justicar's Renewal",
+          "Flying Swiftkick",
+          "Swiftkick Prodigy"
+        ]
+      },
+      "kickstarter": {
+        "name": "Kickstarter",
+        "talents": [
+          "Kickstart [CHA]",
+          "Kickstart [FTD]"
+        ]
+      },
+      "lancer": {
+        "name": "Lancer",
+        "talents": [
+          "Blade's Edge",
+          "Defensive Sweep",
+          "Driving Impact",
+          "Hoplite",
+          "Lancer's Impale"
+        ]
+      },
+      "lava serpent": {
+        "name": "Lava Serpent",
+        "talents": [
+          "The Floor is Lava",
+          "Empowered Eruption",
+          "Flash Point",
+          "Eruption Path: Lava Serpent",
+          "Molten Defence"
+        ]
+      },
+      "leader": {
+        "name": "Leader",
+        "talents": [
+          "Callout",
+          "Spotter"
+        ]
+      },
+      "leaf in the wind": {
+        "name": "Leaf in the Wind",
+        "talents": [
+          "Observation",
+          "Safety Dance"
+        ]
+      },
+      "legion shock trooper": {
+        "name": "Legion Shock Trooper",
+        "talents": [
+          "Air Pressure",
+          "Cyclone Blade",
+          "Pressure Break [AGL]",
+          "Pressure Break [STR]",
+          "Wind Step",
+          "Centurion's Resolve"
+        ]
+      },
+      "liberator": {
+        "name": "Liberator",
+        "talents": [
+          "Savior"
+        ]
+      },
+      "lichtenberg": {
+        "name": "Lichtenberg",
+        "talents": [
+          "Scorched Peak"
+        ]
+      },
+      "limitbreaker": {
+        "name": "Limitbreaker",
+        "talents": [
+          "Comeback Kid",
+          "Defiant until the End",
+          "Last Resort",
+          "The Eleventh Hour"
+        ]
+      },
+      "linkstrider": {
+        "name": "Linkstrider",
+        "talents": [
+          "Entropy Link",
+          "Oath: Linkstrider",
+          "Symbiotic Link"
+        ]
+      },
+      "marauder": {
+        "name": "Marauder",
+        "talents": [
+          "Anxious Guard",
+          "Old Habits Die Hard",
+          "Thresher Claws",
+          "Thresher Scales"
+        ]
+      },
+      "master survivalist": {
+        "name": "Master Survivalist",
+        "talents": [
+          "Survival Kit [CHA]",
+          "Survival Kit [INT]",
+          "Survival Kit [WIL]"
+        ]
+      },
+      "meditative trance": {
+        "name": "Meditative Trance",
+        "talents": [
+          "Impervious Slumber",
+          "Warrior's Respite"
+        ]
+      },
+      "mental fortress": {
+        "name": "Mental Fortress",
+        "talents": [
+          "Breathing Exercise",
+          "Conquer your Fears",
+          "Disbelief"
+        ]
+      },
+      "merchant": {
+        "name": "Merchant",
+        "talents": [
+          "Art of the Deal"
+        ]
+      },
+      "metallurgist": {
+        "name": "Metallurgist",
+        "talents": [
+          "Intuitive Repairs",
+          "Metal Absorption",
+          "Metal Eater",
+          "Metal Thief",
+          "Polished Armor"
+        ]
+      },
+      "metamancer": {
+        "name": "Metamancer",
+        "talents": [
+          "Lootskipper",
+          "Chain of Perfection"
+        ]
+      },
+      "mindbreaker": {
+        "name": "Mindbreaker",
+        "talents": [
+          "Lose Your Mind",
+          "Piercing Will",
+          "Shared Misery"
+        ]
+      },
+      "ministry prophet": {
+        "name": "Ministry Prophet",
+        "talents": [
+          "Crippling Darkness"
+        ]
+      },
+      "miscellaneous": {
+        "name": "Miscellaneous",
+        "talents": [
+          "Return to the Dark Ages",
+          "Berserker",
+          "Blinded",
+          "Dragon's Song",
+          "Full Reset",
+          "Gourmand",
+          "Heavy Haul",
+          "Martyr",
+          "Pack Mule",
+          "Pleeksty's Will",
+          "Polite Awakening",
+          "Ready or Not",
+          "Replenishing Knockout",
+          "Already Dead",
+          "Brunt",
+          "Knack",
+          "Looter",
+          "Paired Soul",
+          "Scholar's Intuition",
+          "Tidekeeper",
+          "Wind Dancer",
+          "Withering Soul",
+          "Actions Speak Louder",
+          "Coldseep Reactor",
+          "Diver's Resilience",
+          "Elegy of Light",
+          "Featherfall",
+          "Immortality",
+          "Rock Blaster",
+          "Star Duster",
+          "Surestep",
+          "Temple Guard",
+          "Wormwarder",
+          "Aerial Assault",
+          "Treefelling Blow",
+          "Winter's Presebce"
+        ]
+      },
+      "mr charm": {
+        "name": "Mr Charm",
+        "talents": [
+          "Charisma Unbounded"
+        ]
+      },
+      "murmur": {
+        "name": "Murmur",
+        "talents": [
+          "Murmur: Ardour",
+          "Murmur: Rhythm",
+          "Murmur: Tacet",
+          "Ardour Scream"
+        ]
+      },
+      "natural armor": {
+        "name": "Natural Armor",
+        "talents": [
+          "Armor Conserver",
+          "Lightweight",
+          "Padded Armor",
+          "Steel Scales"
+        ]
+      },
+      "navaen nomad": {
+        "name": "Navaen Nomad",
+        "talents": [
+          "Fists of Fortitude",
+          "Captain Etrea",
+          "Fists of Navae",
+          "Way of Navae"
+        ]
+      },
+      "navaen war chief": {
+        "name": "Navaen War Chief",
+        "talents": [
+          "Chief's Will"
+        ]
+      },
+      "needle": {
+        "name": "Needle",
+        "talents": [
+          "Duelist's Lunge",
+          "Frenzied Dance",
+          "Pressure Skewer"
+        ]
+      },
+      "nimble blade": {
+        "name": "Nimble Blade",
+        "talents": [
+          "Lightspeed Reflexes",
+          "Fast Blade",
+          "Speed Emission"
+        ]
+      },
+      "oathless": {
+        "name": "Oathless",
+        "talents": [
+          "Oath: Oathless"
+        ]
+      },
+      "omniscient": {
+        "name": "Omniscient",
+        "talents": [
+          "All Knowing",
+          "Intelligence Unbounded",
+          "Successive Prediction",
+          "Twelve Steps Ahead"
+        ]
+      },
+      "one eyed king": {
+        "name": "One Eyed King",
+        "talents": [
+          "Strength Unbounded"
+        ]
+      },
+      "outlaw": {
+        "name": "Outlaw",
+        "talents": [
+          "Lock n Load",
+          "Rapid Fire",
+          "Rapid Reload",
+          "Sleight of Hand",
+          "Ultrakill"
+        ]
+      },
+      "pathfinder": {
+        "name": "Pathfinder",
+        "talents": [
+          "Environmentalist"
+        ]
+      },
+      "politician": {
+        "name": "Politician",
+        "talents": [
+          "Cult of Personality",
+          "Pardon Me"
+        ]
+      },
+      "prospector": {
+        "name": "Prospector",
+        "talents": [
+          "Excavator",
+          "Harvester"
+        ]
+      },
+      "public figure": {
+        "name": "Public Figure",
+        "talents": [
+          "Celebrity",
+          "Under The Radar",
+          "You'll Need To Get Past Me"
+        ]
+      },
+      "pursuer": {
+        "name": "Pursuer",
+        "talents": [
+          "Going Nowhere"
+        ]
+      },
+      "pyroclast": {
+        "name": "Pyroclast",
+        "talents": [
+          "Volcanic Glass"
+        ]
+      },
+      "pyromancer": {
+        "name": "Pyromancer",
+        "talents": [
+          "Hungry Flames"
+        ]
+      },
+      "quack doctor": {
+        "name": "Quack Doctor",
+        "talents": [
+          "Blood Transfusion",
+          "Blood Bag",
+          "Just a Taste",
+          "Open Wound"
+        ]
+      },
+      "raging bull": {
+        "name": "Raging Bull",
+        "talents": [
+          "Bulldozer",
+          "Piercing Blow",
+          "Broken Ankles"
+        ]
+      },
+      "rampaging brute": {
+        "name": "Rampaging Brute",
+        "talents": [
+          "Million Ton Piercer",
+          "Shield Breaker",
+          "Unwavering Resolve"
+        ]
+      },
+      "rampant static": {
+        "name": "Rampant Static",
+        "talents": [
+          "Jolting Current"
+        ]
+      },
+      "rending needle": {
+        "name": "Rending Needle",
+        "talents": [
+          "Rending Needle: Impaler",
+          "Rending Needle: Jailer",
+          "Rending Needle: Conductor",
+          "Conductor's Cable"
+        ]
+      },
+      "saboteur": {
+        "name": "Saboteur",
+        "talents": [
+          "Explosive Efficiency",
+          "Hot Potato",
+          "Incendiary Formula",
+          "Pocket Bombs",
+          "Sulphur Surprise",
+          "Family Recipe"
+        ]
+      },
+      "sage of wisps": {
+        "name": "Sage of Wisps",
+        "talents": [
+          "Will o' Wisp [FLM]",
+          "Will o' Wisp [ICE]",
+          "Will o' Wisp [LTN]",
+          "Will o' Wisp [WND]",
+          "Will o' Wisp [SDW]",
+          "Will o' Wisp [MTL]",
+          "Will o' Wisp [BLD]"
+        ]
+      },
+      "saint of blades": {
+        "name": "Saint of Blades",
+        "talents": [
+          "Heavy Weapons Unbounded",
+          "Light Weapons Unbounded",
+          "Medium Weapons Unbounded"
+        ]
+      },
+      "saintsworn": {
+        "name": "Saintsworn",
+        "talents": [
+          "Ether Proselyte",
+          "Hero's Assist",
+          "Saint's Negation",
+          "Saint's Overload",
+          "Saint's Synergy",
+          "Oath: Saintsworn"
+        ]
+      },
+      "saltchemist": {
+        "name": "Saltchemist",
+        "talents": [
+          "Antithetic Salts",
+          "Aromatic Salts",
+          "Biotic Salts",
+          "Oath: Saltchemist",
+          "Perpetual Distillery"
+        ]
+      },
+      "sapper": {
+        "name": "Sapper",
+        "talents": [
+          "Dark Receiver"
+        ]
+      },
+      "scarlet donor": {
+        "name": "Scarlet Donor",
+        "talents": [
+          "Blood Bank",
+          "Donation Drive",
+          "Sharing is Caring"
+        ]
+      },
+      "scholar of the cloud": {
+        "name": "Scholar of the Cloud",
+        "talents": [
+          "Windwaker"
+        ]
+      },
+      "scoundrel": {
+        "name": "Scoundrel",
+        "talents": [
+          "Dirty Boxing",
+          "Pocket Sand"
+        ]
+      },
+      "scrapsinger": {
+        "name": "Scrapsinger",
+        "talents": [
+          "Reshape and Remold",
+          "Masterwork",
+          "Artisan's Blade",
+          "Gilded Path: Scrapsinger",
+          "Refine and Reuse",
+          "Songs Unforged"
+        ]
+      },
+      "self-shocker": {
+        "name": "Self-Shocker",
+        "talents": [
+          "Jumpstart",
+          "Raging Static"
+        ]
+      },
+      "septicemia": {
+        "name": "Septicemia",
+        "talents": [
+          "Gruesome Harvest",
+          "Panacea",
+          "Hemolysis",
+          "Hemolytic Transfusion",
+          "Juicy Snack",
+          "Tainted Ground",
+          "Vasculitis"
+        ]
+      },
+      "shadowcast master": {
+        "name": "Shadowcast Master",
+        "talents": [
+          "Shadowcast Unbounded"
+        ]
+      },
+      "shadowcaster": {
+        "name": "Shadowcaster",
+        "talents": [
+          "Shadow Travel",
+          "Blossoming Darkness",
+          "Fear",
+          "Lasting Sorrow",
+          "Sightless Still",
+          "Singularity",
+          "Shadowcaster",
+          "Adept Shadowcaster",
+          "Expert Shadowcaster",
+          "Master Shadowcaster"
+        ]
+      },
+      "shieldmaster": {
+        "name": "Shieldmaster",
+        "talents": [
+          "Knight's Rally",
+          "Turtle Shell"
+        ]
+      },
+      "shipwright": {
+        "name": "Shipwright",
+        "talents": [
+          "Emergency Repairs",
+          "Spare Nails"
+        ]
+      },
+      "showboater": {
+        "name": "Showboater",
+        "talents": [
+          "Unnecessary Theatrics"
+        ]
+      },
+      "silencer": {
+        "name": "Silencer",
+        "talents": [
+          "A World Without Song",
+          "Silencer's Blade"
+        ]
+      },
+      "silentheart": {
+        "name": "Silentheart",
+        "talents": [
+          "Ankle Cutter",
+          "Dread Fighter",
+          "Flow State",
+          "Mayhem",
+          "Merciless Blade",
+          "Oath: Silentheart",
+          "Relentless Hunt",
+          "Rising Star",
+          "True Vantage",
+          "Unmatched Dexterity",
+          "Vengeful Pursuit"
+        ]
+      },
+      "silvertongue": {
+        "name": "Silvertongue",
+        "talents": [
+          "Friends in High Places",
+          "Snake Oil",
+          "Golden Tongue"
+        ]
+      },
+      "soulbreaker": {
+        "name": "Soulbreaker",
+        "talents": [
+          "Oath: Soulbreaker",
+          "Formless",
+          "Heart Reverb",
+          "Soul Infusion",
+          "Murmur: Ardour [OATH]",
+          "Murmur: Rhythm [OATH]",
+          "Murmur: Tacet [OATH]",
+          "Ardour Scream [OATH]",
+          "Spotter [OATH]"
+        ]
+      },
+      "soul converter": {
+        "name": "Soul Converter",
+        "talents": [
+          "Bloodiron Spirit"
+        ]
+      },
+      "sovereign of slaughter": {
+        "name": "Sovereign of Slaughter",
+        "talents": [
+          "Chime of Conflict"
+        ]
+      },
+      "specter": {
+        "name": "Specter",
+        "talents": [
+          "Possession",
+          "Vanishing Wraith",
+          "Apparitions",
+          "Haunted Path: Specter",
+          "Phantom Step"
+        ]
+      },
+      "starkindred": {
+        "name": "Starkindred",
+        "talents": [
+          "Death From Above",
+          "Oath: Starkindred"
+        ]
+      },
+      "static weaver": {
+        "name": "Static Weaver",
+        "talents": [
+          "Link Conduction",
+          "Jumper Cables",
+          "Static Ace",
+          "Static Allure",
+          "Static Link"
+        ]
+      },
+      "stormcaller": {
+        "name": "Stormcaller",
+        "talents": [
+          "Storm Link"
+        ]
+      },
+      "sturdy resolve": {
+        "name": "Sturdy Resolve",
+        "talents": [
+          "Grasp on Reality",
+          "Magical Resolve",
+          "Unfazed"
+        ]
+      },
+      "summer company": {
+        "name": "Summer Company",
+        "talents": [
+          "Sunset Ricochet"
+        ]
+      },
+      "superconductor": {
+        "name": "Superconductor",
+        "talents": [
+          "Voltaic Conductor"
+        ]
+      },
+      "survival instinct": {
+        "name": "Survival Instinct",
+        "talents": [
+          "Herbivore",
+          "Iron Gut",
+          "Termite"
+        ]
+      },
+      "swiftshade": {
+        "name": "Swiftshade",
+        "talents": [
+          "Dustlunge",
+          "None Left Behind"
+        ]
+      },
+      "tactician": {
+        "name": "Tactician",
+        "talents": [
+          "Punishing Blow",
+          "Foolish Outburst",
+          "Hard Read",
+          "Target Switch",
+          "Water off a Duck's Back"
+        ]
+      },
+      "tamed flame": {
+        "name": "Tamed Flame",
+        "talents": [
+          "Controlled Combustion"
+        ]
+      },
+      "tavernkeep": {
+        "name": "Tavernkeep",
+        "talents": [
+          "Artisan Chef",
+          "Master Chef"
+        ]
+      },
+      "the demon blade": {
+        "name": "The Demon Blade",
+        "talents": [
+          "Explosive Finish",
+          "Flaming Flourish"
+        ]
+      },
+      "the emperor's blade": {
+        "name": "The Emperor's Blade",
+        "talents": [
+          "Mirage Clone",
+          "Emperor Flame"
+        ]
+      },
+      "the knives of eylis": {
+        "name": "The Knives of Eylis",
+        "talents": [
+          "Grasp of Eylis",
+          "Voideye"
+        ]
+      },
+      "the negotiator": {
+        "name": "The Negotiator",
+        "talents": [
+          "Last Second Negotiations"
+        ]
+      },
+      "thief": {
+        "name": "Thief",
+        "talents": [
+          "Another Man's Trash",
+          "Cap Artist",
+          "Master Thief",
+          "Pickpocket"
+        ]
+      },
+      "thunder brawler": {
+        "name": "Thunder Brawler",
+        "talents": [
+          "Discharge"
+        ]
+      },
+      "thunder caster": {
+        "name": "Thunder Caster",
+        "talents": [
+          "Jolt Cast",
+          "Rain of Static"
+        ]
+      },
+      "thunderblade": {
+        "name": "Thunderblade",
+        "talents": [
+          "Gathering Electricity [AGL]",
+          "Gathering Electricity [STR]",
+          "Overcharge",
+          "Static Blade"
+        ]
+      },
+      "thundercall master": {
+        "name": "Thundercall Master",
+        "talents": [
+          "Thundercall Unbounded"
+        ]
+      },
+      "thundercaller": {
+        "name": "Thundercaller",
+        "talents": [
+          "Static Fakeout",
+          "Discovery of Fire",
+          "Shocking Finish",
+          "Static Flash Clone",
+          "Static Withdraw",
+          "Stratoshock",
+          "Thundercaller",
+          "Adept Thundercaller",
+          "Expert Thundercaller",
+          "Master Thundercaller"
+        ]
+      },
+      "tower knight": {
+        "name": "Tower Knight",
+        "talents": [
+          "Unbreakable"
+        ]
+      },
+      "toxic personality": {
+        "name": "Toxic Personality",
+        "talents": [
+          "Manipulator",
+          "Narcissist"
+        ]
+      },
+      "transitory vitality": {
+        "name": "Transitory Vitality",
+        "talents": [
+          "Sow and Mend",
+          "Cyclical Exsanguination",
+          "Embolism",
+          "Hypovolemic Focus"
+        ]
+      },
+      "trickster": {
+        "name": "Trickster",
+        "talents": [
+          "Cheap Shot",
+          "Crippling Comeuppance",
+          "Down Comes the Claw",
+          "Maiming Claws",
+          "Pursuit"
+        ]
+      },
+      "twinblade": {
+        "name": "Twinblade",
+        "talents": [
+          "Face Cutter",
+          "Turning of the Wheel"
+        ]
+      },
+      "twisted puppets": {
+        "name": "Twisted Puppets",
+        "talents": [
+          "Burning Sacrifice",
+          "Burning Puppets",
+          "Explosive Rage",
+          "Moths to a Flame",
+          "Wraith Path: Twisted Puppets"
+        ]
+      },
+      "tyrant": {
+        "name": "Tyrant",
+        "talents": [
+          "Audacity",
+          "Rule Through Fear",
+          "No Survivors"
+        ]
+      },
+      "undying ember": {
+        "name": "Undying Ember",
+        "talents": [
+          "Denial Repulse",
+          "Undying Flame"
+        ]
+      },
+      "unknown": {
+        "name": "Unknown",
+        "talents": [
+          "Jetstream",
+          "Simmerbloom",
+          "Umami",
+          "Grotesque Resilience"
+        ]
+      },
+      "unstable capacitor": {
+        "name": "Unstable Capacitor",
+        "talents": [
+          "Battery Sapper",
+          "Catalytic Strike",
+          "Closed Circuit",
+          "Fried Circuits",
+          "Human Battery",
+          "Surge Path: Unstable Capacitor"
+        ]
+      },
+      "vigil swordsman": {
+        "name": "Vigil Swordsman",
+        "talents": [
+          "Air Counter",
+          "Speed Demon",
+          "Action Surge",
+          "Bear Trap",
+          "Blade Dancer",
+          "Spinning Swordsman"
+        ]
+      },
+      "visionshaper": {
+        "name": "Visionshaper",
+        "talents": [
+          "Cheap Trick",
+          "Oath: Visionshaper",
+          "Reality Shift",
+          "Shaper Mimicry"
+        ]
+      },
+      "vocalist": {
+        "name": "Vocalist",
+        "talents": [
+          "Encore",
+          "Propagandist"
+        ]
+      },
+      "vow of mastery": {
+        "name": "Vow of Mastery",
+        "talents": [
+          "Command: Live",
+          "Command: Summon",
+          "Vow of Mastery"
+        ]
+      },
+      "warrior": {
+        "name": "Warrior",
+        "talents": [
+          "Chronostasis",
+          "Critical Attack",
+          "Engage"
+        ]
+      },
+      "waterborne": {
+        "name": "Waterborne",
+        "talents": [
+          "Scuba Drowner",
+          "Conditioned Swimmer"
+        ]
+      },
+      "weapon master": {
+        "name": "Weapon Master",
+        "talents": [
+          "Switchblade [HVY]",
+          "Switchblade [MED]",
+          "Showstopper",
+          "Brutal Momentum",
+          "Matador",
+          "Warrior's Swing",
+          "Mercy Kill"
+        ]
+      },
+      "whisper": {
+        "name": "Whisper",
+        "talents": [
+          "Haunted Gale"
+        ]
+      }
+    }
+]

@@ -1,0 +1,129 @@
+@font-face {
+    font-family: "RomanAntique";
+    src: url("/assets/fonts/RomanAntique.ttf") format("opentype");
+}
+
+@font-face {
+    font-family: "sourcesans";
+    src: url("/assets/fonts/sourcesans.ttf") format("opentype");
+}
+
+@font-face {
+    font-family: "Guru";
+    src: url("/assets/fonts/Guru Regular.otf") format("opentype");
+}
+
+body {
+  font-display: RomanAntique;
+}
+
+.book-container {
+    inset: 0;
+    margin: auto;
+    position: absolute;
+    background-image: url(/assets/img/background/black.png);
+    background-size: 12.5%;
+    width: 550px;
+    height: 700px;
+    border: 1px solid transparent;
+    border-image: url(/assets/img/border/border.png) 15 stretch;
+    border-image-width: 21px;
+}
+
+.tab-title {
+    font-family: sourcesans;
+    font-weight: 100;
+    font-size: 1.625rem;
+    transform: translate(35%, -25%);
+    position: absolute;
+    color: #fafeff;
+}
+
+.tab-cross {
+    opacity: 0.5;
+    left: 92.75%;
+    position: absolute;
+    width: 20px;
+    top: 2.25%;
+}
+
+.book-background {
+    left: 50%;
+    font-weight: 100;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    background: #e4e1cb;
+    width: 99%;
+    height: 86%;
+}
+
+.book-title {
+    text-decoration: underline;
+    font-family: RomanAntique;
+    font-weight: 100;
+    font-size: 2.075rem;
+    left: 50%;
+    top: 10.5%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    text-align: center;
+    color: #433b2d;
+}
+
+.book-flavour {
+    font-weight: 100;
+    font-style: italic;
+    font-family: RomanAntique;
+    font-size: 1.5rem;
+    left: 50%;
+    top: 17%;
+    text-align: center;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    color: #433b2d;
+}
+
+.book-content {
+    font-family: RomanAntique;
+    font-size: 1.35rem;
+    left: 5%;
+    top: 22.5%;
+    position: absolute;
+    width: 90%;
+    height: 50%;
+    color: #433b2d;
+}
+
+.page-number {
+    font-family: "Guru";
+    font-size: 1.75rem;
+    left: 50%;
+    color: white;
+    top: 92.5%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    opacity: 0.5;
+}
+
+.arrow-right, .arrow-left {
+    opacity: 0.5;
+    color: white;
+    width: 7.5%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+
+.arrow-right {
+    left: 63.75%;
+    top: 96.5%;
+}
+
+.arrow-left {
+    rotate: 180deg;
+    left: 30%;
+    top: 90.5%;
+}

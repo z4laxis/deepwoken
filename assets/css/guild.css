@@ -1,0 +1,138 @@
+.emblem1,
+.emblem2,
+.color {
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    mask-size: 75px;
+}
+
+.emblem1 {
+    mask-image: url(/assets/img/icons/emblems/legions.png);
+}
+
+.emblem2 {
+    mask-image: url(/assets/img/icons/emblems/legions.png);
+}
+
+.border1 {
+    border: 1px solid transparent;
+    border-image: var(--border-button) 7 stretch;
+    border-image-width: 7.5;
+    border-image-outset: 2px;
+}
+
+.emblems,
+.colors,
+.seperator {
+    display: flex;
+    justify-content: center;
+    height: 325px;
+    width: 50%;
+}
+
+.selected {
+    opacity: 1;
+}
+
+.seperator {
+    width: 1px;
+    border: none;
+    background: #cfcab6;
+}
+
+.emblem-btn {
+    background: none;
+    border: none;
+    padding: 0;
+}
+
+button img {
+    opacity: 0.75;
+    width: 37.5px;
+}
+
+.emblem-list,
+.colorpicker {
+    position: absolute;
+    width: 47.5%;
+}
+
+.emblem-list {
+    overflow-y: scroll;
+    background: #727065;
+    height: 85px;
+}
+
+.colorpicker {
+    height: 125px;
+}
+
+main {
+    width: 550px;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+    width: 50px;
+    margin: 2.5px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+p {
+    margin: 0;
+    font-weight: 600;
+    font-family: sourcesans;
+    font-size: 14px;
+}
+
+label {
+    margin: 0px 10px;
+    font-size: 12px;
+    font-family: 'SourceSans';
+    font-weight: bold;}
+
+.title {
+    color: #72685d;
+    text-align: center;
+    margin: 2px 0;
+    font-weight: 600;
+    font-family: sourcesans;
+    font-size: 12px;
+}
+
+.saturation {
+    background: linear-gradient(to top, grey, transparent), linear-gradient(to right, white, transparent), linear-gradient(to right, red, magenta, blue, cyan, lime, yellow, orange, red);
+    background-blend-mode: multiply;
+    position: absolute;
+    width: 137.5px;
+    height: 110px;
+    top: 20px;
+    right: 25px;
+}
+
+.brightness {
+    background: linear-gradient(to top, black, white);
+    background-blend-mode: multiply;
+    position: absolute;
+    width: 15px;
+    height: 110px;
+    top: 20px;
+    right: 0px;
+}
+
+
+section {
+    gap: 10px;
+    flex-direction: row;
+}
+
+header p {
+    margin: 5px 0 10px 0;
+    font-size: 14px;
+}

@@ -1,0 +1,8265 @@
+{
+  "sword": {
+    "name": "Sword",
+    "type": "Sword",
+    "damageType": "Slash",
+    "damage": 18,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 0,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0,
+    "chip": 0,
+    "scaling": {
+      "Medium Wep.": 2.5
+    },
+    "weight": 5,
+    "range": 8,
+    "speed": 1,
+    "endlag": 0
+  },
+  "ignition deepcrusher (bleed)": {
+    "name": "Ignition Deepcrusher (Bleed)",
+    "type": "Club",
+    "damageType": "Slash + Bleed",
+    "damage": 18,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 40,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 75,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0.2,
+    "chip": 0,
+    "scaling": {
+      "Medium Wep.": 3,
+      "Ironsing": 4
+    },
+    "weight": 4,
+    "range": 8,
+    "speed": 1.05,
+    "endlag": 0
+  },
+  "mace": {
+    "name": "Mace",
+    "type": "Club",
+    "damageType": "Blunt",
+    "damage": 20,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 10,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0.05,
+    "chip": 0,
+    "scaling": {
+      "Medium Wep.": 5
+    },
+    "weight": 6,
+    "range": 7.5,
+    "speed": 0.93,
+    "endlag": 0
+  },
+  "morning star (bleed)": {
+    "name": "Morning Star (Bleed)",
+    "type": "Club",
+    "damageType": "Blunt + Bleed",
+    "damage": 16,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 50,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0.2,
+    "chip": 0.2,
+    "scaling": {
+      "Medium Wep.": 5.5
+    },
+    "weight": 5,
+    "range": 7.5,
+    "speed": 0.98,
+    "endlag": 0
+  },
+  "pernach (bleed)": {
+    "name": "Pernach (Bleed)",
+    "type": "Club",
+    "damageType": "Blunt + Bleed",
+    "damage": 18.5,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 75,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0.3,
+    "chip": 0.05,
+    "scaling": {
+      "Medium Wep.": 6
+    },
+    "weight": 7,
+    "range": 8,
+    "speed": 0.98,
+    "endlag": 0
+  },
+  "pleeksty's inferno": {
+    "name": "Pleeksty's Inferno",
+    "type": "Club",
+    "damageType": "Blunt",
+    "damage": 22,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 40,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 80,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0.3,
+    "chip": 0.1,
+    "scaling": {
+      "Medium Wep.": 3,
+      "Flamecharm": 4
+    },
+    "weight": 8,
+    "range": 8,
+    "speed": 0.94,
+    "endlag": 0
+  },
+  "sacred hammer": {
+    "name": "Sacred Hammer",
+    "type": "Club",
+    "damageType": "Blunt",
+    "damage": 19.5,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 65,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0.15,
+    "chip": 0,
+    "scaling": {
+      "Medium Wep.": 7
+    },
+    "weight": 6,
+    "range": 7.5,
+    "speed": 0.97,
+    "endlag": 0
+  },
+  "the pastry paster": {
+    "name": "The Pastry Paster",
+    "type": "Club",
+    "damageType": "Blunt",
+    "damage": 15.5,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 15,
+        "Willpower": 0,
+        "Charisma": 15
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 70,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0,
+    "chip": 0,
+    "scaling": {
+      "Medium Wep.": 5,
+      "Intelligence": 2,
+      "Charisma": 2
+    },
+    "weight": 7,
+    "range": 7.5,
+    "speed": 1,
+    "endlag": 0
+  },
+  "toothed club (bleed)": {
+    "name": "Toothed Club (Bleed)",
+    "type": "Club",
+    "damageType": "Blunt + Bleed",
+    "damage": 15.5,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 30,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0.1,
+    "chip": 0.05,
+    "scaling": {
+      "Medium Wep.": 5
+    },
+    "weight": 6,
+    "range": 7.5,
+    "speed": 0.98,
+    "endlag": 0
+  },
+  "alloyed tanto": {
+    "name": "Alloyed Tanto",
+    "type": "Dagger",
+    "damageType": "Slash",
+    "damage": 16,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 0,
+        "Light Wep.": 80
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0.05,
+    "chip": 0,
+    "scaling": {
+      "Light Wep.": 8.5
+    },
+    "weight": 3,
+    "range": 6.5,
+    "speed": 1.14,
+    "endlag": 0
+  },
+  "alloyed whaling knife": {
+    "name": "Alloyed Whaling Knife",
+    "type": "Dagger",
+    "damageType": "Slash",
+    "damage": 15,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 0,
+        "Light Wep.": 75
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0.1,
+    "chip": 0,
+    "scaling": {
+      "Light Wep.": 8
+    },
+    "weight": 4,
+    "range": 6,
+    "speed": 1.25,
+    "endlag": 0.05
+  },
+  "canor fang": {
+    "name": "Canor Fang",
+    "type": "Dagger",
+    "damageType": "Slash",
+    "damage": 11,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 0,
+        "Light Wep.": 40
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0.05,
+    "chip": 0,
+    "scaling": {
+      "Light Wep.": 10
+    },
+    "weight": 5,
+    "range": 6,
+    "speed": 1.25,
+    "endlag": 0.05
+  },
+  "central dirk": {
+    "name": "Central Dirk",
+    "type": "Dagger",
+    "damageType": "Slash",
+    "damage": 15,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 0,
+        "Light Wep.": 50
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0.05,
+    "chip": 0,
+    "scaling": {
+      "Light Wep.": 7
+    },
+    "weight": 4,
+    "range": 6.5,
+    "speed": 0.96,
+    "endlag": 0.05
+  },
+  "cerulean thread": {
+    "name": "Cerulean Thread",
+    "type": "Dagger",
+    "damageType": "Slash",
+    "damage": 15,
+    "reqs": {
+      "power": "10",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 0,
+        "Light Wep.": 85
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0.25,
+    "chip": 0,
+    "scaling": {
+      "Light Wep.": 8.5
+    },
+    "weight": 4,
+    "range": 6,
+    "speed": 1.25,
+    "endlag": 0.05
+  },
+  "champion's dagger": {
+    "name": "Champion's Dagger",
+    "type": "Dagger",
+    "damageType": "Slash",
+    "damage": 14.5,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 0,
+        "Light Wep.": 50
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0,
+    "chip": 0,
+    "scaling": {
+      "Light Wep.": 8
+    },
+    "weight": 4,
+    "range": 6,
+    "speed": 1.25,
+    "endlag": 0.05
+  },
+  "divine dagger": {
+    "name": "Divine Dagger",
+    "type": "Dagger",
+    "damageType": "Slash",
+    "damage": 18,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 0,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0,
+    "chip": 0,
+    "scaling": {
+      "Light Wep.": 7
+    },
+    "weight": 4,
+    "range": 6,
+    "speed": 1.3,
+    "endlag": 0.05
+  },
+  "flareblood kamas (bleed)": {
+    "name": "Flareblood Kamas (Bleed)",
+    "type": "Dagger",
+    "damageType": "Slash + Bleed",
+    "damage": 13,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 30,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 0,
+        "Light Wep.": 60
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0.3,
+    "chip": 0,
+    "scaling": {
+      "Intelligence": 2,
+      "Light Wep.": 8
+    },
+    "weight": 4,
+    "range": 6,
+    "speed": 1.25,
+    "endlag": 0.05
+  },
+  "gilded knife": {
+    "name": "Gilded Knife",
+    "type": "Dagger",
+    "damageType": "Slash",
+    "damage": 13,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 0,
+        "Light Wep.": 25
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0,
+    "chip": 0,
+    "scaling": {
+      "Light Wep.": 8
+    },
+    "weight": 4,
+    "range": 6,
+    "speed": 1.23,
+    "endlag": 0.05
+  },
+  "krulian knife": {
+    "name": "Krulian Knife",
+    "type": "Dagger",
+    "damageType": "Slash",
+    "damage": 12.5,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 0,
+        "Light Wep.": 75
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0.2,
+    "chip": 0,
+    "scaling": {
+      "Light Wep.": 10.5
+    },
+    "weight": 4,
+    "range": 6,
+    "speed": 1.25,
+    "endlag": 0.05
+  },
+  "kyrsedge": {
+    "name": "Kyrsedge",
+    "type": "Dagger",
+    "damageType": "Slash",
+    "damage": 13,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 0,
+        "Light Wep.": 75
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0.3,
+    "chip": 0.15,
+    "scaling": {
+      "Light Wep.": 8.5
+    },
+    "weight": 4,
+    "range": 6,
+    "speed": 1.25,
+    "endlag": 0.05
+  },
+  "nemit's sickle": {
+    "name": "Nemit's Sickle",
+    "type": "Dagger",
+    "damageType": "Slash",
+    "damage": 11,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 0,
+        "Light Wep.": 60
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0.3,
+    "chip": 0,
+    "scaling": {
+      "Light Wep.": 13
+    },
+    "weight": 4,
+    "range": 6,
+    "speed": 1.25,
+    "endlag": 0.05
+  },
+  "silver dagger": {
+    "name": "Silver Dagger",
+    "type": "Dagger",
+    "damageType": "Slash",
+    "damage": 12,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 0,
+        "Light Wep.": 35
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0,
+    "chip": 0,
+    "scaling": {
+      "Light Wep.": 6
+    },
+    "weight": 2,
+    "range": 6,
+    "speed": 1.25,
+    "endlag": 0.05
+  },
+  "spectral grasp": {
+    "name": "Spectral Grasp",
+    "type": "Dagger",
+    "damageType": "Slash",
+    "damage": 16,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 0,
+        "Light Wep.": 75
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0.2,
+    "chip": 0,
+    "scaling": {
+      "Light Wep.": 7
+    },
+    "weight": 4,
+    "range": 6.5,
+    "speed": 1.23,
+    "endlag": 0.05
+  },
+  "stiletto": {
+    "name": "Stiletto",
+    "type": "Dagger",
+    "damageType": "Slash",
+    "damage": 11,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 0,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0,
+    "chip": 0,
+    "scaling": {
+      "Light Wep.": 3
+    },
+    "weight": 2,
+    "range": 6,
+    "speed": 1.25,
+    "endlag": 0.05
+  },
+  "tanto": {
+    "name": "Tanto",
+    "type": "Dagger",
+    "damageType": "Slash",
+    "damage": 15.5,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 0,
+        "Light Wep.": 50
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0,
+    "chip": 0,
+    "scaling": {
+      "Light Wep.": 8
+    },
+    "weight": 3,
+    "range": 6,
+    "speed": 1.13,
+    "endlag": 0
+  },
+  "the flippers of fate": {
+    "name": "The Flippers of Fate",
+    "type": "Dagger",
+    "damageType": "Slash",
+    "damage": 10.7,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 15,
+        "Willpower": 0,
+        "Charisma": 15
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 0,
+        "Light Wep.": 70
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0.15,
+    "chip": 0,
+    "scaling": {
+      "Light Wep.": 8,
+      "Intelligence": 3,
+      "Charisma": 3
+    },
+    "weight": 3.5,
+    "range": 6.5,
+    "speed": 1.26,
+    "endlag": 0.04
+  },
+  "whaling knife": {
+    "name": "Whaling Knife",
+    "type": "Dagger",
+    "damageType": "Slash",
+    "damage": 15.3,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 0,
+        "Light Wep.": 40
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0,
+    "chip": 0,
+    "scaling": {
+      "Light Wep.": 5
+    },
+    "weight": 4,
+    "range": 6.5,
+    "speed": 1.25,
+    "endlag": 0
+  },
+  "anklets of alsin": {
+    "name": "Anklets of Alsin",
+    "type": "Fists",
+    "damageType": "Blunt",
+    "damage": 13.5,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 0,
+        "Light Wep.": 25
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0.15,
+    "chip": 0.1,
+    "scaling": {
+      "Light Wep.": 9
+    },
+    "weight": 3,
+    "range": 6.5,
+    "speed": 1.14,
+    "endlag": 0.05
+  },
+  "broodalloy cestus": {
+    "name": "Broodalloy Cestus",
+    "type": "Fists",
+    "damageType": "Blunt",
+    "damage": 16.5,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 0,
+        "Light Wep.": 85
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0.2,
+    "chip": 0,
+    "scaling": {
+      "Light Wep.": 9.5
+    },
+    "weight": 5.5,
+    "range": 6,
+    "speed": 1.09,
+    "endlag": 0
+  },
+  "coral cestus": {
+    "name": "Coral Cestus",
+    "type": "Fists",
+    "damageType": "Blunt",
+    "damage": 16,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 0,
+        "Light Wep.": 75
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0.15,
+    "chip": 0,
+    "scaling": {
+      "Light Wep.": 9.5
+    },
+    "weight": 5,
+    "range": 6,
+    "speed": 1.09,
+    "endlag": 0
+  },
+  "drakemaw gauntlets (bleed)": {
+    "name": "Drakemaw Gauntlets (Bleed)",
+    "type": "Fists",
+    "damageType": "Blunt + Bleed",
+    "damage": 15,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 0,
+        "Light Wep.": 75
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0.1,
+    "chip": 0.1,
+    "scaling": {
+      "Light Wep.": 7.5
+    },
+    "weight": 4,
+    "range": 6,
+    "speed": 1.09,
+    "endlag": 0
+  },
+  "fist": {
+    "name": "Fist",
+    "type": "Fists",
+    "damageType": "Blunt",
+    "damage": 12,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 0,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0,
+    "chip": 0,
+    "scaling": {
+      "Light Wep.": 7
+    },
+    "weight": 3,
+    "range": 6,
+    "speed": 1.11,
+    "endlag": 0
+  },
+  "flamekeeper cestus": {
+    "name": "Flamekeeper Cestus",
+    "type": "Fists",
+    "damageType": "Blunt",
+    "damage": 15.5,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 0,
+        "Light Wep.": 65
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0.05,
+    "chip": 0,
+    "scaling": {
+      "Light Wep.": 9.5
+    },
+    "weight": 5,
+    "range": 6,
+    "speed": 1.11,
+    "endlag": 0
+  },
+  "gaunts of enmity": {
+    "name": "Gaunts of Enmity",
+    "type": "Fists",
+    "damageType": "Blunt",
+    "damage": 15,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 10,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 0,
+        "Light Wep.": 75
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0,
+    "chip": 0.2,
+    "scaling": {
+      "Light Wep.": 11
+    },
+    "weight": 6,
+    "range": 6,
+    "speed": 1.11,
+    "endlag": 0
+  },
+  "iron cestus": {
+    "name": "Iron Cestus",
+    "type": "Fists",
+    "damageType": "Blunt",
+    "damage": 13.5,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 0,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0,
+    "chip": 0,
+    "scaling": {
+      "Light Wep.": 7
+    },
+    "weight": 5,
+    "range": 6,
+    "speed": 1.11,
+    "endlag": 0
+  },
+  "jus karita": {
+    "name": "Jus Karita",
+    "type": "Fists",
+    "damageType": "Blunt",
+    "damage": 14,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 0,
+        "Light Wep.": 40
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0.2,
+    "chip": 0,
+    "scaling": {
+      "Light Wep.": 9
+    },
+    "weight": 3,
+    "range": 6.5,
+    "speed": 1.14,
+    "endlag": 0.05
+  },
+  "legion cestus": {
+    "name": "Legion Cestus",
+    "type": "Fists",
+    "damageType": "Blunt",
+    "damage": 15,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 0,
+        "Light Wep.": 30
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0.05,
+    "chip": 0,
+    "scaling": {
+      "Light Wep.": 9
+    },
+    "weight": 5,
+    "range": 6,
+    "speed": 1.11,
+    "endlag": 0.05
+  },
+  "light's final toll": {
+    "name": "Light's Final Toll",
+    "type": "Fists",
+    "damageType": "Blunt",
+    "damage": 12,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 60,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 0,
+        "Light Wep.": 35
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0.1,
+    "chip": 0,
+    "scaling": {
+      "Willpower": 11,
+      "Light Wep.": 4
+    },
+    "weight": 5,
+    "range": 6.5,
+    "speed": 1.1,
+    "endlag": 0
+  },
+  "vortex echo": {
+    "name": "Vortex Echo",
+    "type": "Fists",
+    "damageType": "Blunt",
+    "damage": 13.5,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 65
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 0,
+        "Light Wep.": 65
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0,
+    "chip": 0.08,
+    "scaling": {
+      "Light Wep.": 8,
+      "Charisma": 3.5
+    },
+    "weight": 4,
+    "range": 6,
+    "speed": 1.12,
+    "endlag": 0
+  },
+  "wraithclaw": {
+    "name": "Wraithclaw",
+    "type": "Fists",
+    "damageType": "Slash",
+    "damage": 16,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 0,
+        "Light Wep.": 25
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 75,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0.1,
+    "chip": 0.25,
+    "scaling": {
+      "Light Wep.": 4,
+      "Galebreathe": 5.5
+    },
+    "weight": 5,
+    "range": 6.5,
+    "speed": 1.1,
+    "endlag": 0
+  },
+  "adretian axe": {
+    "name": "Adretian Axe",
+    "type": "Greataxe",
+    "damageType": "Slash",
+    "damage": 24,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 35,
+        "Medium Wep.": 0,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0,
+    "chip": 0,
+    "scaling": {
+      "Heavy Wep.": 7
+    },
+    "weight": 5,
+    "range": 8,
+    "speed": 0.85,
+    "endlag": 0
+  },
+  "alloyed adretian axe": {
+    "name": "Alloyed Adretian Axe",
+    "type": "Greataxe",
+    "damageType": "Slash",
+    "damage": 24,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 75,
+        "Medium Wep.": 0,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0.1,
+    "chip": 0.1,
+    "scaling": {
+      "Heavy Wep.": 8
+    },
+    "weight": 7,
+    "range": 8,
+    "speed": 0.87,
+    "endlag": 0
+  },
+  "alloyed canorian axe": {
+    "name": "Alloyed Canorian Axe",
+    "type": "Greataxe",
+    "damageType": "Slash",
+    "damage": 24,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 75,
+        "Medium Wep.": 0,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0.2,
+    "chip": 0.1,
+    "scaling": {
+      "Heavy Wep.": 9
+    },
+    "weight": 8,
+    "range": 8,
+    "speed": 0.83,
+    "endlag": 0
+  },
+  "alloyed halberd": {
+    "name": "Alloyed Halberd",
+    "type": "Greataxe",
+    "damageType": "Slash",
+    "damage": 24,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 75,
+        "Medium Wep.": 0,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0.15,
+    "chip": 0,
+    "scaling": {
+      "Heavy Wep.": 8
+    },
+    "weight": 5,
+    "range": 9,
+    "speed": 0.8,
+    "endlag": 0
+  },
+  "battleaxe": {
+    "name": "Battleaxe",
+    "type": "Greataxe",
+    "damageType": "Slash",
+    "damage": 20,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 0,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0,
+    "chip": 0,
+    "scaling": {
+      "Heavy Wep.": 5
+    },
+    "weight": 6,
+    "range": 8,
+    "speed": 0.83,
+    "endlag": 0
+  },
+  "canorian axe": {
+    "name": "Canorian Axe",
+    "type": "Greataxe",
+    "damageType": "Slash",
+    "damage": 23.5,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 35,
+        "Medium Wep.": 0,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0,
+    "chip": 0,
+    "scaling": {
+      "Heavy Wep.": 7
+    },
+    "weight": 6,
+    "range": 8,
+    "speed": 0.83,
+    "endlag": 0
+  },
+  "chorus of agonies": {
+    "name": "Chorus of Agonies",
+    "type": "Greataxe",
+    "damageType": "Slash",
+    "damage": 27.6,
+    "reqs": {
+      "power": "10",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 20,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 100,
+        "Medium Wep.": 0,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0,
+    "chip": 0.5,
+    "scaling": {
+      "Heavy Wep.": 11
+    },
+    "weight": 15,
+    "range": 10,
+    "speed": 0.62,
+    "endlag": 0.1
+  },
+  "divine axe": {
+    "name": "Divine Axe",
+    "type": "Greataxe",
+    "damageType": "Slash",
+    "damage": 28,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 0,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0,
+    "chip": 0,
+    "scaling": {
+      "Heavy Wep.": 13
+    },
+    "weight": 8,
+    "range": 10.1,
+    "speed": 0.8,
+    "endlag": 0
+  },
+  "enforcer's axe": {
+    "name": "Enforcer's Axe",
+    "type": "Greataxe",
+    "damageType": "Slash",
+    "damage": 26,
+    "reqs": {
+      "power": "6",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 75,
+        "Medium Wep.": 0,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0.1,
+    "chip": 0,
+    "scaling": {
+      "Heavy Wep.": 10
+    },
+    "weight": 8,
+    "range": 8.5,
+    "speed": 0.79,
+    "endlag": 0
+  },
+  "evanspear handaxe (bleed)": {
+    "name": "Evanspear Handaxe (Bleed)",
+    "type": "Greataxe",
+    "damageType": "Slash + Bleed",
+    "damage": 25,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 70,
+        "Medium Wep.": 0,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0,
+    "chip": 0,
+    "scaling": {
+      "Heavy Wep.": 9.5
+    },
+    "weight": 8,
+    "range": 8.5,
+    "speed": 0.73,
+    "endlag": 0
+  },
+  "gran sudaruska": {
+    "name": "Gran Sudaruska",
+    "type": "Greataxe",
+    "damageType": "Slash",
+    "damage": 24,
+    "reqs": {
+      "power": "10",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 30,
+        "Medium Wep.": 0,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 75,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0,
+    "chip": 0,
+    "scaling": {
+      "Frostdraw": 8,
+      "Heavy Wep.": 4
+    },
+    "weight": 6,
+    "range": 8.5,
+    "speed": 0.83,
+    "endlag": 0
+  },
+  "halberd": {
+    "name": "Halberd",
+    "type": "Greataxe",
+    "damageType": "Slash",
+    "damage": 22,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 25,
+        "Medium Wep.": 0,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0,
+    "chip": 0,
+    "scaling": {
+      "Heavy Wep.": 7
+    },
+    "weight": 5,
+    "range": 9,
+    "speed": 0.8,
+    "endlag": 0
+  },
+  "iron birch": {
+    "name": "Iron Birch",
+    "type": "Greataxe",
+    "damageType": "Slash",
+    "damage": 26.5,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 50,
+        "Medium Wep.": 0,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0,
+    "chip": 0,
+    "scaling": {
+      "Heavy Wep.": 6
+    },
+    "weight": 4,
+    "range": 8,
+    "speed": 0.85,
+    "endlag": 0
+  },
+  "master hawk's handaxe": {
+    "name": "Master Hawk's Handaxe",
+    "type": "Greataxe",
+    "damageType": "Slash",
+    "damage": 24,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 75,
+        "Medium Wep.": 0,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0.05,
+    "chip": 0.25,
+    "scaling": {
+      "Heavy Wep.": 10
+    },
+    "weight": 10,
+    "range": 8.5,
+    "speed": 0.8,
+    "endlag": 0
+  },
+  "night axe": {
+    "name": "Night Axe",
+    "type": "Greataxe",
+    "damageType": "Slash",
+    "damage": 22,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 75,
+        "Medium Wep.": 0,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0.05,
+    "chip": 0.8,
+    "scaling": {
+      "Heavy Wep.": 8
+    },
+    "weight": 10,
+    "range": 8.5,
+    "speed": 0.77,
+    "endlag": 0
+  },
+  "pale briar": {
+    "name": "Pale Briar",
+    "type": "Greataxe",
+    "damageType": "Slash",
+    "damage": 23,
+    "reqs": {
+      "power": "10",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 85,
+        "Medium Wep.": 0,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0.25,
+    "chip": 0.1,
+    "scaling": {
+      "Heavy Wep.": 7.5
+    },
+    "weight": 7,
+    "range": 10,
+    "speed": 0.81,
+    "endlag": 0
+  },
+  "quartztone pickaxe": {
+    "name": "Quartztone Pickaxe",
+    "type": "Greataxe",
+    "damageType": "Slash",
+    "damage": 22,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 75,
+        "Medium Wep.": 0,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0.1,
+    "chip": 0,
+    "scaling": {
+      "Heavy Wep.": 7
+    },
+    "weight": 7,
+    "range": 8,
+    "speed": 0.94,
+    "endlag": 0
+  },
+  "relic axe": {
+    "name": "Relic Axe",
+    "type": "Greataxe",
+    "damageType": "Slash",
+    "damage": 25,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 75,
+        "Medium Wep.": 0,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0.25,
+    "chip": 0.1,
+    "scaling": {
+      "Heavy Wep.": 9
+    },
+    "weight": 10,
+    "range": 8.5,
+    "speed": 0.8,
+    "endlag": 0
+  },
+  "skyreap blade": {
+    "name": "Skyreap Blade",
+    "type": "Greataxe",
+    "damageType": "Slash",
+    "damage": 23,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 75,
+        "Medium Wep.": 0,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0.25,
+    "chip": 0,
+    "scaling": {
+      "Heavy Wep.": 7.5
+    },
+    "weight": 7.5,
+    "range": 8.5,
+    "speed": 0.91,
+    "endlag": 0
+  },
+  "alloyed forge greathammer": {
+    "name": "Alloyed Forge Greathammer",
+    "type": "Greathammer",
+    "damageType": "Blunt",
+    "damage": 24,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 75,
+        "Medium Wep.": 0,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0,
+    "chip": 0,
+    "scaling": {
+      "Heavy Wep.": 8
+    },
+    "weight": 9,
+    "range": 9,
+    "speed": 0.8,
+    "endlag": 0.1
+  },
+  "alloyed steel maul": {
+    "name": "Alloyed Steel Maul",
+    "type": "Greathammer",
+    "damageType": "Blunt",
+    "damage": 24,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 10,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 75,
+        "Medium Wep.": 0,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0.1,
+    "chip": 0,
+    "scaling": {
+      "Heavy Wep.": 8
+    },
+    "weight": 7,
+    "range": 9,
+    "speed": 0.85,
+    "endlag": 0.1
+  },
+  "boltcrusher": {
+    "name": "Boltcrusher",
+    "type": "Greathammer",
+    "damageType": "Blunt",
+    "damage": 25,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 20,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 55,
+        "Medium Wep.": 0,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 80,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0.2,
+    "chip": 0.3,
+    "scaling": {
+      "Heavy Wep.": 4.2,
+      "Thundercall": 7
+    },
+    "weight": 8,
+    "range": 8.5,
+    "speed": 0.87,
+    "endlag": 0.15
+  },
+  "enforcer's hammer": {
+    "name": "Enforcer's Hammer",
+    "type": "Greathammer",
+    "damageType": "Blunt",
+    "damage": 25,
+    "reqs": {
+      "power": "10",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 25,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 80,
+        "Medium Wep.": 0,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0.1,
+    "chip": 0,
+    "scaling": {
+      "Heavy Wep.": 9
+    },
+    "weight": 12,
+    "range": 8.5,
+    "speed": 0.8,
+    "endlag": 0.1
+  },
+  "forge greathammer": {
+    "name": "Forge Greathammer",
+    "type": "Greathammer",
+    "damageType": "Blunt",
+    "damage": 24,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 10,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 55,
+        "Medium Wep.": 0,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0,
+    "chip": 0,
+    "scaling": {
+      "Heavy Wep.": 8
+    },
+    "weight": 9,
+    "range": 9,
+    "speed": 0.8,
+    "endlag": 0.1
+  },
+  "great maul": {
+    "name": "Great Maul",
+    "type": "Greathammer",
+    "damageType": "Blunt",
+    "damage": 25,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 30,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 65,
+        "Medium Wep.": 0,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0.05,
+    "chip": 0.1,
+    "scaling": {
+      "Heavy Wep.": 8.3
+    },
+    "weight": 10,
+    "range": 9,
+    "speed": 0.85,
+    "endlag": 0.1
+  },
+  "hivelord's hubris": {
+    "name": "Hivelord's Hubris",
+    "type": "Greathammer",
+    "damageType": "Blunt",
+    "damage": 28,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 60,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 100,
+        "Medium Wep.": 0,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0.05,
+    "chip": 0,
+    "scaling": {
+      "Heavy Wep.": 10
+    },
+    "weight": 9,
+    "range": 10,
+    "speed": 0.62,
+    "endlag": 0
+  },
+  "kanabo": {
+    "name": "Kanabo",
+    "type": "Greathammer",
+    "damageType": "Blunt",
+    "damage": 25,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 40,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 100,
+        "Medium Wep.": 0,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0,
+    "chip": 0.1,
+    "scaling": {
+      "Heavy Wep.": 6,
+      "Strength": 3
+    },
+    "weight": 9,
+    "range": 9,
+    "speed": 0.8,
+    "endlag": 0.1
+  },
+  "pale morning": {
+    "name": "Pale Morning",
+    "type": "Greathammer",
+    "damageType": "Blunt",
+    "damage": 24,
+    "reqs": {
+      "power": "10",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 10,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 75,
+        "Medium Wep.": 0,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0.2,
+    "chip": 0,
+    "scaling": {
+      "Heavy Wep.": 9
+    },
+    "weight": 10,
+    "range": 9,
+    "speed": 0.83,
+    "endlag": 0.1
+  },
+  "petra's anchor": {
+    "name": "Petra's Anchor",
+    "type": "Greathammer",
+    "damageType": "Blunt",
+    "damage": 26,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 10,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 75,
+        "Medium Wep.": 0,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0.15,
+    "chip": 0,
+    "scaling": {
+      "Heavy Wep.": 8
+    },
+    "weight": 9,
+    "range": 9,
+    "speed": 0.8,
+    "endlag": 0.1
+  },
+  "putrid edenstaff": {
+    "name": "Putrid Edenstaff",
+    "type": "Greathammer",
+    "damageType": "Blunt",
+    "damage": 25,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 75,
+        "Medium Wep.": 0,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0.15,
+    "chip": 0,
+    "scaling": {
+      "Heavy Wep.": 8.5
+    },
+    "weight": 9,
+    "range": 9,
+    "speed": 0.81,
+    "endlag": 0.1
+  },
+  "rockmaller": {
+    "name": "Rockmaller",
+    "type": "Greathammer",
+    "damageType": "Blunt",
+    "damage": 29,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 10,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 55,
+        "Medium Wep.": 0,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0,
+    "chip": 0,
+    "scaling": {
+      "Heavy Wep.": 7.5
+    },
+    "weight": 9.5,
+    "range": 8,
+    "speed": 0.82,
+    "endlag": 0.1
+  },
+  "sovereign's punishment": {
+    "name": "Sovereign's Punishment",
+    "type": "Greathammer",
+    "damageType": "Blunt",
+    "damage": 26,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 20,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 75,
+        "Medium Wep.": 0,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0.2,
+    "chip": 0.1,
+    "scaling": {
+      "Heavy Wep.": 9
+    },
+    "weight": 13,
+    "range": 9,
+    "speed": 0.73,
+    "endlag": 0
+  },
+  "steel maul": {
+    "name": "Steel Maul",
+    "type": "Greathammer",
+    "damageType": "Blunt",
+    "damage": 22,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 10,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 20,
+        "Medium Wep.": 0,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0,
+    "chip": 0,
+    "scaling": {
+      "Heavy Wep.": 7
+    },
+    "weight": 7,
+    "range": 9,
+    "speed": 0.8,
+    "endlag": 0.1
+  },
+  "stoneheart": {
+    "name": "Stoneheart",
+    "type": "Greathammer",
+    "damageType": "Blunt",
+    "damage": 24,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 20,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 80,
+        "Medium Wep.": 0,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0.1,
+    "chip": 0.1,
+    "scaling": {
+      "Heavy Wep.": 10
+    },
+    "weight": 12,
+    "range": 8.5,
+    "speed": 0.8,
+    "endlag": 0.1
+  },
+  "alloyed crescent cleaver (bleed)": {
+    "name": "Alloyed Crescent Cleaver (Bleed)",
+    "type": "Greatsword",
+    "damageType": "Slash + Bleed",
+    "damage": 22.4,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 10,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 75,
+        "Medium Wep.": 0,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0,
+    "chip": 0.2,
+    "scaling": {
+      "Heavy Wep.": 9.5
+    },
+    "weight": 9,
+    "range": 9,
+    "speed": 0.8,
+    "endlag": 0.1
+  },
+  "alloyed inheritor": {
+    "name": "Alloyed Inheritor",
+    "type": "Greatsword",
+    "damageType": "Slash",
+    "damage": 24,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 10,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 75,
+        "Medium Wep.": 0,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0.15,
+    "chip": 0,
+    "scaling": {
+      "Heavy Wep.": 8
+    },
+    "weight": 8,
+    "range": 8.5,
+    "speed": 0.85,
+    "endlag": 0
+  },
+  "alloyed zweihander": {
+    "name": "Alloyed Zweihander",
+    "type": "Greatsword",
+    "damageType": "Slash",
+    "damage": 23,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 10,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 75,
+        "Medium Wep.": 0,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0.1,
+    "chip": 0,
+    "scaling": {
+      "Heavy Wep.": 10
+    },
+    "weight": 7,
+    "range": 9,
+    "speed": 0.83,
+    "endlag": 0.1
+  },
+  "avenger": {
+    "name": "Avenger",
+    "type": "Greatsword",
+    "damageType": "Slash",
+    "damage": 21,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 0,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0,
+    "chip": 0,
+    "scaling": {
+      "Heavy Wep.": 6.5
+    },
+    "weight": 8,
+    "range": 8.5,
+    "speed": 0.83,
+    "endlag": 0.1
+  },
+  "crescent cleaver (bleed)": {
+    "name": "Crescent Cleaver (Bleed)",
+    "type": "Greatsword",
+    "damageType": "Slash + Bleed",
+    "damage": 22.4,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 10,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 40,
+        "Medium Wep.": 0,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0,
+    "chip": 0,
+    "scaling": {
+      "Heavy Wep.": 8
+    },
+    "weight": 9,
+    "range": 9,
+    "speed": 0.8,
+    "endlag": 0.1
+  },
+  "crypt blade": {
+    "name": "Crypt Blade",
+    "type": "Greatsword",
+    "damageType": "Slash",
+    "damage": 22,
+    "reqs": {
+      "power": "10",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 40,
+        "Medium Wep.": 0,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 75,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0,
+    "chip": 0,
+    "scaling": {
+      "Shadowcast": 9,
+      "Heavy Wep.": 4
+    },
+    "weight": 8.5,
+    "range": 9,
+    "speed": 0.85,
+    "endlag": 0.15
+  },
+  "darkalloy greatsword": {
+    "name": "Darkalloy Greatsword",
+    "type": "Greatsword",
+    "damageType": "Slash",
+    "damage": 26,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 10,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 75,
+        "Medium Wep.": 0,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0,
+    "chip": 0.1,
+    "scaling": {
+      "Heavy Wep.": 8
+    },
+    "weight": 9,
+    "range": 9,
+    "speed": 0.8,
+    "endlag": 0.1
+  },
+  "darksteel greatsword": {
+    "name": "Darksteel Greatsword",
+    "type": "Greatsword",
+    "damageType": "Slash",
+    "damage": 26,
+    "reqs": {
+      "power": "6",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 10,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 40,
+        "Medium Wep.": 0,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0,
+    "chip": 0,
+    "scaling": {
+      "Heavy Wep.": 7
+    },
+    "weight": 9,
+    "range": 9,
+    "speed": 0.8,
+    "endlag": 0.1
+  },
+  "divine greatsword": {
+    "name": "Divine Greatsword",
+    "type": "Greatsword",
+    "damageType": "Slash",
+    "damage": 30,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 0,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0,
+    "chip": 0,
+    "scaling": {
+      "Heavy Wep.": 12
+    },
+    "weight": 8.5,
+    "range": 9.2,
+    "speed": 0.84,
+    "endlag": 0.25
+  },
+  "enforcer's blade": {
+    "name": "Enforcer's Blade",
+    "type": "Greatsword",
+    "damageType": "Slash",
+    "damage": 25,
+    "reqs": {
+      "power": "6",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 25,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 80,
+        "Medium Wep.": 0,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0,
+    "chip": 0.15,
+    "scaling": {
+      "Heavy Wep.": 9
+    },
+    "weight": 10,
+    "range": 8.5,
+    "speed": 0.79,
+    "endlag": 0
+  },
+  "first light": {
+    "name": "First Light",
+    "type": "Greatsword",
+    "damageType": "Slash",
+    "damage": 25.5,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 75,
+        "Medium Wep.": 0,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0.3,
+    "chip": 0,
+    "scaling": {
+      "Heavy Wep.": 8
+    },
+    "weight": 9,
+    "range": 8.5,
+    "speed": 0.82,
+    "endlag": 0
+  },
+  "fractine": {
+    "name": "Fractine",
+    "type": "Greatsword",
+    "damageType": "Slash",
+    "damage": 22,
+    "reqs": {
+      "power": "10",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 40,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 80,
+        "Medium Wep.": 0,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0.25,
+    "chip": 0.2,
+    "scaling": {
+      "Intelligence": 4,
+      "Heavy Wep.": 7
+    },
+    "weight": 6,
+    "range": 9,
+    "speed": 0.81,
+    "endlag": 0
+  },
+  "hailbreaker": {
+    "name": "Hailbreaker",
+    "type": "Greatsword",
+    "damageType": "Slash",
+    "damage": 22,
+    "reqs": {
+      "power": "10",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 65,
+        "Medium Wep.": 0,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 55,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0.15,
+    "chip": 0,
+    "scaling": {
+      "Frostdraw": 4,
+      "Heavy Wep.": 7
+    },
+    "weight": 7.5,
+    "range": 8.5,
+    "speed": 0.85,
+    "endlag": 0.1
+  },
+  "inquisitor's greatsword": {
+    "name": "Inquisitor's Greatsword",
+    "type": "Greatsword",
+    "damageType": "Slash",
+    "damage": 23.5,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 40,
+        "Medium Wep.": 0,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0,
+    "chip": 0,
+    "scaling": {
+      "Heavy Wep.": 8.3
+    },
+    "weight": 9,
+    "range": 9,
+    "speed": 0.84,
+    "endlag": 0.1
+  },
+  "kyrscleave (bleed)": {
+    "name": "Kyrscleave (Bleed)",
+    "type": "Greatsword",
+    "damageType": "Slash + Bleed",
+    "damage": 24,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 75,
+        "Medium Wep.": 0,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0,
+    "chip": 0.15,
+    "scaling": {
+      "Heavy Wep.": 8.5
+    },
+    "weight": 9,
+    "range": 9,
+    "speed": 0.81,
+    "endlag": 0.1
+  },
+  "kyrsieger": {
+    "name": "Kyrsieger",
+    "type": "Greatsword",
+    "damageType": "Slash",
+    "damage": 24,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 15
+      },
+      "weapon": {
+        "Heavy Wep.": 50,
+        "Medium Wep.": 0,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0.15,
+    "chip": 0.1,
+    "scaling": {
+      "Heavy Wep.": 7,
+      "Charisma": 2
+    },
+    "weight": 9,
+    "range": 9,
+    "speed": 0.83,
+    "endlag": 0
+  },
+  "markor's inheritor": {
+    "name": "Markor's Inheritor",
+    "type": "Greatsword",
+    "damageType": "Slash",
+    "damage": 24,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 10,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 30,
+        "Medium Wep.": 0,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0.1,
+    "chip": 0,
+    "scaling": {
+      "Heavy Wep.": 7
+    },
+    "weight": 8,
+    "range": 8.5,
+    "speed": 0.85,
+    "endlag": 0.1
+  },
+  "railblade": {
+    "name": "Railblade",
+    "type": "Greatsword",
+    "damageType": "Slash",
+    "damage": 22,
+    "reqs": {
+      "power": "10",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 80,
+        "Medium Wep.": 0,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0.25,
+    "chip": 0,
+    "scaling": {
+      "Heavy Wep.": 8.3
+    },
+    "weight": 8,
+    "range": 8.5,
+    "speed": 0.91,
+    "endlag": 0
+  },
+  "the long tong of the law": {
+    "name": "The Long Tong of the Law",
+    "type": "Greatsword",
+    "damageType": "Slash",
+    "damage": 17,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 15,
+        "Willpower": 0,
+        "Charisma": 15
+      },
+      "weapon": {
+        "Heavy Wep.": 70,
+        "Medium Wep.": 0,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0,
+    "chip": 0.4,
+    "scaling": {
+      "Heavy Wep.": 8.5,
+      "Intelligence": 3,
+      "Charisma": 3
+    },
+    "weight": 8,
+    "range": 10,
+    "speed": 0.82,
+    "endlag": 0
+  },
+  "wretched mawblades": {
+    "name": "Wretched Mawblades",
+    "type": "Greatsword",
+    "damageType": "Slash",
+    "damage": 28,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 75,
+        "Medium Wep.": 0,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0,
+    "chip": 0.15,
+    "scaling": {
+      "Heavy Wep.": 8
+    },
+    "weight": 8,
+    "range": 8,
+    "speed": 0.84,
+    "endlag": 0.1
+  },
+  "ysley's pyre keeper": {
+    "name": "Ysley's Pyre Keeper",
+    "type": "Greatsword",
+    "damageType": "Slash",
+    "damage": 23,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 25,
+        "Medium Wep.": 0,
+        "Light Wep.": 10
+      },
+      "attunement": {
+        "Flamecharm": 75,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0.15,
+    "chip": 0,
+    "scaling": {
+      "Flamecharm": 6,
+      "Heavy Wep.": 5
+    },
+    "weight": 5,
+    "range": 8,
+    "speed": 0.93,
+    "endlag": 0
+  },
+  "zweihander": {
+    "name": "Zweihander",
+    "type": "Greatsword",
+    "damageType": "Slash",
+    "damage": 22,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 10,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 20,
+        "Medium Wep.": 0,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0,
+    "chip": 0,
+    "scaling": {
+      "Heavy Wep.": 7
+    },
+    "weight": 7,
+    "range": 9,
+    "speed": 0.8,
+    "endlag": 0.1
+  },
+  "alloyed dawnshot": {
+    "name": "Alloyed Dawnshot",
+    "type": "Guns",
+    "damageType": "Blunt",
+    "damage": 16,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 0,
+        "Light Wep.": 75
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0.05,
+    "chip": 0.1,
+    "scaling": {
+      "Light Wep.": 12
+    },
+    "weight": 1,
+    "range": 10.5,
+    "speed": 1.17,
+    "endlag": 0
+  },
+  "dawnshot": {
+    "name": "Dawnshot",
+    "type": "Guns",
+    "damageType": "Blunt",
+    "damage": 14.8,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 0,
+        "Light Wep.": 40
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0,
+    "chip": 0,
+    "scaling": {
+      "Light Wep.": 12
+    },
+    "weight": 1,
+    "range": 10.5,
+    "speed": 1.17,
+    "endlag": 0
+  },
+  "divine flintlock": {
+    "name": "Divine Flintlock",
+    "type": "Guns",
+    "damageType": "Blunt",
+    "damage": 15,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 0,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0.14,
+    "chip": 0,
+    "scaling": {
+      "Light Wep.": 15
+    },
+    "weight": 1,
+    "range": 12,
+    "speed": 1.33,
+    "endlag": 0
+  },
+  "dragoon": {
+    "name": "Dragoon",
+    "type": "Guns",
+    "damageType": "Blunt",
+    "damage": 16,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 0,
+        "Light Wep.": 65
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0,
+    "chip": 0,
+    "scaling": {
+      "Light Wep.": 12
+    },
+    "weight": 1,
+    "range": 11,
+    "speed": 1.17,
+    "endlag": 0
+  },
+  "flintlock": {
+    "name": "Flintlock",
+    "type": "Guns",
+    "damageType": "Blunt",
+    "damage": 11,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 0,
+        "Light Wep.": 20
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0,
+    "chip": 0,
+    "scaling": {
+      "Light Wep.": 12
+    },
+    "weight": 1,
+    "range": 10,
+    "speed": 1.17,
+    "endlag": 0
+  },
+  "iron blunderbuss": {
+    "name": "Iron Blunderbuss",
+    "type": "Guns",
+    "damageType": "Blunt",
+    "damage": 20,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 75,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0.25,
+    "chip": 0,
+    "scaling": {
+      "Medium Wep.": 7
+    },
+    "weight": 5,
+    "range": 7,
+    "speed": 0.97,
+    "endlag": 0
+  },
+  "iron requiem": {
+    "name": "Iron Requiem",
+    "type": "Guns",
+    "damageType": "Blunt",
+    "damage": 21,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 0,
+        "Light Wep.": 40
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 75,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0,
+    "chip": 0,
+    "scaling": {
+      "Light Wep.": 3,
+      "Ironsing": 4
+    },
+    "weight": 1,
+    "range": 10,
+    "speed": 1.17,
+    "endlag": 0
+  },
+  "repeater": {
+    "name": "Repeater",
+    "type": "Guns",
+    "damageType": "Blunt",
+    "damage": 14,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 0,
+        "Light Wep.": 65
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0,
+    "chip": 0,
+    "scaling": {
+      "Light Wep.": 15
+    },
+    "weight": 1,
+    "range": 12,
+    "speed": 1.25,
+    "endlag": 0
+  },
+  "rosen's hellflame": {
+    "name": "Rosen's Hellflame",
+    "type": "Guns",
+    "damageType": "Blunt",
+    "damage": 18,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 40,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 75,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0,
+    "chip": 0,
+    "scaling": {
+      "Flamecharm": 4,
+      "Medium Wep.": 3
+    },
+    "weight": 3,
+    "range": 7,
+    "speed": 0.9,
+    "endlag": 0
+  },
+  "rosen's peacemaker": {
+    "name": "Rosen's Peacemaker",
+    "type": "Guns",
+    "damageType": "Blunt",
+    "damage": 18,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 75,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0,
+    "chip": 0,
+    "scaling": {
+      "Medium Wep.": 8
+    },
+    "weight": 4,
+    "range": 8,
+    "speed": 1,
+    "endlag": 0
+  },
+  "rosen's roscoe": {
+    "name": "Rosen's Roscoe",
+    "type": "Guns",
+    "damageType": "Blunt",
+    "damage": 16,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 0,
+        "Light Wep.": 75
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0,
+    "chip": 0.2,
+    "scaling": {
+      "Light Wep.": 11
+    },
+    "weight": 3.5,
+    "range": 11,
+    "speed": 1.2,
+    "endlag": 0
+  },
+  "silversix": {
+    "name": "Silversix",
+    "type": "Guns",
+    "damageType": "Blunt",
+    "damage": 10,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 0,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0,
+    "chip": 0,
+    "scaling": {
+      "Light Wep.": 13
+    },
+    "weight": 1,
+    "range": 10,
+    "speed": 1.17,
+    "endlag": 0
+  },
+  "stormseye": {
+    "name": "Stormseye",
+    "type": "Guns",
+    "damageType": "Blunt",
+    "damage": 19.5,
+    "reqs": {
+      "power": "6",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 40,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 75,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0,
+    "chip": 0,
+    "scaling": {
+      "Medium Wep.": 3,
+      "Thundercall": 6
+    },
+    "weight": 5,
+    "range": 8,
+    "speed": 1,
+    "endlag": 0
+  },
+  "summer rifle": {
+    "name": "Summer Rifle",
+    "type": "Guns",
+    "damageType": "Blunt",
+    "damage": 17,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 0,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0,
+    "chip": 0,
+    "scaling": {
+      "Medium Wep.": 6
+    },
+    "weight": 4,
+    "range": 8,
+    "speed": 1,
+    "endlag": 0
+  },
+  "alloyed dawnshot (offhand)": {
+    "name": "Alloyed Dawnshot (Offhand)",
+    "type": "Offhand",
+    "damageType": "Blunt",
+    "damage": 16,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 0,
+        "Light Wep.": 75
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0.05,
+    "chip": 0.1,
+    "scaling": {
+      "Light Wep.": 12
+    },
+    "weight": 1,
+    "range": 10.5,
+    "speed": 1.17,
+    "endlag": 0
+  },
+  "dawnshot (offhand)": {
+    "name": "Dawnshot (Offhand)",
+    "type": "Offhand",
+    "damageType": "Blunt",
+    "damage": 14.8,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 0,
+        "Light Wep.": 40
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0,
+    "chip": 0,
+    "scaling": {
+      "Light Wep.": 12
+    },
+    "weight": 1,
+    "range": 10.5,
+    "speed": 1.17,
+    "endlag": 0
+  },
+  "dragoon (offhand)": {
+    "name": "Dragoon (Offhand)",
+    "type": "Offhand",
+    "damageType": "Blunt",
+    "damage": 17,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 0,
+        "Light Wep.": 65
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0,
+    "chip": 0,
+    "scaling": {
+      "Light Wep.": 12
+    },
+    "weight": 1,
+    "range": 12,
+    "speed": 1.17,
+    "endlag": 0
+  },
+  "ethiron curseshield": {
+    "name": "Ethiron Curseshield",
+    "type": "Offhand",
+    "damageType": "",
+    "damage": 0,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 50,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 0,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0,
+    "chip": 0,
+    "scaling": {
+      "": null
+    },
+    "weight": 1.9,
+    "range": 0,
+    "speed": 0,
+    "endlag": 0
+  },
+  "flintlock (offhand)": {
+    "name": "Flintlock (Offhand)",
+    "type": "Offhand",
+    "damageType": "Blunt",
+    "damage": 10,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 0,
+        "Light Wep.": 20
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0,
+    "chip": 0,
+    "scaling": {
+      "Light Wep.": 10
+    },
+    "weight": 1,
+    "range": 10,
+    "speed": 1.17,
+    "endlag": 0
+  },
+  "gourdguad": {
+    "name": "Gourdguad",
+    "type": "Offhand",
+    "damageType": "",
+    "damage": 0,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 50,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 0,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0,
+    "chip": 0,
+    "scaling": {
+      "": null
+    },
+    "weight": 1.9,
+    "range": 0,
+    "speed": 0,
+    "endlag": 0
+  },
+  "khan shield": {
+    "name": "Khan Shield",
+    "type": "Offhand",
+    "damageType": "",
+    "damage": 0,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 60,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 0,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0,
+    "chip": 0,
+    "scaling": {
+      "": null
+    },
+    "weight": 2.1,
+    "range": 0,
+    "speed": 0,
+    "endlag": 0
+  },
+  "kite shield": {
+    "name": "Kite Shield",
+    "type": "Offhand",
+    "damageType": "",
+    "damage": 0,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 20,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 0,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0,
+    "chip": 0,
+    "scaling": {
+      "": null
+    },
+    "weight": 1.75,
+    "range": 0,
+    "speed": 0,
+    "endlag": 0
+  },
+  "kyrstear": {
+    "name": "Kyrstear",
+    "type": "Offhand",
+    "damageType": "Posture",
+    "damage": 5,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 40,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 0,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0,
+    "chip": 0,
+    "scaling": {
+      "Agility": 8
+    },
+    "weight": 4,
+    "range": 6.5,
+    "speed": 1.3,
+    "endlag": 0.1
+  },
+  "old world greatshield": {
+    "name": "Old World Greatshield",
+    "type": "Offhand",
+    "damageType": "",
+    "damage": 0,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 30,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 0,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0,
+    "chip": 0,
+    "scaling": {
+      "": null
+    },
+    "weight": 1.6,
+    "range": 0,
+    "speed": 0,
+    "endlag": 0
+  },
+  "parry dagger": {
+    "name": "Parry Dagger",
+    "type": "Offhand",
+    "damageType": "Posture",
+    "damage": 4,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 10,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 0,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0,
+    "chip": 0,
+    "scaling": {
+      "None": null
+    },
+    "weight": 1,
+    "range": 8,
+    "speed": 1.4,
+    "endlag": 0
+  },
+  "repeater (offhand)": {
+    "name": "Repeater (Offhand)",
+    "type": "Offhand",
+    "damageType": "Blunt",
+    "damage": 13,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 0,
+        "Light Wep.": 65
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0,
+    "chip": 0,
+    "scaling": {
+      "Light Wep.": 15
+    },
+    "weight": 1,
+    "range": 12,
+    "speed": 1.25,
+    "endlag": 0
+  },
+  "silversix (offhand)": {
+    "name": "Silversix (Offhand)",
+    "type": "Offhand",
+    "damageType": "Blunt",
+    "damage": 10,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 0,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0,
+    "chip": 0,
+    "scaling": {
+      "Light Wep.": 13
+    },
+    "weight": 1,
+    "range": 10,
+    "speed": 1.17,
+    "endlag": 0
+  },
+  "targe": {
+    "name": "Targe",
+    "type": "Offhand",
+    "damageType": "",
+    "damage": 0,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 10,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 0,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0,
+    "chip": 0,
+    "scaling": {
+      "": null
+    },
+    "weight": 1.5,
+    "range": 0,
+    "speed": 0,
+    "endlag": 0
+  },
+  "the path's defender": {
+    "name": "The Path's Defender",
+    "type": "Offhand",
+    "damageType": "",
+    "damage": 0,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 75,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 0,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0,
+    "chip": 0,
+    "scaling": {
+      "": null
+    },
+    "weight": 2.35,
+    "range": 0,
+    "speed": 0,
+    "endlag": 0
+  },
+  "worshipper's shield": {
+    "name": "Worshipper's Shield",
+    "type": "Offhand",
+    "damageType": "",
+    "damage": 0,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 40,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 0,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0,
+    "chip": 0,
+    "scaling": {
+      "": null
+    },
+    "weight": 1.85,
+    "range": 0,
+    "speed": 0,
+    "endlag": 0
+  },
+  "apprentice rapier": {
+    "name": "Apprentice Rapier",
+    "type": "Rapier",
+    "damageType": "Slash",
+    "damage": 13,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 0,
+        "Light Wep.": 25
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0,
+    "chip": 0,
+    "scaling": {
+      "Light Wep.": 6
+    },
+    "weight": 4,
+    "range": 8,
+    "speed": 1.06,
+    "endlag": 0
+  },
+  "crucible rapier": {
+    "name": "Crucible Rapier",
+    "type": "Rapier",
+    "damageType": "Slash",
+    "damage": 15,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 0,
+        "Light Wep.": 75
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0.2,
+    "chip": 0,
+    "scaling": {
+      "Light Wep.": 8
+    },
+    "weight": 4,
+    "range": 8,
+    "speed": 1.09,
+    "endlag": 0
+  },
+  "deepspindle": {
+    "name": "Deepspindle",
+    "type": "Rapier",
+    "damageType": "Slash",
+    "damage": 14,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 0,
+        "Light Wep.": 50
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 75,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0.2,
+    "chip": 0,
+    "scaling": {
+      "Light Wep.": 4,
+      "Shadowcast": 9
+    },
+    "weight": 5,
+    "range": 8,
+    "speed": 1.09,
+    "endlag": 0
+  },
+  "golden swordfish": {
+    "name": "Golden Swordfish",
+    "type": "Rapier",
+    "damageType": "Slash",
+    "damage": 15,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 0,
+        "Light Wep.": 75
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0.2,
+    "chip": 0,
+    "scaling": {
+      "Light Wep.": 8
+    },
+    "weight": 5,
+    "range": 8.1,
+    "speed": 1.09,
+    "endlag": 0
+  },
+  "inquisitor's thorn": {
+    "name": "Inquisitor's Thorn",
+    "type": "Rapier",
+    "damageType": "Slash",
+    "damage": 14,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 0,
+        "Light Wep.": 40
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0.1,
+    "chip": 0,
+    "scaling": {
+      "Light Wep.": 7
+    },
+    "weight": 4,
+    "range": 8,
+    "speed": 1.08,
+    "endlag": 0
+  },
+  "kyrstreza": {
+    "name": "Kyrstreza",
+    "type": "Rapier",
+    "damageType": "Slash",
+    "damage": 15,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 0,
+        "Light Wep.": 75
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0.3,
+    "chip": 0,
+    "scaling": {
+      "Light Wep.": 8.5
+    },
+    "weight": 4,
+    "range": 8,
+    "speed": 1.09,
+    "endlag": 0
+  },
+  "quickfang": {
+    "name": "Quickfang",
+    "type": "Rapier",
+    "damageType": "Slash",
+    "damage": 12,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 0,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0.05,
+    "chip": 0,
+    "scaling": {
+      "Light Wep.": 7
+    },
+    "weight": 4,
+    "range": 8,
+    "speed": 1.08,
+    "endlag": 0
+  },
+  "skull piercer (bleed)": {
+    "name": "Skull Piercer (Bleed)",
+    "type": "Rapier",
+    "damageType": "Slash + Bleed",
+    "damage": 14,
+    "reqs": {
+      "power": "6",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 0,
+        "Light Wep.": 75
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0.1,
+    "chip": 0,
+    "scaling": {
+      "Light Wep.": 7.5
+    },
+    "weight": 4,
+    "range": 8.5,
+    "speed": 1.08,
+    "endlag": 0
+  },
+  "acheron's warspear (bleed)": {
+    "name": "Acheron's Warspear (Bleed)",
+    "type": "Spear",
+    "damageType": "Slash + Bleed",
+    "damage": 18,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 40,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0.15,
+    "chip": 0,
+    "scaling": {
+      "Medium Wep.": 6
+    },
+    "weight": 5,
+    "range": 9,
+    "speed": 0.93,
+    "endlag": 0
+  },
+  "alloyed gremorian longspear": {
+    "name": "Alloyed Gremorian Longspear",
+    "type": "Spear",
+    "damageType": "Slash",
+    "damage": 20,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 75,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0.1,
+    "chip": 0,
+    "scaling": {
+      "Medium Wep.": 5
+    },
+    "weight": 5,
+    "range": 9,
+    "speed": 0.93,
+    "endlag": 0
+  },
+  "alloyed trident spear": {
+    "name": "Alloyed Trident Spear",
+    "type": "Spear",
+    "damageType": "Slash",
+    "damage": 19,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 85,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0.25,
+    "chip": 0,
+    "scaling": {
+      "Medium Wep.": 7
+    },
+    "weight": 5,
+    "range": 9,
+    "speed": 0.92,
+    "endlag": 0
+  },
+  "bloodtide trident (bleed)": {
+    "name": "Bloodtide Trident (Bleed)",
+    "type": "Spear",
+    "damageType": "Slash + Bleed",
+    "damage": 18.7,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 75,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0.25,
+    "chip": 0.1,
+    "scaling": {
+      "Medium Wep.": 6
+    },
+    "weight": 5,
+    "range": 9,
+    "speed": 0.93,
+    "endlag": 0
+  },
+  "divine spear": {
+    "name": "Divine Spear",
+    "type": "Spear",
+    "damageType": "Slash",
+    "damage": 23,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 0,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0,
+    "chip": 0,
+    "scaling": {
+      "Medium Wep.": 9
+    },
+    "weight": 5,
+    "range": 10,
+    "speed": 0.93,
+    "endlag": 0
+  },
+  "gremorian longspear": {
+    "name": "Gremorian Longspear",
+    "type": "Spear",
+    "damageType": "Slash",
+    "damage": 18,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 20,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0,
+    "chip": 0,
+    "scaling": {
+      "Medium Wep.": 4
+    },
+    "weight": 5,
+    "range": 9,
+    "speed": 0.9,
+    "endlag": 0
+  },
+  "imperator's edge": {
+    "name": "Imperator's Edge",
+    "type": "Spear",
+    "damageType": "Slash",
+    "damage": 20,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 80,
+        "Fortitude": 80,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 80,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0.2,
+    "chip": 0,
+    "scaling": {
+      "Medium Wep.": 2,
+      "Fortitude": 4,
+      "Strength": 3
+    },
+    "weight": 7,
+    "range": 11,
+    "speed": 0.93,
+    "endlag": 0
+  },
+  "imperial staff": {
+    "name": "Imperial Staff",
+    "type": "Spear",
+    "damageType": "Blunt",
+    "damage": 19,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 40,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 40,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0.1,
+    "chip": 0,
+    "scaling": {
+      "Medium Wep.": 5,
+      "Strength": 3.5
+    },
+    "weight": 6,
+    "range": 8,
+    "speed": 1,
+    "endlag": 0
+  },
+  "iron spear": {
+    "name": "Iron Spear",
+    "type": "Spear",
+    "damageType": "Slash",
+    "damage": 17,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 0,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0.1,
+    "chip": 0,
+    "scaling": {
+      "Medium Wep.": 2.5
+    },
+    "weight": 5,
+    "range": 9,
+    "speed": 0.9,
+    "endlag": 0
+  },
+  "irontusk": {
+    "name": "Irontusk",
+    "type": "Spear",
+    "damageType": "Slash",
+    "damage": 16.5,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 0,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0.1,
+    "chip": 0,
+    "scaling": {
+      "Medium Wep.": 3
+    },
+    "weight": 5,
+    "range": 9,
+    "speed": 0.9,
+    "endlag": 0
+  },
+  "kyrsglaive (bleed)": {
+    "name": "Kyrsglaive (Bleed)",
+    "type": "Spear",
+    "damageType": "Slash + Bleed",
+    "damage": 18.5,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 90,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0.2,
+    "chip": 0,
+    "scaling": {
+      "Medium Wep.": 5
+    },
+    "weight": 5,
+    "range": 9,
+    "speed": 0.96,
+    "endlag": 0
+  },
+  "kyrswynter (bleed)": {
+    "name": "Kyrswynter (Bleed)",
+    "type": "Spear",
+    "damageType": "Slash + Bleed",
+    "damage": 16.5,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 50,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 75,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0.2,
+    "chip": 0,
+    "scaling": {
+      "Medium Wep.": 5,
+      "Frostdraw": 5
+    },
+    "weight": 6,
+    "range": 9,
+    "speed": 0.96,
+    "endlag": 0
+  },
+  "rifle spear": {
+    "name": "Rifle Spear",
+    "type": "Spear",
+    "damageType": "Slash",
+    "damage": 21,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 80,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0.25,
+    "chip": 0,
+    "scaling": {
+      "Medium Wep.": 7
+    },
+    "weight": 5,
+    "range": 9,
+    "speed": 0.9,
+    "endlag": 0
+  },
+  "ritual spear": {
+    "name": "Ritual Spear",
+    "type": "Spear",
+    "damageType": "Slash",
+    "damage": 19,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 30,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0.25,
+    "chip": 0,
+    "scaling": {
+      "Medium Wep.": 5
+    },
+    "weight": 5,
+    "range": 9,
+    "speed": 0.68,
+    "endlag": 0
+  },
+  "serrated warspear (bleed)": {
+    "name": "Serrated Warspear (Bleed)",
+    "type": "Spear",
+    "damageType": "Slash + Bleed",
+    "damage": 18,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 65,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0.2,
+    "chip": 0.1,
+    "scaling": {
+      "Medium Wep.": 6.5
+    },
+    "weight": 5,
+    "range": 9,
+    "speed": 0.93,
+    "endlag": 0
+  },
+  "trident spear": {
+    "name": "Trident Spear",
+    "type": "Spear",
+    "damageType": "Slash",
+    "damage": 19,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 50,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0.25,
+    "chip": 0,
+    "scaling": {
+      "Medium Wep.": 6
+    },
+    "weight": 5,
+    "range": 9,
+    "speed": 0.9,
+    "endlag": 0
+  },
+  "true seraph spear": {
+    "name": "True Seraph Spear",
+    "type": "Spear",
+    "damageType": "Slash",
+    "damage": 18.5,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 90,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0.2,
+    "chip": 0.4,
+    "scaling": {
+      "Medium Wep.": 7
+    },
+    "weight": 5,
+    "range": 9,
+    "speed": 0.96,
+    "endlag": 0
+  },
+  "alloyed falchion": {
+    "name": "Alloyed Falchion",
+    "type": "Sword",
+    "damageType": "Slash",
+    "damage": 16,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 75,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0.2,
+    "chip": 0,
+    "scaling": {
+      "Medium Wep.": 7
+    },
+    "weight": 4,
+    "range": 7.5,
+    "speed": 1.06,
+    "endlag": 0
+  },
+  "alloyed katana": {
+    "name": "Alloyed Katana",
+    "type": "Sword",
+    "damageType": "Slash",
+    "damage": 20,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 75,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0.1,
+    "chip": 0.1,
+    "scaling": {
+      "Medium Wep.": 7
+    },
+    "weight": 6,
+    "range": 8,
+    "speed": 1,
+    "endlag": 0
+  },
+  "alloyed messer": {
+    "name": "Alloyed Messer",
+    "type": "Sword",
+    "damageType": "Slash",
+    "damage": 21,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 75,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0.15,
+    "chip": 0.15,
+    "scaling": {
+      "Medium Wep.": 6
+    },
+    "weight": 7,
+    "range": 7.5,
+    "speed": 0.97,
+    "endlag": 0
+  },
+  "alloyed shotel": {
+    "name": "Alloyed Shotel",
+    "type": "Sword",
+    "damageType": "Slash",
+    "damage": 22,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 75,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0.1,
+    "chip": 0.3,
+    "scaling": {
+      "Medium Wep.": 6
+    },
+    "weight": 4,
+    "range": 8,
+    "speed": 0.97,
+    "endlag": 0
+  },
+  "alloyed vigil longsword": {
+    "name": "Alloyed Vigil Longsword",
+    "type": "Sword",
+    "damageType": "Slash",
+    "damage": 20,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 75,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0.2,
+    "chip": 0,
+    "scaling": {
+      "Medium Wep.": 7.5
+    },
+    "weight": 5,
+    "range": 8,
+    "speed": 1,
+    "endlag": 0
+  },
+  "cavalry saber": {
+    "name": "Cavalry Saber",
+    "type": "Sword",
+    "damageType": "Slash",
+    "damage": 21,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 40,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0,
+    "chip": 0,
+    "scaling": {
+      "Medium Wep.": 5
+    },
+    "weight": 5,
+    "range": 8,
+    "speed": 1,
+    "endlag": 0
+  },
+  "champion's sword": {
+    "name": "Champion's Sword",
+    "type": "Sword",
+    "damageType": "Slash",
+    "damage": 19,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 40,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0,
+    "chip": 0,
+    "scaling": {
+      "Medium Wep.": 6.5
+    },
+    "weight": 4,
+    "range": 8,
+    "speed": 1.02,
+    "endlag": 0
+  },
+  "curved blade of winds": {
+    "name": "Curved Blade Of Winds",
+    "type": "Sword",
+    "damageType": "Slash + Aftercut",
+    "damage": 17.5,
+    "reqs": {
+      "power": "10",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 25,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 75,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0.15,
+    "chip": 0.05,
+    "scaling": {
+      "Medium Wep.": 5,
+      "Galebreathe": 5
+    },
+    "weight": 5,
+    "range": 8,
+    "speed": 1.04,
+    "endlag": 0
+  },
+  "death's reverie (bleed)": {
+    "name": "Death's Reverie (Bleed)",
+    "type": "Sword",
+    "damageType": "Slash + Bleed",
+    "damage": 18,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 75,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0.15,
+    "chip": 0,
+    "scaling": {
+      "Medium Wep.": 5
+    },
+    "weight": 7.5,
+    "range": 8,
+    "speed": 1.01,
+    "endlag": 0
+  },
+  "divine longsword": {
+    "name": "Divine Longsword",
+    "type": "Sword",
+    "damageType": "Slash",
+    "damage": 25,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 0,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0,
+    "chip": 0,
+    "scaling": {
+      "Medium Wep.": 7
+    },
+    "weight": 5.5,
+    "range": 8.5,
+    "speed": 1.06,
+    "endlag": 0
+  },
+  "dormant splinter": {
+    "name": "Dormant Splinter",
+    "type": "Sword",
+    "damageType": "Slash",
+    "damage": 5,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 5,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0.1,
+    "chip": 0,
+    "scaling": {
+      "Medium Wep.": 7
+    },
+    "weight": 4,
+    "range": 8,
+    "speed": 0.9,
+    "endlag": 0
+  },
+  "eye of malice": {
+    "name": "Eye of Malice",
+    "type": "Sword",
+    "damageType": "Slash",
+    "damage": 21,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 75,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0.25,
+    "chip": 0.15,
+    "scaling": {
+      "Medium Wep.": 8
+    },
+    "weight": 4,
+    "range": 10.5,
+    "speed": 0.95,
+    "endlag": 0
+  },
+  "falchion": {
+    "name": "Falchion",
+    "type": "Sword",
+    "damageType": "Slash",
+    "damage": 16,
+    "reqs": {
+      "power": "6",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 20,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0,
+    "chip": 0,
+    "scaling": {
+      "Medium Wep.": 6
+    },
+    "weight": 4,
+    "range": 8,
+    "speed": 1.06,
+    "endlag": 0
+  },
+  "false memory": {
+    "name": "False Memory",
+    "type": "Sword",
+    "damageType": "Slash",
+    "damage": 18,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 0,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0,
+    "chip": 0,
+    "scaling": {
+      "Medium Wep.": 2.5
+    },
+    "weight": 5,
+    "range": 8,
+    "speed": 1,
+    "endlag": 0
+  },
+  "fondant splitter": {
+    "name": "Fondant Splitter",
+    "type": "Sword",
+    "damageType": "Slash",
+    "damage": 15,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 5,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0.05,
+    "chip": 0,
+    "scaling": {
+      "Medium Wep.": 8
+    },
+    "weight": 5,
+    "range": 6,
+    "speed": 1,
+    "endlag": 0
+  },
+  "forgotten gladius": {
+    "name": "Forgotten Gladius",
+    "type": "Sword",
+    "damageType": "Slash",
+    "damage": 18,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 65,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0.13,
+    "chip": 0,
+    "scaling": {
+      "Medium Wep.": 7
+    },
+    "weight": 5,
+    "range": 7.5,
+    "speed": 1.04,
+    "endlag": 0
+  },
+  "hallowscleave": {
+    "name": "Hallowscleave",
+    "type": "Sword",
+    "damageType": "Slash",
+    "damage": 19,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 75,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0.25,
+    "chip": 0,
+    "scaling": {
+      "Medium Wep.": 7
+    },
+    "weight": 6,
+    "range": 8,
+    "speed": 1,
+    "endlag": 0
+  },
+  "hero's blade of flame": {
+    "name": "Hero's Blade Of Flame",
+    "type": "Sword",
+    "damageType": "Slash",
+    "damage": 20,
+    "reqs": {
+      "power": "11",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 0,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 75,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0.1,
+    "chip": 0,
+    "scaling": {
+      "Flamecharm": 5.5
+    },
+    "weight": 5,
+    "range": 8,
+    "speed": 1,
+    "endlag": 0
+  },
+  "hero's blade of frost": {
+    "name": "Hero's Blade Of Frost",
+    "type": "Sword",
+    "damageType": "Slash",
+    "damage": 20,
+    "reqs": {
+      "power": "11",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 0,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 75,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0.1,
+    "chip": 0,
+    "scaling": {
+      "Frostdraw": 5.5
+    },
+    "weight": 5,
+    "range": 8,
+    "speed": 1,
+    "endlag": 0
+  },
+  "hero's blade of lightning": {
+    "name": "Hero's Blade Of Lightning",
+    "type": "Sword",
+    "damageType": "Slash",
+    "damage": 20,
+    "reqs": {
+      "power": "11",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 0,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 75,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0.1,
+    "chip": 0,
+    "scaling": {
+      "Thundercall": 5.5
+    },
+    "weight": 5,
+    "range": 8,
+    "speed": 1,
+    "endlag": 0
+  },
+  "hero's blade of shadow": {
+    "name": "Hero's Blade Of Shadow",
+    "type": "Sword",
+    "damageType": "Slash",
+    "damage": 20,
+    "reqs": {
+      "power": "11",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 0,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 75,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0.1,
+    "chip": 0,
+    "scaling": {
+      "Shadowcast": 5.5
+    },
+    "weight": 5,
+    "range": 8,
+    "speed": 1,
+    "endlag": 0
+  },
+  "hero's blade of wind": {
+    "name": "Hero's Blade Of Wind",
+    "type": "Sword",
+    "damageType": "Slash",
+    "damage": 20,
+    "reqs": {
+      "power": "11",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 0,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 75,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0.1,
+    "chip": 0,
+    "scaling": {
+      "Galebreathe": 5.5
+    },
+    "weight": 5,
+    "range": 8,
+    "speed": 1,
+    "endlag": 0
+  },
+  "katana": {
+    "name": "Katana",
+    "type": "Sword",
+    "damageType": "Slash",
+    "damage": 18,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 25,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0,
+    "chip": 0,
+    "scaling": {
+      "Medium Wep.": 6
+    },
+    "weight": 5,
+    "range": 8,
+    "speed": 1,
+    "endlag": 0
+  },
+  "kyrsblade": {
+    "name": "Kyrsblade",
+    "type": "Sword",
+    "damageType": "Slash",
+    "damage": 22,
+    "reqs": {
+      "power": "6",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 75,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0.05,
+    "chip": 0.3,
+    "scaling": {
+      "Medium Wep.": 6
+    },
+    "weight": 6,
+    "range": 7.5,
+    "speed": 1,
+    "endlag": 0
+  },
+  "lumber axe": {
+    "name": "Lumber Axe",
+    "type": "Sword",
+    "damageType": "Slash",
+    "damage": 10,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 0,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0,
+    "chip": 0,
+    "scaling": {
+      "Strength": 10
+    },
+    "weight": 3,
+    "range": 6.5,
+    "speed": 1,
+    "endlag": 0.65
+  },
+  "messer": {
+    "name": "Messer",
+    "type": "Sword",
+    "damageType": "Slash",
+    "damage": 20,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 10,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0,
+    "chip": 0,
+    "scaling": {
+      "Medium Wep.": 5
+    },
+    "weight": 6,
+    "range": 7.5,
+    "speed": 0.93,
+    "endlag": 0
+  },
+  "nocturne": {
+    "name": "Nocturne",
+    "type": "Sword",
+    "damageType": "Slash",
+    "damage": 19,
+    "reqs": {
+      "power": "10",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 90,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0.3,
+    "chip": 0,
+    "scaling": {
+      "Medium Wep.": 8
+    },
+    "weight": 5,
+    "range": 7.5,
+    "speed": 1.02,
+    "endlag": 0
+  },
+  "officer saber": {
+    "name": "Officer Saber",
+    "type": "Sword",
+    "damageType": "Slash",
+    "damage": 22,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 30,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0,
+    "chip": 0,
+    "scaling": {
+      "Medium Wep.": 4.5
+    },
+    "weight": 7,
+    "range": 8,
+    "speed": 1,
+    "endlag": 0
+  },
+  "purple cloud": {
+    "name": "Purple Cloud",
+    "type": "Sword",
+    "damageType": "Blunt + Slash",
+    "damage": 16.5,
+    "reqs": {
+      "power": "10",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 85,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0.15,
+    "chip": 0.1,
+    "scaling": {
+      "Medium Wep.": 9
+    },
+    "weight": 5,
+    "range": 6.5,
+    "speed": 1.06,
+    "endlag": 0
+  },
+  "razor cutlass (bleed)": {
+    "name": "Razor Cutlass (Bleed)",
+    "type": "Sword",
+    "damageType": "Slash + Bleed",
+    "damage": 18,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 60,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0.25,
+    "chip": 0.1,
+    "scaling": {
+      "Medium Wep.": 7.5
+    },
+    "weight": 8,
+    "range": 8,
+    "speed": 0.94,
+    "endlag": 0
+  },
+  "saintsblade": {
+    "name": "Saintsblade",
+    "type": "Sword",
+    "damageType": "Slash",
+    "damage": 30,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 0,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 20,
+        "Frostdraw": 20,
+        "Thundercall": 20,
+        "Galebreathe": 20,
+        "Shadowcast": 20,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0.2,
+    "chip": 0,
+    "scaling": {
+      "": null
+    },
+    "weight": 7,
+    "range": 8.5,
+    "speed": 1.04,
+    "endlag": 0
+  },
+  "scimitar": {
+    "name": "Scimitar",
+    "type": "Sword",
+    "damageType": "Slash",
+    "damage": 15,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 20,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0,
+    "chip": 0,
+    "scaling": {
+      "Medium Wep.": 3
+    },
+    "weight": 5,
+    "range": 8,
+    "speed": 1.09,
+    "endlag": 0
+  },
+  "serpent's edge": {
+    "name": "Serpent's Edge",
+    "type": "Sword",
+    "damageType": "Slash",
+    "damage": 22,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 75,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0.15,
+    "chip": 0,
+    "scaling": {
+      "Medium Wep.": 6
+    },
+    "weight": 6,
+    "range": 8.2,
+    "speed": 0.97,
+    "endlag": 0
+  },
+  "shattered katana": {
+    "name": "Shattered Katana",
+    "type": "Sword",
+    "damageType": "Slash",
+    "damage": 20,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 90,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0.3,
+    "chip": 0,
+    "scaling": {
+      "Medium Wep.": 7
+    },
+    "weight": 5,
+    "range": 8,
+    "speed": 1,
+    "endlag": 0
+  },
+  "shotel": {
+    "name": "Shotel",
+    "type": "Sword",
+    "damageType": "Slash",
+    "damage": 22,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 45,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0,
+    "chip": 0.2,
+    "scaling": {
+      "Medium Wep.": 5
+    },
+    "weight": 4,
+    "range": 8,
+    "speed": 0.97,
+    "endlag": 0
+  },
+  "soulthorn": {
+    "name": "Soulthorn",
+    "type": "Sword",
+    "damageType": "Slash",
+    "damage": 17,
+    "reqs": {
+      "power": "10",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 40,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 80,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0,
+    "chip": 0.3,
+    "scaling": {
+      "Medium Wep.": 7,
+      "Intelligence": 3.5
+    },
+    "weight": 5,
+    "range": 8,
+    "speed": 1.02,
+    "endlag": 0
+  },
+  "vigil longsword": {
+    "name": "Vigil Longsword",
+    "type": "Sword",
+    "damageType": "Slash",
+    "damage": 20,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 40,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0,
+    "chip": 0,
+    "scaling": {
+      "Medium Wep.": 6
+    },
+    "weight": 5,
+    "range": 8,
+    "speed": 1,
+    "endlag": 0
+  },
+  "warden ceremonial sword": {
+    "name": "Warden Ceremonial Sword",
+    "type": "Sword",
+    "damageType": "Slash",
+    "damage": 17,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 50,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0,
+    "chip": 0,
+    "scaling": {
+      "Medium Wep.": 7
+    },
+    "weight": 4,
+    "range": 7.5,
+    "speed": 1.06,
+    "endlag": 0
+  },
+  "worshipper longsword": {
+    "name": "Worshipper Longsword",
+    "type": "Sword",
+    "damageType": "Slash",
+    "damage": 19,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 30,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0,
+    "chip": 0,
+    "scaling": {
+      "Medium Wep.": 4.5
+    },
+    "weight": 5,
+    "range": 8,
+    "speed": 1,
+    "endlag": 0
+  },
+  "wyrmtooth": {
+    "name": "Wyrmtooth",
+    "type": "Sword",
+    "damageType": "Slash",
+    "damage": 20,
+    "reqs": {
+      "power": "15",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 40,
+        "Medium Wep.": 60,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0.2,
+    "chip": 0,
+    "scaling": {
+      "Medium Wep.": 6.2,
+      "Heavy Wep.": 4.2
+    },
+    "weight": 7,
+    "range": 9,
+    "speed": 0.93,
+    "endlag": 0
+  },
+  "alloyed scalesplitter": {
+    "name": "Alloyed Scalesplitter",
+    "type": "Sword",
+    "damageType": "Slash",
+    "damage": 20,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 65,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0.15,
+    "chip": 0,
+    "scaling": {
+      "Medium Wep.": 6
+    },
+    "weight": 6,
+    "range": 8,
+    "speed": 1,
+    "endlag": 0
+  },
+  "crescendo": {
+    "name": "Crescendo",
+    "type": "Sword",
+    "damageType": "Slash",
+    "damage": 22,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 75,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0,
+    "chip": 0,
+    "scaling": {
+      "Medium Wep.": 6
+    },
+    "weight": 6,
+    "range": 7.5,
+    "speed": 0.92,
+    "endlag": 0
+  },
+  "iron twinblade": {
+    "name": "Iron Twinblade",
+    "type": "Sword",
+    "damageType": "Slash",
+    "damage": 15,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 15,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0,
+    "chip": 0.3,
+    "scaling": {
+      "Medium Wep.": 4
+    },
+    "weight": 4,
+    "range": 7,
+    "speed": 1,
+    "endlag": 0
+  },
+  "scalesplitter": {
+    "name": "Scalesplitter",
+    "type": "Sword",
+    "damageType": "Slash",
+    "damage": 17.5,
+    "reqs": {
+      "power": "0",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 0,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 40,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0.1,
+    "chip": 0,
+    "scaling": {
+      "Medium Wep.": 5
+    },
+    "weight": 5,
+    "range": 7.5,
+    "speed": 0.9,
+    "endlag": 0
+  },
+  "umbrite witherblade (bleed)": {
+    "name": "Umbrite Witherblade (Bleed)",
+    "type": "Sword",
+    "damageType": "Slash + Bleed",
+    "damage": 13,
+    "reqs": {
+      "power": "10",
+      "weaponType": "None",
+      "from": "",
+      "base": {
+        "Strength": 0,
+        "Fortitude": 0,
+        "Agility": 0,
+        "Intelligence": 0,
+        "Willpower": 10,
+        "Charisma": 0
+      },
+      "weapon": {
+        "Heavy Wep.": 0,
+        "Medium Wep.": 65,
+        "Light Wep.": 0
+      },
+      "attunement": {
+        "Flamecharm": 0,
+        "Frostdraw": 0,
+        "Thundercall": 0,
+        "Galebreathe": 0,
+        "Shadowcast": 0,
+        "Ironsing": 0,
+        "Bloodrend": 0
+      }
+    },
+    "pen": 0,
+    "chip": 0.2,
+    "scaling": {
+      "Medium Wep.": 10
+    },
+    "weight": 5,
+    "range": 7.5,
+    "speed": 1.02,
+    "endlag": 0
+  }
+}

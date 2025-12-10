@@ -1,0 +1,80 @@
+section {
+    width: 500px;
+    height: 200px;
+}
+
+p {
+    margin: 7.5px;
+}
+
+li {
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+li::marker {
+    font-weight: normal;
+    
+}
+
+ol {
+    margin-top: 5px;
+    font-weight: 500;
+    padding-left: 25px;
+    color: #a8afb1;
+}
+
+.dialogue-background {
+    opacity: 0.75;
+    width: 495px;
+    height: 100%;
+    background-image: var(--background);
+    background-size: 30px;
+    filter: sepia(100%) saturate(100%) hue-rotate(165deg) brightness(100%) contrast(85%);
+}
+
+.name, .message, ol {
+    font-family: "SourceSans";
+    position: relative;
+}
+
+.name {
+    z-index: 2;
+    margin: 10px 0 5px 10px;
+    font-family: LibreBaskerville;
+    font-weight: bold;
+    background: linear-gradient(to top, #aaaaaa 0%, #FFFFFF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.shadow {
+    z-index: 1;
+    position: absolute;
+    top: 0px;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.message {
+    background: #d4cfba;
+    height: 75px;
+    width: 99%;
+}
+
+.line {
+    border: 1px solid transparent;
+    border-image: var(--border-bar) 20 stretch;
+    border-image-width: 20px;
+    background: transparent;
+    position: absolute;
+    z-index: 1;
+    height: 50px;
+}
+
+.trann {
+    height: 250px;
+    width: 250px;
+    border: none;
+    background: none;
+    background-image: url(/assets/img/icons/trann.png);
+}

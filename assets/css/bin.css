@@ -1,0 +1,325 @@
+@font-face {
+    font-family: "Fondamento";
+    src: url("/assets/fonts/Fondamento-Regular.ttf") format("opentype");
+}
+
+@font-face {
+    font-family: "sourcesans";
+    src: url("/assets/fonts/sourcesans.ttf") format("opentype");
+}
+
+@font-face {
+    font-family: "Guru";
+    src: url("/assets/fonts/Guru Regular.otf") format("opentype");
+}
+
+body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+h2 {
+    color: #fff;
+}
+
+label {
+    color: #000;
+    display: block;
+    margin: 10px 0;
+}
+
+.input, .textarea, select {
+    font-family: Arial;
+    color: #fff;
+    background-color: #616e65;
+    border: 1px solid transparent;
+    border-image: url(/assets/img/border/input.png) 7 stretch;
+    border-image-width: 10px;
+    border-image-outset: 2px;
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}i
+
+button {
+    font-family: Arial;
+    color: #fff;
+    background-color: #616e65;
+    border: 1px solid transparent;
+    border-image: url(/assets/img/border/borderthin.png) 45%;
+    border-image-width: 10px;
+    border-image-outset: 4px;
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+input:focus, textarea:focus, select:focus, button:focus {
+    outline: none;
+}
+
+.input::placeholder, .textarea::placeholder {
+    color: white;
+}
+
+input::placeholder {
+    color: #000;
+    opacity: 0;
+}
+
+input, textarea {
+    font-family: Fondamento;
+}
+
+option {
+    color: #fff;
+}
+
+button {
+    background: #3f504d;
+    color: white;
+    cursor: pointer;
+}
+
+.customization-panel {
+    max-height: 70vh; 
+    overflow-y: scroll; 
+    overflow-x: hidden;
+    background: #e5e0ca;
+    border: 1px solid transparent;
+    border-image: url("/assets/img/border/border.png") 20 stretch;
+    border-image-width: 21px;
+    width: 400px;
+    height: 85%;
+    padding: 20px;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    -ms-overflow-style: none; 
+    scrollbar-width: none; 
+}
+
+.customization-panel::-webkit-scrollbar {
+    display: none;
+}
+
+.custom-title {
+    background-image: url("/assets/img/background/black.png");
+    background-size: 48px 48px;
+    
+    text-align: center;
+    font-family: sourcesans;
+    color: #e9eed1;
+    
+    border-top: 1px solid transparent;   
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+    border-bottom: 1px solid transparent;
+    border-image: url("/grey/icons/bar.png") 20 stretch;
+    border-image-width: 21px;
+    
+    padding: 10px 0;
+    width: 109%;
+    
+    position: relative;
+    left: 50%;
+    bottom: 18px;
+    transform: translate(-50%);
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.card {
+    position: relative;
+    width: 300px;
+    height: 425px;
+    background-size: contain;
+    background-position: center;
+    text-align: center;
+    font-family: "Fondamento", serif;
+    z-index: 2;
+}
+
+.card-color {
+    transform: translate(0%, 4%);
+    background-color: var(--color-card-common);
+    position: absolute;
+    width: 275px;
+    height: 400px;
+    background-size: cover;
+    z-index: 1;
+}
+
+.card-frozen {
+    pointer-events: none;
+    position: absolute;
+    width: 325px;
+    height: 450px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    z-index: 3;
+    transform: translateY(-15px);
+}
+
+.card-outline {
+    pointer-events: none;
+    position: absolute;
+    width: 310px;
+    background-size: cover;
+    z-index: 3;
+    transform: translate(0px, -10px);
+}
+
+.card-front {
+    position: absolute;
+    width: 280px;
+    height: 400px;
+    background-size: cover;
+    z-index: 2;
+    transform: translateY(10px);
+}
+
+.input-title {
+    position: absolute;
+    top: 23.5px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 20px;
+    color: #3a3a3a;
+    width: 80%;
+    border: none;
+    background: transparent;
+}
+
+.image {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 62%);
+    width: 135px;
+    height: 135px;
+}
+
+.image img {
+    width: 105%;
+    height: 105%;
+}
+
+.input-card-class {
+    position: absolute;
+    top: 235px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 16px;
+    color: #555;
+    border: none;
+    background: transparent;
+    width: 75%;
+}
+
+.input-description {
+    bottom: 6%;
+    z-index: 1;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 10%);
+    font-size: 18px;
+    color: #222;
+    width: 75%;
+    overflow-wrap: break-word;
+    line-height: 1.5;
+    height: 35%;
+    border: none;
+    background: transparent;
+}
+
+.bonuses {
+    width: 100%;
+    position: absolute;
+    margin-top: 430px;
+    text-align: center;
+    font-size: 24px;
+    font-family: "Guru", serif;
+    color: #f5f5dc;
+    -webkit-text-stroke: 0.15px #5D553B;
+    text-shadow: -1px -1px 0 #5D553B, 1px -1px 0 #5D553B, -1px 1px 0 #5D553B, 1px 1px 0 #5D553B;
+}
+
+.onestar {
+    position: absolute;
+    bottom: 15%;
+    left: 32%;
+}
+
+.twostar {
+    position: absolute;
+    bottom: 15%;
+    left: 22%;
+}
+
+.threestar {
+    position: absolute;
+    bottom: 10%;
+    left: 14%;
+}
+
+.button-container {
+    position: relative;
+}
+
+.left-button,
+.right-button {
+    height: 32px;
+    background: #3f504d;
+    border: 1px solid transparent;
+    border-image: url(/assets/img/border/borderthin.png) 45%;
+    border-image-width: 10px;
+    border-image-outset: 2px;
+}
+
+.icon-preview {
+    border: 1px solid transparent;
+    border-image: var(--border-button) 7 stretch;
+    border-image-width: 10;
+    border-image-outset: 1px;
+    width: 175px;
+    background: white;
+}
+
+.icon-background {
+    position: relative;
+    width: 105%;
+    height: 105%;
+    right: 2.5%;
+    bottom: 2.5%;
+}
+
+.card-icon {
+    opacity: 0.75;
+    position: relative;
+    bottom: 107.5%;
+    left: -2%;
+}
+
+.checkbox-label {
+    display: flex;
+    align-items: center;
+}
+
+.checkbox-label input {
+    position: relative;
+    right: 50%;
+    transform: translateX(50%);
+}
+
+p {
+    text-shadow: black 0px 0px 7px;
+}

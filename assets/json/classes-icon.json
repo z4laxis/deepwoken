@@ -1,0 +1,679 @@
+[
+    {
+      "name": "Adept Caster",
+      "icon": "genius"
+    },
+    {
+      "name": "Alley Cat",
+      "icon": "boots"
+    },
+    {
+      "name": "Annihilator",
+      "icon": "fist"
+    },
+    {
+      "name": "Bastion",
+      "icon": "shield"
+    },
+    {
+      "name": "Butterfly",
+      "icon": "boots"
+    },
+    {
+      "name": "Charm Caster",
+      "icon": "handshake"
+    },
+    {
+      "name": "Elementalist",
+      "icon": ""
+    },
+    {
+      "name": "Human Architecture",
+      "icon": "skeleton"
+    },
+    {
+      "name": "Ice Age",
+      "icon": "frost"
+    },
+    {
+      "name": "Immolator",
+      "icon": "fire"
+    },
+    {
+      "name": "Ironsinger",
+      "icon": "ironsing"
+    },
+    {
+      "name": "Lava Serpent",
+      "icon": "explosion"
+    },
+    {
+      "name": "Pyroclast",
+      "icon": "explosion"
+    },
+    {
+      "name": "Rampaging Brute",
+      "icon": "fist"
+    },
+    {
+      "name": "Sage of Wisps",
+      "icon": "orb"
+    },
+    {
+      "name": "Scrapsinger",
+      "icon": "sword"
+    },
+    {
+      "name": "Silencer",
+      "icon": "sword"
+    },
+    {
+      "name": "Specter",
+      "icon": "wind"
+    },
+    {
+      "name": "Swiftshade",
+      "icon": "boots"
+    },
+    {
+      "name": "Thief",
+      "icon": "boots"
+    },
+    {
+      "name": "Tyrant",
+      "icon": "handshake"
+    },
+    {
+      "name": "Vow of Mastery",
+      "icon": "handshake"
+    },
+    {
+      "name": "Adaptive Arsenal",
+      "icon": "sword"
+    },
+    {
+      "name": "Aerial Dancer",
+      "icon": "scratch"
+    },
+    {
+      "name": "Aeromancer",
+      "icon": "wind"
+    },
+    {
+      "name": "Alchemist",
+      "icon": "potion"
+    },
+    {
+      "name": "Apex Predator",
+      "icon": "scratch"
+    },
+    {
+      "name": "Bruiser",
+      "icon": "fist"
+    },
+    {
+      "name": "Champion",
+      "icon": "fist"
+    },
+    {
+      "name": "Colossus",
+      "icon": "sword"
+    },
+    {
+      "name": "Comrade",
+      "icon": "handshake"
+    },
+    {
+      "name": "Critical Specialist",
+      "icon": "sword"
+    },
+    {
+      "name": "Cryoni",
+      "icon": "frost"
+    },
+    {
+      "name": "Darksiphon",
+      "icon": "rift"
+    },
+    {
+      "name": "Duelist",
+      "icon": "sword"
+    },
+    {
+      "name": "Ether Adept",
+      "icon": "brain"
+    },
+    {
+      "name": "Fish",
+      "icon": "eye"
+    },
+    {
+      "name": "Flame Dancer",
+      "icon": "fire"
+    },
+    {
+      "name": "Flame Warden",
+      "icon": "fire"
+    },
+    {
+      "name": "Freak of Nature",
+      "icon": "skeleton"
+    },
+    {
+      "name": "Frozen Warrior",
+      "icon": "frost"
+    },
+    {
+      "name": "Genius Intellect",
+      "icon": "brain"
+    },
+    {
+      "name": "Gunslinger",
+      "icon": "throw"
+    },
+    {
+      "name": "Heretic",
+      "icon": "saviour"
+    },
+    {
+      "name": "Hunter",
+      "icon": "eye"
+    },
+    {
+      "name": "Javelin Lord",
+      "icon": "bolt"
+    },
+    {
+      "name": "Leaf in the Wind",
+      "icon": "leaf"
+    },
+    {
+      "name": "Limitbreaker",
+      "icon": "skeleton"
+    },
+    {
+      "name": "Marauder",
+      "icon": "skeleton"
+    },
+    {
+      "name": "Meditative Trance",
+      "icon": "fist"
+    },
+    {
+      "name": "Metamancer",
+      "icon": "eye"
+    },
+    {
+      "name": "Miscellaneous",
+      "icon": ""
+    },
+    {
+      "name": "Navaen Nomad",
+      "icon": ""
+    },
+    {
+      "name": "Nimble Blade",
+      "icon": "sword"
+    },
+    {
+      "name": "Omniscient",
+      "icon": "brain"
+    },
+    {
+      "name": "Raging Bull",
+      "icon": ""
+    },
+    {
+      "name": "Rending Needle",
+      "icon": ""
+    },
+    {
+      "name": "Scoundrel",
+      "icon": "fist"
+    },
+    {
+      "name": "Shadowcaster",
+      "icon": "rift"
+    },
+    {
+      "name": "Silvertongue",
+      "icon": "handshake"
+    },
+    {
+      "name": "Soul Converter",
+      "icon": "shield"
+    },
+    {
+      "name": "Tactician",
+      "icon": "fist"
+    },
+    {
+      "name": "The Emperor's Blade",
+      "icon": "sword"
+    },
+    {
+      "name": "Thundercaller",
+      "icon": "bolt"
+    },
+    {
+      "name": "Trickster",
+      "icon": "fist"
+    },
+    {
+      "name": "Twisted Puppets",
+      "icon": "explosion"
+    },
+    {
+      "name": "Undying Ember",
+      "icon": "fire"
+    },
+    {
+      "name": "Vigil Swordsman",
+      "icon": "sword"
+    },
+    {
+      "name": "Vocalist",
+      "icon": "handshake"
+    },
+    {
+      "name": "Warrior",
+      "icon": "sword"
+    },
+    {
+      "name": "Waterborne",
+      "icon": "saviour"
+    },
+    {
+      "name": "Weapon Master",
+      "icon": "sword"
+    },
+    {
+      "name": "Acrobat",
+      "icon": "boots"
+    },
+    {
+      "name": "All-Knowing",
+      "icon": "genius"
+    },
+    {
+      "name": "Amoran Seeker",
+      "icon": "fire"
+    },
+    {
+      "name": "Angler",
+      "icon": "leaf"
+    },
+    {
+      "name": "Artisan",
+      "icon": "cube"
+    },
+    {
+      "name": "Assassin",
+      "icon": "eye"
+    },
+    {
+      "name": "Athlete",
+      "icon": "boots"
+    },
+    {
+      "name": "Authority Interrogator",
+      "icon": "bolt"
+    },
+    {
+      "name": "Beast Slayer",
+      "icon": "fist"
+    },
+    {
+      "name": "Berserker",
+      "icon": ""
+    },
+    {
+      "name": "Brawler",
+      "icon": "fist"
+    },
+    {
+      "name": "Cold Phantom",
+      "icon": ""
+    },
+    {
+      "name": "Cosmic Wind",
+      "icon": ""
+    },
+    {
+      "name": "Cryomancer",
+      "icon": "frost"
+    },
+    {
+      "name": "Cutthroat",
+      "icon": "eye"
+    },
+    {
+      "name": "Death Speaker",
+      "icon": "rift"
+    },
+    {
+      "name": "Deepwoken",
+      "icon": ""
+    },
+    {
+      "name": "Doomsday Engine",
+      "icon": ""
+    },
+    {
+      "name": "Duelist Flame",
+      "icon": "fire"
+    },
+    {
+      "name": "Empath",
+      "icon": ""
+    },
+    {
+      "name": "Escape Artist",
+      "icon": "boots"
+    },
+    {
+      "name": "Falling Star Guard",
+      "icon": ""
+    },
+    {
+      "name": "Flamecharm Master",
+      "icon": ""
+    },
+    {
+      "name": "Flamecharmer",
+      "icon": "fire"
+    },
+    {
+      "name": "Flashfreeze",
+      "icon": ""
+    },
+    {
+      "name": "Frost Forger",
+      "icon": "frost"
+    },
+    {
+      "name": "Frostdraw Master",
+      "icon": "frost"
+    },
+    {
+      "name": "Frostdrawer",
+      "icon": "frost"
+    },
+    {
+      "name": "Frostthorn",
+      "icon": "frost"
+    },
+    {
+      "name": "Gale Duelist",
+      "icon": "wind"
+    },
+    {
+      "name": "Galebreathe Master",
+      "icon": "wind"
+    },
+    {
+      "name": "Galebreather",
+      "icon": "wind"
+    },
+    {
+      "name": "Galeforce",
+      "icon": ""
+    },
+    {
+      "name": "Glassdancer",
+      "icon": ""
+    },
+    {
+      "name": "Great Wall",
+      "icon": ""
+    },
+    {
+      "name": "Hammer Rage",
+      "icon": ""
+    },
+    {
+      "name": "Heat Column",
+      "icon": ""
+    },
+    {
+      "name": "Inferno",
+      "icon": ""
+    },
+    {
+      "name": "Iron Will",
+      "icon": "eye"
+    },
+    {
+      "name": "Ironsing Master",
+      "icon": ""
+    },
+    {
+      "name": "Justicar",
+      "icon": "fist"
+    },
+    {
+      "name": "Kickstarter",
+      "icon": ""
+    },
+    {
+      "name": "Lancer",
+      "icon": ""
+    },
+    {
+      "name": "Leader",
+      "icon": ""
+    },
+    {
+      "name": "Legion Shock Trooper",
+      "icon": ""
+    },
+    {
+      "name": "Liberator",
+      "icon": ""
+    },
+    {
+      "name": "Lichtenberg",
+      "icon": ""
+    },
+    {
+      "name": "Master Survivalist",
+      "icon": ""
+    },
+    {
+      "name": "Mental Fortress",
+      "icon": "eye"
+    },
+    {
+      "name": "Metallurgist",
+      "icon": ""
+    },
+    {
+      "name": "Mindbreaker",
+      "icon": "eye"
+    },
+    {
+      "name": "Mountain Climber",
+      "icon": ""
+    },
+    {
+      "name": "Mr Charm",
+      "icon": "handshake"
+    },
+    {
+      "name": "Murmur",
+      "icon": "eye"
+    },
+    {
+      "name": "Natural Armor",
+      "icon": "shield"
+    },
+    {
+      "name": "Needle",
+      "icon": ""
+    },
+    {
+      "name": "One Eyed King",
+      "icon": ""
+    },
+    {
+      "name": "Outlaw",
+      "icon": "throw"
+    },
+    {
+      "name": "Politician",
+      "icon": ""
+    },
+    {
+      "name": "Public Figure",
+      "icon": ""
+    },
+    {
+      "name": "Pyromancer",
+      "icon": ""
+    },
+    {
+      "name": "Rampant Static",
+      "icon": ""
+    },
+    {
+      "name": "Saboteur",
+      "icon": "explosion"
+    },
+    {
+      "name": "Saint of Blades",
+      "icon": ""
+    },
+    {
+      "name": "Sapper",
+      "icon": ""
+    },
+    {
+      "name": "Seeker of Sound",
+      "icon": "fist"
+    },
+    {
+      "name": "Self-Shocker",
+      "icon": ""
+    },
+    {
+      "name": "Shadowcast Master",
+      "icon": "rift"
+    },
+    {
+      "name": "Shieldmaster",
+      "icon": "shield"
+    },
+    {
+      "name": "Shipwright",
+      "icon": ""
+    },
+    {
+      "name": "Showboater",
+      "icon": ""
+    },
+    {
+      "name": "Static Weaver",
+      "icon": ""
+    },
+    {
+      "name": "Stormcaller",
+      "icon": ""
+    },
+    {
+      "name": "Sturdy Resolve",
+      "icon": "eye"
+    },
+    {
+      "name": "Superconductor",
+      "icon": ""
+    },
+    {
+      "name": "Survival Instinct",
+      "icon": "leaf"
+    },
+    {
+      "name": "Tamed Flame",
+      "icon": ""
+    },
+    {
+      "name": "Tavernkeep",
+      "icon": "leaf"
+    },
+    {
+      "name": "The Demon Blade",
+      "icon": ""
+    },
+    {
+      "name": "The Negotiator",
+      "icon": ""
+    },
+    {
+      "name": "Thunder Brawler",
+      "icon": ""
+    },
+    {
+      "name": "Thunder Caster",
+      "icon": ""
+    },
+    {
+      "name": "Thunderblade",
+      "icon": ""
+    },
+    {
+      "name": "Thundercall Master",
+      "icon": ""
+    },
+    {
+      "name": "Toxic Personality",
+      "icon": "handshake"
+    },
+    {
+      "name": "Unstable Capacitor",
+      "icon": ""
+    },
+    {
+      "name": "Vigil of Winds",
+      "icon": ""
+    },
+    {
+      "name": "Whisper",
+      "icon": ""
+    },
+    {
+      "name": "Windrunner",
+      "icon": ""
+    },
+    {
+      "name": "Arcwarder",
+      "icon": ""
+    },
+    {
+      "name": "Drowned Secret",
+      "icon": "eye"
+    },
+    {
+      "name": "Gale Kata",
+      "icon": "fist"
+    },
+    {
+      "name": "Ignition Union",
+      "icon": "eye"
+    },
+    {
+      "name": "Prospector",
+      "icon": "scratch"
+    },
+    {
+      "name": "Scholar of the Cloud",
+      "icon": ""
+    },
+    {
+      "name": "Sovereign of Slaughter",
+      "icon": "fist"
+    },
+
+    {
+      "name": "Outfit",
+      "icon": "skeleton"
+    }
+  ]

@@ -1,0 +1,1001 @@
+[
+    {
+      "name": "Flame Within",
+      "desc": "An application of Pleeksty's concept of the inner flame, also known as the soul of man. Set yourself ablaze to gain 10% extra damage and 10% extra speed.",
+      "rarity": "Common",
+      "category": "Amoran Seeker",
+      "reqs": {
+        "power": "0",
+        "from": "",
+        "base": {
+          "Strength": 0,
+          "Fortitude": 0,
+          "Agility": 0,
+          "Intelligence": 0,
+          "Willpower": 0,
+          "Charisma": 0
+        },
+        "weapon": {
+          "Heavy Wep.": 0,
+          "Medium Wep.": 0,
+          "Light Wep.": 0
+        },
+        "attunement": {
+          "Flamecharm": 25,
+          "Frostdraw": 0,
+          "Thundercall": 0,
+          "Galebreathe": 0,
+          "Shadowcast": 0,
+          "Ironsing": 0,
+          "Bloodrend": 0
+        }
+      },
+      "stats": "N/A",
+    },
+    {
+      "name": "Produce Spark",
+      "desc": "A simple production of flame for the use of making campfires.",
+      "rarity": "Common",
+      "category": "Flamecharmer",
+      "reqs": {
+        "power": "0",
+    
+        "from": ,
+        "base": {
+          "Strength": 0,
+          "Fortitude": 0,
+          "Agility": 0,
+          "Intelligence": 0,
+          "Willpower": 0,
+          "Charisma": 0
+        },
+        "weapon": {
+          "Heavy Wep.": 0,
+          "Medium Wep.": 0,
+          "Light Wep.": 0
+        },
+        "attunement": {
+          "Flamecharm": 20,
+          "Frostdraw": 0,
+          "Thundercall": 0,
+          "Galebreathe": 0,
+          "Shadowcast": 0,
+          "Ironsing": 0,
+          "Bloodrend": 0
+        }
+      },
+      "stats": "N/A",
+    },
+    {
+      "name": "Discovery of Fire",
+      "desc": "Flints and Flamecharm are for simpletons.",
+      "rarity": "Common",
+      "category": "Thundercaller",
+      "reqs": {
+        "power": "0",
+    
+        "from": ,
+        "base": {
+          "Strength": 0,
+          "Fortitude": 0,
+          "Agility": 0,
+          "Intelligence": 0,
+          "Willpower": 0,
+          "Charisma": 0
+        },
+        "weapon": {
+          "Heavy Wep.": 0,
+          "Medium Wep.": 0,
+          "Light Wep.": 0
+        },
+        "attunement": {
+          "Flamecharm": 0,
+          "Frostdraw": 0,
+          "Thundercall": 50,
+          "Galebreathe": 0,
+          "Shadowcast": 0,
+          "Ironsing": 0,
+          "Bloodrend": 0
+        }
+      },
+      "stats": "N/A",
+    },
+    {
+      "name": "Vow of Mastery",
+      "desc": "The Vow of Mastery grants the Master the power to command their Subject. To initiate a vow, you must ask the other player if they'd like to make the vow.e.g.\"wanna make a vow of mastery?\,
+      "rarity": "Common",
+      "category": "Vow of Mastery",
+      "reqs": {
+        "power": "0",
+        "weaponType": "None",
+        "from": ,
+        "base": {
+          "Strength": 0,
+          "Fortitude": 0,
+          "Agility": 0,
+          "Intelligence": 0,
+          "Willpower": 0,
+          "Charisma": 20
+        },
+        "weapon": {
+          "Heavy Wep.": 0,
+          "Medium Wep.": 0,
+          "Light Wep.": 0
+        },
+        "attunement": {
+          "Flamecharm": 0,
+          "Frostdraw": 0,
+          "Thundercall": 0,
+          "Galebreathe": 0,
+          "Shadowcast": 0,
+          "Ironsing": 0,
+          "Bloodrend": 0
+        }
+      },
+      "stats": "N/A",
+    },
+    {
+      "name": "Reveal",
+      "desc": "Pour your heart out and reveal your true strength",
+      "rarity": "Oath",
+      "category": "Bladeharper",
+      "reqs": {
+        "power": "0",
+        "weaponType": "None",
+        "from": "Oath: Bladeharper",
+        "base": {
+          "Strength": 0,
+          "Fortitude": 0,
+          "Agility": 0,
+          "Intelligence": 0,
+          "Willpower": 0,
+          "Charisma": 0
+        },
+        "weapon": {
+          "Heavy Wep.": 0,
+          "Medium Wep.": 0,
+          "Light Wep.": 0
+        },
+        "attunement": {
+          "Flamecharm": 0,
+          "Frostdraw": 0,
+          "Thundercall": 0,
+          "Galebreathe": 0,
+          "Shadowcast": 0,
+          "Ironsing": 0,
+          "Bloodrend": 0
+        }
+      },
+      "stats": "N/A",
+    },
+    {
+      "name": "Static Withdraw",
+      "desc": "When being carried use this talent to shock your captor, forcing them to drop you. Bodies of knocked enemies will be charged with electricity which will stun people who attempt to carry them.",
+      "rarity": "Common",
+      "category": "Thundercaller",
+      "reqs": {
+        "power": "0",
+        "weaponType": "None",
+        "from": ,
+        "base": {
+          "Strength": 0,
+          "Fortitude": 0,
+          "Agility": 0,
+          "Intelligence": 0,
+          "Willpower": 0,
+          "Charisma": 0
+        },
+        "weapon": {
+          "Heavy Wep.": 0,
+          "Medium Wep.": 0,
+          "Light Wep.": 0
+        },
+        "attunement": {
+          "Flamecharm": 0,
+          "Frostdraw": 0,
+          "Thundercall": 25,
+          "Galebreathe": 0,
+          "Shadowcast": 0,
+          "Ironsing": 0,
+          "Bloodrend": 0
+        }
+      },
+      "stats": "N/A",
+    },
+    {
+      "name": "Burning Sacrifice",
+      "desc": "Sacrifice puppets who have been alive for half of their lifetime and burn purple for Flame Emperor Stacks.",
+      "rarity": "Rare",
+      "category": "Twisted Puppets",
+      "reqs": {
+        "power": "0",
+        "weaponType": "None",
+        "from": "Wraith Path: Twisted Puppets, Emperor Flame",
+        "base": {
+          "Strength": 0,
+          "Fortitude": 0,
+          "Agility": 0,
+          "Intelligence": 0,
+          "Willpower": 0,
+          "Charisma": 0
+        },
+        "weapon": {
+          "Heavy Wep.": 0,
+          "Medium Wep.": 0,
+          "Light Wep.": 0
+        },
+        "attunement": {
+          "Flamecharm": 40,
+          "Frostdraw": 0,
+          "Thundercall": 0,
+          "Galebreathe": 0,
+          "Shadowcast": 40,
+          "Ironsing": 0,
+          "Bloodrend": 0
+        }
+      },
+      "stats": "N/A",
+    },
+    {
+      "name": "Voideye",
+      "desc": "Voidmother's blessing, the method to travel back to the Voidheart.",
+      "rarity": "Origin",
+      "category": "The Knives of Eylis",
+      "reqs": {
+        "power": "0",
+        "weaponType": "None",
+        "from": "Voidwalker Origin",
+        "base": {
+          "Strength": 0,
+          "Fortitude": 0,
+          "Agility": 0,
+          "Intelligence": 0,
+          "Willpower": 0,
+          "Charisma": 0
+        },
+        "weapon": {
+          "Heavy Wep.": 0,
+          "Medium Wep.": 0,
+          "Light Wep.": 0
+        },
+        "attunement": {
+          "Flamecharm": 0,
+          "Frostdraw": 0,
+          "Thundercall": 0,
+          "Galebreathe": 0,
+          "Shadowcast": 0,
+          "Ironsing": 0,
+          "Bloodrend": 0
+        }
+      },
+      "stats": "N/A",
+    }, 
+    {
+      "name": "Grasp of Eylis",
+      "desc": "You can temporarily teleport to locations near your bounty target, if one can be found. However, you must stay close, or be desynchronised.",
+      "rarity": "Origin",
+      "category": "The Knives of Eylis",
+      "reqs": {
+        "power": "0",
+        "weaponType": "None",
+        "from": "Voidwalker Origin",
+        "base": {
+          "Strength": 0,
+          "Fortitude": 0,
+          "Agility": 0,
+          "Intelligence": 0,
+          "Willpower": 0,
+          "Charisma": 0
+        },
+        "weapon": {
+          "Heavy Wep.": 0,
+          "Medium Wep.": 0,
+          "Light Wep.": 0
+        },
+        "attunement": {
+          "Flamecharm": 0,
+          "Frostdraw": 0,
+          "Thundercall": 0,
+          "Galebreathe": 0,
+          "Shadowcast": 0,
+          "Ironsing": 0,
+          "Bloodrend": 0
+        }
+      },
+      "stats": "N/A",
+    }, 
+    {
+      "name": "Berserk",
+      "desc": "One with nothing to lose has everything to gain. Succumb to the burning rage within, nullifying your own armor in exchange for nullifying the armor of your foes on your M1's. Grants your Criticals +10% PEN while active.",
+      "rarity": "Common",
+      "category": "Berserker",
+      "reqs": {
+        "power": "0",
+        "weaponType": "None",
+        "from": ,
+        "base": {
+          "Strength": 80,
+          "Fortitude": 0,
+          "Agility": 0,
+          "Intelligence": 0,
+          "Willpower": 0,
+          "Charisma": 0
+        },
+        "weapon": {
+          "Heavy Wep.": 0,
+          "Medium Wep.": 0,
+          "Light Wep.": 0
+        },
+        "attunement": {
+          "Flamecharm": 0,
+          "Frostdraw": 0,
+          "Thundercall": 0,
+          "Galebreathe": 0,
+          "Shadowcast": 0,
+          "Ironsing": 0,
+          "Bloodrend": 0
+        }
+      },
+      "stats": "N/A",
+    }, 
+    {
+      "name": "Hair Products",
+      "desc": "Select Hair Products to apply to others with your Hair Spray.",
+      "rarity": "Oath",
+      "category": "Fadetrimmer",
+      "reqs": {
+        "power": "0",
+        "weaponType": "None",
+        "from": "Oath: Fadetrimmer",
+        "base": {
+          "Strength": 0,
+          "Fortitude": 0,
+          "Agility": 0,
+          "Intelligence": 0,
+          "Willpower": 0,
+          "Charisma": 0
+        },
+        "weapon": {
+          "Heavy Wep.": 0,
+          "Medium Wep.": 0,
+          "Light Wep.": 0
+        },
+        "attunement": {
+          "Flamecharm": 0,
+          "Frostdraw": 0,
+          "Thundercall": 0,
+          "Galebreathe": 0,
+          "Shadowcast": 0,
+          "Ironsing": 0,
+          "Bloodrend": 0
+        }
+      },
+      "stats": "N/A",
+    }, 
+    {
+      "name": "Hair Spray",
+      "desc": "Apply your Hair Products.",
+      "rarity": "Oath",
+      "category": "Fadetrimmer",
+      "reqs": {
+        "power": "0",
+        "weaponType": "None",
+        "from": "Oath: Fadetrimmer",
+        "base": {
+          "Strength": 0,
+          "Fortitude": 0,
+          "Agility": 0,
+          "Intelligence": 0,
+          "Willpower": 0,
+          "Charisma": 0
+        },
+        "weapon": {
+          "Heavy Wep.": 0,
+          "Medium Wep.": 0,
+          "Light Wep.": 0
+        },
+        "attunement": {
+          "Flamecharm": 0,
+          "Frostdraw": 0,
+          "Thundercall": 0,
+          "Galebreathe": 0,
+          "Shadowcast": 0,
+          "Ironsing": 0,
+          "Bloodrend": 0
+        }
+      },
+      "stats": "N/A",
+    }, 
+    {
+      "name": "Shadow Travel",
+      "desc": "Teleport to a location in exchange for Ether cost. Certain ranges will require a health sacrifice. Be careful as this technique can prove lethal to the user.",
+      "rarity": "Rare",
+      "category": "Shadowcaster",
+      "reqs": {
+        "power": "0",
+        "weaponType": "None",
+        "from": "Dark God",
+        "base": {
+          "Strength": 0,
+          "Fortitude": 0,
+          "Agility": 0,
+          "Intelligence": 0,
+          "Willpower": 0,
+          "Charisma": 0
+        },
+        "weapon": {
+          "Heavy Wep.": 0,
+          "Medium Wep.": 0,
+          "Light Wep.": 0
+        },
+        "attunement": {
+          "Flamecharm": 0,
+          "Frostdraw": 0,
+          "Thundercall": 0,
+          "Galebreathe": 0,
+          "Shadowcast": 75,
+          "Ironsing": 0,
+          "Bloodrend": 0
+        }
+      },
+      "stats": "N/A",
+    },
+    {
+      "name": "Sow and Mend",
+      "desc": "Sacrifice 15% of your blood for temporary health.",
+      "rarity": "Rare",
+      "category": "Transitory Vitality",
+      "reqs": {
+        "power": "0",
+        "weaponType": "None",
+        "from": "Master Bloodrender",
+        "base": {
+          "Strength": 0,
+          "Fortitude": 0,
+          "Agility": 0,
+          "Intelligence": 0,
+          "Willpower": 0,
+          "Charisma": 0
+        },
+        "weapon": {
+          "Heavy Wep.": 0,
+          "Medium Wep.": 0,
+          "Light Wep.": 0
+        },
+        "attunement": {
+          "Flamecharm": 0,
+          "Frostdraw": 0,
+          "Thundercall": 0,
+          "Galebreathe": 0,
+          "Shadowcast": 0,
+          "Ironsing": 0,
+          "Bloodrend": 60
+        }
+      },
+      "stats": "N/A",
+    }, 
+    {
+      "name": "Ardour Scream",
+      "desc": "Amplify your shout into a scream using Ardour, dominating weaker foes. Victims take 25% more damage and 50% more posture damage for 10s.",
+      "rarity": "Common",
+      "category": "Murmur",
+      "reqs": {
+        "power": "0",
+        "weaponType": "None",
+        "from": "Murmur: Ardour",
+        "base": {
+          "Strength": 15,
+          "Fortitude": 0,
+          "Agility": 0,
+          "Intelligence": 0,
+          "Willpower": 40,
+          "Charisma": 0
+        },
+        "weapon": {
+          "Heavy Wep.": 0,
+          "Medium Wep.": 0,
+          "Light Wep.": 0
+        },
+        "attunement": {
+          "Flamecharm": 0,
+          "Frostdraw": 0,
+          "Thundercall": 0,
+          "Galebreathe": 0,
+          "Shadowcast": 0,
+          "Ironsing": 0,
+          "Bloodrend": 0
+        }
+      },
+      "stats": "+9 Sanity",
+    }, 
+    {
+      "name": "Elegy of Light",
+      "desc": "The Unspoken Vow of the Waking God resonates through you, if briefly. Protects you from the effects of Deep Gems for 3 minutes. Remains dormant until you take the life of an equal.",
+      "rarity": "Equipment",
+      "category": "Miscellaneous",
+      "reqs": {
+        "power": "0",
+        "weaponType": "None",
+        "from": "Lightkeeper's Medallion",
+        "base": {
+          "Strength": 0,
+          "Fortitude": 0,
+          "Agility": 0,
+          "Intelligence": 0,
+          "Willpower": 0,
+          "Charisma": 0
+        },
+        "weapon": {
+          "Heavy Wep.": 0,
+          "Medium Wep.": 0,
+          "Light Wep.": 0
+        },
+        "attunement": {
+          "Flamecharm": 0,
+          "Frostdraw": 0,
+          "Thundercall": 0,
+          "Galebreathe": 0,
+          "Shadowcast": 0,
+          "Ironsing": 0,
+          "Bloodrend": 0
+        }
+      },
+      "stats": "N/A",
+    },
+    {
+      "name": "Heretic's Sutra",
+      "desc": "A chant that steers you into the state of insanity for 20 seconds.\n[Procs Piercing Will for 15 seconds.]",
+      "rarity": "Quest",
+      "category": "Heretic",
+      "reqs": {
+        "power": "0",
+        "weaponType": "None",
+        "from": "Go Tier 1 insanity; talk to Kasen in the Ethironal Shrine Sanctuary",
+        "base": {
+          "Strength": 0,
+          "Fortitude": 0,
+          "Agility": 0,
+          "Intelligence": 0,
+          "Willpower": 80,
+          "Charisma": 0
+        },
+        "weapon": {
+          "Heavy Wep.": 0,
+          "Medium Wep.": 0,
+          "Light Wep.": 0
+        },
+        "attunement": {
+          "Flamecharm": 0,
+          "Frostdraw": 0,
+          "Thundercall": 0,
+          "Galebreathe": 0,
+          "Shadowcast": 0,
+          "Ironsing": 0,
+          "Bloodrend": 0
+        }
+      },
+      "exclusiveWith": [
+        ""
+      ],
+      "stats": "N/A",
+      "dontCountTowardsTotal": false
+    },
+    {
+      "name": "Barber's Skillset",
+      "desc": "What type of look are we going for today?",
+      "rarity": "Oath",
+      "category": "Fadetrimmer",
+      "reqs": {
+        "power": "0",
+        "weaponType": "None",
+        "from": "Oath: Fadetrimmer",
+        "base": {
+          "Strength": 0,
+          "Fortitude": 0,
+          "Agility": 0,
+          "Intelligence": 0,
+          "Willpower": 0,
+          "Charisma": 0
+        },
+        "weapon": {
+          "Heavy Wep.": 0,
+          "Medium Wep.": 0,
+          "Light Wep.": 0
+        },
+        "attunement": {
+          "Flamecharm": 0,
+          "Frostdraw": 0,
+          "Thundercall": 0,
+          "Galebreathe": 0,
+          "Shadowcast": 0,
+          "Ironsing": 0,
+          "Bloodrend": 0
+        }
+      },
+      "exclusiveWith": [
+        ""
+      ],
+      "stats": "N/A",
+      "dontCountTowardsTotal": false
+    },
+    {
+      "name": "Flow State",
+      "desc": "Enter a moment of extreme focus in which you can change the windup of your special attack with the correct timing.",
+      "rarity": "Oath",
+      "category": "Silentheart",
+      "reqs": {
+        "power": "0",
+        "weaponType": "None",
+        "from": "Oath: Silentheart",
+        "base": {
+          "Strength": 0,
+          "Fortitude": 0,
+          "Agility": 0,
+          "Intelligence": 0,
+          "Willpower": 0,
+          "Charisma": 0
+        },
+        "weapon": {
+          "Heavy Wep.": 0,
+          "Medium Wep.": 0,
+          "Light Wep.": 0
+        },
+        "attunement": {
+          "Flamecharm": 0,
+          "Frostdraw": 0,
+          "Thundercall": 0,
+          "Galebreathe": 0,
+          "Shadowcast": 0,
+          "Ironsing": 0,
+          "Bloodrend": 0
+        }
+      },
+      "exclusiveWith": [
+        ""
+      ],
+      "stats": "N/A",
+      "dontCountTowardsTotal": false
+    },
+    {
+      "name": "Rush Hour",
+      "desc": "Stab yourself to become stronger, faster, and deal increased blood bar damage.",
+      "rarity": "Rare",
+      "category": "Bloodrender",
+      "reqs": {
+        "power": "0",
+        "weaponType": "None",
+        "from": "",
+        "base": {
+          "Strength": 0,
+          "Fortitude": 0,
+          "Agility": 0,
+          "Intelligence": 0,
+          "Willpower": 0,
+          "Charisma": 0
+        },
+        "weapon": {
+          "Heavy Wep.": 0,
+          "Medium Wep.": 0,
+          "Light Wep.": 0
+        },
+        "attunement": {
+          "Flamecharm": 0,
+          "Frostdraw": 0,
+          "Thundercall": 0,
+          "Galebreathe": 0,
+          "Shadowcast": 0,
+          "Ironsing": 0,
+          "Bloodrend": 50
+        }
+      },
+      "exclusiveWith": [
+        ""
+      ],
+      "stats": "",
+      "dontCountTowardsTotal": false
+    },
+    {
+      "name": "Feathered Glider",
+      "desc": "As a show of independance when they come of age, Tirans will strike out on their own with just their hand-crafted glider, gliding down from the mountains peaks where they make their homes. You take 10% less fall damage.",
+      "rarity": "Origin",
+      "category": "Innate",
+      "reqs": {
+        "power": "0",
+        "weaponType": "None",
+        "from": "Tiran Aspect",
+        "base": {
+          "Strength": 0,
+          "Fortitude": 0,
+          "Agility": 0,
+          "Intelligence": 0,
+          "Willpower": 0,
+          "Charisma": 0
+        },
+        "weapon": {
+          "Heavy Wep.": 0,
+          "Medium Wep.": 0,
+          "Light Wep.": 0
+        },
+        "attunement": {
+          "Flamecharm": 0,
+          "Frostdraw": 0,
+          "Thundercall": 0,
+          "Galebreathe": 0,
+          "Shadowcast": 0,
+          "Ironsing": 0,
+          "Bloodrend": 0
+        }
+      },
+      "exclusiveWith": [
+        ""
+      ],
+      "stats": "N/A",
+      "dontCountTowardsTotal": false
+    },
+    {
+      "name": "Mark of Jurik",
+      "desc": "Buffs the sanity of one person they choose around them as long as they are at a campfire",
+      "rarity": "Origin",
+      "category": "Innate",
+      "reqs": {
+        "power": "0",
+        "weaponType": "None",
+        "from": "Capra Aspect",
+        "base": {
+          "Strength": 0,
+          "Fortitude": 0,
+          "Agility": 0,
+          "Intelligence": 0,
+          "Willpower": 0,
+          "Charisma": 0
+        },
+        "weapon": {
+          "Heavy Wep.": 0,
+          "Medium Wep.": 0,
+          "Light Wep.": 0
+        },
+        "attunement": {
+          "Flamecharm": 0,
+          "Frostdraw": 0,
+          "Thundercall": 0,
+          "Galebreathe": 0,
+          "Shadowcast": 0,
+          "Ironsing": 0,
+          "Bloodrend": 0
+        }
+      },
+      "exclusiveWith": [
+        ""
+      ],
+      "stats": "N/A",
+      "dontCountTowardsTotal": false
+    },
+    {
+      "name": "Mark of Ku",
+      "desc": "Buffs the rest of one person they choose around them as long as they are at a campfire",
+      "rarity": "Origin",
+      "category": "Innate",
+      "reqs": {
+        "power": "0",
+        "weaponType": "None",
+        "from": "Capra Aspect",
+        "base": {
+          "Strength": 0,
+          "Fortitude": 0,
+          "Agility": 0,
+          "Intelligence": 0,
+          "Willpower": 0,
+          "Charisma": 0
+        },
+        "weapon": {
+          "Heavy Wep.": 0,
+          "Medium Wep.": 0,
+          "Light Wep.": 0
+        },
+        "attunement": {
+          "Flamecharm": 0,
+          "Frostdraw": 0,
+          "Thundercall": 0,
+          "Galebreathe": 0,
+          "Shadowcast": 0,
+          "Ironsing": 0,
+          "Bloodrend": 0
+        }
+      },
+      "exclusiveWith": [
+        ""
+      ],
+      "stats": "N/A",
+      "dontCountTowardsTotal": false
+    },
+    {
+      "name": "Mark of Nemit",
+      "desc": "Buffs the food of one person they choose around them as long as they are at a campfire",
+      "rarity": "Origin",
+      "category": "Innate",
+      "reqs": {
+        "power": "0",
+        "weaponType": "None",
+        "from": "Capra Aspect",
+        "base": {
+          "Strength": 0,
+          "Fortitude": 0,
+          "Agility": 0,
+          "Intelligence": 0,
+          "Willpower": 0,
+          "Charisma": 0
+        },
+        "weapon": {
+          "Heavy Wep.": 0,
+          "Medium Wep.": 0,
+          "Light Wep.": 0
+        },
+        "attunement": {
+          "Flamecharm": 0,
+          "Frostdraw": 0,
+          "Thundercall": 0,
+          "Galebreathe": 0,
+          "Shadowcast": 0,
+          "Ironsing": 0,
+          "Bloodrend": 0
+        }
+      },
+      "exclusiveWith": [
+        ""
+      ],
+      "stats": "N/A",
+      "dontCountTowardsTotal": false
+    },
+    {
+      "name": "Reality Shift",
+      "desc": "Command the closest conjured servant to attack their hallucinating target, using either a Critical Attack or a Mantra.",
+      "rarity": "Oath",
+      "category": "Visionshaper",
+      "reqs": {
+        "power": "0",
+        "weaponType": "None",
+        "from": "Oath: Visionshaper",
+        "base": {
+          "Strength": 0,
+          "Fortitude": 0,
+          "Agility": 0,
+          "Intelligence": 0,
+          "Willpower": 0,
+          "Charisma": 0
+        },
+        "weapon": {
+          "Heavy Wep.": 0,
+          "Medium Wep.": 0,
+          "Light Wep.": 0
+        },
+        "attunement": {
+          "Flamecharm": 0,
+          "Frostdraw": 0,
+          "Thundercall": 0,
+          "Galebreathe": 0,
+          "Shadowcast": 0,
+          "Ironsing": 0,
+          "Bloodrend": 0
+        }
+      },
+      "exclusiveWith": [
+        ""
+      ],
+      "stats": "N/A",
+      "dontCountTowardsTotal": false
+    },
+    {
+      "name": "Teachings of the Edenkite",
+      "desc": "Find your centre.",
+      "rarity": "Origin",
+      "category": "Innate",
+      "reqs": {
+        "power": "0",
+        "weaponType": "None",
+        "from": "Drakkard Aspect",
+        "base": {
+          "Strength": 0,
+          "Fortitude": 0,
+          "Agility": 0,
+          "Intelligence": 0,
+          "Willpower": 0,
+          "Charisma": 0
+        },
+        "weapon": {
+          "Heavy Wep.": 0,
+          "Medium Wep.": 0,
+          "Light Wep.": 0
+        },
+        "attunement": {
+          "Flamecharm": 0,
+          "Frostdraw": 0,
+          "Thundercall": 0,
+          "Galebreathe": 0,
+          "Shadowcast": 0,
+          "Ironsing": 0,
+          "Bloodrend": 0
+        }
+      },
+      "exclusiveWith": [
+        ""
+      ],
+      "stats": "N/A",
+      "dontCountTowardsTotal": false
+    },
+    {
+      "name": "Heliodar Wings",
+      "desc": "Find your centre.",
+      "rarity": "Origin",
+      "category": "Innate",
+      "reqs": {
+        "power": "0",
+        "weaponType": "None",
+        "from": "Heliodar Aspect",
+        "base": {
+          "Strength": 0,
+          "Fortitude": 0,
+          "Agility": 0,
+          "Intelligence": 0,
+          "Willpower": 0,
+          "Charisma": 0
+        },
+        "weapon": {
+          "Heavy Wep.": 0,
+          "Medium Wep.": 0,
+          "Light Wep.": 0
+        },
+        "attunement": {
+          "Flamecharm": 0,
+          "Frostdraw": 0,
+          "Thundercall": 0,
+          "Galebreathe": 0,
+          "Shadowcast": 0,
+          "Ironsing": 0,
+          "Bloodrend": 0
+        }
+      },
+      "exclusiveWith": [
+        ""
+      ],
+      "stats": "N/A",
+      "dontCountTowardsTotal": false
+    },
+    {
+      "name": "Hyperbody",
+      "desc": "Find your centre.",
+      "rarity": "Origin",
+      "category": "Innate",
+      "reqs": {
+        "power": "0",
+        "weaponType": "None",
+        "from": "Drakkard Aspect",
+        "base": {
+          "Strength": 0,
+          "Fortitude": 0,
+          "Agility": 0,
+          "Intelligence": 0,
+          "Willpower": 0,
+          "Charisma": 0
+        },
+        "weapon": {
+          "Heavy Wep.": 0,
+          "Medium Wep.": 0,
+          "Light Wep.": 0
+        },
+        "attunement": {
+          "Flamecharm": 0,
+          "Frostdraw": 0,
+          "Thundercall": 0,
+          "Galebreathe": 0,
+          "Shadowcast": 0,
+          "Ironsing": 0,
+          "Bloodrend": 0
+        }
+      },
+      "exclusiveWith": [
+        ""
+      ],
+      "stats": "N/A",
+      "dontCountTowardsTotal": false
+    },
+]

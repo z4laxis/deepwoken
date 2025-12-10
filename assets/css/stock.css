@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+}
+
+.background-img {
+    width: 85.27%;
+    height: 100%;
+    opacity: 0;
+}
+
+.shop-container {
+    color: white;
+    font-family: LibreBaskerville, serif;
+    width: 300px;
+    height: auto;
+    position: absolute;
+    left: 12.5%;
+    top: 12.5%;
+    font-size: 7.5px;
+}
+
+.shop-container h1 {
+    margin-bottom: 2px;
+    font-size: 16px;
+}
+
+.title-divider {
+    height: 2px;
+    width: 300px;
+    background-image: linear-gradient(to right, rgba(255,255,255,0.5), white, rgba(255,255,255,0));
+}
+
+.item-card {
+    width: 285px;
+    height: 100px;
+    background: rgba(0, 0, 0, 0.25);
+    position: relative;
+    margin-top: 10px;
+    border-radius: 2px;
+}
+
+.item-card h2 {
+    position: absolute;
+    top: 0;
+    left: 65px;
+    margin: 0;
+}
+
+.item-desc {
+    font-style: italic;
+    opacity: 0.9;
+    font-size: 1.5em;
+    font-family: SourceSans;
+    position: absolute;
+    top: 14px;
+    margin: 2.5px 0;
+    left: 64px;
+    width: 175px;
+}
+
+.item-icon {
+    height: 45px;
+    width: 45px;
+    position: absolute;
+    left: 9px;
+    top: 5px;
+    filter: invert(1);
+    border: none;
+    z-index: 2;
+}
+
+.item-frame {
+    height: 50px;
+    width: 50px;
+    position: relative;
+    left: 5px;
+    top: 0;
+}
+
+.item-frame.bg {
+    background-image: radial-gradient(#757262, #48463a);
+    position: absolute;
+    left: 7px;
+}
+
+.item-frame.border {
+    border: 1px solid transparent;
+    border-image: var(--border-thin) 8 stretch;
+    border-image-width: 7.5px;
+    border-image-outset: 2px;
+    image-rendering: pixelated;
+    z-index: 1;
+    filter: sepia(100%) saturate(500%) hue-rotate(0deg) brightness(75%) contrast(100%);
+}
+
+.price {
+    font-family: SourceSans;
+    font-size: 12px;
+    position: absolute;
+    left: 10px;
+    top: 55px;
+    bottom: 0;
+    margin: 0;
+    height: 15px;
+    width: 30px;
+    text-align: center;
+}
+
+.currency-icon {
+    width: 10px;
+    height: 11px;
+    position: absolute;
+    align-self: center;
+    margin: 2px;
+}
+
+.button {
+    background: #a57d50;
+    width: 50px;
+    height: 17.5px;
+    color: white;
+    font-size: 9px;
+    font-family: 'SourceSans';
+    position: absolute;
+    left: 5px;
+    top: 75px;
+    border-image-width: 6;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}

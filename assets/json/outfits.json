@@ -1,0 +1,2761 @@
+{
+  "11th legion plate": {
+    "name": "11th Legion Plate",
+    "durability": 1500,
+    "resistances": {
+      "Physical Resistance": 0.1,
+      "Slash Resistance": 0,
+      "Blunt Resistance": 0.3,
+      "Elemental Resistance": 0,
+      "Flame Resistance": 0,
+      "Ice Resistance": 0,
+      "Thunder Resistance": 0,
+      "Wind Resistance": 0,
+      "Shadow Resistance": 0
+    },
+    "extra": {
+      "Ether Regen": "0%",
+      "Extra Stealth": "0%"
+    },
+    "talent": "",
+    "requirements": {
+      "Power": 5,
+      "Strength": 0,
+      "Fortitude": 10,
+      "Agility": 0,
+      "Intelligence": 0,
+      "Willpower": 0,
+      "Charisma": 0
+    },
+    "mats": "x5 Cloth, x5 Fiber, x2 Gold, x10 Iron",
+    "notes": "100",
+  },
+  "arachnid's weave": {
+    "name": "Arachnid's Weave",
+    "durability": 0,
+    "resistances": {
+      "Physical Resistance": 0,
+      "Slash Resistance": 0,
+      "Blunt Resistance": 0,
+      "Elemental Resistance": 0,
+      "Flame Resistance": 0,
+      "Ice Resistance": 0,
+      "Thunder Resistance": 0,
+      "Wind Resistance": 0,
+      "Shadow Resistance": 0
+    },
+    "extra": {
+      "Ether Regen": "0%",
+      "Extra Stealth": "0%"
+    },
+    "talent": "",
+    "requirements": {
+      "Power": 0,
+      "Strength": 0,
+      "Fortitude": 0,
+      "Agility": 0,
+      "Intelligence": 0,
+      "Willpower": 0,
+      "Charisma": 0
+    },
+    "mats": "",
+    "notes": "",
+  },
+  "aroran gremor": {
+    "name": "Aroran Gremor",
+    "durability": 0,
+    "resistances": {
+      "Physical Resistance": 0,
+      "Slash Resistance": 0,
+      "Blunt Resistance": 0,
+      "Elemental Resistance": 0,
+      "Flame Resistance": 0,
+      "Ice Resistance": 0,
+      "Thunder Resistance": 0,
+      "Wind Resistance": 0,
+      "Shadow Resistance": 0
+    },
+    "extra": {
+      "Ether Regen": "0%",
+      "Extra Stealth": "0%"
+    },
+    "talent": "",
+    "requirements": {
+      "Power": 0,
+      "Strength": 0,
+      "Fortitude": 0,
+      "Agility": 0,
+      "Intelligence": 0,
+      "Willpower": 0,
+      "Charisma": 0
+    },
+    "mats": "",
+    "notes": "",
+  },
+  "authority captain uniform": {
+    "name": "Authority Captain Uniform",
+    "durability": 2000,
+    "resistances": {
+      "Physical Resistance": 0.3,
+      "Slash Resistance": 0,
+      "Blunt Resistance": 0,
+      "Elemental Resistance": 0.25,
+      "Flame Resistance": 0,
+      "Ice Resistance": 0,
+      "Thunder Resistance": 0,
+      "Wind Resistance": 0,
+      "Shadow Resistance": 0
+    },
+    "extra": {
+      "Ether Regen": "0%",
+      "Extra Stealth": "0%"
+    },
+    "talent": "",
+    "requirements": {
+      "Power": 10,
+      "Strength": 25,
+      "Fortitude": 0,
+      "Agility": 0,
+      "Intelligence": 0,
+      "Willpower": 0,
+      "Charisma": 0
+    },
+    "mats": "x5 Cloth, x5 Fiber, x1 Dark Feather, x1 Lionfish Scale",
+    "notes": "500",
+  },
+  "authority commander": {
+    "name": "Authority Commander",
+    "durability": 2800,
+    "resistances": {
+      "Physical Resistance": 0.3,
+      "Slash Resistance": 0,
+      "Blunt Resistance": 0.1,
+      "Elemental Resistance": 0.3,
+      "Flame Resistance": 0.1,
+      "Ice Resistance": 0,
+      "Thunder Resistance": 0,
+      "Wind Resistance": 0,
+      "Shadow Resistance": 0
+    },
+    "extra": {
+      "Ether Regen": "20%",
+      "Extra Stealth": "0%"
+    },
+    "talent": "Riot Breaker",
+    "requirements": {
+      "Power": 15,
+      "Strength": 0,
+      "Fortitude": 0,
+      "Agility": 0,
+      "Intelligence": 0,
+      "Willpower": 0,
+      "Charisma": 0
+    },
+    "mats": "x5 Cloth, x5 Fiber, x1 Blessed Gem, x5 Vibrant Gem, x1 Dark Feather, x1 Bounder Claw, x1 Thresher Spine",
+    "notes": "1000",
+  },
+  "authority peacekeeper armour": {
+    "name": "Authority Peacekeeper Armour",
+    "durability": 1600,
+    "resistances": {
+      "Physical Resistance": 0.15,
+      "Slash Resistance": 0.1,
+      "Blunt Resistance": 0,
+      "Elemental Resistance": 0.1,
+      "Flame Resistance": 0.15,
+      "Ice Resistance": 0,
+      "Thunder Resistance": 0,
+      "Wind Resistance": 0,
+      "Shadow Resistance": 0
+    },
+    "extra": {
+      "Ether Regen": "0%",
+      "Extra Stealth": "0%"
+    },
+    "talent": "Now You See Me",
+    "requirements": {
+      "Power": 5,
+      "Strength": 0,
+      "Fortitude": 5,
+      "Agility": 0,
+      "Intelligence": 0,
+      "Willpower": 0,
+      "Charisma": 0
+    },
+    "mats": "x5 Cloth, x5 Fiber, 1 Iron",
+    "notes": "30",
+  },
+  "black diver": {
+    "name": "Black Diver",
+    "durability": 2600,
+    "resistances": {
+      "Physical Resistance": 0.3,
+      "Slash Resistance": 0,
+      "Blunt Resistance": 0,
+      "Elemental Resistance": 0.3,
+      "Flame Resistance": 0,
+      "Ice Resistance": 0,
+      "Thunder Resistance": 0.2,
+      "Wind Resistance": 0,
+      "Shadow Resistance": 0.2
+    },
+    "extra": {
+      "Ether Regen": "50%",
+      "Extra Stealth": "0%"
+    },
+    "talent": "",
+    "requirements": {
+      "Power": 15,
+      "Strength": 0,
+      "Fortitude": 0,
+      "Agility": 0,
+      "Intelligence": 0,
+      "Willpower": 10,
+      "Charisma": 0
+    },
+    "mats": "x5 Cloth, x5 Fiber, x1 Blessed Gem, x5 Vibrant Gem, x1 Megalodaunt Hide, x1 Odd Tentacle, x1 Thresher Spine",
+    "notes": "1000",
+  },
+  "bounty hunter": {
+    "name": "Bounty Hunter",
+    "durability": 1500,
+    "resistances": {
+      "Physical Resistance": 0.2,
+      "Slash Resistance": 0,
+      "Blunt Resistance": 0,
+      "Elemental Resistance": 0.1,
+      "Flame Resistance": 0.05,
+      "Ice Resistance": 0,
+      "Thunder Resistance": 0,
+      "Wind Resistance": 0,
+      "Shadow Resistance": 0
+    },
+    "extra": {
+      "Ether Regen": "0%",
+      "Extra Stealth": "0%"
+    },
+    "talent": "Lightweight",
+    "requirements": {
+      "Power": 5,
+      "Strength": 0,
+      "Fortitude": 0,
+      "Agility": 0,
+      "Intelligence": 0,
+      "Willpower": 0,
+      "Charisma": 0
+    },
+    "mats": "x5 Cloth, x5 Fiber, x1 Eternal Longstone",
+    "notes": "0",
+  },
+  "cala-mariner": {
+    "name": "Cala-Mariner",
+    "durability": 0,
+    "resistances": {
+      "Physical Resistance": 0,
+      "Slash Resistance": 0,
+      "Blunt Resistance": 0,
+      "Elemental Resistance": 0,
+      "Flame Resistance": 0,
+      "Ice Resistance": 0,
+      "Thunder Resistance": 0,
+      "Wind Resistance": 0,
+      "Shadow Resistance": 0
+    },
+    "extra": {
+      "Ether Regen": "0%",
+      "Extra Stealth": "0%"
+    },
+    "talent": "",
+    "requirements": {
+      "Power": 0,
+      "Strength": 0,
+      "Fortitude": 0,
+      "Agility": 0,
+      "Intelligence": 0,
+      "Willpower": 0,
+      "Charisma": 0
+    },
+    "mats": "",
+    "notes": "",
+  },
+  "carefree garments": {
+    "name": "Carefree Garments",
+    "durability": 0,
+    "resistances": {
+      "Physical Resistance": 0,
+      "Slash Resistance": 0,
+      "Blunt Resistance": 0,
+      "Elemental Resistance": 0,
+      "Flame Resistance": 0,
+      "Ice Resistance": 0,
+      "Thunder Resistance": 0,
+      "Wind Resistance": 0,
+      "Shadow Resistance": 0
+    },
+    "extra": {
+      "Ether Regen": "0%",
+      "Extra Stealth": "0%"
+    },
+    "talent": "",
+    "requirements": {
+      "Power": 0,
+      "Strength": 0,
+      "Fortitude": 0,
+      "Agility": 0,
+      "Intelligence": 0,
+      "Willpower": 0,
+      "Charisma": 0
+    },
+    "mats": "",
+    "notes": "",
+  },
+  "celtorian tideknight": {
+    "name": "Celtorian Tideknight",
+    "durability": 2800,
+    "resistances": {
+      "Physical Resistance": 0.3,
+      "Slash Resistance": 0,
+      "Blunt Resistance": 0.05,
+      "Elemental Resistance": 0.25,
+      "Flame Resistance": 0,
+      "Ice Resistance": 0.05,
+      "Thunder Resistance": 0,
+      "Wind Resistance": 0,
+      "Shadow Resistance": 0.1
+    },
+    "extra": {
+      "Ether Regen": "20%",
+      "Extra Stealth": "0%"
+    },
+    "talent": "Tidekeeper",
+    "requirements": {
+      "Power": 15,
+      "Strength": 0,
+      "Fortitude": 0,
+      "Agility": 0,
+      "Intelligence": 0,
+      "Willpower": 0,
+      "Charisma": 0
+    },
+    "mats": "x5 Cloth, x1 Bloodless Gem, x5 Vibrant Gem, x5 Umbral Obsidian, x1 Dark Feather, x1 Odd Tentacle, x1 Thresher Spine",
+    "notes": "1000",
+  },
+  "cerulean gown": {
+    "name": "Cerulean Gown",
+    "durability": 1500,
+    "resistances": {
+      "Physical Resistance": 0.2,
+      "Slash Resistance": 0,
+      "Blunt Resistance": 0,
+      "Elemental Resistance": 0.25,
+      "Flame Resistance": 0,
+      "Ice Resistance": 0,
+      "Thunder Resistance": 0,
+      "Wind Resistance": 0,
+      "Shadow Resistance": 0
+    },
+    "extra": {
+      "Ether Regen": "0%",
+      "Extra Stealth": "0%"
+    },
+    "talent": "",
+    "requirements": {
+      "Power": 8,
+      "Strength": 0,
+      "Fortitude": 0,
+      "Agility": 0,
+      "Intelligence": 0,
+      "Willpower": 0,
+      "Charisma": 0
+    },
+    "mats": "x15 Cloth, x15 Fiber, x1 Megalodaunt Hide",
+    "notes": "200",
+  },
+  "cloak of winds": {
+    "name": "Cloak of Winds",
+    "durability": 1200,
+    "resistances": {
+      "Physical Resistance": 0.2,
+      "Slash Resistance": 0,
+      "Blunt Resistance": 0,
+      "Elemental Resistance": 0.3,
+      "Flame Resistance": 0,
+      "Ice Resistance": 0,
+      "Thunder Resistance": 0,
+      "Wind Resistance": 0,
+      "Shadow Resistance": 0.25
+    },
+    "extra": {
+      "Ether Regen": "0%",
+      "Extra Stealth": "0%"
+    },
+    "talent": "Paired Soul",
+    "requirements": {
+      "Power": 10,
+      "Strength": 0,
+      "Fortitude": 0,
+      "Agility": 0,
+      "Intelligence": 0,
+      "Willpower": 0,
+      "Charisma": 0
+    },
+    "mats": "x5 Cloth, x10 Erisore, x2 Strange Claw, x1 Vibrant Gem",
+    "notes": "0",
+  },
+  "corsair outlaw": {
+    "name": "Corsair Outlaw",
+    "durability": 1200,
+    "resistances": {
+      "Physical Resistance": 0.15,
+      "Slash Resistance": 0,
+      "Blunt Resistance": 0,
+      "Elemental Resistance": 0.1,
+      "Flame Resistance": 0,
+      "Ice Resistance": 0,
+      "Thunder Resistance": 0,
+      "Wind Resistance": 0,
+      "Shadow Resistance": 0
+    },
+    "extra": {
+      "Ether Regen": "0%",
+      "Extra Stealth": "0%"
+    },
+    "talent": "Lightweight",
+    "requirements": {
+      "Power": 0,
+      "Strength": 0,
+      "Fortitude": 0,
+      "Agility": 0,
+      "Intelligence": 0,
+      "Willpower": 0,
+      "Charisma": 0
+    },
+    "mats": "x5 Cloth, x5 Fiber, x1 Aeon Longstone",
+    "notes": "0",
+  },
+  "cutthroat light armour": {
+    "name": "Cutthroat Light Armor",
+    "durability": 1000,
+    "resistances": {
+      "Physical Resistance": 0.1,
+      "Slash Resistance": 0.1,
+      "Blunt Resistance": 0,
+      "Elemental Resistance": 0,
+      "Flame Resistance": 0,
+      "Ice Resistance": 0,
+      "Thunder Resistance": 0,
+      "Wind Resistance": 0,
+      "Shadow Resistance": 0
+    },
+    "extra": {
+      "Ether Regen": "0%",
+      "Extra Stealth": "0%"
+    },
+    "talent": "Hunter's Reflexes",
+    "requirements": {
+      "Power": 5,
+      "Strength": 0,
+      "Fortitude": 0,
+      "Agility": 0,
+      "Intelligence": 0,
+      "Willpower": 0,
+      "Charisma": 0
+    },
+    "mats": "x4 Cloth, x4 Fiber, x5 Iron, x1 Crystal Lens",
+    "notes": "30",
+  },
+  "darkened bastion": {
+    "name": "Darkened Bastion",
+    "durability": 2600,
+    "resistances": {
+      "Physical Resistance": 0.3,
+      "Slash Resistance": 0,
+      "Blunt Resistance": 0,
+      "Elemental Resistance": 0.3,
+      "Flame Resistance": 0,
+      "Ice Resistance": 0,
+      "Thunder Resistance": 0,
+      "Wind Resistance": 0,
+      "Shadow Resistance": 0
+    },
+    "extra": {
+      "Ether Regen": "50%",
+      "Extra Stealth": "50%"
+    },
+    "talent": "Whitering Soul",
+    "requirements": {
+      "Power": 15,
+      "Strength": 0,
+      "Fortitude": 0,
+      "Agility": 0,
+      "Intelligence": 0,
+      "Willpower": 0,
+      "Charisma": 0
+    },
+    "mats": "x7 Cloth, x5 Fiber, x5 Umbral Obsidian, x10 Vibrant Gem, x1 Void Feather",
+    "notes": "1000",
+  },
+  "darksteel plate": {
+    "name": "Darksteel Plate",
+    "durability": 2500,
+    "resistances": {
+      "Physical Resistance": 0.25,
+      "Slash Resistance": 0,
+      "Blunt Resistance": 0,
+      "Elemental Resistance": 0.25,
+      "Flame Resistance": 0,
+      "Ice Resistance": 0,
+      "Thunder Resistance": 0,
+      "Wind Resistance": 0,
+      "Shadow Resistance": 0
+    },
+    "extra": {
+      "Ether Regen": "0%",
+      "Extra Stealth": "0%"
+    },
+    "talent": "Unbreakable",
+    "requirements": {
+      "Power": 10,
+      "Strength": 0,
+      "Fortitude": 20,
+      "Agility": 0,
+      "Intelligence": 0,
+      "Willpower": 0,
+      "Charisma": 0
+    },
+    "mats": "x5 Cloth, x5 Fiber, x5 Erisore, x1 Strange Claw, x1 Dark Feather",
+    "notes": "300",
+  },
+  "diver apprentice": {
+    "name": "Diver Apprentice Robes",
+    "durability": 1000,
+    "resistances": {
+      "Physical Resistance": 0.1,
+      "Slash Resistance": 0,
+      "Blunt Resistance": 0,
+      "Elemental Resistance": 0.15,
+      "Flame Resistance": 0,
+      "Ice Resistance": 0,
+      "Thunder Resistance": 0,
+      "Wind Resistance": 0,
+      "Shadow Resistance": 0
+    },
+    "extra": {
+      "Ether Regen": "10%",
+      "Extra Stealth": "0%"
+    },
+    "talent": "",
+    "requirements": {
+      "Power": 5,
+      "Strength": 0,
+      "Fortitude": 0,
+      "Agility": 0,
+      "Intelligence": 10,
+      "Willpower": 0,
+      "Charisma": 0
+    },
+    "mats": "x4 Cloth, x4 Fiber, x3 Crystal Lens",
+    "notes": "50",
+  },
+  "diver journeyman robes": {
+    "name": "Diver Journeyman Robes",
+    "durability": 2500,
+    "resistances": {
+      "Physical Resistance": 0.2,
+      "Slash Resistance": 0,
+      "Blunt Resistance": 0.1,
+      "Elemental Resistance": 0.3,
+      "Flame Resistance": 0,
+      "Ice Resistance": 0,
+      "Thunder Resistance": 0,
+      "Wind Resistance": 0,
+      "Shadow Resistance": 0
+    },
+    "extra": {
+      "Ether Regen": "0%",
+      "Extra Stealth": "0%"
+    },
+    "talent": "",
+    "requirements": {
+      "Power": 10,
+      "Strength": 0,
+      "Fortitude": 0,
+      "Agility": 0,
+      "Intelligence": 0,
+      "Willpower": 0,
+      "Charisma": 0
+    },
+    "mats": "x5 Cloth, x5 Fiber, x2 Megalodaunt Hide, x1 Rock",
+    "notes": "30",
+  },
+  "duelist's attire": {
+    "name": "Duelist's Attire",
+    "durability": 1200,
+    "resistances": {
+      "Physical Resistance": 0.2,
+      "Slash Resistance": 0.1,
+      "Blunt Resistance": 0,
+      "Elemental Resistance": 0,
+      "Flame Resistance": 0,
+      "Ice Resistance": 0,
+      "Thunder Resistance": 0,
+      "Wind Resistance": 0,
+      "Shadow Resistance": 0
+    },
+    "extra": {
+      "Ether Regen": "0%",
+      "Extra Stealth": "0%"
+    },
+    "talent": "",
+    "requirements": {
+      "Power": 5,
+      "Strength": 0,
+      "Fortitude": 0,
+      "Agility": 0,
+      "Intelligence": 0,
+      "Willpower": 0,
+      "Charisma": 0
+    },
+    "mats": "x5 Glass Stones",
+    "notes": "0",
+  },
+  "eager tradesman": {
+    "name": "Eager Tradesman",
+    "durability": 1000,
+    "resistances": {
+      "Physical Resistance": 0.1,
+      "Slash Resistance": 0,
+      "Blunt Resistance": 0,
+      "Elemental Resistance": 0.05,
+      "Flame Resistance": 0,
+      "Ice Resistance": 0,
+      "Thunder Resistance": 0,
+      "Wind Resistance": 0,
+      "Shadow Resistance": 0
+    },
+    "extra": {
+      "Ether Regen": "0%",
+      "Extra Stealth": "0%"
+    },
+    "talent": "Knack",
+    "requirements": {
+      "Power": 0,
+      "Strength": 0,
+      "Fortitude": 0,
+      "Agility": 0,
+      "Intelligence": 0,
+      "Willpower": 0,
+      "Charisma": 0
+    },
+    "mats": "x3 Cloth, x3 Fiber",
+    "notes": "0",
+  },
+  "experienced adventurer": {
+    "name": "Experienced Adventurer",
+    "durability": 1000,
+    "resistances": {
+      "Physical Resistance": 0.1,
+      "Slash Resistance": 0,
+      "Blunt Resistance": 0.1,
+      "Elemental Resistance": 0,
+      "Flame Resistance": 0,
+      "Ice Resistance": 0,
+      "Thunder Resistance": 0,
+      "Wind Resistance": 0,
+      "Shadow Resistance": 0
+    },
+    "extra": {
+      "Ether Regen": "0%",
+      "Extra Stealth": "0%"
+    },
+    "talent": "Looter",
+    "requirements": {
+      "Power": 5,
+      "Strength": 0,
+      "Fortitude": 0,
+      "Agility": 0,
+      "Intelligence": 0,
+      "Willpower": 0,
+      "Charisma": 0
+    },
+    "mats": "x3 Cloth, x3 Fiber, x2 Irithine",
+    "notes": "25",
+  },
+  "etrean guard": {
+    "name": "Etrean Guard",
+    "durability": 2000,
+    "resistances": {
+      "Physical Resistance": 0.25,
+      "Slash Resistance": 0,
+      "Blunt Resistance": 0,
+      "Elemental Resistance": 0.2,
+      "Flame Resistance": 0,
+      "Ice Resistance": 0,
+      "Thunder Resistance": 0,
+      "Wind Resistance": 0,
+      "Shadow Resistance": 0
+    },
+    "extra": {
+      "Ether Regen": "0%",
+      "Extra Stealth": "0%"
+    },
+    "talent": "Unbreakable",
+    "requirements": {
+      "Power": 10,
+      "Strength": 0,
+      "Fortitude": 0,
+      "Agility": 0,
+      "Intelligence": 0,
+      "Willpower": 0,
+      "Charisma": 0
+    },
+    "mats": "x5 Cloth, x5 Fiber, x5 Erisore, x2 Megalodaunt Hide",
+    "notes": "30",
+  },
+  "familiar heretic's armor": {
+    "name": "Familiar Heretic's Armor",
+    "durability": 0,
+    "resistances": {
+      "Physical Resistance": 0,
+      "Slash Resistance": 0,
+      "Blunt Resistance": 0,
+      "Elemental Resistance": 0,
+      "Flame Resistance": 0,
+      "Ice Resistance": 0,
+      "Thunder Resistance": 0,
+      "Wind Resistance": 0,
+      "Shadow Resistance": 0
+    },
+    "extra": {
+      "Ether Regen": "0%",
+      "Extra Stealth": "0%"
+    },
+    "talent": "",
+    "requirements": {
+      "Power": 0,
+      "Strength": 0,
+      "Fortitude": 0,
+      "Agility": 0,
+      "Intelligence": 0,
+      "Willpower": 0,
+      "Charisma": 0
+    },
+    "mats": "",
+    "notes": "",
+  },
+  "familiar knight's armor": {
+    "name": "Familiar Knight's Armor",
+    "durability": 0,
+    "resistances": {
+      "Physical Resistance": 0,
+      "Slash Resistance": 0,
+      "Blunt Resistance": 0,
+      "Elemental Resistance": 0,
+      "Flame Resistance": 0,
+      "Ice Resistance": 0,
+      "Thunder Resistance": 0,
+      "Wind Resistance": 0,
+      "Shadow Resistance": 0
+    },
+    "extra": {
+      "Ether Regen": "0%",
+      "Extra Stealth": "0%"
+    },
+    "talent": "",
+    "requirements": {
+      "Power": 0,
+      "Strength": 0,
+      "Fortitude": 0,
+      "Agility": 0,
+      "Intelligence": 0,
+      "Willpower": 0,
+      "Charisma": 0
+    },
+    "mats": "",
+    "notes": "",
+  },
+  "ferryman's coat": {
+    "name": "Ferryman's Coat",
+    "durability": 2500,
+    "resistances": {
+      "Physical Resistance": 0.2,
+      "Slash Resistance": 0,
+      "Blunt Resistance": 0.05,
+      "Elemental Resistance": 0.35,
+      "Flame Resistance": 0,
+      "Ice Resistance": 0,
+      "Thunder Resistance": 0.25,
+      "Wind Resistance": 0.05,
+      "Shadow Resistance": 0
+    },
+    "extra": {
+      "Ether Regen": "50%",
+      "Extra Stealth": "0%"
+    },
+    "talent": "Ferryman's Curse",
+    "requirements": {
+      "Power": 12,
+      "Strength": 0,
+      "Fortitude": 0,
+      "Agility": 0,
+      "Intelligence": 0,
+      "Willpower": 0,
+      "Charisma": 0
+    },
+    "mats": "x7 Cloth, x5 Fiber, x5 Spark Glands, x10 Vibrant Gems, x1 Void Feather",
+    "notes": "400",
+  },
+  "flame worshipper armour": {
+    "name": "Flame Worshiper Armor",
+    "durability": 1000,
+    "resistances": {
+      "Physical Resistance": 0.1,
+      "Slash Resistance": 0,
+      "Blunt Resistance": 0,
+      "Elemental Resistance": 0.05,
+      "Flame Resistance": 0.25,
+      "Ice Resistance": 0,
+      "Thunder Resistance": 0,
+      "Wind Resistance": 0,
+      "Shadow Resistance": 0
+    },
+    "extra": {
+      "Ether Regen": "0%",
+      "Extra Stealth": "0%"
+    },
+    "talent": "Intrepid Flame",
+    "requirements": {
+      "Power": 5,
+      "Strength": 0,
+      "Fortitude": 0,
+      "Agility": 0,
+      "Intelligence": 0,
+      "Willpower": 0,
+      "Charisma": 0
+    },
+    "mats": "x4 Cloth, x4 Fiber, x2 Iron",
+    "notes": "30",
+  },
+  "grandmaster pathfinder cloak": {
+    "name": "Grand Pathfinder Cloak",
+    "durability": 2000,
+    "resistances": {
+      "Physical Resistance": 0.2,
+      "Slash Resistance": 0,
+      "Blunt Resistance": 0,
+      "Elemental Resistance": 0.2,
+      "Flame Resistance": 0,
+      "Ice Resistance": 0,
+      "Thunder Resistance": 0,
+      "Wind Resistance": 0,
+      "Shadow Resistance": 0
+    },
+    "extra": {
+      "Ether Regen": "0%",
+      "Extra Stealth": "40%"
+    },
+    "talent": "Legendary",
+    "requirements": {
+      "Power": 10,
+      "Strength": 0,
+      "Fortitude": 0,
+      "Agility": 0,
+      "Intelligence": 0,
+      "Willpower": 0,
+      "Charisma": 0
+    },
+    "mats": "x5 Cloth, x5 Fiber, x5 Erisore, x5 Gold, x5 Irithine, x6 Iron, x2 Dark Feather",
+    "notes": "150",
+  },
+  "heretic's memento": {
+    "name": "Heretic's Momento",
+    "durability": 2000,
+    "resistances": {
+      "Physical Resistance": 0.25,
+      "Slash Resistance": 0,
+      "Blunt Resistance": 0.1,
+      "Elemental Resistance": 0.25,
+      "Flame Resistance": 0,
+      "Ice Resistance": 0,
+      "Thunder Resistance": 0,
+      "Wind Resistance": 0,
+      "Shadow Resistance": 0.05
+    },
+    "extra": {
+      "Ether Regen": "100%",
+      "Extra Stealth": "0%"
+    },
+    "talent": "Giantslayer",
+    "requirements": {
+      "Power": 15,
+      "Strength": 0,
+      "Fortitude": 0,
+      "Agility": 0,
+      "Intelligence": 0,
+      "Willpower": 0,
+      "Charisma": 0
+    },
+    "mats": "x10 Cloth, x5 Fiber, x5 Gold, x1 Wayward Gem, x5 Vibrant Gem",
+    "notes": "500",
+  },
+  "hive drone": {
+    "name": "Hive Drone",
+    "durability": 1000,
+    "resistances": {
+      "Physical Resistance": 0.25,
+      "Slash Resistance": 0,
+      "Blunt Resistance": 0.05,
+      "Elemental Resistance": 0.25,
+      "Flame Resistance": 0,
+      "Ice Resistance": 0,
+      "Thunder Resistance": 0,
+      "Wind Resistance": 0,
+      "Shadow Resistance": 0
+    },
+    "extra": {
+      "Ether Regen": "0%",
+      "Extra Stealth": "0%"
+    },
+    "talent": "Now You See Me",
+    "requirements": {
+      "Power": 10,
+      "Strength": 0,
+      "Fortitude": 0,
+      "Agility": 0,
+      "Intelligence": 0,
+      "Willpower": 0,
+      "Charisma": 0
+    },
+    "mats": "x5 Cloth, x5 Fiber, x2 Megalodaunt Hide, x1 Rock",
+    "notes": "10",
+  },
+  "hive leader's garment": {
+    "name": "Hive Leader's Garment",
+    "durability": 0,
+    "resistances": {
+      "Physical Resistance": 0,
+      "Slash Resistance": 0,
+      "Blunt Resistance": 0,
+      "Elemental Resistance": 0,
+      "Flame Resistance": 0,
+      "Ice Resistance": 0,
+      "Thunder Resistance": 0,
+      "Wind Resistance": 0,
+      "Shadow Resistance": 0
+    },
+    "extra": {
+      "Ether Regen": "0%",
+      "Extra Stealth": "0%"
+    },
+    "talent": "",
+    "requirements": {
+      "Power": 0,
+      "Strength": 0,
+      "Fortitude": 0,
+      "Agility": 0,
+      "Intelligence": 0,
+      "Willpower": 0,
+      "Charisma": 0
+    },
+    "mats": "",
+    "notes": "",
+  },
+  "hive tactician armour": {
+    "name": "Hive Tactician Armor",
+    "durability": 1200,
+    "resistances": {
+      "Physical Resistance": 0.3,
+      "Slash Resistance": 0,
+      "Blunt Resistance": 0,
+      "Elemental Resistance": 0.2,
+      "Flame Resistance": 0,
+      "Ice Resistance": 0,
+      "Thunder Resistance": 0,
+      "Wind Resistance": 0.1,
+      "Shadow Resistance": 0
+    },
+    "extra": {
+      "Ether Regen": "0%",
+      "Extra Stealth": "0%"
+    },
+    "talent": "Brunt",
+    "requirements": {
+      "Power": 10,
+      "Strength": 0,
+      "Fortitude": 0,
+      "Agility": 25,
+      "Intelligence": 0,
+      "Willpower": 0,
+      "Charisma": 0
+    },
+    "mats": "x5 Cloth, x2 Iron, x2 Dark Feather, x3 Vibrant Gems",
+    "notes": "0",
+  },
+  "hired mercenary": {
+    "name": "Hired Mercenary",
+    "durability": 1000,
+    "resistances": {
+      "Physical Resistance": 0.15,
+      "Slash Resistance": 0,
+      "Blunt Resistance": 0,
+      "Elemental Resistance": 0.1,
+      "Flame Resistance": 0,
+      "Ice Resistance": 0,
+      "Thunder Resistance": 0,
+      "Wind Resistance": 0,
+      "Shadow Resistance": 0
+    },
+    "extra": {
+      "Ether Regen": "0%",
+      "Extra Stealth": "0%"
+    },
+    "talent": "",
+    "requirements": {
+      "Power": 0,
+      "Strength": 0,
+      "Fortitude": 0,
+      "Agility": 0,
+      "Intelligence": 0,
+      "Willpower": 0,
+      "Charisma": 0
+    },
+    "mats": "x5 Cloth, x5 Fiber, x1 Iron",
+    "notes": "25",
+  },
+  "icebringer's vestments": {
+    "name": "Icebringer's Vestments",
+    "durability": 0,
+    "resistances": {
+      "Physical Resistance": 0,
+      "Slash Resistance": 0,
+      "Blunt Resistance": 0,
+      "Elemental Resistance": 0,
+      "Flame Resistance": 0,
+      "Ice Resistance": 0,
+      "Thunder Resistance": 0,
+      "Wind Resistance": 0,
+      "Shadow Resistance": 0
+    },
+    "extra": {
+      "Ether Regen": "0%",
+      "Extra Stealth": "0%"
+    },
+    "talent": "",
+    "requirements": {
+      "Power": 0,
+      "Strength": 0,
+      "Fortitude": 0,
+      "Agility": 0,
+      "Intelligence": 0,
+      "Willpower": 0,
+      "Charisma": 0
+    },
+    "mats": "",
+    "notes": "",
+  },
+  "ignition deepdelver": {
+    "name": "Ignition Deepdelver",
+    "durability": 3000,
+    "resistances": {
+      "Physical Resistance": 0.3,
+      "Slash Resistance": 0,
+      "Blunt Resistance": 0,
+      "Elemental Resistance": 0.35,
+      "Flame Resistance": 0,
+      "Ice Resistance": 0.15,
+      "Thunder Resistance": 0,
+      "Wind Resistance": 0,
+      "Shadow Resistance": 0
+    },
+    "extra": {
+      "Ether Regen": "20%",
+      "Extra Stealth": "0%"
+    },
+    "talent": "Force Your Way",
+    "requirements": {
+      "Power": 15,
+      "Strength": 0,
+      "Fortitude": 0,
+      "Agility": 0,
+      "Intelligence": 0,
+      "Willpower": 0,
+      "Charisma": 0
+    },
+    "mats": "x5 Cloth, x5 Fiber, x1 Blue Gem, x5 Vibrant Gems, x1 Bounder Claw, x1 Worn Cog, x1 Frozen Membrane",
+    "notes": "1000",
+  },
+  "ignition trailblazer": {
+    "name": "Ignition Trailblazer",
+    "durability": 1000,
+    "resistances": {
+      "Physical Resistance": 0.25,
+      "Slash Resistance": 0,
+      "Blunt Resistance": 0.05,
+      "Elemental Resistance": 0.25,
+      "Flame Resistance": 0.05,
+      "Ice Resistance": 0,
+      "Thunder Resistance": 0,
+      "Wind Resistance": 0,
+      "Shadow Resistance": 0
+    },
+    "extra": {
+      "Ether Regen": "0%",
+      "Extra Stealth": "0%"
+    },
+    "talent": "Perseverance, Strong Stern",
+    "requirements": {
+      "Power": 10,
+      "Strength": 0,
+      "Fortitude": 0,
+      "Agility": 0,
+      "Intelligence": 0,
+      "Willpower": 0,
+      "Charisma": 0
+    },
+    "mats": "x5 Cloth, x5 Fiber, x2 Megalodaunt Hide, x1 Rock",
+    "notes": "30",
+  },
+  "ignition union uniform": {
+    "name": "Ignition Union Uniform",
+    "durability": 2000,
+    "resistances": {
+      "Physical Resistance": 0.22,
+      "Slash Resistance": 0,
+      "Blunt Resistance": 0,
+      "Elemental Resistance": 0.22,
+      "Flame Resistance": 0,
+      "Ice Resistance": 0,
+      "Thunder Resistance": 0,
+      "Wind Resistance": 0,
+      "Shadow Resistance": 0
+    },
+    "extra": {
+      "Ether Regen": "0%",
+      "Extra Stealth": "0%"
+    },
+    "talent": "",
+    "requirements": {
+      "Power": 6,
+      "Strength": 0,
+      "Fortitude": 0,
+      "Agility": 0,
+      "Intelligence": 0,
+      "Willpower": 0,
+      "Charisma": 0
+    },
+    "mats": "x5 Cloth, x5 Fiber, x3 Irithine, x1 Lionfish Scale",
+    "notes": "0",
+  },
+  "ignition welder": {
+    "name": "Ignition Welder",
+    "durability": 0,
+    "resistances": {
+      "Physical Resistance": 0,
+      "Slash Resistance": 0,
+      "Blunt Resistance": 0,
+      "Elemental Resistance": 0,
+      "Flame Resistance": 0,
+      "Ice Resistance": 0,
+      "Thunder Resistance": 0,
+      "Wind Resistance": 0,
+      "Shadow Resistance": 0
+    },
+    "extra": {
+      "Ether Regen": "0%",
+      "Extra Stealth": "0%"
+    },
+    "talent": "",
+    "requirements": {
+      "Power": 0,
+      "Strength": 0,
+      "Fortitude": 0,
+      "Agility": 0,
+      "Intelligence": 0,
+      "Willpower": 0,
+      "Charisma": 0
+    },
+    "mats": "",
+    "notes": "",
+  },
+  "inquisition light": {
+    "name": "Inquisition Light",
+    "durability": 0,
+    "resistances": {
+      "Physical Resistance": 0,
+      "Slash Resistance": 0,
+      "Blunt Resistance": 0,
+      "Elemental Resistance": 0,
+      "Flame Resistance": 0,
+      "Ice Resistance": 0,
+      "Thunder Resistance": 0,
+      "Wind Resistance": 0,
+      "Shadow Resistance": 0
+    },
+    "extra": {
+      "Ether Regen": "0%",
+      "Extra Stealth": "0%"
+    },
+    "talent": "",
+    "requirements": {
+      "Power": 0,
+      "Strength": 0,
+      "Fortitude": 0,
+      "Agility": 0,
+      "Intelligence": 0,
+      "Willpower": 0,
+      "Charisma": 0
+    },
+    "mats": "",
+    "notes": "",
+  },
+  "jade vigil's weave": {
+    "name": "Jade Vigil's Weave",
+    "durability": 0,
+    "resistances": {
+      "Physical Resistance": 0,
+      "Slash Resistance": 0,
+      "Blunt Resistance": 0,
+      "Elemental Resistance": 0,
+      "Flame Resistance": 0,
+      "Ice Resistance": 0,
+      "Thunder Resistance": 0,
+      "Wind Resistance": 0,
+      "Shadow Resistance": 0
+    },
+    "extra": {
+      "Ether Regen": "0%",
+      "Extra Stealth": "0%"
+    },
+    "talent": "",
+    "requirements": {
+      "Power": 0,
+      "Strength": 0,
+      "Fortitude": 0,
+      "Agility": 0,
+      "Intelligence": 0,
+      "Willpower": 0,
+      "Charisma": 0
+    },
+    "mats": "",
+    "notes": "",
+  },
+  "jester's grab": {
+    "name": "Jester's Grab",
+    "durability": 0,
+    "resistances": {
+      "Physical Resistance": 0,
+      "Slash Resistance": 0,
+      "Blunt Resistance": 0,
+      "Elemental Resistance": 0,
+      "Flame Resistance": 0,
+      "Ice Resistance": 0,
+      "Thunder Resistance": 0,
+      "Wind Resistance": 0,
+      "Shadow Resistance": 0
+    },
+    "extra": {
+      "Ether Regen": "0%",
+      "Extra Stealth": "0%"
+    },
+    "talent": "",
+    "requirements": {
+      "Power": 0,
+      "Strength": 0,
+      "Fortitude": 0,
+      "Agility": 0,
+      "Intelligence": 0,
+      "Willpower": 0,
+      "Charisma": 0
+    },
+    "mats": "",
+    "notes": "",
+  },
+  "justicar's armour": {
+    "name": "Justicar's Armor",
+    "durability": 2800,
+    "resistances": {
+      "Physical Resistance": 0.3,
+      "Slash Resistance": 0,
+      "Blunt Resistance": 0.05,
+      "Elemental Resistance": 0.3,
+      "Flame Resistance": 0,
+      "Ice Resistance": 0.05,
+      "Thunder Resistance": 0,
+      "Wind Resistance": 0,
+      "Shadow Resistance": 0.05
+    },
+    "extra": {
+      "Ether Regen": "20%",
+      "Extra Stealth": "0%"
+    },
+    "talent": "The Path, Unveiled",
+    "requirements": {
+      "Power": 15,
+      "Strength": 0,
+      "Fortitude": 0,
+      "Agility": 0,
+      "Intelligence": 0,
+      "Willpower": 0,
+      "Charisma": 0
+    },
+    "mats": "x5 Cloth, x5 Fiber, x1 Wayward Gem, x5 Gale Stone, x1 Dark Feather, x4 Thresher Spine",
+    "notes": "1000",
+  },
+  "keeper": {
+    "name": "Keeper",
+    "durability": 1000,
+    "resistances": {
+      "Physical Resistance": 0.05,
+      "Slash Resistance": 0,
+      "Blunt Resistance": 0,
+      "Elemental Resistance": 0.05,
+      "Flame Resistance": 0,
+      "Ice Resistance": 0.1,
+      "Thunder Resistance": 0,
+      "Wind Resistance": 0.1,
+      "Shadow Resistance": 0
+    },
+    "extra": {
+      "Ether Regen": "20%",
+      "Extra Stealth": "0%"
+    },
+    "talent": "",
+    "requirements": {
+      "Power": 5,
+      "Strength": 0,
+      "Fortitude": 0,
+      "Agility": 0,
+      "Intelligence": 10,
+      "Willpower": 0,
+      "Charisma": 0
+    },
+    "mats": "x3 Cloth, x3 Fiber, x1 Iron",
+    "notes": "25",
+  },
+  "legion centurion": {
+    "name": "Legion Centurion",
+    "durability": 3000,
+    "resistances": {
+      "Physical Resistance": 0.3,
+      "Slash Resistance": 0,
+      "Blunt Resistance": 0,
+      "Elemental Resistance": 0.3,
+      "Flame Resistance": 0,
+      "Ice Resistance": 0,
+      "Thunder Resistance": 0.05,
+      "Wind Resistance": 0.05,
+      "Shadow Resistance": 0
+    },
+    "extra": {
+      "Ether Regen": "20%",
+      "Extra Stealth": "0%"
+    },
+    "talent": "Centurion's Resolve",
+    "requirements": {
+      "Power": 15,
+      "Strength": 0,
+      "Fortitude": 10,
+      "Agility": 0,
+      "Intelligence": 0,
+      "Willpower": 0,
+      "Charisma": 0
+    },
+    "mats": "x5 Cloth, x5 Fiber, x1 Blue Gem, x5 Gale Stone, x1 Dark Feather, x1 Thresher Spine",
+    "notes": "1000",
+  },
+  "martial artist": {
+    "name": "Martial Artist",
+    "durability": 1200,
+    "resistances": {
+      "Physical Resistance": 0.3,
+      "Slash Resistance": 0,
+      "Blunt Resistance": 0,
+      "Elemental Resistance": 0.2,
+      "Flame Resistance": 0.05,
+      "Ice Resistance": 0,
+      "Thunder Resistance": 0,
+      "Wind Resistance": 0,
+      "Shadow Resistance": 0
+    },
+    "extra": {
+      "Ether Regen": "0%",
+      "Extra Stealth": "0%"
+    },
+    "talent": "Harsh Response",
+    "requirements": {
+      "Power": 10,
+      "Strength": 15,
+      "Fortitude": 0,
+      "Agility": 0,
+      "Intelligence": 0,
+      "Willpower": 0,
+      "Charisma": 0
+    },
+    "mats": "x7 Cloth, x5 Fiber, x1 Odd Tentacle",
+    "notes": "0",
+  },
+  "merchant robes": {
+    "name": "Merchant Robes",
+    "durability": 1200,
+    "resistances": {
+      "Physical Resistance": 0,
+      "Slash Resistance": 0,
+      "Blunt Resistance": 0,
+      "Elemental Resistance": 0,
+      "Flame Resistance": 0,
+      "Ice Resistance": 0,
+      "Thunder Resistance": 0,
+      "Wind Resistance": 0,
+      "Shadow Resistance": 0
+    },
+    "extra": {
+      "Ether Regen": "0%",
+      "Extra Stealth": "0%"
+    },
+    "talent": "Mates' Rates",
+    "requirements": {
+      "Power": 0,
+      "Strength": 0,
+      "Fortitude": 0,
+      "Agility": 0,
+      "Intelligence": 0,
+      "Willpower": 0,
+      "Charisma": 0
+    },
+    "mats": "x5 Cloth, x5 Fiber",
+    "notes": "25",
+  },
+  "mod business competitive": {
+    "name": "Mod Business Competitive",
+    "durability": 0,
+    "resistances": {
+      "Physical Resistance": 0,
+      "Slash Resistance": 0,
+      "Blunt Resistance": 0,
+      "Elemental Resistance": 0,
+      "Flame Resistance": 0,
+      "Ice Resistance": 0,
+      "Thunder Resistance": 0,
+      "Wind Resistance": 0,
+      "Shadow Resistance": 0
+    },
+    "extra": {
+      "Ether Regen": "0%",
+      "Extra Stealth": "0%"
+    },
+    "talent": "",
+    "requirements": {
+      "Power": 0,
+      "Strength": 0,
+      "Fortitude": 0,
+      "Agility": 0,
+      "Intelligence": 0,
+      "Willpower": 0,
+      "Charisma": 0
+    },
+    "mats": "",
+    "notes": "",
+  },
+  "mod skirt": {
+    "name": "Mod Skirt",
+    "durability": 0,
+    "resistances": {
+      "Physical Resistance": 0,
+      "Slash Resistance": 0,
+      "Blunt Resistance": 0,
+      "Elemental Resistance": 0,
+      "Flame Resistance": 0,
+      "Ice Resistance": 0,
+      "Thunder Resistance": 0,
+      "Wind Resistance": 0,
+      "Shadow Resistance": 0
+    },
+    "extra": {
+      "Ether Regen": "0%",
+      "Extra Stealth": "0%"
+    },
+    "talent": "",
+    "requirements": {
+      "Power": 0,
+      "Strength": 0,
+      "Fortitude": 0,
+      "Agility": 0,
+      "Intelligence": 0,
+      "Willpower": 0,
+      "Charisma": 0
+    },
+    "mats": "",
+    "notes": "",
+  },
+  "mod suit": {
+    "name": "Mod Suit",
+    "durability": 0,
+    "resistances": {
+      "Physical Resistance": 0,
+      "Slash Resistance": 0,
+      "Blunt Resistance": 0,
+      "Elemental Resistance": 0,
+      "Flame Resistance": 0,
+      "Ice Resistance": 0,
+      "Thunder Resistance": 0,
+      "Wind Resistance": 0,
+      "Shadow Resistance": 0
+    },
+    "extra": {
+      "Ether Regen": "0%",
+      "Extra Stealth": "0%"
+    },
+    "talent": "",
+    "requirements": {
+      "Power": 0,
+      "Strength": 0,
+      "Fortitude": 0,
+      "Agility": 0,
+      "Intelligence": 0,
+      "Willpower": 0,
+      "Charisma": 0
+    },
+    "mats": "",
+    "notes": "",
+  },
+  "moonseye": {
+    "name": "Moonseye",
+    "durability": 0,
+    "resistances": {
+      "Physical Resistance": 0,
+      "Slash Resistance": 0,
+      "Blunt Resistance": 0,
+      "Elemental Resistance": 0,
+      "Flame Resistance": 0,
+      "Ice Resistance": 0,
+      "Thunder Resistance": 0,
+      "Wind Resistance": 0,
+      "Shadow Resistance": 0
+    },
+    "extra": {
+      "Ether Regen": "0%",
+      "Extra Stealth": "0%"
+    },
+    "talent": "",
+    "requirements": {
+      "Power": 0,
+      "Strength": 0,
+      "Fortitude": 0,
+      "Agility": 0,
+      "Intelligence": 0,
+      "Willpower": 0,
+      "Charisma": 0
+    },
+    "mats": "",
+    "notes": "",
+  },
+  "mr toon": {
+    "name": "Mr Toon",
+    "durability": 0,
+    "resistances": {
+      "Physical Resistance": 0,
+      "Slash Resistance": 0,
+      "Blunt Resistance": 0,
+      "Elemental Resistance": 0,
+      "Flame Resistance": 0,
+      "Ice Resistance": 0,
+      "Thunder Resistance": 0,
+      "Wind Resistance": 0,
+      "Shadow Resistance": 0
+    },
+    "extra": {
+      "Ether Regen": "0%",
+      "Extra Stealth": "0%"
+    },
+    "talent": "",
+    "requirements": {
+      "Power": 0,
+      "Strength": 0,
+      "Fortitude": 0,
+      "Agility": 0,
+      "Intelligence": 0,
+      "Willpower": 0,
+      "Charisma": 0
+    },
+    "mats": "",
+    "notes": "",
+  },
+  "navaen nomad robes": {
+    "name": "Navaen Nomad Robes",
+    "durability": 1800,
+    "resistances": {
+      "Physical Resistance": 0.1,
+      "Slash Resistance": 0,
+      "Blunt Resistance": 0.1,
+      "Elemental Resistance": 0.1,
+      "Flame Resistance": 0,
+      "Ice Resistance": 0.15,
+      "Thunder Resistance": 0,
+      "Wind Resistance": 0,
+      "Shadow Resistance": 0.15
+    },
+    "extra": {
+      "Ether Regen": "0%",
+      "Extra Stealth": "50%"
+    },
+    "talent": "Fists of Navae (Bugged)",
+    "requirements": {
+      "Power": 5,
+      "Strength": 0,
+      "Fortitude": 0,
+      "Agility": 0,
+      "Intelligence": 0,
+      "Willpower": 0,
+      "Charisma": 0
+    },
+    "mats": "x5 Cloth, x5 Fiber, x8 Erisore, x2 Frigid Prisms",
+    "notes": "100",
+  },
+  "navaen war chief": {
+    "name": "Navaen War Chief",
+    "durability": 3000,
+    "resistances": {
+      "Physical Resistance": 0.3,
+      "Slash Resistance": 0,
+      "Blunt Resistance": 0,
+      "Elemental Resistance": 0.3,
+      "Flame Resistance": 0,
+      "Ice Resistance": 0.1,
+      "Thunder Resistance": 0,
+      "Wind Resistance": 0,
+      "Shadow Resistance": 0.05
+    },
+    "extra": {
+      "Ether Regen": "20%",
+      "Extra Stealth": "50%"
+    },
+    "talent": "Chief's Will",
+    "requirements": {
+      "Power": 15,
+      "Strength": 0,
+      "Fortitude": 0,
+      "Agility": 0,
+      "Intelligence": 0,
+      "Willpower": 0,
+      "Charisma": 0
+    },
+    "mats": "x5 Cloth, x5 Fiber, x1 Wind Gem, x8 Erisore, x2 Frigid Prisms, x1 Odd Tentacle, x2 Thresher Spine",
+    "notes": "1000",
+  },
+  "pathfinder arch-sorcerer": {
+    "name": "Pathfinder Arch-Sorcerer",
+    "durability": 1500,
+    "resistances": {
+      "Physical Resistance": 0.1,
+      "Slash Resistance": 0,
+      "Blunt Resistance": 0,
+      "Elemental Resistance": 0.25,
+      "Flame Resistance": 0,
+      "Ice Resistance": 0.1,
+      "Thunder Resistance": 0.1,
+      "Wind Resistance": 0,
+      "Shadow Resistance": 0
+    },
+    "extra": {
+      "Ether Regen": "40%",
+      "Extra Stealth": "0%"
+    },
+    "talent": "Devastating Power",
+    "requirements": {
+      "Power": 10,
+      "Strength": 0,
+      "Fortitude": 0,
+      "Agility": 0,
+      "Intelligence": 25,
+      "Willpower": 0,
+      "Charisma": 0
+    },
+    "mats": "x5 Cloth, x5 Fiber, x10 Irithine, x1 Lionfish Scale, x1 Strange Claw",
+    "notes": "100",
+  },
+  "pathfinder cloak": {
+    "name": "Pathfinder Cloak",
+    "durability": 1200,
+    "resistances": {
+      "Physical Resistance": 0.18,
+      "Slash Resistance": 0,
+      "Blunt Resistance": 0,
+      "Elemental Resistance": 0.08,
+      "Flame Resistance": 0,
+      "Ice Resistance": 0,
+      "Thunder Resistance": 0,
+      "Wind Resistance": 0,
+      "Shadow Resistance": 0
+    },
+    "extra": {
+      "Ether Regen": "0%",
+      "Extra Stealth": "0%"
+    },
+    "talent": "Environmentalist",
+    "requirements": {
+      "Power": 5,
+      "Strength": 0,
+      "Fortitude": 0,
+      "Agility": 0,
+      "Intelligence": 0,
+      "Willpower": 0,
+      "Charisma": 0
+    },
+    "mats": "x4 Cloth, x4 Fiber, x6 Iron",
+    "notes": "30",
+  },
+  "pathfinder sorcerer": {
+    "name": "Pathfinder Sorcerer",
+    "durability": 1000,
+    "resistances": {
+      "Physical Resistance": 0.05,
+      "Slash Resistance": 0,
+      "Blunt Resistance": 0,
+      "Elemental Resistance": 0.1,
+      "Flame Resistance": 0,
+      "Ice Resistance": 0,
+      "Thunder Resistance": 0,
+      "Wind Resistance": 0,
+      "Shadow Resistance": 0
+    },
+    "extra": {
+      "Ether Regen": "0%",
+      "Extra Stealth": "0%"
+    },
+    "talent": "Now You See Me",
+    "requirements": {
+      "Power": 0,
+      "Strength": 0,
+      "Fortitude": 0,
+      "Agility": 0,
+      "Intelligence": 5,
+      "Willpower": 0,
+      "Charisma": 0
+    },
+    "mats": "x5 Cloth, x5 Fiber, x1 Rock",
+    "notes": "30",
+  },
+  "pathfinder thaumaturge": {
+    "name": "Pathfinder Thaumaturge",
+    "durability": 1000,
+    "resistances": {
+      "Physical Resistance": 0.1,
+      "Slash Resistance": 0,
+      "Blunt Resistance": 0,
+      "Elemental Resistance": 0.15,
+      "Flame Resistance": 0,
+      "Ice Resistance": 0,
+      "Thunder Resistance": 0,
+      "Wind Resistance": 0,
+      "Shadow Resistance": 0
+    },
+    "extra": {
+      "Ether Regen": "0%",
+      "Extra Stealth": "0%"
+    },
+    "talent": "Now You See Me",
+    "requirements": {
+      "Power": 5,
+      "Strength": 0,
+      "Fortitude": 0,
+      "Agility": 0,
+      "Intelligence": 10,
+      "Willpower": 0,
+      "Charisma": 0
+    },
+    "mats": "x5 Cloth, x5 Fiber, x1 Rock",
+    "notes": "30",
+  },
+  "prophet's cloak": {
+    "name": "Prophet's Cloak",
+    "durability": 2600,
+    "resistances": {
+      "Physical Resistance": 0.25,
+      "Slash Resistance": 0,
+      "Blunt Resistance": 0,
+      "Elemental Resistance": 0.25,
+      "Flame Resistance": 0.2,
+      "Ice Resistance": 0.2,
+      "Thunder Resistance": 0,
+      "Wind Resistance": 0,
+      "Shadow Resistance": 0
+    },
+    "extra": {
+      "Ether Regen": "50%",
+      "Extra Stealth": "0%"
+    },
+    "talent": "Crippling Darkness",
+    "requirements": {
+      "Power": 15,
+      "Strength": 0,
+      "Fortitude": 0,
+      "Agility": 0,
+      "Intelligence": 0,
+      "Willpower": 0,
+      "Charisma": 0
+    },
+    "mats": "x5 Cloth, x1 Bloodless Gem, x5 Vibrant Gem, x5 Umbral Obsidian, x1 Dark Feather, x1 Odd Tentacle, x1 Thresher Spine",
+    "notes": "1000",
+  },
+  "royal etrean guard": {
+    "name": "Royal Etrean Guard",
+    "durability": 3000,
+    "resistances": {
+      "Physical Resistance": 0.3,
+      "Slash Resistance": 0.05,
+      "Blunt Resistance": 0,
+      "Elemental Resistance": 0.3,
+      "Flame Resistance": 0,
+      "Ice Resistance": 0,
+      "Thunder Resistance": 0,
+      "Wind Resistance": 0,
+      "Shadow Resistance": 0
+    },
+    "extra": {
+      "Ether Regen": "20%",
+      "Extra Stealth": "0%"
+    },
+    "talent": "Paired Soul",
+    "requirements": {
+      "Power": 20,
+      "Strength": 0,
+      "Fortitude": 0,
+      "Agility": 0,
+      "Intelligence": 0,
+      "Willpower": 0,
+      "Charisma": 0
+    },
+    "mats": "x5 Cloth, x5 Fiber, x1 King Thresher Spine, x10 Umbral Obsidian, x5 Vibrant Gem, x1 Void Feather",
+    "notes": "1000",
+  },
+  "sanguine finery": {
+    "name": "Sanguine Finery",
+    "durability": 0,
+    "resistances": {
+      "Physical Resistance": 0,
+      "Slash Resistance": 0,
+      "Blunt Resistance": 0,
+      "Elemental Resistance": 0,
+      "Flame Resistance": 0,
+      "Ice Resistance": 0,
+      "Thunder Resistance": 0,
+      "Wind Resistance": 0,
+      "Shadow Resistance": 0
+    },
+    "extra": {
+      "Ether Regen": "0%",
+      "Extra Stealth": "0%"
+    },
+    "talent": "",
+    "requirements": {
+      "Power": 0,
+      "Strength": 0,
+      "Fortitude": 0,
+      "Agility": 0,
+      "Intelligence": 0,
+      "Willpower": 0,
+      "Charisma": 0
+    },
+    "mats": "",
+    "notes": "",
+  },
+  "scholar": {
+    "name": "Scholar",
+    "durability": 1000,
+    "resistances": {
+      "Physical Resistance": 0.08,
+      "Slash Resistance": 0,
+      "Blunt Resistance": 0,
+      "Elemental Resistance": 0.1,
+      "Flame Resistance": 0,
+      "Ice Resistance": 0,
+      "Thunder Resistance": 0,
+      "Wind Resistance": 0,
+      "Shadow Resistance": 0
+    },
+    "extra": {
+      "Ether Regen": "0%",
+      "Extra Stealth": "0%"
+    },
+    "talent": "Scholar's Intuition",
+    "requirements": {
+      "Power": 0,
+      "Strength": 0,
+      "Fortitude": 0,
+      "Agility": 0,
+      "Intelligence": 0,
+      "Willpower": 0,
+      "Charisma": 0
+    },
+    "mats": "x3 Cloth, x3 Fiber",
+    "notes": "50",
+  },
+  "seamstress' attire": {
+    "name": "Seamstress's Attire",
+    "durability": 2000,
+    "resistances": {
+      "Physical Resistance": 0.25,
+      "Slash Resistance": 0,
+      "Blunt Resistance": 0,
+      "Elemental Resistance": 0.2,
+      "Flame Resistance": 0,
+      "Ice Resistance": 0,
+      "Thunder Resistance": 0,
+      "Wind Resistance": 0,
+      "Shadow Resistance": 0
+    },
+    "extra": {
+      "Ether Regen": "0%",
+      "Extra Stealth": "0%"
+    },
+    "talent": "",
+    "requirements": {
+      "Power": 8,
+      "Strength": 0,
+      "Fortitude": 0,
+      "Agility": 0,
+      "Intelligence": 0,
+      "Willpower": 0,
+      "Charisma": 0
+    },
+    "mats": "x10 Cloth, x10 Fiber, x5 Iron, x2 Megalodaunt Hide",
+    "notes": "100",
+  },
+  "shadow hunter": {
+    "name": "Shadow Hunter",
+    "durability": 1500,
+    "resistances": {
+      "Physical Resistance": 0.1,
+      "Slash Resistance": 0,
+      "Blunt Resistance": 0,
+      "Elemental Resistance": 0.05,
+      "Flame Resistance": 0,
+      "Ice Resistance": 0,
+      "Thunder Resistance": 0,
+      "Wind Resistance": 0,
+      "Shadow Resistance": 0.1
+    },
+    "extra": {
+      "Ether Regen": "0%",
+      "Extra Stealth": "0%"
+    },
+    "talent": "Now You See Me",
+    "requirements": {
+      "Power": 0,
+      "Strength": 0,
+      "Fortitude": 0,
+      "Agility": 10,
+      "Intelligence": 0,
+      "Willpower": 0,
+      "Charisma": 0
+    },
+    "mats": "x5 Cloth, x5 Fiber, x2 Gold, x10 Iron",
+    "notes": "0",
+  },
+  "shock corps light": {
+    "name": "Shock Corps Light",
+    "durability": 0,
+    "resistances": {
+      "Physical Resistance": 0,
+      "Slash Resistance": 0,
+      "Blunt Resistance": 0,
+      "Elemental Resistance": 0,
+      "Flame Resistance": 0,
+      "Ice Resistance": 0,
+      "Thunder Resistance": 0,
+      "Wind Resistance": 0,
+      "Shadow Resistance": 0
+    },
+    "extra": {
+      "Ether Regen": "0%",
+      "Extra Stealth": "0%"
+    },
+    "talent": "",
+    "requirements": {
+      "Power": 0,
+      "Strength": 0,
+      "Fortitude": 0,
+      "Agility": 0,
+      "Intelligence": 0,
+      "Willpower": 0,
+      "Charisma": 0
+    },
+    "mats": "",
+    "notes": "",
+  },
+  "skeptic pioneer": {
+    "name": "Skeptic Pioneer",
+    "durability": 1200,
+    "resistances": {
+      "Physical Resistance": 0.12,
+      "Slash Resistance": 0,
+      "Blunt Resistance": 0,
+      "Elemental Resistance": 0.12,
+      "Flame Resistance": 0,
+      "Ice Resistance": 0,
+      "Thunder Resistance": 0,
+      "Wind Resistance": 0,
+      "Shadow Resistance": 0
+    },
+    "extra": {
+      "Ether Regen": "0%",
+      "Extra Stealth": "0%"
+    },
+    "talent": "Apothecary",
+    "requirements": {
+      "Power": 0,
+      "Strength": 0,
+      "Fortitude": 0,
+      "Agility": 0,
+      "Intelligence": 0,
+      "Willpower": 0,
+      "Charisma": 0
+    },
+    "mats": "x5 Cloth, x5 Fiber, x1 Crystal Lens",
+    "notes": "25",
+  },
+  "soren": {
+    "name": "Soren",
+    "durability": 0,
+    "resistances": {
+      "Physical Resistance": 0,
+      "Slash Resistance": 0,
+      "Blunt Resistance": 0,
+      "Elemental Resistance": 0,
+      "Flame Resistance": 0,
+      "Ice Resistance": 0,
+      "Thunder Resistance": 0,
+      "Wind Resistance": 0,
+      "Shadow Resistance": 0
+    },
+    "extra": {
+      "Ether Regen": "0%",
+      "Extra Stealth": "0%"
+    },
+    "talent": "",
+    "requirements": {
+      "Power": 0,
+      "Strength": 0,
+      "Fortitude": 0,
+      "Agility": 0,
+      "Intelligence": 0,
+      "Willpower": 0,
+      "Charisma": 0
+    },
+    "mats": "",
+    "notes": "",
+  },
+  "steel plate": {
+    "name": "Steel Plate",
+    "durability": 0,
+    "resistances": {
+      "Physical Resistance": 0,
+      "Slash Resistance": 0,
+      "Blunt Resistance": 0,
+      "Elemental Resistance": 0,
+      "Flame Resistance": 0,
+      "Ice Resistance": 0,
+      "Thunder Resistance": 0,
+      "Wind Resistance": 0,
+      "Shadow Resistance": 0
+    },
+    "extra": {
+      "Ether Regen": "0%",
+      "Extra Stealth": "0%"
+    },
+    "talent": "",
+    "requirements": {
+      "Power": 0,
+      "Strength": 0,
+      "Fortitude": 0,
+      "Agility": 0,
+      "Intelligence": 0,
+      "Willpower": 0,
+      "Charisma": 0
+    },
+    "mats": "",
+    "notes": "",
+  },
+  "stormchanter's raiments": {
+    "name": "Stormchanter's Raiments",
+    "durability": 0,
+    "resistances": {
+      "Physical Resistance": 0,
+      "Slash Resistance": 0,
+      "Blunt Resistance": 0,
+      "Elemental Resistance": 0,
+      "Flame Resistance": 0,
+      "Ice Resistance": 0,
+      "Thunder Resistance": 0,
+      "Wind Resistance": 0,
+      "Shadow Resistance": 0
+    },
+    "extra": {
+      "Ether Regen": "0%",
+      "Extra Stealth": "0%"
+    },
+    "talent": "",
+    "requirements": {
+      "Power": 0,
+      "Strength": 0,
+      "Fortitude": 0,
+      "Agility": 0,
+      "Intelligence": 0,
+      "Willpower": 0,
+      "Charisma": 0
+    },
+    "mats": "",
+    "notes": "",
+  },
+  "stranded": {
+    "name": "Stranded",
+    "durability": 0,
+    "resistances": {
+      "Physical Resistance": 0,
+      "Slash Resistance": 0,
+      "Blunt Resistance": 0,
+      "Elemental Resistance": 0,
+      "Flame Resistance": 0,
+      "Ice Resistance": 0,
+      "Thunder Resistance": 0,
+      "Wind Resistance": 0,
+      "Shadow Resistance": 0
+    },
+    "extra": {
+      "Ether Regen": "0%",
+      "Extra Stealth": "0%"
+    },
+    "talent": "",
+    "requirements": {
+      "Power": 0,
+      "Strength": 0,
+      "Fortitude": 0,
+      "Agility": 0,
+      "Intelligence": 0,
+      "Willpower": 0,
+      "Charisma": 0
+    },
+    "mats": "",
+    "notes": "0",
+  },
+  "summer company uniform": {
+    "name": "Summer Company Uniform",
+    "durability": 1500,
+    "resistances": {
+      "Physical Resistance": 0.1,
+      "Slash Resistance": 0.1,
+      "Blunt Resistance": 0,
+      "Elemental Resistance": 0.05,
+      "Flame Resistance": 0,
+      "Ice Resistance": 0,
+      "Thunder Resistance": 0,
+      "Wind Resistance": 0,
+      "Shadow Resistance": 0.25
+    },
+    "extra": {
+      "Ether Regen": "0%",
+      "Extra Stealth": "0%"
+    },
+    "talent": "Armor Piercing",
+    "requirements": {
+      "Power": 5,
+      "Strength": 0,
+      "Fortitude": 0,
+      "Agility": 0,
+      "Intelligence": 0,
+      "Willpower": 0,
+      "Charisma": 0
+    },
+    "mats": "x5 Cloth, x5 Fiber, x10 Iron",
+    "notes": "100",
+  },
+  "summer dragoon": {
+    "name": "Summer Dragoon",
+    "durability": 2800,
+    "resistances": {
+      "Physical Resistance": 0.25,
+      "Slash Resistance": 0,
+      "Blunt Resistance": 0,
+      "Elemental Resistance": 0.3,
+      "Flame Resistance": 0,
+      "Ice Resistance": 0,
+      "Thunder Resistance": 0,
+      "Wind Resistance": 0.2,
+      "Shadow Resistance": 0
+    },
+    "extra": {
+      "Ether Regen": "20%",
+      "Extra Stealth": "0%"
+    },
+    "talent": "Sunset Ricochet",
+    "requirements": {
+      "Power": 15,
+      "Strength": 0,
+      "Fortitude": 0,
+      "Agility": 0,
+      "Intelligence": 0,
+      "Willpower": 0,
+      "Charisma": 0
+    },
+    "mats": "x5 Cloth, x5 Fiber, x1 Bloodless Gem, x5 Vibrant Gem, x1 Megalodaunt Hide, x1 Bounder Claw, x1 Thresher Spine",
+    "notes": "1000",
+  },
+  "tempestmaker's threads": {
+    "name": "Tempestmaker's Threads",
+    "durability": 0,
+    "resistances": {
+      "Physical Resistance": 0,
+      "Slash Resistance": 0,
+      "Blunt Resistance": 0,
+      "Elemental Resistance": 0,
+      "Flame Resistance": 0,
+      "Ice Resistance": 0,
+      "Thunder Resistance": 0,
+      "Wind Resistance": 0,
+      "Shadow Resistance": 0
+    },
+    "extra": {
+      "Ether Regen": "0%",
+      "Extra Stealth": "0%"
+    },
+    "talent": "",
+    "requirements": {
+      "Power": 0,
+      "Strength": 0,
+      "Fortitude": 0,
+      "Agility": 0,
+      "Intelligence": 0,
+      "Willpower": 0,
+      "Charisma": 0
+    },
+    "mats": "",
+    "notes": "",
+  },
+  "titanslayer's adornment": {
+    "name": "Titanslayer's Adornment",
+    "durability": 0,
+    "resistances": {
+      "Physical Resistance": 0,
+      "Slash Resistance": 0,
+      "Blunt Resistance": 0,
+      "Elemental Resistance": 0,
+      "Flame Resistance": 0,
+      "Ice Resistance": 0,
+      "Thunder Resistance": 0,
+      "Wind Resistance": 0,
+      "Shadow Resistance": 0
+    },
+    "extra": {
+      "Ether Regen": "0%",
+      "Extra Stealth": "0%"
+    },
+    "talent": "",
+    "requirements": {
+      "Power": 0,
+      "Strength": 0,
+      "Fortitude": 0,
+      "Agility": 0,
+      "Intelligence": 0,
+      "Willpower": 0,
+      "Charisma": 0
+    },
+    "mats": "",
+    "notes": "",
+  },
+  "titus's raiment": {
+    "name": "Titus's Raiment",
+    "durability": 0,
+    "resistances": {
+      "Physical Resistance": 0,
+      "Slash Resistance": 0,
+      "Blunt Resistance": 0,
+      "Elemental Resistance": 0,
+      "Flame Resistance": 0,
+      "Ice Resistance": 0,
+      "Thunder Resistance": 0,
+      "Wind Resistance": 0,
+      "Shadow Resistance": 0
+    },
+    "extra": {
+      "Ether Regen": "0%",
+      "Extra Stealth": "0%"
+    },
+    "talent": "",
+    "requirements": {
+      "Power": 0,
+      "Strength": 0,
+      "Fortitude": 0,
+      "Agility": 0,
+      "Intelligence": 0,
+      "Willpower": 0,
+      "Charisma": 0
+    },
+    "mats": "",
+    "notes": "",
+  },
+  "traveler cloak": {
+    "name": "Traveler's Jacket",
+    "durability": 1000,
+    "resistances": {
+      "Physical Resistance": 0.1,
+      "Slash Resistance": 0,
+      "Blunt Resistance": 0,
+      "Elemental Resistance": 0,
+      "Flame Resistance": 0,
+      "Ice Resistance": 0,
+      "Thunder Resistance": 0,
+      "Wind Resistance": 0,
+      "Shadow Resistance": 0
+    },
+    "extra": {
+      "Ether Regen": "0%",
+      "Extra Stealth": "0%"
+    },
+    "talent": "",
+    "requirements": {
+      "Power": 0,
+      "Strength": 0,
+      "Fortitude": 0,
+      "Agility": 0,
+      "Intelligence": 0,
+      "Willpower": 0,
+      "Charisma": 0
+    },
+    "mats": "x1 Cloth",
+    "notes": "10",
+  },
+  "trickster's habit": {
+    "name": "Trickster's Habit",
+    "durability": 0,
+    "resistances": {
+      "Physical Resistance": 0,
+      "Slash Resistance": 0,
+      "Blunt Resistance": 0,
+      "Elemental Resistance": 0,
+      "Flame Resistance": 0,
+      "Ice Resistance": 0,
+      "Thunder Resistance": 0,
+      "Wind Resistance": 0,
+      "Shadow Resistance": 0
+    },
+    "extra": {
+      "Ether Regen": "0%",
+      "Extra Stealth": "0%"
+    },
+    "talent": "",
+    "requirements": {
+      "Power": 0,
+      "Strength": 0,
+      "Fortitude": 0,
+      "Agility": 0,
+      "Intelligence": 0,
+      "Willpower": 0,
+      "Charisma": 0
+    },
+    "mats": "",
+    "notes": "",
+  },
+  "troublemaker's overcoat": {
+    "name": "Troublemaker's Overcoat",
+    "durability": 2500,
+    "resistances": {
+      "Physical Resistance": 0.25,
+      "Slash Resistance": 0,
+      "Blunt Resistance": 0,
+      "Elemental Resistance": 0.2,
+      "Flame Resistance": 0,
+      "Ice Resistance": 0,
+      "Thunder Resistance": 0,
+      "Wind Resistance": 0,
+      "Shadow Resistance": 0
+    },
+    "extra": {
+      "Ether Regen": "0%",
+      "Extra Stealth": "0%"
+    },
+    "talent": "",
+    "requirements": {
+      "Power": 8,
+      "Strength": 0,
+      "Fortitude": 0,
+      "Agility": 0,
+      "Intelligence": 0,
+      "Willpower": 0,
+      "Charisma": 0
+    },
+    "mats": "x10 Cloth, x10 Fiber, x5 Iron, x5 Megalodaunt Hide",
+    "notes": "100",
+  },
+  "union initiate": {
+    "name": "Union Initiate",
+    "durability": 0,
+    "resistances": {
+      "Physical Resistance": 0,
+      "Slash Resistance": 0,
+      "Blunt Resistance": 0,
+      "Elemental Resistance": 0,
+      "Flame Resistance": 0,
+      "Ice Resistance": 0,
+      "Thunder Resistance": 0,
+      "Wind Resistance": 0,
+      "Shadow Resistance": 0
+    },
+    "extra": {
+      "Ether Regen": "0%",
+      "Extra Stealth": "0%"
+    },
+    "talent": "",
+    "requirements": {
+      "Power": 0,
+      "Strength": 0,
+      "Fortitude": 0,
+      "Agility": 0,
+      "Intelligence": 0,
+      "Willpower": 0,
+      "Charisma": 0
+    },
+    "mats": "",
+    "notes": "",
+  },
+  "unsung": {
+    "name": "Unsung",
+    "durability": 0,
+    "resistances": {
+      "Physical Resistance": 0,
+      "Slash Resistance": 0,
+      "Blunt Resistance": 0,
+      "Elemental Resistance": 0,
+      "Flame Resistance": 0,
+      "Ice Resistance": 0,
+      "Thunder Resistance": 0,
+      "Wind Resistance": 0,
+      "Shadow Resistance": 0
+    },
+    "extra": {
+      "Ether Regen": "0%",
+      "Extra Stealth": "0%"
+    },
+    "talent": "",
+    "requirements": {
+      "Power": 0,
+      "Strength": 0,
+      "Fortitude": 0,
+      "Agility": 0,
+      "Intelligence": 0,
+      "Willpower": 0,
+      "Charisma": 0
+    },
+    "mats": "",
+    "notes": "",
+  },
+  "varicosan finery": {
+    "name": "Varicosan Finery",
+    "durability": 0,
+    "resistances": {
+      "Physical Resistance": 0,
+      "Slash Resistance": 0,
+      "Blunt Resistance": 0,
+      "Elemental Resistance": 0,
+      "Flame Resistance": 0,
+      "Ice Resistance": 0,
+      "Thunder Resistance": 0,
+      "Wind Resistance": 0,
+      "Shadow Resistance": 0
+    },
+    "extra": {
+      "Ether Regen": "0%",
+      "Extra Stealth": "0%"
+    },
+    "talent": "",
+    "requirements": {
+      "Power": 0,
+      "Strength": 0,
+      "Fortitude": 0,
+      "Agility": 0,
+      "Intelligence": 0,
+      "Willpower": 0,
+      "Charisma": 0
+    },
+    "mats": "",
+    "notes": "",
+  },
+  "verdant sniper": {
+    "name": "Verdant Sniper",
+    "durability": 1500,
+    "resistances": {
+      "Physical Resistance": 0.25,
+      "Slash Resistance": 0,
+      "Blunt Resistance": 0,
+      "Elemental Resistance": 0.2,
+      "Flame Resistance": 0,
+      "Ice Resistance": 0,
+      "Thunder Resistance": 0,
+      "Wind Resistance": 0.1,
+      "Shadow Resistance": 0
+    },
+    "extra": {
+      "Ether Regen": "0%",
+      "Extra Stealth": "0%"
+    },
+    "talent": "",
+    "requirements": {
+      "Power": 10,
+      "Strength": 0,
+      "Fortitude": 0,
+      "Agility": 0,
+      "Intelligence": 0,
+      "Willpower": 0,
+      "Charisma": 0
+    },
+    "mats": "x10 Cloth, x2 Megalodaunt Hide, x2 Vibrant Gems",
+    "notes": "100",
+  },
+  "veteran adventurer": {
+    "name": "Veteran Adventurer",
+    "durability": 1500,
+    "resistances": {
+      "Physical Resistance": 0.15,
+      "Slash Resistance": 0,
+      "Blunt Resistance": 0,
+      "Elemental Resistance": 0.15,
+      "Flame Resistance": 0.05,
+      "Ice Resistance": 0,
+      "Thunder Resistance": 0,
+      "Wind Resistance": 0,
+      "Shadow Resistance": 0.05
+    },
+    "extra": {
+      "Ether Regen": "0%",
+      "Extra Stealth": "0%"
+    },
+    "talent": "Foolish Outburst",
+    "requirements": {
+      "Power": 10,
+      "Strength": 0,
+      "Fortitude": 0,
+      "Agility": 0,
+      "Intelligence": 0,
+      "Willpower": 0,
+      "Charisma": 0
+    },
+    "mats": "x5 Cloth, x5 Fiber, x2 Gold, x10 Iron, x2 Lionfish Scale",
+    "notes": "100",
+  },
+  "vigil initiate": {
+    "name": "Vigil Initiate",
+    "durability": 1200,
+    "resistances": {
+      "Physical Resistance": 0.2,
+      "Slash Resistance": 0,
+      "Blunt Resistance": 0.1,
+      "Elemental Resistance": 0,
+      "Flame Resistance": 0,
+      "Ice Resistance": 0,
+      "Thunder Resistance": 0,
+      "Wind Resistance": 0,
+      "Shadow Resistance": 0
+    },
+    "extra": {
+      "Ether Regen": "0%",
+      "Extra Stealth": "0%"
+    },
+    "talent": "Paired Soul",
+    "requirements": {
+      "Power": 5,
+      "Strength": 0,
+      "Fortitude": 0,
+      "Agility": 0,
+      "Intelligence": 0,
+      "Willpower": 0,
+      "Charisma": 0
+    },
+    "mats": "x5 Cloth, x5 Fiber,, x4 Iron",
+    "notes": "0",
+  },
+  "vigil sentinel": {
+    "name": "Vigil Sentinel",
+    "durability": 2500,
+    "resistances": {
+      "Physical Resistance": 0.3,
+      "Slash Resistance": 0,
+      "Blunt Resistance": 0,
+      "Elemental Resistance": 0.3,
+      "Flame Resistance": 0.1,
+      "Ice Resistance": 0,
+      "Thunder Resistance": 0,
+      "Wind Resistance": 0.25,
+      "Shadow Resistance": 0.1
+    },
+    "extra": {
+      "Ether Regen": "25%",
+      "Extra Stealth": "0%"
+    },
+    "talent": "Action Surge",
+    "requirements": {
+      "Power": 10,
+      "Strength": 0,
+      "Fortitude": 0,
+      "Agility": 0,
+      "Intelligence": 0,
+      "Willpower": 5,
+      "Charisma": 0
+    },
+    "mats": "x5 Cloth, x5 Fiber, x5 Gale Stone, x5 Irithine, x5 Vibrant Gem, x1 Wind Gem",
+    "notes": "1000",
+  },
+  "whaler coat": {
+    "name": "Whaler Coat",
+    "durability": 1500,
+    "resistances": {
+      "Physical Resistance": 0.25,
+      "Slash Resistance": 0,
+      "Blunt Resistance": 0,
+      "Elemental Resistance": 0.15,
+      "Flame Resistance": 0,
+      "Ice Resistance": 0,
+      "Thunder Resistance": 0,
+      "Wind Resistance": 0,
+      "Shadow Resistance": 0
+    },
+    "extra": {
+      "Ether Regen": "0%",
+      "Extra Stealth": "50%"
+    },
+    "talent": "",
+    "requirements": {
+      "Power": 10,
+      "Strength": 0,
+      "Fortitude": 0,
+      "Agility": 0,
+      "Intelligence": 0,
+      "Willpower": 0,
+      "Charisma": 0
+    },
+    "mats": "x5 Cloth, x5 Fiber, x2 Gold, x10 Iron, x2 Lionfish Scale",
+    "notes": "100",
+  },
+  "whaler initiate": {
+    "name": "Whaler Initare",
+    "durability": 1500,
+    "resistances": {
+      "Physical Resistance": 0.25,
+      "Slash Resistance": 0,
+      "Blunt Resistance": 0,
+      "Elemental Resistance": 0.05,
+      "Flame Resistance": 0,
+      "Ice Resistance": 0,
+      "Thunder Resistance": 0,
+      "Wind Resistance": 0,
+      "Shadow Resistance": 0
+    },
+    "extra": {
+      "Ether Regen": "0%",
+      "Extra Stealth": "25%"
+    },
+    "talent": "",
+    "requirements": {
+      "Power": 5,
+      "Strength": 0,
+      "Fortitude": 0,
+      "Agility": 0,
+      "Intelligence": 0,
+      "Willpower": 0,
+      "Charisma": 0
+    },
+    "mats": "Obtained from Voidwalker Origin",
+    "notes": "0",
+  },
+  "white mod suit": {
+    "name": "White Mod Suit",
+    "durability": 0,
+    "resistances": {
+      "Physical Resistance": 0,
+      "Slash Resistance": 0,
+      "Blunt Resistance": 0,
+      "Elemental Resistance": 0,
+      "Flame Resistance": 0,
+      "Ice Resistance": 0,
+      "Thunder Resistance": 0,
+      "Wind Resistance": 0,
+      "Shadow Resistance": 0
+    },
+    "extra": {
+      "Ether Regen": "0%",
+      "Extra Stealth": "0%"
+    },
+    "talent": "",
+    "requirements": {
+      "Power": 0,
+      "Strength": 0,
+      "Fortitude": 0,
+      "Agility": 0,
+      "Intelligence": 0,
+      "Willpower": 0,
+      "Charisma": 0
+    },
+    "mats": "",
+    "notes": "",
+  },
+  "windrunner robes": {
+    "name": "Windrunner Robes",
+    "durability": 0,
+    "resistances": {
+      "Physical Resistance": 0,
+      "Slash Resistance": 0,
+      "Blunt Resistance": 0,
+      "Elemental Resistance": 0,
+      "Flame Resistance": 0,
+      "Ice Resistance": 0,
+      "Thunder Resistance": 0,
+      "Wind Resistance": 0,
+      "Shadow Resistance": 0
+    },
+    "extra": {
+      "Ether Regen": "0%",
+      "Extra Stealth": "0%"
+    },
+    "talent": "",
+    "requirements": {
+      "Power": 0,
+      "Strength": 0,
+      "Fortitude": 0,
+      "Agility": 0,
+      "Intelligence": 0,
+      "Willpower": 0,
+      "Charisma": 0
+    },
+    "mats": "",
+    "notes": "",
+  },
+  "wishmaker": {
+    "name": "Wishmaker",
+    "durability": 0,
+    "resistances": {
+      "Physical Resistance": 0,
+      "Slash Resistance": 0,
+      "Blunt Resistance": 0,
+      "Elemental Resistance": 0,
+      "Flame Resistance": 0,
+      "Ice Resistance": 0,
+      "Thunder Resistance": 0,
+      "Wind Resistance": 0,
+      "Shadow Resistance": 0
+    },
+    "extra": {
+      "Ether Regen": "0%",
+      "Extra Stealth": "0%"
+    },
+    "talent": "",
+    "requirements": {
+      "Power": 0,
+      "Strength": 0,
+      "Fortitude": 0,
+      "Agility": 0,
+      "Intelligence": 0,
+      "Willpower": 0,
+      "Charisma": 0
+    },
+    "mats": "",
+    "notes": "",
+  }
+}

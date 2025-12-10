@@ -1,0 +1,4 @@
+Destroyman III :
+greeting: https://files.catbox.moe/sb2zzw.mp3
+start_talking: https://files.catbox.moe/9xjrvi.mp3
+end_talking: https://files.catbox.moe/hv2q96.mp3

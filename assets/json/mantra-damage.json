@@ -1,0 +1,1290 @@
+{
+    "attunement": [
+        "attunementless": [
+            {
+              "name": "Wind Blade",
+              "damage": [18.0, 20.5, 23.0, 25.5, 28.0],
+              "posture": [12.0],
+              "windup": [0.5]
+            },
+            {
+              "name": "Wind Blade (Tempest Wind)",
+              "damage": [15.0, 22.5, 30.0, 37.5, 45.0],
+              "posture": [4.0, 5.0, 6.0, 7.0, 8.0],
+              "windup": [0.5]
+            },
+            {
+              "name": "Air Force",
+              "damage": [22.0, 24.4, 26.8, 29.2, 31.6],
+              "posture": [5.5, 5.7, 5.9, 6.1, 6.3],
+              "windup": [0.6]
+            },
+            {
+              "name": "Tornado Kick",
+              "damage": [72.0, 82.0, 92.0, 102.0, 112.0],
+              "posture": [30.0],
+              "windup": [0.55, 0.55, 0.5, 0.5]
+            },
+            {
+              "name": "Updraft",
+              "damage": [32.4, 35.3, 38.3, 41.2, 44.2],
+              "posture": [21.0],
+              "windup": [0.45, 0.1, 0.1]
+            },
+            {
+              "name": "Wind Forge",
+              "damage": [20.0, 24.0, 28.0, 32.0, 36.0],
+              "posture": [8.0],
+              "windup": [1.6]
+            },
+            {
+              "name": "Wind Forge (Multiplying spark)",
+              "damage": [15.0, 18.0, 21.0, 24.0, 27.0],
+              "posture": [15.0],
+              "windup": [0.85, 0.2, 0.2]
+            },
+            {
+              "name": "Gale Lunge",
+              "damage": [12.5, 13.75, 15.0, 16.25, 17.5],
+              "posture": [4.0, 5.0, 6.0, 7.0, 8.0],
+              "windup": [0.5]
+            },
+            {
+              "name": "Tornado",
+              "damage": [126.0, 141.12, 156.24, 171.36, 186.48],
+              "posture": [14.4],
+              "windup": [0.9, 0.31]
+            },
+            {
+              "name": "Twister Kicks",
+              "damage": [28.0, 33.2, 38.4, 43.6, 48.8],
+              "posture": [16.0],
+              "windup": [0.5, 0.11]
+            },
+            {
+              "name": "Heavenly Wind",
+              "damage": [15.0, 22.0, 29.0, 36.0, 43.0],
+              "posture": [10.0],
+              "windup": [0.65]
+            },
+            {
+              "name": "Galetrap",
+              "damage": [31.5, 32.38, 33.25, 34.13, 35.0],
+              "posture": [5.0, 1.0],
+              "windup": [0.6, 2.0]
+            },
+            {
+              "name": "Gale Punch",
+              "damage": [37.5, 41.25, 45.0, 48.75, 52.5],
+              "posture": [24.0],
+              "windup": [0.55, 0.65, 0.07]
+            },
+            {
+              "name": "Champion's Whirlthrow",
+              "damage": [41.0, 46.0, 51.0, 56.0, 61.0],
+              "posture": [20.0, 22.0, 24.0, 26.0],
+              "windup": [0.7, 0.7, 0.3]
+            },
+            {
+              "name": "Rising Wind",
+              "damage": [30.0, 34.5, 39.0, 43.5, 48.0],
+              "posture": [5.0],
+              "windup": [0.5]
+            },
+            {
+              "name": "Wind Gun",
+              "damage": [32.0, 36.0, 40.0, 44.0, 48.0],
+              "posture": [10.0],
+              "windup": [0.45]
+            },
+            {
+              "name": "Wind Gun (Multiplying spark)",
+              "damage": [25.6, 28.8, 32.0, 35.2, 38.4],
+              "posture": [16.0],
+              "windup": [0.55]
+            },
+            {
+              "name": "Wind Gun (Blast spark)",
+              "damage": [32.64, 36.72, 40.8, 44.88, 48.96],
+              "posture": [6.4],
+              "windup": [0.45]
+            },
+            {
+              "name": "Wind Gun (Blast + Multiplying sparks)",
+              "damage": [48.96, 55.08, 61.2, 67.32, 73.44],
+              "posture": [72.0],
+              "windup": [0.55]
+            },
+            {
+              "name": "Wind Carve",
+              "damage": [20.4, 26.4, 32.4, 38.4, 44.4],
+              "posture": [12.0],
+              "windup": [0.55, 0.11]
+            },
+            {
+              "name": "Astral Wind",
+              "damage": [21.25, 26.75, 32.25, 37.75, 43.25],
+              "posture": [12.5],
+              "windup": [0.45, 0.0375]
+            },
+            {
+              "name": "Wind Passage",
+              "damage": [18.5, 27.5, 36.5, 45.5, 54.5],
+              "posture": [15.0],
+              "windup": [1.0]
+            },
+            {
+              "name": "Pillars of Erisia",
+              "damage": [35.0, 38.0, 41.0, 44.0, 47.0],
+              "posture": [7.0],
+              "windup": [0.8]
+            },
+        ],
+
+        "bloodrend": [
+            {
+              "name": "Wind Blade",
+              "damage": [18.0, 20.5, 23.0, 25.5, 28.0],
+              "posture": [12.0],
+              "windup": [0.5]
+            },
+            {
+              "name": "Wind Blade (Tempest Wind)",
+              "damage": [15.0, 22.5, 30.0, 37.5, 45.0],
+              "posture": [4.0, 5.0, 6.0, 7.0, 8.0],
+              "windup": [0.5]
+            },
+            {
+              "name": "Air Force",
+              "damage": [22.0, 24.4, 26.8, 29.2, 31.6],
+              "posture": [5.5, 5.7, 5.9, 6.1, 6.3],
+              "windup": [0.6]
+            },
+            {
+              "name": "Tornado Kick",
+              "damage": [72.0, 82.0, 92.0, 102.0, 112.0],
+              "posture": [30.0],
+              "windup": [0.55, 0.55, 0.5, 0.5]
+            },
+            {
+              "name": "Updraft",
+              "damage": [32.4, 35.3, 38.3, 41.2, 44.2],
+              "posture": [21.0],
+              "windup": [0.45, 0.1, 0.1]
+            },
+            {
+              "name": "Wind Forge",
+              "damage": [20.0, 24.0, 28.0, 32.0, 36.0],
+              "posture": [8.0],
+              "windup": [1.6]
+            },
+            {
+              "name": "Wind Forge (Multiplying spark)",
+              "damage": [15.0, 18.0, 21.0, 24.0, 27.0],
+              "posture": [15.0],
+              "windup": [0.85, 0.2, 0.2]
+            },
+            {
+              "name": "Gale Lunge",
+              "damage": [12.5, 13.75, 15.0, 16.25, 17.5],
+              "posture": [4.0, 5.0, 6.0, 7.0, 8.0],
+              "windup": [0.5]
+            },
+            {
+              "name": "Tornado",
+              "damage": [126.0, 141.12, 156.24, 171.36, 186.48],
+              "posture": [14.4],
+              "windup": [0.9, 0.31]
+            },
+            {
+              "name": "Twister Kicks",
+              "damage": [28.0, 33.2, 38.4, 43.6, 48.8],
+              "posture": [16.0],
+              "windup": [0.5, 0.11]
+            },
+            {
+              "name": "Heavenly Wind",
+              "damage": [15.0, 22.0, 29.0, 36.0, 43.0],
+              "posture": [10.0],
+              "windup": [0.65]
+            },
+            {
+              "name": "Galetrap",
+              "damage": [31.5, 32.38, 33.25, 34.13, 35.0],
+              "posture": [5.0, 1.0],
+              "windup": [0.6, 2.0]
+            },
+            {
+              "name": "Gale Punch",
+              "damage": [37.5, 41.25, 45.0, 48.75, 52.5],
+              "posture": [24.0],
+              "windup": [0.55, 0.65, 0.07]
+            },
+            {
+              "name": "Champion's Whirlthrow",
+              "damage": [41.0, 46.0, 51.0, 56.0, 61.0],
+              "posture": [20.0, 22.0, 24.0, 26.0],
+              "windup": [0.7, 0.7, 0.3]
+            },
+            {
+              "name": "Rising Wind",
+              "damage": [30.0, 34.5, 39.0, 43.5, 48.0],
+              "posture": [5.0],
+              "windup": [0.5]
+            },
+            {
+              "name": "Wind Gun",
+              "damage": [32.0, 36.0, 40.0, 44.0, 48.0],
+              "posture": [10.0],
+              "windup": [0.45]
+            },
+            {
+              "name": "Wind Gun (Multiplying spark)",
+              "damage": [25.6, 28.8, 32.0, 35.2, 38.4],
+              "posture": [16.0],
+              "windup": [0.55]
+            },
+            {
+              "name": "Wind Gun (Blast spark)",
+              "damage": [32.64, 36.72, 40.8, 44.88, 48.96],
+              "posture": [6.4],
+              "windup": [0.45]
+            },
+            {
+              "name": "Wind Gun (Blast + Multiplying sparks)",
+              "damage": [48.96, 55.08, 61.2, 67.32, 73.44],
+              "posture": [72.0],
+              "windup": [0.55]
+            },
+            {
+              "name": "Wind Carve",
+              "damage": [20.4, 26.4, 32.4, 38.4, 44.4],
+              "posture": [12.0],
+              "windup": [0.55, 0.11]
+            },
+            {
+              "name": "Astral Wind",
+              "damage": [21.25, 26.75, 32.25, 37.75, 43.25],
+              "posture": [12.5],
+              "windup": [0.45, 0.0375]
+            },
+            {
+              "name": "Wind Passage",
+              "damage": [18.5, 27.5, 36.5, 45.5, 54.5],
+              "posture": [15.0],
+              "windup": [1.0]
+            },
+            {
+              "name": "Pillars of Erisia",
+              "damage": [35.0, 38.0, 41.0, 44.0, 47.0],
+              "posture": [7.0],
+              "windup": [0.8]
+            },
+        ],
+        
+        "flamecharm": [
+            {
+              "name": "Wind Blade",
+              "damage": [18.0, 20.5, 23.0, 25.5, 28.0],
+              "posture": [12.0],
+              "windup": [0.5]
+            },
+            {
+              "name": "Wind Blade (Tempest Wind)",
+              "damage": [15.0, 22.5, 30.0, 37.5, 45.0],
+              "posture": [4.0, 5.0, 6.0, 7.0, 8.0],
+              "windup": [0.5]
+            },
+            {
+              "name": "Air Force",
+              "damage": [22.0, 24.4, 26.8, 29.2, 31.6],
+              "posture": [5.5, 5.7, 5.9, 6.1, 6.3],
+              "windup": [0.6]
+            },
+            {
+              "name": "Tornado Kick",
+              "damage": [72.0, 82.0, 92.0, 102.0, 112.0],
+              "posture": [30.0],
+              "windup": [0.55, 0.55, 0.5, 0.5]
+            },
+            {
+              "name": "Updraft",
+              "damage": [32.4, 35.3, 38.3, 41.2, 44.2],
+              "posture": [21.0],
+              "windup": [0.45, 0.1, 0.1]
+            },
+            {
+              "name": "Wind Forge",
+              "damage": [20.0, 24.0, 28.0, 32.0, 36.0],
+              "posture": [8.0],
+              "windup": [1.6]
+            },
+            {
+              "name": "Wind Forge (Multiplying spark)",
+              "damage": [15.0, 18.0, 21.0, 24.0, 27.0],
+              "posture": [15.0],
+              "windup": [0.85, 0.2, 0.2]
+            },
+            {
+              "name": "Gale Lunge",
+              "damage": [12.5, 13.75, 15.0, 16.25, 17.5],
+              "posture": [4.0, 5.0, 6.0, 7.0, 8.0],
+              "windup": [0.5]
+            },
+            {
+              "name": "Tornado",
+              "damage": [126.0, 141.12, 156.24, 171.36, 186.48],
+              "posture": [14.4],
+              "windup": [0.9, 0.31]
+            },
+            {
+              "name": "Twister Kicks",
+              "damage": [28.0, 33.2, 38.4, 43.6, 48.8],
+              "posture": [16.0],
+              "windup": [0.5, 0.11]
+            },
+            {
+              "name": "Heavenly Wind",
+              "damage": [15.0, 22.0, 29.0, 36.0, 43.0],
+              "posture": [10.0],
+              "windup": [0.65]
+            },
+            {
+              "name": "Galetrap",
+              "damage": [31.5, 32.38, 33.25, 34.13, 35.0],
+              "posture": [5.0, 1.0],
+              "windup": [0.6, 2.0]
+            },
+            {
+              "name": "Gale Punch",
+              "damage": [37.5, 41.25, 45.0, 48.75, 52.5],
+              "posture": [24.0],
+              "windup": [0.55, 0.65, 0.07]
+            },
+            {
+              "name": "Champion's Whirlthrow",
+              "damage": [41.0, 46.0, 51.0, 56.0, 61.0],
+              "posture": [20.0, 22.0, 24.0, 26.0],
+              "windup": [0.7, 0.7, 0.3]
+            },
+            {
+              "name": "Rising Wind",
+              "damage": [30.0, 34.5, 39.0, 43.5, 48.0],
+              "posture": [5.0],
+              "windup": [0.5]
+            },
+            {
+              "name": "Wind Gun",
+              "damage": [32.0, 36.0, 40.0, 44.0, 48.0],
+              "posture": [10.0],
+              "windup": [0.45]
+            },
+            {
+              "name": "Wind Gun (Multiplying spark)",
+              "damage": [25.6, 28.8, 32.0, 35.2, 38.4],
+              "posture": [16.0],
+              "windup": [0.55]
+            },
+            {
+              "name": "Wind Gun (Blast spark)",
+              "damage": [32.64, 36.72, 40.8, 44.88, 48.96],
+              "posture": [6.4],
+              "windup": [0.45]
+            },
+            {
+              "name": "Wind Gun (Blast + Multiplying sparks)",
+              "damage": [48.96, 55.08, 61.2, 67.32, 73.44],
+              "posture": [72.0],
+              "windup": [0.55]
+            },
+            {
+              "name": "Wind Carve",
+              "damage": [20.4, 26.4, 32.4, 38.4, 44.4],
+              "posture": [12.0],
+              "windup": [0.55, 0.11]
+            },
+            {
+              "name": "Astral Wind",
+              "damage": [21.25, 26.75, 32.25, 37.75, 43.25],
+              "posture": [12.5],
+              "windup": [0.45, 0.0375]
+            },
+            {
+              "name": "Wind Passage",
+              "damage": [18.5, 27.5, 36.5, 45.5, 54.5],
+              "posture": [15.0],
+              "windup": [1.0]
+            },
+            {
+              "name": "Pillars of Erisia",
+              "damage": [35.0, 38.0, 41.0, 44.0, 47.0],
+              "posture": [7.0],
+              "windup": [0.8]
+            },
+        ],
+        
+        "frostdraw": [
+            {
+              "name": "Wind Blade",
+              "damage": [18.0, 20.5, 23.0, 25.5, 28.0],
+              "posture": [12.0],
+              "windup": [0.5]
+            },
+            {
+              "name": "Wind Blade (Tempest Wind)",
+              "damage": [15.0, 22.5, 30.0, 37.5, 45.0],
+              "posture": [4.0, 5.0, 6.0, 7.0, 8.0],
+              "windup": [0.5]
+            },
+            {
+              "name": "Air Force",
+              "damage": [22.0, 24.4, 26.8, 29.2, 31.6],
+              "posture": [5.5, 5.7, 5.9, 6.1, 6.3],
+              "windup": [0.6]
+            },
+            {
+              "name": "Tornado Kick",
+              "damage": [72.0, 82.0, 92.0, 102.0, 112.0],
+              "posture": [30.0],
+              "windup": [0.55, 0.55, 0.5, 0.5]
+            },
+            {
+              "name": "Updraft",
+              "damage": [32.4, 35.3, 38.3, 41.2, 44.2],
+              "posture": [21.0],
+              "windup": [0.45, 0.1, 0.1]
+            },
+            {
+              "name": "Wind Forge",
+              "damage": [20.0, 24.0, 28.0, 32.0, 36.0],
+              "posture": [8.0],
+              "windup": [1.6]
+            },
+            {
+              "name": "Wind Forge (Multiplying spark)",
+              "damage": [15.0, 18.0, 21.0, 24.0, 27.0],
+              "posture": [15.0],
+              "windup": [0.85, 0.2, 0.2]
+            },
+            {
+              "name": "Gale Lunge",
+              "damage": [12.5, 13.75, 15.0, 16.25, 17.5],
+              "posture": [4.0, 5.0, 6.0, 7.0, 8.0],
+              "windup": [0.5]
+            },
+            {
+              "name": "Tornado",
+              "damage": [126.0, 141.12, 156.24, 171.36, 186.48],
+              "posture": [14.4],
+              "windup": [0.9, 0.31]
+            },
+            {
+              "name": "Twister Kicks",
+              "damage": [28.0, 33.2, 38.4, 43.6, 48.8],
+              "posture": [16.0],
+              "windup": [0.5, 0.11]
+            },
+            {
+              "name": "Heavenly Wind",
+              "damage": [15.0, 22.0, 29.0, 36.0, 43.0],
+              "posture": [10.0],
+              "windup": [0.65]
+            },
+            {
+              "name": "Galetrap",
+              "damage": [31.5, 32.38, 33.25, 34.13, 35.0],
+              "posture": [5.0, 1.0],
+              "windup": [0.6, 2.0]
+            },
+            {
+              "name": "Gale Punch",
+              "damage": [37.5, 41.25, 45.0, 48.75, 52.5],
+              "posture": [24.0],
+              "windup": [0.55, 0.65, 0.07]
+            },
+            {
+              "name": "Champion's Whirlthrow",
+              "damage": [41.0, 46.0, 51.0, 56.0, 61.0],
+              "posture": [20.0, 22.0, 24.0, 26.0],
+              "windup": [0.7, 0.7, 0.3]
+            },
+            {
+              "name": "Rising Wind",
+              "damage": [30.0, 34.5, 39.0, 43.5, 48.0],
+              "posture": [5.0],
+              "windup": [0.5]
+            },
+            {
+              "name": "Wind Gun",
+              "damage": [32.0, 36.0, 40.0, 44.0, 48.0],
+              "posture": [10.0],
+              "windup": [0.45]
+            },
+            {
+              "name": "Wind Gun (Multiplying spark)",
+              "damage": [25.6, 28.8, 32.0, 35.2, 38.4],
+              "posture": [16.0],
+              "windup": [0.55]
+            },
+            {
+              "name": "Wind Gun (Blast spark)",
+              "damage": [32.64, 36.72, 40.8, 44.88, 48.96],
+              "posture": [6.4],
+              "windup": [0.45]
+            },
+            {
+              "name": "Wind Gun (Blast + Multiplying sparks)",
+              "damage": [48.96, 55.08, 61.2, 67.32, 73.44],
+              "posture": [72.0],
+              "windup": [0.55]
+            },
+            {
+              "name": "Wind Carve",
+              "damage": [20.4, 26.4, 32.4, 38.4, 44.4],
+              "posture": [12.0],
+              "windup": [0.55, 0.11]
+            },
+            {
+              "name": "Astral Wind",
+              "damage": [21.25, 26.75, 32.25, 37.75, 43.25],
+              "posture": [12.5],
+              "windup": [0.45, 0.0375]
+            },
+            {
+              "name": "Wind Passage",
+              "damage": [18.5, 27.5, 36.5, 45.5, 54.5],
+              "posture": [15.0],
+              "windup": [1.0]
+            },
+            {
+              "name": "Pillars of Erisia",
+              "damage": [35.0, 38.0, 41.0, 44.0, 47.0],
+              "posture": [7.0],
+              "windup": [0.8]
+            },
+        ],
+        
+        "galebreathe": [
+            {
+              "name": "Wind Blade",
+              "damage": [18.0, 20.5, 23.0, 25.5, 28.0],
+              "posture": [12.0],
+              "windup": [0.5]
+            },
+            {
+              "name": "Wind Blade (Tempest Wind)",
+              "damage": [15.0, 22.5, 30.0, 37.5, 45.0],
+              "posture": [4.0, 5.0, 6.0, 7.0, 8.0],
+              "windup": [0.5]
+            },
+            {
+              "name": "Air Force",
+              "damage": [22.0, 24.4, 26.8, 29.2, 31.6],
+              "posture": [5.5, 5.7, 5.9, 6.1, 6.3],
+              "windup": [0.6]
+            },
+            {
+              "name": "Tornado Kick",
+              "damage": [72.0, 82.0, 92.0, 102.0, 112.0],
+              "posture": [30.0],
+              "windup": [0.55, 0.55, 0.5, 0.5]
+            },
+            {
+              "name": "Updraft",
+              "damage": [32.4, 35.3, 38.3, 41.2, 44.2],
+              "posture": [21.0],
+              "windup": [0.45, 0.1, 0.1]
+            },
+            {
+              "name": "Wind Forge",
+              "damage": [20.0, 24.0, 28.0, 32.0, 36.0],
+              "posture": [8.0],
+              "windup": [1.6]
+            },
+            {
+              "name": "Wind Forge (Multiplying spark)",
+              "damage": [15.0, 18.0, 21.0, 24.0, 27.0],
+              "posture": [15.0],
+              "windup": [0.85, 0.2, 0.2]
+            },
+            {
+              "name": "Gale Lunge",
+              "damage": [12.5, 13.75, 15.0, 16.25, 17.5],
+              "posture": [4.0, 5.0, 6.0, 7.0, 8.0],
+              "windup": [0.5]
+            },
+            {
+              "name": "Tornado",
+              "damage": [126.0, 141.12, 156.24, 171.36, 186.48],
+              "posture": [14.4],
+              "windup": [0.9, 0.31]
+            },
+            {
+              "name": "Twister Kicks",
+              "damage": [28.0, 33.2, 38.4, 43.6, 48.8],
+              "posture": [16.0],
+              "windup": [0.5, 0.11]
+            },
+            {
+              "name": "Heavenly Wind",
+              "damage": [15.0, 22.0, 29.0, 36.0, 43.0],
+              "posture": [10.0],
+              "windup": [0.65]
+            },
+            {
+              "name": "Galetrap",
+              "damage": [31.5, 32.38, 33.25, 34.13, 35.0],
+              "posture": [5.0, 1.0],
+              "windup": [0.6, 2.0]
+            },
+            {
+              "name": "Gale Punch",
+              "damage": [37.5, 41.25, 45.0, 48.75, 52.5],
+              "posture": [24.0],
+              "windup": [0.55, 0.65, 0.07]
+            },
+            {
+              "name": "Champion's Whirlthrow",
+              "damage": [41.0, 46.0, 51.0, 56.0, 61.0],
+              "posture": [20.0, 22.0, 24.0, 26.0],
+              "windup": [0.7, 0.7, 0.3]
+            },
+            {
+              "name": "Rising Wind",
+              "damage": [30.0, 34.5, 39.0, 43.5, 48.0],
+              "posture": [5.0],
+              "windup": [0.5]
+            },
+            {
+              "name": "Wind Gun",
+              "damage": [32.0, 36.0, 40.0, 44.0, 48.0],
+              "posture": [10.0],
+              "windup": [0.45]
+            },
+            {
+              "name": "Wind Gun (Multiplying spark)",
+              "damage": [25.6, 28.8, 32.0, 35.2, 38.4],
+              "posture": [16.0],
+              "windup": [0.55]
+            },
+            {
+              "name": "Wind Gun (Blast spark)",
+              "damage": [32.64, 36.72, 40.8, 44.88, 48.96],
+              "posture": [6.4],
+              "windup": [0.45]
+            },
+            {
+              "name": "Wind Gun (Blast + Multiplying sparks)",
+              "damage": [48.96, 55.08, 61.2, 67.32, 73.44],
+              "posture": [72.0],
+              "windup": [0.55]
+            },
+            {
+              "name": "Wind Carve",
+              "damage": [20.4, 26.4, 32.4, 38.4, 44.4],
+              "posture": [12.0],
+              "windup": [0.55, 0.11]
+            },
+            {
+              "name": "Astral Wind",
+              "damage": [21.25, 26.75, 32.25, 37.75, 43.25],
+              "posture": [12.5],
+              "windup": [0.45, 0.0375]
+            },
+            {
+              "name": "Wind Passage",
+              "damage": [18.5, 27.5, 36.5, 45.5, 54.5],
+              "posture": [15.0],
+              "windup": [1.0]
+            },
+            {
+              "name": "Pillars of Erisia",
+              "damage": [35.0, 38.0, 41.0, 44.0, 47.0],
+              "posture": [7.0],
+              "windup": [0.8]
+            },
+        ],
+        
+        "hybrid": [
+            {
+              "name": "Wind Blade",
+              "damage": [18.0, 20.5, 23.0, 25.5, 28.0],
+              "posture": [12.0],
+              "windup": [0.5]
+            },
+            {
+              "name": "Wind Blade (Tempest Wind)",
+              "damage": [15.0, 22.5, 30.0, 37.5, 45.0],
+              "posture": [4.0, 5.0, 6.0, 7.0, 8.0],
+              "windup": [0.5]
+            },
+            {
+              "name": "Air Force",
+              "damage": [22.0, 24.4, 26.8, 29.2, 31.6],
+              "posture": [5.5, 5.7, 5.9, 6.1, 6.3],
+              "windup": [0.6]
+            },
+            {
+              "name": "Tornado Kick",
+              "damage": [72.0, 82.0, 92.0, 102.0, 112.0],
+              "posture": [30.0],
+              "windup": [0.55, 0.55, 0.5, 0.5]
+            },
+            {
+              "name": "Updraft",
+              "damage": [32.4, 35.3, 38.3, 41.2, 44.2],
+              "posture": [21.0],
+              "windup": [0.45, 0.1, 0.1]
+            },
+            {
+              "name": "Wind Forge",
+              "damage": [20.0, 24.0, 28.0, 32.0, 36.0],
+              "posture": [8.0],
+              "windup": [1.6]
+            },
+            {
+              "name": "Wind Forge (Multiplying spark)",
+              "damage": [15.0, 18.0, 21.0, 24.0, 27.0],
+              "posture": [15.0],
+              "windup": [0.85, 0.2, 0.2]
+            },
+            {
+              "name": "Gale Lunge",
+              "damage": [12.5, 13.75, 15.0, 16.25, 17.5],
+              "posture": [4.0, 5.0, 6.0, 7.0, 8.0],
+              "windup": [0.5]
+            },
+            {
+              "name": "Tornado",
+              "damage": [126.0, 141.12, 156.24, 171.36, 186.48],
+              "posture": [14.4],
+              "windup": [0.9, 0.31]
+            },
+            {
+              "name": "Twister Kicks",
+              "damage": [28.0, 33.2, 38.4, 43.6, 48.8],
+              "posture": [16.0],
+              "windup": [0.5, 0.11]
+            },
+            {
+              "name": "Heavenly Wind",
+              "damage": [15.0, 22.0, 29.0, 36.0, 43.0],
+              "posture": [10.0],
+              "windup": [0.65]
+            },
+            {
+              "name": "Galetrap",
+              "damage": [31.5, 32.38, 33.25, 34.13, 35.0],
+              "posture": [5.0, 1.0],
+              "windup": [0.6, 2.0]
+            },
+            {
+              "name": "Gale Punch",
+              "damage": [37.5, 41.25, 45.0, 48.75, 52.5],
+              "posture": [24.0],
+              "windup": [0.55, 0.65, 0.07]
+            },
+            {
+              "name": "Champion's Whirlthrow",
+              "damage": [41.0, 46.0, 51.0, 56.0, 61.0],
+              "posture": [20.0, 22.0, 24.0, 26.0],
+              "windup": [0.7, 0.7, 0.3]
+            },
+            {
+              "name": "Rising Wind",
+              "damage": [30.0, 34.5, 39.0, 43.5, 48.0],
+              "posture": [5.0],
+              "windup": [0.5]
+            },
+            {
+              "name": "Wind Gun",
+              "damage": [32.0, 36.0, 40.0, 44.0, 48.0],
+              "posture": [10.0],
+              "windup": [0.45]
+            },
+            {
+              "name": "Wind Gun (Multiplying spark)",
+              "damage": [25.6, 28.8, 32.0, 35.2, 38.4],
+              "posture": [16.0],
+              "windup": [0.55]
+            },
+            {
+              "name": "Wind Gun (Blast spark)",
+              "damage": [32.64, 36.72, 40.8, 44.88, 48.96],
+              "posture": [6.4],
+              "windup": [0.45]
+            },
+            {
+              "name": "Wind Gun (Blast + Multiplying sparks)",
+              "damage": [48.96, 55.08, 61.2, 67.32, 73.44],
+              "posture": [72.0],
+              "windup": [0.55]
+            },
+            {
+              "name": "Wind Carve",
+              "damage": [20.4, 26.4, 32.4, 38.4, 44.4],
+              "posture": [12.0],
+              "windup": [0.55, 0.11]
+            },
+            {
+              "name": "Astral Wind",
+              "damage": [21.25, 26.75, 32.25, 37.75, 43.25],
+              "posture": [12.5],
+              "windup": [0.45, 0.0375]
+            },
+            {
+              "name": "Wind Passage",
+              "damage": [18.5, 27.5, 36.5, 45.5, 54.5],
+              "posture": [15.0],
+              "windup": [1.0]
+            },
+            {
+              "name": "Pillars of Erisia",
+              "damage": [35.0, 38.0, 41.0, 44.0, 47.0],
+              "posture": [7.0],
+              "windup": [0.8]
+            },
+        ],
+
+        "ironsing": [
+            {
+              "name": "Wind Blade",
+              "damage": [18.0, 20.5, 23.0, 25.5, 28.0],
+              "posture": [12.0],
+              "windup": [0.5]
+            },
+            {
+              "name": "Wind Blade (Tempest Wind)",
+              "damage": [15.0, 22.5, 30.0, 37.5, 45.0],
+              "posture": [4.0, 5.0, 6.0, 7.0, 8.0],
+              "windup": [0.5]
+            },
+            {
+              "name": "Air Force",
+              "damage": [22.0, 24.4, 26.8, 29.2, 31.6],
+              "posture": [5.5, 5.7, 5.9, 6.1, 6.3],
+              "windup": [0.6]
+            },
+            {
+              "name": "Tornado Kick",
+              "damage": [72.0, 82.0, 92.0, 102.0, 112.0],
+              "posture": [30.0],
+              "windup": [0.55, 0.55, 0.5, 0.5]
+            },
+            {
+              "name": "Updraft",
+              "damage": [32.4, 35.3, 38.3, 41.2, 44.2],
+              "posture": [21.0],
+              "windup": [0.45, 0.1, 0.1]
+            },
+            {
+              "name": "Wind Forge",
+              "damage": [20.0, 24.0, 28.0, 32.0, 36.0],
+              "posture": [8.0],
+              "windup": [1.6]
+            },
+            {
+              "name": "Wind Forge (Multiplying spark)",
+              "damage": [15.0, 18.0, 21.0, 24.0, 27.0],
+              "posture": [15.0],
+              "windup": [0.85, 0.2, 0.2]
+            },
+            {
+              "name": "Gale Lunge",
+              "damage": [12.5, 13.75, 15.0, 16.25, 17.5],
+              "posture": [4.0, 5.0, 6.0, 7.0, 8.0],
+              "windup": [0.5]
+            },
+            {
+              "name": "Tornado",
+              "damage": [126.0, 141.12, 156.24, 171.36, 186.48],
+              "posture": [14.4],
+              "windup": [0.9, 0.31]
+            },
+            {
+              "name": "Twister Kicks",
+              "damage": [28.0, 33.2, 38.4, 43.6, 48.8],
+              "posture": [16.0],
+              "windup": [0.5, 0.11]
+            },
+            {
+              "name": "Heavenly Wind",
+              "damage": [15.0, 22.0, 29.0, 36.0, 43.0],
+              "posture": [10.0],
+              "windup": [0.65]
+            },
+            {
+              "name": "Galetrap",
+              "damage": [31.5, 32.38, 33.25, 34.13, 35.0],
+              "posture": [5.0, 1.0],
+              "windup": [0.6, 2.0]
+            },
+            {
+              "name": "Gale Punch",
+              "damage": [37.5, 41.25, 45.0, 48.75, 52.5],
+              "posture": [24.0],
+              "windup": [0.55, 0.65, 0.07]
+            },
+            {
+              "name": "Champion's Whirlthrow",
+              "damage": [41.0, 46.0, 51.0, 56.0, 61.0],
+              "posture": [20.0, 22.0, 24.0, 26.0],
+              "windup": [0.7, 0.7, 0.3]
+            },
+            {
+              "name": "Rising Wind",
+              "damage": [30.0, 34.5, 39.0, 43.5, 48.0],
+              "posture": [5.0],
+              "windup": [0.5]
+            },
+            {
+              "name": "Wind Gun",
+              "damage": [32.0, 36.0, 40.0, 44.0, 48.0],
+              "posture": [10.0],
+              "windup": [0.45]
+            },
+            {
+              "name": "Wind Gun (Multiplying spark)",
+              "damage": [25.6, 28.8, 32.0, 35.2, 38.4],
+              "posture": [16.0],
+              "windup": [0.55]
+            },
+            {
+              "name": "Wind Gun (Blast spark)",
+              "damage": [32.64, 36.72, 40.8, 44.88, 48.96],
+              "posture": [6.4],
+              "windup": [0.45]
+            },
+            {
+              "name": "Wind Gun (Blast + Multiplying sparks)",
+              "damage": [48.96, 55.08, 61.2, 67.32, 73.44],
+              "posture": [72.0],
+              "windup": [0.55]
+            },
+            {
+              "name": "Wind Carve",
+              "damage": [20.4, 26.4, 32.4, 38.4, 44.4],
+              "posture": [12.0],
+              "windup": [0.55, 0.11]
+            },
+            {
+              "name": "Astral Wind",
+              "damage": [21.25, 26.75, 32.25, 37.75, 43.25],
+              "posture": [12.5],
+              "windup": [0.45, 0.0375]
+            },
+            {
+              "name": "Wind Passage",
+              "damage": [18.5, 27.5, 36.5, 45.5, 54.5],
+              "posture": [15.0],
+              "windup": [1.0]
+            },
+            {
+              "name": "Pillars of Erisia",
+              "damage": [35.0, 38.0, 41.0, 44.0, 47.0],
+              "posture": [7.0],
+              "windup": [0.8]
+            },
+        ],
+
+        "shadowcast": [
+            {
+              "name": "Wind Blade",
+              "damage": [18.0, 20.5, 23.0, 25.5, 28.0],
+              "posture": [12.0],
+              "windup": [0.5]
+            },
+            {
+              "name": "Wind Blade (Tempest Wind)",
+              "damage": [15.0, 22.5, 30.0, 37.5, 45.0],
+              "posture": [4.0, 5.0, 6.0, 7.0, 8.0],
+              "windup": [0.5]
+            },
+            {
+              "name": "Air Force",
+              "damage": [22.0, 24.4, 26.8, 29.2, 31.6],
+              "posture": [5.5, 5.7, 5.9, 6.1, 6.3],
+              "windup": [0.6]
+            },
+            {
+              "name": "Tornado Kick",
+              "damage": [72.0, 82.0, 92.0, 102.0, 112.0],
+              "posture": [30.0],
+              "windup": [0.55, 0.55, 0.5, 0.5]
+            },
+            {
+              "name": "Updraft",
+              "damage": [32.4, 35.3, 38.3, 41.2, 44.2],
+              "posture": [21.0],
+              "windup": [0.45, 0.1, 0.1]
+            },
+            {
+              "name": "Wind Forge",
+              "damage": [20.0, 24.0, 28.0, 32.0, 36.0],
+              "posture": [8.0],
+              "windup": [1.6]
+            },
+            {
+              "name": "Wind Forge (Multiplying spark)",
+              "damage": [15.0, 18.0, 21.0, 24.0, 27.0],
+              "posture": [15.0],
+              "windup": [0.85, 0.2, 0.2]
+            },
+            {
+              "name": "Gale Lunge",
+              "damage": [12.5, 13.75, 15.0, 16.25, 17.5],
+              "posture": [4.0, 5.0, 6.0, 7.0, 8.0],
+              "windup": [0.5]
+            },
+            {
+              "name": "Tornado",
+              "damage": [126.0, 141.12, 156.24, 171.36, 186.48],
+              "posture": [14.4],
+              "windup": [0.9, 0.31]
+            },
+            {
+              "name": "Twister Kicks",
+              "damage": [28.0, 33.2, 38.4, 43.6, 48.8],
+              "posture": [16.0],
+              "windup": [0.5, 0.11]
+            },
+            {
+              "name": "Heavenly Wind",
+              "damage": [15.0, 22.0, 29.0, 36.0, 43.0],
+              "posture": [10.0],
+              "windup": [0.65]
+            },
+            {
+              "name": "Galetrap",
+              "damage": [31.5, 32.38, 33.25, 34.13, 35.0],
+              "posture": [5.0, 1.0],
+              "windup": [0.6, 2.0]
+            },
+            {
+              "name": "Gale Punch",
+              "damage": [37.5, 41.25, 45.0, 48.75, 52.5],
+              "posture": [24.0],
+              "windup": [0.55, 0.65, 0.07]
+            },
+            {
+              "name": "Champion's Whirlthrow",
+              "damage": [41.0, 46.0, 51.0, 56.0, 61.0],
+              "posture": [20.0, 22.0, 24.0, 26.0],
+              "windup": [0.7, 0.7, 0.3]
+            },
+            {
+              "name": "Rising Wind",
+              "damage": [30.0, 34.5, 39.0, 43.5, 48.0],
+              "posture": [5.0],
+              "windup": [0.5]
+            },
+            {
+              "name": "Wind Gun",
+              "damage": [32.0, 36.0, 40.0, 44.0, 48.0],
+              "posture": [10.0],
+              "windup": [0.45]
+            },
+            {
+              "name": "Wind Gun (Multiplying spark)",
+              "damage": [25.6, 28.8, 32.0, 35.2, 38.4],
+              "posture": [16.0],
+              "windup": [0.55]
+            },
+            {
+              "name": "Wind Gun (Blast spark)",
+              "damage": [32.64, 36.72, 40.8, 44.88, 48.96],
+              "posture": [6.4],
+              "windup": [0.45]
+            },
+            {
+              "name": "Wind Gun (Blast + Multiplying sparks)",
+              "damage": [48.96, 55.08, 61.2, 67.32, 73.44],
+              "posture": [72.0],
+              "windup": [0.55]
+            },
+            {
+              "name": "Wind Carve",
+              "damage": [20.4, 26.4, 32.4, 38.4, 44.4],
+              "posture": [12.0],
+              "windup": [0.55, 0.11]
+            },
+            {
+              "name": "Astral Wind",
+              "damage": [21.25, 26.75, 32.25, 37.75, 43.25],
+              "posture": [12.5],
+              "windup": [0.45, 0.0375]
+            },
+            {
+              "name": "Wind Passage",
+              "damage": [18.5, 27.5, 36.5, 45.5, 54.5],
+              "posture": [15.0],
+              "windup": [1.0]
+            },
+            {
+              "name": "Pillars of Erisia",
+              "damage": [35.0, 38.0, 41.0, 44.0, 47.0],
+              "posture": [7.0],
+              "windup": [0.8]
+            },
+        ],
+        
+        "thundercall": [
+            {
+              "name": "Wind Blade",
+              "damage": [18.0, 20.5, 23.0, 25.5, 28.0],
+              "posture": [12.0],
+              "windup": [0.5]
+            },
+            {
+              "name": "Wind Blade (Tempest Wind)",
+              "damage": [15.0, 22.5, 30.0, 37.5, 45.0],
+              "posture": [4.0, 5.0, 6.0, 7.0, 8.0],
+              "windup": [0.5]
+            },
+            {
+              "name": "Air Force",
+              "damage": [22.0, 24.4, 26.8, 29.2, 31.6],
+              "posture": [5.5, 5.7, 5.9, 6.1, 6.3],
+              "windup": [0.6]
+            },
+            {
+              "name": "Tornado Kick",
+              "damage": [72.0, 82.0, 92.0, 102.0, 112.0],
+              "posture": [30.0],
+              "windup": [0.55, 0.55, 0.5, 0.5]
+            },
+            {
+              "name": "Updraft",
+              "damage": [32.4, 35.3, 38.3, 41.2, 44.2],
+              "posture": [21.0],
+              "windup": [0.45, 0.1, 0.1]
+            },
+            {
+              "name": "Wind Forge",
+              "damage": [20.0, 24.0, 28.0, 32.0, 36.0],
+              "posture": [8.0],
+              "windup": [1.6]
+            },
+            {
+              "name": "Wind Forge (Multiplying spark)",
+              "damage": [15.0, 18.0, 21.0, 24.0, 27.0],
+              "posture": [15.0],
+              "windup": [0.85, 0.2, 0.2]
+            },
+            {
+              "name": "Gale Lunge",
+              "damage": [12.5, 13.75, 15.0, 16.25, 17.5],
+              "posture": [4.0, 5.0, 6.0, 7.0, 8.0],
+              "windup": [0.5]
+            },
+            {
+              "name": "Tornado",
+              "damage": [126.0, 141.12, 156.24, 171.36, 186.48],
+              "posture": [14.4],
+              "windup": [0.9, 0.31]
+            },
+            {
+              "name": "Twister Kicks",
+              "damage": [28.0, 33.2, 38.4, 43.6, 48.8],
+              "posture": [16.0],
+              "windup": [0.5, 0.11]
+            },
+            {
+              "name": "Heavenly Wind",
+              "damage": [15.0, 22.0, 29.0, 36.0, 43.0],
+              "posture": [10.0],
+              "windup": [0.65]
+            },
+            {
+              "name": "Galetrap",
+              "damage": [31.5, 32.38, 33.25, 34.13, 35.0],
+              "posture": [5.0, 1.0],
+              "windup": [0.6, 2.0]
+            },
+            {
+              "name": "Gale Punch",
+              "damage": [37.5, 41.25, 45.0, 48.75, 52.5],
+              "posture": [24.0],
+              "windup": [0.55, 0.65, 0.07]
+            },
+            {
+              "name": "Champion's Whirlthrow",
+              "damage": [41.0, 46.0, 51.0, 56.0, 61.0],
+              "posture": [20.0, 22.0, 24.0, 26.0],
+              "windup": [0.7, 0.7, 0.3]
+            },
+            {
+              "name": "Rising Wind",
+              "damage": [30.0, 34.5, 39.0, 43.5, 48.0],
+              "posture": [5.0],
+              "windup": [0.5]
+            },
+            {
+              "name": "Wind Gun",
+              "damage": [32.0, 36.0, 40.0, 44.0, 48.0],
+              "posture": [10.0],
+              "windup": [0.45]
+            },
+            {
+              "name": "Wind Gun (Multiplying spark)",
+              "damage": [25.6, 28.8, 32.0, 35.2, 38.4],
+              "posture": [16.0],
+              "windup": [0.55]
+            },
+            {
+              "name": "Wind Gun (Blast spark)",
+              "damage": [32.64, 36.72, 40.8, 44.88, 48.96],
+              "posture": [6.4],
+              "windup": [0.45]
+            },
+            {
+              "name": "Wind Gun (Blast + Multiplying sparks)",
+              "damage": [48.96, 55.08, 61.2, 67.32, 73.44],
+              "posture": [72.0],
+              "windup": [0.55]
+            },
+            {
+              "name": "Wind Carve",
+              "damage": [20.4, 26.4, 32.4, 38.4, 44.4],
+              "posture": [12.0],
+              "windup": [0.55, 0.11]
+            },
+            {
+              "name": "Astral Wind",
+              "damage": [21.25, 26.75, 32.25, 37.75, 43.25],
+              "posture": [12.5],
+              "windup": [0.45, 0.0375]
+            },
+            {
+              "name": "Wind Passage",
+              "damage": [18.5, 27.5, 36.5, 45.5, 54.5],
+              "posture": [15.0],
+              "windup": [1.0]
+            },
+            {
+              "name": "Pillars of Erisia",
+              "damage": [35.0, 38.0, 41.0, 44.0, 47.0],
+              "posture": [7.0],
+              "windup": [0.8]
+            },
+        ],
+    ],
+    "oath": [
+        "arcwarder": [...]
+        "bladeharper": [...],
+        "blightsurger": [...],
+        "blindseer": [...],
+        "chainwarden": [...],
+        "contractor": [...],
+        "dawnwalker": [...],
+        "fadetrimmer": [...],
+        "jetstriker": [...],
+        "linkstrider": [...],
+        "saintsworn": [...],
+        "saltchemist": [...],
+        "silentheart": [...],
+        "soulbreaker": [...],
+        "starkindred": [...],
+        "visionshaper": [...],
+    ],
+}

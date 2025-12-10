@@ -1,0 +1,258 @@
+body {
+    margin: 0;
+}
+
+.detail,
+img, 
+div {
+    image-rendering: pixelated;
+}
+
+h1 {
+    text-align: center;
+    font-family: LibreBaskerville;
+    font-size: 24px;
+    margin: 0;
+    position: absolute;
+    left: 9.5px;
+    top: 20px;
+    width: 50px;
+}
+
+h2 {
+    text-shadow: -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000;
+    top: 6px;
+    color: white;
+    font-family: LibreBaskerville;
+    text-align: center;
+    font-size: 13px;
+    margin: 0;
+    position: absolute;
+    z-index: 2;
+    width: 20px;
+}
+
+p {
+    margin: 0 0 0 7px;
+    font-family: SourceSans;
+    font-size: 9px;
+}
+
+span {
+    color: #646464 ;
+}
+
+.bg-image {
+    image-rendering: auto;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+#power {
+    z-index: 2;
+    background: -webkit-linear-gradient(#333, #eee, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.power-shadow {
+    z-index: 1;
+    text-shadow: -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000;
+}
+
+.power-icon {
+    content: url("/assets/img/builder/power.png");
+    width: 50px;
+    left: 9px;
+    top: 9px;
+    position: relative;
+    z-index: 2;
+}
+
+.power-background {
+    background: radial-gradient(circle, #1d657a, #1d657a, #333333, #000000);
+    border-radius: 30px;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 9px;
+    top: 9px;
+}
+
+.orbs-icon {
+    content: url(/assets/img/builder/orbs.png);
+    width: 65px;
+    left: 1.5px;
+    top: 2.5px;
+    z-index: 3;
+    position: absolute;
+}
+
+.stats-container {
+    position: fixed;
+    width: 330px;
+    height: 475px;
+    right: 20px;
+    top: 50px;
+    z-index: 1;
+}
+
+.stat-row {
+    position: absolute;
+    width: 118px;
+    height: 29px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 17px;
+}
+
+.stat-label,
+.stat-name {
+    position: absolute;
+    margin: 0;
+    text-align: center;
+    color: wheat;
+    font-family: SourceSans;
+    font-weight: bold;
+}
+
+.stat-label {
+    top: -10px;
+    font-size: 8px;
+}
+
+.stat-name {
+    top: 25px;
+    font-size: 9px;
+}
+
+.stat-border,
+.stat-background {
+    position: relative;
+    height: 28px;
+    width: 28px;
+}
+
+.stat-background {
+    height: 24px;
+    top: 3px;
+    position: absolute;
+    border-radius: 100%;
+}
+
+.stat-border {
+    content: url('/assets/img/builder/stat_border.png');
+    z-index: 2;
+}
+
+.max {
+    content: url('/assets/img/builder/max.png');
+    z-index: 2;
+}
+
+.stat-lock {
+    content: url(/assets/img/builder/lock.png);
+    z-index: 2;
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    left: 18px;
+    top: 18px;
+}
+
+.detail {
+    background: url(/assets/img/builder/idk.png) no-repeat;
+    background-size: 100% 100%;
+    height: 16px;
+}
+
+.strength {
+    background: radial-gradient(circle, #7f5849, #7f5849, #333333, #000000);
+}
+
+.fortitude {
+    background: radial-gradient(circle, #7f7657, #7f7657, #333333, #000000);
+}
+
+.agility {
+    background: radial-gradient(circle, #647f61, #647f61, #333333, #000000);
+}
+
+.intelligence {
+    background: radial-gradient(circle, #61637f, #61637f, #333333, #000000);
+}
+
+.willpower {
+    background: radial-gradient(circle, #597a7f, #597a7f, #333333, #000000);
+}
+
+.charisma {
+    background: radial-gradient(circle, #7f6178, #7f6178, #333333, #000000);
+}
+
+.heavyweapons {
+    background: radial-gradient(circle, #57657f, #57657f, #333333, #000000);
+}
+
+.mediumweapons {
+    background: radial-gradient(circle, #7f6b53, #7f6b53, #333333, #000000);
+}
+
+.lightweapons {
+    background: radial-gradient(circle, #637f65, #637f65, #333333, #000000);
+}
+
+.vitality {
+    content: url(/assets/img/builder/vitality.png);
+}
+
+.erudition {
+    content: url(/assets/img/builder/erudition.png);
+}
+
+.proficiency {
+    content: url(/assets/img/builder/proficiency.png);
+}
+
+.songchant {
+    content: url(/assets/img/builder/songchant.png);
+}
+
+#vitality {
+    left: 4px;
+    top: 6px;
+}
+
+#erudition {
+    left: 49px;
+    top: 6px;
+}
+
+#proficiency {
+    left: 4.5px;
+    top: 49px;
+}
+
+#songchant {
+    left: 49px;
+    top: 49px;
+}
+
+#strength,
+#willpower, 
+#heavyweapons {
+    left: 4.5px;
+}
+
+#fortitude,
+#intelligence, 
+#mediumweapons {
+    left: 49.5px;
+}
+
+#agility,
+#charisma, 
+#lightweapons {
+    left: 94.5px;
+}

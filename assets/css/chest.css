@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    font-family: Arial, sans-serif;
+    background-image: url(/assets/img/background/black.png);
+    background-size: 48px 48px;
+    width: 800;
+    height: 650px;
+    background-color: #2d2d2d;
+    border: 2px solid #444;
+    overflow: hidden;
+}
+
+.header {
+    background-image: url(/assets/img/background/black.png);
+    background-color: #3c3c3c;
+    text-align: center;
+    padding: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.item-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    overflow-y: auto;
+    padding: 10px;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 7.5px solid transparent;
+    border-image: url(/assets/img/border/border.png) 20 stretch;
+    border-image-width: 21px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.item img {
+    filter: drop-shadow(1px 1px 1px #000);
+    opacity: 0.5;
+    width: 16px;
+    height: 16px;
+}
+
+.item:hover {
+    background-color: #555;
+}
+
+.item-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.item-name {
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-shadow: 0px 0px 2px black;
+}
+
+.item-bonus {
+    font-size: 0.9rem;
+    color: #ccc;
+    text-shadow: 0px 0px 2px black;
+}
+
+.item.common {
+    background-color: var(--color-loot-common);
+}
+
+.item.uncommon {
+    background-color: var(--color-loot-uncommon);
+}
+
+.item.rare {
+    background-color: var(--color-loot-rare);
+}
+
+.item.legendary {
+    background-color: var(--color-loot-legendary);
+}
+
+.item.mythical {
+    background-color: var(--color-loot-mythical);
+}
+
+.item.unique {
+    background-color: var(--color-loot-unique);
+}
+
+.item.relic {
+    background-color: var(--color-loot-relic);
+}
+
+.item.enchanted {
+    background-color: var(--color-loot-enchanted);
+}
+
+.footer {
+    background-image: url(/assets/img/background/black.png);
+    text-align: center;
+    padding: 10px;
+    background-color: #3c3c3c;
+}
+
+.footer button {
+    cursor: pointer;
+    border: 7px solid transparent;
+    border-image: url(/assets/img/border/border.png) 20 stretch;
+    border-image-width: 21px;
+    width: 25%;
+    color: white;
+    background: #635d4e;
+}
+
+.footer:hover {
+    background-color: #555;
+}
