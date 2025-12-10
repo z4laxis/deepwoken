@@ -1,0 +1,133 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deepwoken Talent Creator</title>
+    <link rel="stylesheet" href="/grey/cardcreator/assets/css/card.css">
+    <link rel="icon" href="icon.png">
+</head>
+<body>
+ <div id="panelcontainer">   
+    <p id="headback"><a id="headbacklink" href="/main.html">Head Back</a></p>
+  <div class="customization-panel">
+    <div class="custom-title">Customize Card</div>
+
+    <label for="title-input">Title:</label>
+    <input type="text" id="title-input" placeholder="Enter title">
+
+    <label for="color-input">Talent Rarity:</label>
+    <select id="rarities">
+        <optgroup label="Talent">
+            <option value="Common" selected>Common</option>
+            <option value="Rare">Rare</option>
+            <option value="Advanced">Advanced</option>
+            <option value="Legendary">Legendary (Scrapped)</option>
+        </optgroup>
+        <optgroup label="Bell">
+            <option value="Bell">Bell</option>
+            <option value="Legendary Bell">Legendary Bell</option>
+            <option value="Corrupted Bell">Corrupted Bell</option>
+            <option value="Drowned Bell">Drowned Bell</option>
+        </optgroup>
+        <optgroup label="Misc.">
+            <option value="Mantra">Mantra</option>
+            <option value="Oath">Oath</option>
+            <option value="Mystery">Mystery</option>
+            <option value="Trait">Trait</option>
+        </optgroup>
+    </select>
+
+    <label for="icon-input">Icon URL:</label>
+    <div class="button-container">
+        <center>
+            <label id="center-text">???</label>
+         <div id="center-image-border"><img src="/grey/cardcreator/assets/img/icons/talent/question.png" id="center-image" class="icon-preview"></div>
+        </center>
+        <button onclick="previousIcon()" class="left-button">&lt;</button>
+        <button onclick="nextIcon()" class="right-button">&gt;</button>
+    </div>
+
+    <label for="class-input">Class Name:</label>
+    <input type="text" id="class-input" placeholder="Enter class name">
+
+    <label for="description-input">Description:</label>
+    <textarea id="description-input" rows="4" placeholder="Enter description"></textarea>
+
+    <label for="bonuses-input">Bonuses (comma-separated):</label>
+    <input type="text" id="bonuses-input" placeholder="Enter bonuses">
+
+    <label for="stars-input">Stars:</label>
+    <select id="stars">
+        <option value="0 stars" selected>0 stars</option>
+        <option value="1 star">1 star</option>
+        <option value="2 stars">2 stars</option>
+        <option value="3 stars">3 stars</option>
+    </select>
+
+    <label for="custom-icon-url">Custom Icon URL:</label>
+    <input type="text" id="icon-input" placeholder="Enter image link">
+
+    <label for="custom-card-color">Custom Card Color:</label>
+    <input type="text" id="color-input" placeholder="Enter HEX code">
+
+    <label class="checkbox-label">
+        Frozen:
+        <br>
+        <input id="frozen-input" type="checkbox" name="enableFeature" value="yes">
+    </label>
+    <br>
+
+    <button id="update-card" onclick="changeIcon()">Submit</button>
+
+</div>
+
+<div class="background-panel">
+
+    <label>Change Background:</label>
+    <div id="bgchangebuttoncontainer">
+        <button onclick="changebg('radial-gradient(#18221a, #06110e)')" class="bgchangebutton">Default</button>
+        <button onclick="changebg('#00FF00')" class="bgchangebutton">Green</button>
+        <button onclick="changebg('#FFFFFF')" class="bgchangebutton">White</button>
+        <button onclick="changebg('#000000')" class="bgchangebutton">Black</button>
+        </div>
+</div>
+
+<p id="madebyzal">| created by zalaxis |</p>
+
+</div>
+
+
+    <div class="card-container">
+        <div class="card-color"></div>
+        <div class="card-outline"></div>
+        <div class="card-placeholder"></div>
+        <div class="card-frozen" hidden></div>
+        
+        <div class="card">
+            <div class="title" id="card-title">Talent Title</div>
+            <div class="image">
+                <img src="/grey/cardcreator/assets/img/card/icon-placeholder.png" alt="Icon" class="card-icon">
+                <img class="bg" id="card-icon" src="/grey/cardcreator/assets/img/icons/talent/question.png" alt="Icon">
+            </div>
+            
+            <div class="class" id="card-class">Talent Class</div>
+            
+            <div class="description-container">
+                <div class="description" id="card-description">Talent description.</div>
+            </div>
+            
+            <img src="/grey/cardcreator/assets/img/card/1star.png" alt="1 Star" class="onestar" hidden>
+            <img src="/grey/cardcreator/assets/img/card/2star.png" alt="2 Star" class="twostar" hidden>
+            <img src="/grey/cardcreator/assets/img/card/3star.png" alt="3 Star" class="threestar" hidden>
+            
+        </div>
+        <div class="bonuses" id="card-bonuses">
+            <div class="bonus" id="bonus-1">+2 Wildcard Mantra Slot</div>
+            <div class="bonus" id="bonus-2">+10 Health</div>
+            <div class="note" id="note">NOTE: You can only take one Oath.</div>
+        </div>
+    </div>
+
+    <script src="/grey/cardcreator/assets/js/card.js"></script>
+</body>
+</html>
