@@ -1,4 +1,10 @@
 .menubutton {
     background: none;
-    border: none
+    border: none;
+    padding: 0;
 }
+
+.menubutton img {
+    width: 100%;
+}
+
