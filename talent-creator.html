@@ -4,7 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Deepwoken Talent Creator</title>
 
-    <link href="/assets/css/card-creator.css" rel="stylesheet" type="text/css" media="all">
+    <link href="/assets/css/bin.css" rel="stylesheet" type="text/css" media="all">
     <link href="/assets/css/template.css" rel="stylesheet" type="text/css" media="all">
     <link href="/assets/css/styles.css" rel="stylesheet" type="text/css" media="all">
     <link href="/assets/css/menu.css" rel="stylesheet" type="text/css" media="all">
@@ -83,25 +83,21 @@
         </div>
     </div>
 
-    <div class="card-container">
+    <div class="card-container center">
         <div class="card-color"></div>
         <img class="card-outline" src="/assets/img/card/outline.png">
         <img class="card-front" src="/assets/img/card/front.png">
         <img class="card-frozen" src="/assets/img/card/frozen.png" hidden>
 
         <div class="card">
-            <div class="title" id="card-title">The Sound from Below</div>
+            <input type="text" class="input-title" id="card-title" value="The Sound from Below" spellcheck="false">
             <div class="image">
                 <img class="icon-background" src="/assets/img/card/icon.png">
                 <img class="card-icon" id="card-icon" src="/assets/img/icons/talent/open_eye.png">
             </div>
 
-            <div class="card-class" id="card-class">Deepwoken</div>
-            <div class="description-container">
-                <div class="description" id="card-description">
-                  You can hear it pounding in your head. The sound that comes from beneath the waves. Will you respond?
-                </div>
-            </div>
+            <input type="text" class="input-card-class" id="card-class" spellcheck="false" value="Deepwoken" maxlength="25">
+            <textarea class="input-description" id="card-description" spellcheck="false" rows="4" maxlength="150">You can hear it pounding in your head. The sound that comes from beneath the waves. Will you respond?</textarea>
 
             <img src="/assets/img/card/1star.png" alt="1 Star" class="onestar" hidden>
             <img src="/assets/img/card/2star.png" alt="2 Star" class="twostar" hidden>
@@ -122,11 +118,8 @@
         </header>
 
         <center>
-            <label for="title-input">Title:</label>
-            <input type="text" id="title-input" placeholder="Enter title">
-
             <label for="title-size-input">Title size:</label>
-            <input type="number" id="title-size-input" placeholder="Enter title size" min="20" max="24">
+            <input type="number" class="input" id="title-size-input" placeholder="Enter title size" min="20" max="24">
         </center>
     </div>
 
@@ -138,9 +131,6 @@
         </header>
 
         <center>
-            <label for="class-input">Class:</label>
-            <input type="text" id="class-input" placeholder="Enter class name">
-
             <label for="category-input">Category:</label>
             <select id="categories" name="categories">
                 <optgroup label="Agility">
@@ -436,11 +426,8 @@
         </header>
 
         <center>
-            <label for="description-input">Text :</label>
-            <textarea id="description-input" rows="4" placeholder="Enter description"></textarea>
-
             <label for="desc-size-input">Text size:</label>
-            <input type="number" id="desc-size-input" placeholder="Enter description size" min="14" max="20">
+            <input type="number" id="desc-size-input" class="input" placeholder="Enter description size" min="14" max="20">
         </center>
     </div>
     
@@ -459,10 +446,10 @@
           <button onclick="nextIcon()" class="right-button">&gt;</button>
           
           <label for="custom-icon-url">Custom Icon URL:</label>
-          <input type="text" id="icon-input" placeholder="Enter image link">
+          <input type="text" id="icon-input" class="input" placeholder="Enter image link">
           
           <label for="custom-border-url">Custom Icon Image:</label>
-          <input type="file" id="imageInput" accept="image/*">
+          <input type="file" id="imageInput" class="input" accept="image/*">
         </center>
     </div>
     
@@ -479,8 +466,7 @@
                   <option value="Common" selected>Common</option>
                   <option value="Rare">Rare</option>
                   <option value="Advanced">Advanced</option>
-                  <option value="Legendary">Legendary</option>
-                  <option value="Oath">Oath</option>
+                  <option value="Legendary">Legendary (Scrapped)</option>
               </optgroup>
               <optgroup label="Bell">
                   <option value="Bell">Bell</option>
@@ -490,6 +476,7 @@
               </optgroup>
               <optgroup label="Misc.">
                   <option value="Mantra">Mantra</option>
+                  <option value="Oath">Oath</option>
                   <option value="Mystery">Mystery</option>
                   <option value="Trait">Trait</option>
                   <option value="Faction">Faction</option>
@@ -550,29 +537,7 @@
           </label>
         </center>
     </div>
-    
-    <div class="right-panel hidden" id="background-window">
-        <div class="background"></div>
-        <div class="border"></div>
-        <header>
-            <h1>Background</h1>
-        </header>
-
-        <center>
-          <label for="custom-background-color">Custom Background Color:</label>
-          <input type="text" id="background-color-input" placeholder="Enter HEX code">
-          
-          <label for="custom-background-url">Custom Background URL:</label>
-          <input type="text" id="background-input" placeholder="Enter image link">
-          
-          <label for="custom-background-image">Custom Background Image:</label>
-          <input type="file" id="backgroundInput" accept="image/*">
-        </center>
-    </div>
-
-    <button class="update-button" id="update-card">Update Card</button>
-
-    <script src="/assets/js/card.js"></script>
+    <script src="/assets/js/bin.js"></script>
     <script src="/assets/js/menu.js"></script>
 </body>
 </html>
