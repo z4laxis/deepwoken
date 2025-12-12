@@ -98,8 +98,6 @@
 
 html {
     cursor: url("/assets/img/cursor/cursor.png"), auto;
-    cursor: url("/assets/img/cursor/pointer.png"), pointer;
-    cursor: url("/assets/img/cursor/moonseye.png"), text;
     filter: invert(1);
 }
 
@@ -111,6 +109,37 @@ body {
 
     background-attachment: fixed;
     filter: invert(1);
+}
+
+a, button, input[type="button"], input[type="submit"] {
+    cursor: url("/assets/img/cursor/pointer.png"), pointer;
+}
+
+a:hover, button:hover, input[type="button"]:hover, input[type="submit"]:hover {
+    cursor: url("/assets/img/cursor/pointer.png"), pointer;
+}
+
+a, button, input[type="button"], input[type="submit"] {
+    cursor: url("/assets/img/cursor/pointer.png"), pointer;
+}
+
+body, p, span, div, li, h1, h2, h3, h4, h5, h6 {
+    cursor: url("/assets/img/cursor/moonseye.png"), text;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="search"],
+input[type="url"],
+input[type="tel"],
+input[type="number"],
+textarea {
+    cursor: url("/assets/img/cursor/moonseye.png"), text;
+}
+
+[contenteditable="true"] {
+    cursor: url("/assets/img/cursor/moonseye.png"), text;
 }
 
 .center {

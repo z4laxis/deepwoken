@@ -4,6 +4,7 @@
 }
 
 body {
+    filter: invert(0);
     background-image: radial-gradient(#223125, #06110e);
     user-select: none;
     margin: 0;
