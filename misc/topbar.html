@@ -23,10 +23,11 @@
 <body>
     <header>
         <div id="infobuttons" style="position: absolute; display: inline-flex;">
-            <button class="menubutton" onclick="returnToMenu()"><img src="/assets/img/icons/topbar/returntomenu.png"></button>
-            <button class="menubutton"><img src="/assets/img/icons/topbar/settings.png"></button>
-            <button class="menubutton"><img src="/assets/img/icons/topbar/encyclopediaclosed.png"></button>
-            <button class="menubutton"><img src="/assets/img/icons/topbar/squad.png"></button>
+            <button class="menubutton" id="returntomenu" onclick="returnToMenu()"><img src="/assets/img/icons/topbar/returntomenu.png"></button>
+            <button class="menubutton" id="settings"><img src="/assets/img/icons/topbar/settings.png"></button>
+            <button class="menubutton" id="encyclopedia" onclick="changeIcon()"><img src="/assets/img/icons/topbar/encyclopediaclosed.png"></button>
+            <button class="menubutton" id="help"><img src="/assets/img/icons/topbar/help.png"></button>
+            <button class="menubutton" id="squad" hidden><img src="/assets/img/icons/topbar/squad.png"></button>
         </div>
 
         <div style="margin-left: 255px; margin-top: 5px; position: absolute;">
