@@ -1,7 +1,3 @@
-/*html {*/
-/*    filter: invert(1);*/
-/*}*/
-
 ::-webkit-scrollbar, ::-moz-scrollbar {
     display: none;
     scrollbar-width: none;

@@ -98,6 +98,9 @@
 
 html {
     cursor: url("/assets/img/cursor/cursor.png"), auto;
+    cursor: url("/assets/img/cursor/pointer.png"), pointer;
+    cursor: url("/assets/img/cursor/moonseye.png"), text;
+    filter: invert(1);
 }
 
 body {
@@ -107,14 +110,7 @@ body {
 /*  background-image: radial-gradient(#4f3c29, #1a1814); Hallowtide */
 
     background-attachment: fixed;
-}
-
-a, button, input[type="button"], input[type="submit"] {
-    cursor: url("/assets/img/cursor/pointer.png"), pointer;
-}
-
-a:hover, button:hover, input[type="button"]:hover, input[type="submit"]:hover {
-    cursor: url("/assets/img/cursor/pointer.png"), pointer;
+    filter: invert(1);
 }
 
 .center {
