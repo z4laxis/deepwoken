@@ -4,8 +4,8 @@ body {
 }
 
 main {
-    width: 375px;
-    height: 375px;
+    height: 200px;
+    width: 300px;
 }
 
 .border,
@@ -30,6 +30,8 @@ main {
 }
 
 .header {
+    height: 30px;
+    margin-top: 5px;
     font-family: SourceSans;
     position: relative;
     text-align: center;
