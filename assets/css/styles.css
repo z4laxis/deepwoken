@@ -123,10 +123,6 @@ a, button, input[type="button"], input[type="submit"] {
     cursor: url("/assets/img/cursor/pointer.png"), pointer;
 }
 
-p, span, div, li, h1, h2, h3, h4, h5, h6 {
-    cursor: url("/assets/img/cursor/moonseye.png"), text;
-}
-
 input[type="text"],
 input[type="password"],
 input[type="email"],
