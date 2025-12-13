@@ -90,6 +90,7 @@ span {
 }
 
 .stats-container {
+    background: rgba(0,0,0,0.5);
     position: fixed;
     width: 330px;
     height: 475px;
