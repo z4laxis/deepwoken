@@ -42,6 +42,24 @@ span {
     color: #646464 ;
 }
 
+section {
+    transform: scale(0.5);
+    width: 256px;
+    height: 256px;
+    display: grid;
+    right: 64px;
+    bottom: 64px;
+    position: relative;
+    place-items: center;
+    align-content: center;
+}
+
+.item-border {
+    height: 240px;
+    width: 240px;
+    position: absolute;
+}
+
 .bg-image {
     image-rendering: auto;
     position: absolute;
