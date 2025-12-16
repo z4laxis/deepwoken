@@ -226,6 +226,16 @@ button {
     width: 75%;
 }
 
+.instate {
+    top: 265px;
+    font-weight: 600;
+    background: #dfe6d2;
+    width: 150px;
+    border: solid 1px;
+    border-radius: 6px;
+    font-style: italic;
+}
+
 .input-description {
     font-family: "PTSerif-Regular";
     bottom: 6%;
