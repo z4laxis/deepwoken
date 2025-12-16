@@ -32,17 +32,27 @@
         <img class="card-front" src="/assets/img/card/front.png">
 
         <div class="card">
-            <div class="title" id="card-title">Talent Title</div>
+            <div class="card-class" id="card-class">Talent Class</div>
             <div class="image">
                 <img class="icon-background" src="/assets/img/card/icon.png">
-                <img class="card-icon" id="card-icon" src="/assets/img/icons/talent/question.png">
+                <img class="card-icon" id="card-icon" src="/assets/img/icons/talent/open_eye.png">
             </div>
-            
-            <div class="card-class" id="card-class">Talent Class</div>
+
+            <div type="text" class="card-class" id="card-class" >Talent Class</div>
+            <div type="text" class="card-state" id="card-state"hidden>Talent State</div>
             <div class="description-container">
                 <div class="description" id="card-description">Talent description.</div>
             </div>
-        </div>
+
+            <img src="/assets/img/card/1star.png" alt="1 Star" class="onestar" hidden>
+            <img src="/assets/img/card/2star.png" alt="2 Star" class="twostar" hidden>
+            <img src="/assets/img/card/3star.png" alt="3 Star" class="threestar" hidden>
+
+            <div class="bonuses" id="card-bonuses">
+                <div class="bonus" id="bonus-1"></div>
+                <div class="bonus" id="bonus-2"></div>
+            </div>
+        </div>        
     </div>
 
     <script src="/assets/js/api.js"></script>
