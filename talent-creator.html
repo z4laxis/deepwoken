@@ -46,32 +46,40 @@
             <p>Title</p>
         </div>
 
+        <div class="panel-item" data-active="false" id="icon">
+            <p>Icon</p>
+        </div>
+
         <div class="panel-item" data-active="false" id="class">
             <p>Class</p>
+        </div>
+
+        <div class="panel-item" data-active="false" id="state">
+            <p>Status Effect</p>
         </div>
 
         <div class="panel-item" data-active="false" id="description">
             <p>Description</p>
         </div>
 
-        <div class="panel-item" data-active="false" id="icon">
-            <p>Icon</p>
-        </div>
-
         <div class="panel-item" data-active="false" id="color">
             <p>Color</p>
         </div>
 
-        <div class="panel-item" data-active="false" id="misc">
-            <p>Miscellaneous</p>
+        <div class="panel-item" data-active="false" id="mantra">
+            <p>Mantra</p>
         </div>
-        
+
+        <div class="panel-item" data-active="false" id="ironvow">
+            <p>Vow of Iron</p>
+        </div>
+
         <div class="panel-item" data-active="false" id="bonus">
             <p>Bonuses</p>
         </div>
 
-        <div class="panel-item" data-active="false" id="mantra">
-            <p>Mantra</p>
+        <div class="panel-item" data-active="false" id="misc">
+            <p>Miscellaneous</p>
         </div>
         
         <div class="panel-item" data-active="false" id="background">
@@ -97,16 +105,7 @@
             </div>
 
             <input type="text" class="input-card-class" id="card-class" spellcheck="false" value="Deepwoken" maxlength="25">
-            <span class="input-card-class" style="
-                top: 265px;
-                font-weight: 600;
-                background: #dfe6d2;
-                width: 150px;
-                border: solid 1px;
-                border-radius: 6px;
-                font-style: italic;
-            ">In Berserk State
-            </span>
+            <input type="text" class="input-card-state" id="card-state" spellcheck="false" value="In Berserk State" maxlength="25" hidden></input>
             <textarea class="input-description" id="card-description" spellcheck="false" rows="4" maxlength="150">You can hear it pounding in your head. The sound that comes from beneath the waves. Will you respond?</textarea>
 
             <img src="/assets/img/card/1star.png" alt="1 Star" class="onestar" hidden>
@@ -476,7 +475,7 @@
                   <option value="Common" selected>Common</option>
                   <option value="Rare">Rare</option>
                   <option value="Advanced">Advanced</option>
-                  <option value="Legendary">Legendary (Scrapped)</option>
+                  <option value="Legendary">Legendary</option>
               </optgroup>
               <optgroup label="Bell">
                   <option value="Bell">Bell</option>
@@ -545,6 +544,30 @@
               Frozen:
               <input id="frozen-input" type="checkbox" name="enableFeature" value="yes">
           </label>
+        </center>
+    </div>
+
+    <div class="right-panel hidden" id="state-window">
+        <div class="background"></div>
+        <div class="border"></div>
+        <header>
+            <h1>Status Effect</h1>
+        </header>
+
+        <center>
+
+        </center>
+    </div>
+
+    <div class="right-panel hidden" id="ironvow-window">
+        <div class="background"></div>
+        <div class="border"></div>
+        <header>
+            <h1>Vow of Iron</h1>
+        </header>
+
+        <center>
+
         </center>
     </div>
     <script src="/assets/js/bin.js"></script>
