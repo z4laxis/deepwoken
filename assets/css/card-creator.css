@@ -202,7 +202,18 @@ button {
     height: 105%;
 }
 
+.card-state {
+    top: 265px;
+    font-weight: 600;
+    background: #dfe6d2;
+    width: 150px;
+    border: solid 1px;
+    border-radius: 6px;
+    font-style: italic;
+}
+
 .card-class {
+    font-family: "PTSerif-Regular";
     position: absolute;
     top: 245px;
     left: 50%;
@@ -212,6 +223,7 @@ button {
 }
 
 .description-container {
+    font-family: "PTSerif-Regular";
     position: absolute;
     bottom: 7%;
     left: 10%;
