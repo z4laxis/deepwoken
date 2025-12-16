@@ -43,6 +43,11 @@
     src: url("/assets/fonts/LTMuseum-Light.ttf") format("truetype");
 }
 
+@font-face {
+    font-family: "PTSerif-Regular";
+    src: url("/assets/fonts/PTSerif-Regular.ttf") format("truetype");
+}
+
 :root {
     --background: url(/assets/img/background/black.png);
     

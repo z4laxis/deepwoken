@@ -214,6 +214,7 @@ button {
 }
 
 .input-card-class {
+    font-family: "PTSerif-Regular";
     position: absolute;
     top: 235px;
     left: 50%;
@@ -226,6 +227,7 @@ button {
 }
 
 .input-description {
+    font-family: "PTSerif-Regular";
     bottom: 6%;
     z-index: 1;
     position: absolute;
