@@ -80,7 +80,7 @@ section {
 }
 
 .power-icon {
-    content: url("/assets/img/icons/builder/power.png");
+    content: url("/assets/img/icons/builder/journal/power.png");
     width: 50px;
     left: 9px;
     top: 9px;
@@ -99,7 +99,7 @@ section {
 }
 
 .orbs-icon {
-    content: url(/assets/img/icons/builder/orbs.png);
+    content: url(/assets/img/icons/builder/journal/orbs.png);
     width: 65px;
     left: 1.5px;
     top: 2.5px;
@@ -161,17 +161,17 @@ section {
 }
 
 .stat-border {
-    content: url('/assets/img/icons/builder/stat_border.png');
+    content: url('/assets/img/icons/builder/journal/stat_border.png');
     z-index: 2;
 }
 
 .max {
-    content: url('/assets/img/icons/builder/max.png');
+    content: url('/assets/img/icons/builder/journal/max.png');
     z-index: 2;
 }
 
 .stat-lock {
-    content: url(/assets/img/icons/builder/lock.png);
+    content: url(/assets/img/icons/builder/journal/lock.png);
     z-index: 2;
     position: absolute;
     width: 10px;
@@ -181,7 +181,7 @@ section {
 }
 
 .detail {
-    background: url(/assets/img/icons/builder/idk.png) no-repeat;
+    background: url(/assets/img/icons/builder/journal/idk.png) no-repeat;
     background-size: 100% 100%;
     height: 16px;
 }
@@ -223,19 +223,19 @@ section {
 }
 
 .vitality {
-    content: url(/assets/img/icons/builder/vitality.png);
+    content: url(/assets/img/icons/builder/journal/vitality.png);
 }
 
 .erudition {
-    content: url(/assets/img/icons/builder/erudition.png);
+    content: url(/assets/img/icons/builder/journal/erudition.png);
 }
 
 .proficiency {
-    content: url(/assets/img/icons/builder/proficiency.png);
+    content: url(/assets/img/icons/builder/journal/proficiency.png);
 }
 
 .songchant {
-    content: url(/assets/img/icons/builder/songchant.png);
+    content: url(/assets/img/icons/builder/journal/songchant.png);
 }
 
 #vitality {
