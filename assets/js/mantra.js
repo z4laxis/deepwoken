@@ -49,6 +49,10 @@ function findAndUpdateMantra(mantraName) {
 function formatIconName(fileName) {
     if (fileName === "Flashfire Sweep") {
         return "ceaseless_slashes.png";
+    } else if (fileName === "Twinstrikes") {
+        return "boots.png";
+    } else if (fileName === "Throw") {
+        return "boots.png";
     } else if (fileName === "Wind Carve") {
         return "galetrap.png";
     } else if (fileName === "Neural Pathway") {
@@ -57,6 +61,8 @@ function formatIconName(fileName) {
         return "gaze.png";
     } else if (fileName === "Glorious Charge") {
         return "rally.png";
+    } else if (fileName === "Hell's Judgement") {
+        return "twincleave.png";
     } else if (fileName === "Hidden Blade" || fileName === "Grand Warden's Axe") {
         return "lightning_blade.png";
  
