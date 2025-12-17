@@ -1,0 +1,19 @@
+{
+  "Pathfinder": [
+    {
+      "name": "Teachings of the Edenkite",
+      "description": "Find your centre.",
+      "icon": "flame",
+      "rarity": "Aspect"
+    }
+  ],
+  
+  "Ironvow": [
+    {
+      "name": "Scales of the Edenkite",
+      "description": "Allows you to meditate, emitting a white aura and causing two white orbs to circle your head. Very heavily reduces hunger and thirst consumption while you passively gain EXP and Attribute EXP and regenerate health at a moderate rate.",
+      "icon": "shield",
+      "rarity": "Aspect"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "Drakkard": [
+    {
+      "name": "Ember",
+      "eyeColor": "#ff9500",
+      "hairColor": "#331111",
+      "hornColor": "#986d00",
+      "scleraColor": "#c7b36b",
+      "skinColor": "#7f3f3f"
+    },
+    {
+      "name": "Laguna",
+      "eyeColor": "#06ffa0",
+      "hairColor": "#234c3e",
+      "hornColor": "#00987a",
+      "scleraColor": "#72c7b9",
+      "skinColor": "#4f7b7f"
+    },
+    {
+      "name": "Slate",
+      "eyeColor": "#ffffff",
+      "hairColor": "#333333",
+      "hornColor": "#8b9894",
+      "scleraColor": "#c7c7c7",
+      "skinColor": "#6b6b6b"
+    },
+    {
+      "name": "Sprout",
+      "eyeColor": "#b7ff1d",
+      "hairColor": "#363e29",
+      "hornColor": "#799823",
+      "scleraColor": "#a9c768",
+      "skinColor": "#5b664e"
+    },
+    {
+      "name": "Vale",
+      "eyeColor": "#ff4eff",
+      "hairColor": "#39293e",
+      "hornColor": "#845a84",
+      "scleraColor": "#9d90c7",
+      "skinColor": "#7c477b"
+    },
+    {
+      "name": "Hallowtide",
+      "eyeColor": "#ffae3d",
+      "hairColor": "#000000",
+      "hornColor": "#988556",
+      "scleraColor": "#b9b9b9",
+      "skinColor": "#3b3632"
+    },
+    {
+      "name": "Removed",
+      "defaultHairId": 20372960,
+      "eyeColor": "#ffbf00",
+      "hairColor": "#761d1a",
+      "scleraColor": "#f0eade",
+      "skinColor": "#a57e57"
+    }
+  ]
+}

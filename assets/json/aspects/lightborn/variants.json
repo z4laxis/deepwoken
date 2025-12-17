@@ -1,0 +1,53 @@
+{
+  "Lightborn": [
+    {
+      "name": "Default",
+      "eyeColor": "#0ad7ff",
+      "hairColor": "#efefef",
+      "scleraColor": "#ffffff",
+      "skinColor": "#c7ac78"
+    },
+    {
+      "name": "Gilgamesh",
+      "eyeColor": "#ff0004",
+      "hairColor": "#efb838",
+      "scleraColor": "#ffffff",
+      "skinColor": "#c7ac78"
+    },
+    {
+      "name": "Horror",
+      "eyeColor": "#d30000",
+      "hairColor": "#ffffff",
+      "scleraColor": "#ffffff",
+      "skinColor": "#d6d3cb"
+    },
+    {
+      "name": "Leafre",
+      "eyeColor": "#c61cf4",
+      "hairColor": "#efefef",
+      "scleraColor": "#ffffff",
+      "skinColor": "#e5dfc6"
+    },
+    {
+      "name": "Lewyn",
+      "eyeColor": "#88f498",
+      "hairColor": "#83eeb3",
+      "scleraColor": "#ffffff",
+      "skinColor": "#c7ac78"
+    },
+    {
+      "name": "Moros",
+      "eyeColor": "#ffffff",
+      "hairColor": "#2f3035",
+      "scleraColor": "#3b3b3b",
+      "skinColor": "#bbb3b2"
+    },
+    {
+      "name": "MrToons",
+      "eyeColor": "#ffffff",
+      "hairColor": "#ffffff",
+      "scleraColor": "#ffffff",
+      "skinColor": "#c7ac78"
+    }
+  ]
+}
