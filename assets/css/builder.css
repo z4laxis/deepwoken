@@ -181,7 +181,7 @@ section {
 }
 
 .detail {
-    background: url(/assets/img/icons/builder/journal/idk.png) no-repeat;
+    background: url(/assets/img/icons/builder/journal/ribbon.png) no-repeat;
     background-size: 100% 100%;
     height: 16px;
 }
@@ -236,6 +236,10 @@ section {
 
 .songchant {
     content: url(/assets/img/icons/builder/journal/songchant.png);
+}
+
+.dexterity {
+    content: url(/assets/img/icons/builder/journal/dexterity.png);
 }
 
 #vitality {
