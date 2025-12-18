@@ -1,0 +1,32 @@
+{
+  "Heliodar": [
+    {
+      "name": "Default",
+      "eyeColor": "#ffffff",
+      "hairColor": "#7c0000",
+      "scleraColor": "#ffaa7f",
+      "skinColor": "#bf6233",
+      "tattooColor": "#ffda6b"
+    },
+    {
+      "name": "Eclipse",
+      "description": "For what if the Ash were to never return to flames?",
+      "variantId": 2,
+      "eyeColor": "#ffee00",
+      "hairColor": "#000000",
+      "scleraColor": "#ffaa7f",
+      "skinColor": "#bf8a64",
+      "tattooColor": "#000000"
+    },
+    {
+      "name": "Scarlet Mark",
+      "description": "Rise from the ashes and be born again.",
+      "variantId": 2,
+      "eyeColor": "#ffffff",
+      "hairColor": "#7c0000",
+      "scleraColor": "#ffaa7f",
+      "skinColor": "#bf6233",
+      "tattooColor": "#550000"
+    }
+  ]
+}
