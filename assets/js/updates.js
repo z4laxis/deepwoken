@@ -54,7 +54,7 @@ function getUpdate(placeId) {
   fetch(`/api/fetchdata?placeId=${placeId}`)
     .then(res => res.json())
     .then(data => {
-      console.log("Roblox data:", data.Updated);
+      console.log("Roblox data:", data);
     })
     .catch(err => {
       console.error("Error:", err);
