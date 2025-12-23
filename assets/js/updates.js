@@ -47,3 +47,5 @@ function getUpdate(placeId) {
             console.error("Fetch error:", error);
         });
 }
+
+getUpdate(4111023553)
