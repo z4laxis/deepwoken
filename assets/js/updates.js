@@ -51,7 +51,7 @@ getUpdate(4111023553)
 */
 
 function getUpdate(placeId) {
-  fetch(`/assets/js/fetchdata?placeId=${placeId}`)
+  fetch(`/api/fetchdata?placeId=${placeId}`)
     .then(res => res.json())
     .then(data => {
       console.log("Roblox data:", data);
