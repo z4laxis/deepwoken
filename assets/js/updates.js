@@ -27,7 +27,6 @@ local function getUpdate(placeId: number): string
 
     return {days} days and {(hours) - (days * 24)} hours ago`
 end
-*/
 
 function getUpdate(placeId) {
     fetch(`https://economy.roblox.com/v2/assets/${placeId}/details`)
@@ -49,3 +48,17 @@ function getUpdate(placeId) {
 }
 
 getUpdate(4111023553)
+*/
+
+function getUpdate(placeId) {
+  fetch(`/assets/js/fetchdata?placeId=${placeId}`)
+    .then(res => res.json())
+    .then(data => {
+      console.log("Roblox data:", data);
+    })
+    .catch(err => {
+      console.error("Error:", err);
+    });
+}
+
+getUpdate(4111023553);
