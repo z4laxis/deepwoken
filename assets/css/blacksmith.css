@@ -148,18 +148,23 @@ button {
 }
 
 .button-shadow {
+    width: 75px;
+    height: 25px;
     position: absolute;
     border-image: var(--border-button) 7 stretch;
+    image-rendering: pixelated;
     border-image-width: 7;
     border-image-outset: 1px;
 }
 
 .button-style {
-    border-image: var(--border-button) 7 stretch;
-    border-image-width: 10;
-    border-image-outset: 1px;
-    background-color: #705e58;
+    height: 25px;
     width: 25px;
+    border-image: var(--border-button) 7 stretch;
+    border-image-width: 4;
+    background-color: #705e58;
+    image-rendering: pixelated;
+    color: white;
 }
 
 .button-style:hover {
