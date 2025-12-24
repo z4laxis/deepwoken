@@ -138,6 +138,22 @@ button {
     height: 32px;
 }
 
+.button {
+    width: 75px;
+    height: 25px;
+    color: white;
+    cursor: pointer;
+    background-color: var(--button-bg-color);
+    border: 1px solid transparent;
+}
+
+.button-shadow {
+    position: absolute;
+    border-image: var(--border-button) 7 stretch;
+    border-image-width: 7;
+    border-image-outset: 1px;
+}
+
 button:hover {
     background-color: #2c3835;
 }
@@ -183,7 +199,7 @@ button:hover {
     margin: 0;
     font-size: 20px;
     margin-left: 15px;
-    font-family: LTMuseum;
+    font-family: Balthazar;
 }
 
 .line-seperator {
