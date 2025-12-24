@@ -103,7 +103,6 @@
 
 html {
     cursor: url("/assets/img/cursor/cursor.png"), auto;
-    filter: invert(1);
 }
 
 body {
