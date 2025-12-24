@@ -113,7 +113,6 @@ body {
 /*  background-image: radial-gradient(#4f3c29, #1a1814); Hallowtide */
 
     background-attachment: fixed;
-    filter: invert(1);
 }
 
 a, button, input[type="button"], input[type="submit"] {
