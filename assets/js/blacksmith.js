@@ -18,7 +18,7 @@ document.querySelectorAll('.panel-item').forEach(item => {
             const outfit = outfits[item.id];
             console.log("Outfit :", outfit);
             name.textContent = outfit.name
-            price.textContent = outfit.price
+            price.textContent = outfit.notes + " Notes"
         })
         .catch(err => console.error(err));
     });
