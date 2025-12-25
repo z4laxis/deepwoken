@@ -129,7 +129,8 @@ const icons = [
   "twincleave.png", 
   "twister_kicks.png", 
   "updraft.png", 
-  "visionshaper.png", 
+  "visionshaper.png",
+  "voidhunter.png", 
   "wind.png",
   "wind_gun.png",
   "wind_passage.png"
