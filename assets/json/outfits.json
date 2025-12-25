@@ -28,7 +28,7 @@
       "Charisma": 0
     },
     "mats": "x5 Cloth, x5 Fiber, x2 Gold, x10 Iron",
-    "notes": "100",
+    "notes": "100"
   },
   "arachnid's weave": {
     "name": "Arachnid's Weave",
@@ -59,7 +59,7 @@
       "Charisma": 0
     },
     "mats": "",
-    "notes": "",
+    "notes": ""
   },
   "aroran gremor": {
     "name": "Aroran Gremor",
@@ -90,7 +90,7 @@
       "Charisma": 0
     },
     "mats": "",
-    "notes": "",
+    "notes": ""
   },
   "authority captain uniform": {
     "name": "Authority Captain Uniform",
@@ -121,7 +121,7 @@
       "Charisma": 0
     },
     "mats": "x5 Cloth, x5 Fiber, x1 Dark Feather, x1 Lionfish Scale",
-    "notes": "500",
+    "notes": "500"
   },
   "authority commander": {
     "name": "Authority Commander",
@@ -152,7 +152,7 @@
       "Charisma": 0
     },
     "mats": "x5 Cloth, x5 Fiber, x1 Blessed Gem, x5 Vibrant Gem, x1 Dark Feather, x1 Bounder Claw, x1 Thresher Spine",
-    "notes": "1000",
+    "notes": "1000"
   },
   "authority peacekeeper armour": {
     "name": "Authority Peacekeeper Armour",
@@ -183,7 +183,7 @@
       "Charisma": 0
     },
     "mats": "x5 Cloth, x5 Fiber, 1 Iron",
-    "notes": "30",
+    "notes": "30"
   },
   "black diver": {
     "name": "Black Diver",
@@ -214,7 +214,7 @@
       "Charisma": 0
     },
     "mats": "x5 Cloth, x5 Fiber, x1 Blessed Gem, x5 Vibrant Gem, x1 Megalodaunt Hide, x1 Odd Tentacle, x1 Thresher Spine",
-    "notes": "1000",
+    "notes": "1000"
   },
   "bounty hunter": {
     "name": "Bounty Hunter",
@@ -245,7 +245,7 @@
       "Charisma": 0
     },
     "mats": "x5 Cloth, x5 Fiber, x1 Eternal Longstone",
-    "notes": "0",
+    "notes": "0"
   },
   "cala-mariner": {
     "name": "Cala-Mariner",
@@ -276,7 +276,7 @@
       "Charisma": 0
     },
     "mats": "",
-    "notes": "",
+    "notes": ""
   },
   "carefree garments": {
     "name": "Carefree Garments",
@@ -307,7 +307,7 @@
       "Charisma": 0
     },
     "mats": "",
-    "notes": "",
+    "notes": ""
   },
   "celtorian tideknight": {
     "name": "Celtorian Tideknight",
@@ -338,7 +338,7 @@
       "Charisma": 0
     },
     "mats": "x5 Cloth, x1 Bloodless Gem, x5 Vibrant Gem, x5 Umbral Obsidian, x1 Dark Feather, x1 Odd Tentacle, x1 Thresher Spine",
-    "notes": "1000",
+    "notes": "1000"
   },
   "cerulean gown": {
     "name": "Cerulean Gown",
@@ -369,7 +369,7 @@
       "Charisma": 0
     },
     "mats": "x15 Cloth, x15 Fiber, x1 Megalodaunt Hide",
-    "notes": "200",
+    "notes": "200"
   },
   "cloak of winds": {
     "name": "Cloak of Winds",
@@ -400,7 +400,7 @@
       "Charisma": 0
     },
     "mats": "x5 Cloth, x10 Erisore, x2 Strange Claw, x1 Vibrant Gem",
-    "notes": "0",
+    "notes": "0"
   },
   "corsair outlaw": {
     "name": "Corsair Outlaw",
@@ -431,7 +431,7 @@
       "Charisma": 0
     },
     "mats": "x5 Cloth, x5 Fiber, x1 Aeon Longstone",
-    "notes": "0",
+    "notes": "0"
   },
   "cutthroat light armour": {
     "name": "Cutthroat Light Armor",
@@ -462,7 +462,7 @@
       "Charisma": 0
     },
     "mats": "x4 Cloth, x4 Fiber, x5 Iron, x1 Crystal Lens",
-    "notes": "30",
+    "notes": "30"
   },
   "darkened bastion": {
     "name": "Darkened Bastion",
@@ -493,7 +493,7 @@
       "Charisma": 0
     },
     "mats": "x7 Cloth, x5 Fiber, x5 Umbral Obsidian, x10 Vibrant Gem, x1 Void Feather",
-    "notes": "1000",
+    "notes": "1000"
   },
   "darksteel plate": {
     "name": "Darksteel Plate",
@@ -524,7 +524,7 @@
       "Charisma": 0
     },
     "mats": "x5 Cloth, x5 Fiber, x5 Erisore, x1 Strange Claw, x1 Dark Feather",
-    "notes": "300",
+    "notes": "300"
   },
   "diver apprentice": {
     "name": "Diver Apprentice Robes",
@@ -555,7 +555,7 @@
       "Charisma": 0
     },
     "mats": "x4 Cloth, x4 Fiber, x3 Crystal Lens",
-    "notes": "50",
+    "notes": "50"
   },
   "diver journeyman robes": {
     "name": "Diver Journeyman Robes",
@@ -586,7 +586,7 @@
       "Charisma": 0
     },
     "mats": "x5 Cloth, x5 Fiber, x2 Megalodaunt Hide, x1 Rock",
-    "notes": "30",
+    "notes": "30"
   },
   "duelist's attire": {
     "name": "Duelist's Attire",
@@ -617,7 +617,7 @@
       "Charisma": 0
     },
     "mats": "x5 Glass Stones",
-    "notes": "0",
+    "notes": "0"
   },
   "eager tradesman": {
     "name": "Eager Tradesman",
@@ -648,7 +648,7 @@
       "Charisma": 0
     },
     "mats": "x3 Cloth, x3 Fiber",
-    "notes": "0",
+    "notes": "0"
   },
   "experienced adventurer": {
     "name": "Experienced Adventurer",
@@ -679,7 +679,7 @@
       "Charisma": 0
     },
     "mats": "x3 Cloth, x3 Fiber, x2 Irithine",
-    "notes": "25",
+    "notes": "25"
   },
   "etrean guard": {
     "name": "Etrean Guard",
@@ -710,7 +710,7 @@
       "Charisma": 0
     },
     "mats": "x5 Cloth, x5 Fiber, x5 Erisore, x2 Megalodaunt Hide",
-    "notes": "30",
+    "notes": "30"
   },
   "familiar heretic's armor": {
     "name": "Familiar Heretic's Armor",
@@ -741,7 +741,7 @@
       "Charisma": 0
     },
     "mats": "",
-    "notes": "",
+    "notes": ""
   },
   "familiar knight's armor": {
     "name": "Familiar Knight's Armor",
@@ -772,7 +772,7 @@
       "Charisma": 0
     },
     "mats": "",
-    "notes": "",
+    "notes": ""
   },
   "ferryman's coat": {
     "name": "Ferryman's Coat",
@@ -803,7 +803,7 @@
       "Charisma": 0
     },
     "mats": "x7 Cloth, x5 Fiber, x5 Spark Glands, x10 Vibrant Gems, x1 Void Feather",
-    "notes": "400",
+    "notes": "400"
   },
   "flame worshipper armour": {
     "name": "Flame Worshiper Armor",
@@ -834,7 +834,7 @@
       "Charisma": 0
     },
     "mats": "x4 Cloth, x4 Fiber, x2 Iron",
-    "notes": "30",
+    "notes": "30"
   },
   "grandmaster pathfinder cloak": {
     "name": "Grand Pathfinder Cloak",
@@ -865,7 +865,7 @@
       "Charisma": 0
     },
     "mats": "x5 Cloth, x5 Fiber, x5 Erisore, x5 Gold, x5 Irithine, x6 Iron, x2 Dark Feather",
-    "notes": "150",
+    "notes": "150"
   },
   "heretic's memento": {
     "name": "Heretic's Momento",
@@ -896,7 +896,7 @@
       "Charisma": 0
     },
     "mats": "x10 Cloth, x5 Fiber, x5 Gold, x1 Wayward Gem, x5 Vibrant Gem",
-    "notes": "500",
+    "notes": "500"
   },
   "hive drone": {
     "name": "Hive Drone",
@@ -927,7 +927,7 @@
       "Charisma": 0
     },
     "mats": "x5 Cloth, x5 Fiber, x2 Megalodaunt Hide, x1 Rock",
-    "notes": "10",
+    "notes": "10"
   },
   "hive leader's garment": {
     "name": "Hive Leader's Garment",
@@ -958,7 +958,7 @@
       "Charisma": 0
     },
     "mats": "",
-    "notes": "",
+    "notes": ""
   },
   "hive tactician armour": {
     "name": "Hive Tactician Armor",
@@ -989,7 +989,7 @@
       "Charisma": 0
     },
     "mats": "x5 Cloth, x2 Iron, x2 Dark Feather, x3 Vibrant Gems",
-    "notes": "0",
+    "notes": "0"
   },
   "hired mercenary": {
     "name": "Hired Mercenary",
@@ -1020,7 +1020,7 @@
       "Charisma": 0
     },
     "mats": "x5 Cloth, x5 Fiber, x1 Iron",
-    "notes": "25",
+    "notes": "25"
   },
   "icebringer's vestments": {
     "name": "Icebringer's Vestments",
@@ -1051,7 +1051,7 @@
       "Charisma": 0
     },
     "mats": "",
-    "notes": "",
+    "notes": ""
   },
   "ignition deepdelver": {
     "name": "Ignition Deepdelver",
@@ -1082,7 +1082,7 @@
       "Charisma": 0
     },
     "mats": "x5 Cloth, x5 Fiber, x1 Blue Gem, x5 Vibrant Gems, x1 Bounder Claw, x1 Worn Cog, x1 Frozen Membrane",
-    "notes": "1000",
+    "notes": "1000"
   },
   "ignition trailblazer": {
     "name": "Ignition Trailblazer",
@@ -1113,7 +1113,7 @@
       "Charisma": 0
     },
     "mats": "x5 Cloth, x5 Fiber, x2 Megalodaunt Hide, x1 Rock",
-    "notes": "30",
+    "notes": "30"
   },
   "ignition union uniform": {
     "name": "Ignition Union Uniform",
@@ -1144,7 +1144,7 @@
       "Charisma": 0
     },
     "mats": "x5 Cloth, x5 Fiber, x3 Irithine, x1 Lionfish Scale",
-    "notes": "0",
+    "notes": "0"
   },
   "ignition welder": {
     "name": "Ignition Welder",
@@ -1175,7 +1175,7 @@
       "Charisma": 0
     },
     "mats": "",
-    "notes": "",
+    "notes": ""
   },
   "inquisition light": {
     "name": "Inquisition Light",
@@ -1206,7 +1206,7 @@
       "Charisma": 0
     },
     "mats": "",
-    "notes": "",
+    "notes": ""
   },
   "jade vigil's weave": {
     "name": "Jade Vigil's Weave",
@@ -1237,7 +1237,7 @@
       "Charisma": 0
     },
     "mats": "",
-    "notes": "",
+    "notes": ""
   },
   "jester's grab": {
     "name": "Jester's Grab",
@@ -1268,7 +1268,7 @@
       "Charisma": 0
     },
     "mats": "",
-    "notes": "",
+    "notes": ""
   },
   "justicar's armour": {
     "name": "Justicar's Armor",
@@ -1299,7 +1299,7 @@
       "Charisma": 0
     },
     "mats": "x5 Cloth, x5 Fiber, x1 Wayward Gem, x5 Gale Stone, x1 Dark Feather, x4 Thresher Spine",
-    "notes": "1000",
+    "notes": "1000"
   },
   "keeper": {
     "name": "Keeper",
@@ -1330,7 +1330,7 @@
       "Charisma": 0
     },
     "mats": "x3 Cloth, x3 Fiber, x1 Iron",
-    "notes": "25",
+    "notes": "25"
   },
   "legion centurion": {
     "name": "Legion Centurion",
@@ -1361,7 +1361,7 @@
       "Charisma": 0
     },
     "mats": "x5 Cloth, x5 Fiber, x1 Blue Gem, x5 Gale Stone, x1 Dark Feather, x1 Thresher Spine",
-    "notes": "1000",
+    "notes": "1000"
   },
   "martial artist": {
     "name": "Martial Artist",
@@ -1392,7 +1392,7 @@
       "Charisma": 0
     },
     "mats": "x7 Cloth, x5 Fiber, x1 Odd Tentacle",
-    "notes": "0",
+    "notes": "0"
   },
   "merchant robes": {
     "name": "Merchant Robes",
@@ -1423,7 +1423,7 @@
       "Charisma": 0
     },
     "mats": "x5 Cloth, x5 Fiber",
-    "notes": "25",
+    "notes": "25"
   },
   "mod business competitive": {
     "name": "Mod Business Competitive",
@@ -1454,7 +1454,7 @@
       "Charisma": 0
     },
     "mats": "",
-    "notes": "",
+    "notes": ""
   },
   "mod skirt": {
     "name": "Mod Skirt",
@@ -1485,7 +1485,7 @@
       "Charisma": 0
     },
     "mats": "",
-    "notes": "",
+    "notes": ""
   },
   "mod suit": {
     "name": "Mod Suit",
@@ -1516,7 +1516,7 @@
       "Charisma": 0
     },
     "mats": "",
-    "notes": "",
+    "notes": ""
   },
   "moonseye": {
     "name": "Moonseye",
@@ -1547,7 +1547,7 @@
       "Charisma": 0
     },
     "mats": "",
-    "notes": "",
+    "notes": ""
   },
   "mr toon": {
     "name": "Mr Toon",
@@ -1578,7 +1578,7 @@
       "Charisma": 0
     },
     "mats": "",
-    "notes": "",
+    "notes": ""
   },
   "navaen nomad robes": {
     "name": "Navaen Nomad Robes",
@@ -1609,7 +1609,7 @@
       "Charisma": 0
     },
     "mats": "x5 Cloth, x5 Fiber, x8 Erisore, x2 Frigid Prisms",
-    "notes": "100",
+    "notes": "100"
   },
   "navaen war chief": {
     "name": "Navaen War Chief",
@@ -1640,7 +1640,7 @@
       "Charisma": 0
     },
     "mats": "x5 Cloth, x5 Fiber, x1 Wind Gem, x8 Erisore, x2 Frigid Prisms, x1 Odd Tentacle, x2 Thresher Spine",
-    "notes": "1000",
+    "notes": "1000"
   },
   "pathfinder arch-sorcerer": {
     "name": "Pathfinder Arch-Sorcerer",
@@ -1671,7 +1671,7 @@
       "Charisma": 0
     },
     "mats": "x5 Cloth, x5 Fiber, x10 Irithine, x1 Lionfish Scale, x1 Strange Claw",
-    "notes": "100",
+    "notes": "100"
   },
   "pathfinder cloak": {
     "name": "Pathfinder Cloak",
@@ -1702,7 +1702,7 @@
       "Charisma": 0
     },
     "mats": "x4 Cloth, x4 Fiber, x6 Iron",
-    "notes": "30",
+    "notes": "30"
   },
   "pathfinder sorcerer": {
     "name": "Pathfinder Sorcerer",
@@ -1733,7 +1733,7 @@
       "Charisma": 0
     },
     "mats": "x5 Cloth, x5 Fiber, x1 Rock",
-    "notes": "30",
+    "notes": "30"
   },
   "pathfinder thaumaturge": {
     "name": "Pathfinder Thaumaturge",
@@ -1764,7 +1764,7 @@
       "Charisma": 0
     },
     "mats": "x5 Cloth, x5 Fiber, x1 Rock",
-    "notes": "30",
+    "notes": "30"
   },
   "prophet's cloak": {
     "name": "Prophet's Cloak",
@@ -1795,7 +1795,7 @@
       "Charisma": 0
     },
     "mats": "x5 Cloth, x1 Bloodless Gem, x5 Vibrant Gem, x5 Umbral Obsidian, x1 Dark Feather, x1 Odd Tentacle, x1 Thresher Spine",
-    "notes": "1000",
+    "notes": "1000"
   },
   "royal etrean guard": {
     "name": "Royal Etrean Guard",
@@ -1826,7 +1826,7 @@
       "Charisma": 0
     },
     "mats": "x5 Cloth, x5 Fiber, x1 King Thresher Spine, x10 Umbral Obsidian, x5 Vibrant Gem, x1 Void Feather",
-    "notes": "1000",
+    "notes": "1000"
   },
   "sanguine finery": {
     "name": "Sanguine Finery",
@@ -1857,7 +1857,7 @@
       "Charisma": 0
     },
     "mats": "",
-    "notes": "",
+    "notes": ""
   },
   "scholar": {
     "name": "Scholar",
@@ -1888,7 +1888,7 @@
       "Charisma": 0
     },
     "mats": "x3 Cloth, x3 Fiber",
-    "notes": "50",
+    "notes": "50"
   },
   "seamstress' attire": {
     "name": "Seamstress's Attire",
@@ -1919,7 +1919,7 @@
       "Charisma": 0
     },
     "mats": "x10 Cloth, x10 Fiber, x5 Iron, x2 Megalodaunt Hide",
-    "notes": "100",
+    "notes": "100"
   },
   "shadow hunter": {
     "name": "Shadow Hunter",
@@ -1950,7 +1950,7 @@
       "Charisma": 0
     },
     "mats": "x5 Cloth, x5 Fiber, x2 Gold, x10 Iron",
-    "notes": "0",
+    "notes": "0"
   },
   "shock corps light": {
     "name": "Shock Corps Light",
@@ -1981,7 +1981,7 @@
       "Charisma": 0
     },
     "mats": "",
-    "notes": "",
+    "notes": ""
   },
   "skeptic pioneer": {
     "name": "Skeptic Pioneer",
@@ -2012,7 +2012,7 @@
       "Charisma": 0
     },
     "mats": "x5 Cloth, x5 Fiber, x1 Crystal Lens",
-    "notes": "25",
+    "notes": "25"
   },
   "soren": {
     "name": "Soren",
@@ -2043,7 +2043,7 @@
       "Charisma": 0
     },
     "mats": "",
-    "notes": "",
+    "notes": ""
   },
   "steel plate": {
     "name": "Steel Plate",
@@ -2074,7 +2074,7 @@
       "Charisma": 0
     },
     "mats": "",
-    "notes": "",
+    "notes": ""
   },
   "stormchanter's raiments": {
     "name": "Stormchanter's Raiments",
@@ -2105,7 +2105,7 @@
       "Charisma": 0
     },
     "mats": "",
-    "notes": "",
+    "notes": ""
   },
   "stranded": {
     "name": "Stranded",
@@ -2136,7 +2136,7 @@
       "Charisma": 0
     },
     "mats": "",
-    "notes": "0",
+    "notes": "0"
   },
   "summer company uniform": {
     "name": "Summer Company Uniform",
@@ -2167,7 +2167,7 @@
       "Charisma": 0
     },
     "mats": "x5 Cloth, x5 Fiber, x10 Iron",
-    "notes": "100",
+    "notes": "100"
   },
   "summer dragoon": {
     "name": "Summer Dragoon",
@@ -2198,7 +2198,7 @@
       "Charisma": 0
     },
     "mats": "x5 Cloth, x5 Fiber, x1 Bloodless Gem, x5 Vibrant Gem, x1 Megalodaunt Hide, x1 Bounder Claw, x1 Thresher Spine",
-    "notes": "1000",
+    "notes": "1000"
   },
   "tempestmaker's threads": {
     "name": "Tempestmaker's Threads",
@@ -2229,7 +2229,7 @@
       "Charisma": 0
     },
     "mats": "",
-    "notes": "",
+    "notes": ""
   },
   "titanslayer's adornment": {
     "name": "Titanslayer's Adornment",
@@ -2260,7 +2260,7 @@
       "Charisma": 0
     },
     "mats": "",
-    "notes": "",
+    "notes": ""
   },
   "titus's raiment": {
     "name": "Titus's Raiment",
@@ -2291,7 +2291,7 @@
       "Charisma": 0
     },
     "mats": "",
-    "notes": "",
+    "notes": ""
   },
   "traveler cloak": {
     "name": "Traveler's Jacket",
@@ -2322,7 +2322,7 @@
       "Charisma": 0
     },
     "mats": "x1 Cloth",
-    "notes": "10",
+    "notes": "10"
   },
   "trickster's habit": {
     "name": "Trickster's Habit",
@@ -2353,7 +2353,7 @@
       "Charisma": 0
     },
     "mats": "",
-    "notes": "",
+    "notes": ""
   },
   "troublemaker's overcoat": {
     "name": "Troublemaker's Overcoat",
@@ -2384,7 +2384,7 @@
       "Charisma": 0
     },
     "mats": "x10 Cloth, x10 Fiber, x5 Iron, x5 Megalodaunt Hide",
-    "notes": "100",
+    "notes": "100"
   },
   "union initiate": {
     "name": "Union Initiate",
@@ -2415,7 +2415,7 @@
       "Charisma": 0
     },
     "mats": "",
-    "notes": "",
+    "notes": ""
   },
   "unsung": {
     "name": "Unsung",
@@ -2446,7 +2446,7 @@
       "Charisma": 0
     },
     "mats": "",
-    "notes": "",
+    "notes": ""
   },
   "varicosan finery": {
     "name": "Varicosan Finery",
@@ -2477,7 +2477,7 @@
       "Charisma": 0
     },
     "mats": "",
-    "notes": "",
+    "notes": ""
   },
   "verdant sniper": {
     "name": "Verdant Sniper",
@@ -2508,7 +2508,7 @@
       "Charisma": 0
     },
     "mats": "x10 Cloth, x2 Megalodaunt Hide, x2 Vibrant Gems",
-    "notes": "100",
+    "notes": "100"
   },
   "veteran adventurer": {
     "name": "Veteran Adventurer",
@@ -2539,7 +2539,7 @@
       "Charisma": 0
     },
     "mats": "x5 Cloth, x5 Fiber, x2 Gold, x10 Iron, x2 Lionfish Scale",
-    "notes": "100",
+    "notes": "100"
   },
   "vigil initiate": {
     "name": "Vigil Initiate",
@@ -2570,7 +2570,7 @@
       "Charisma": 0
     },
     "mats": "x5 Cloth, x5 Fiber,, x4 Iron",
-    "notes": "0",
+    "notes": "0"
   },
   "vigil sentinel": {
     "name": "Vigil Sentinel",
@@ -2601,7 +2601,7 @@
       "Charisma": 0
     },
     "mats": "x5 Cloth, x5 Fiber, x5 Gale Stone, x5 Irithine, x5 Vibrant Gem, x1 Wind Gem",
-    "notes": "1000",
+    "notes": "1000"
   },
   "whaler coat": {
     "name": "Whaler Coat",
@@ -2632,7 +2632,7 @@
       "Charisma": 0
     },
     "mats": "x5 Cloth, x5 Fiber, x2 Gold, x10 Iron, x2 Lionfish Scale",
-    "notes": "100",
+    "notes": "100"
   },
   "whaler initiate": {
     "name": "Whaler Initare",
@@ -2663,7 +2663,7 @@
       "Charisma": 0
     },
     "mats": "Obtained from Voidwalker Origin",
-    "notes": "0",
+    "notes": "0"
   },
   "white mod suit": {
     "name": "White Mod Suit",
@@ -2694,7 +2694,7 @@
       "Charisma": 0
     },
     "mats": "",
-    "notes": "",
+    "notes": ""
   },
   "windrunner robes": {
     "name": "Windrunner Robes",
@@ -2725,7 +2725,7 @@
       "Charisma": 0
     },
     "mats": "",
-    "notes": "",
+    "notes": ""
   },
   "wishmaker": {
     "name": "Wishmaker",
@@ -2756,6 +2756,6 @@
       "Charisma": 0
     },
     "mats": "",
-    "notes": "",
+    "notes": ""
   }
 }
