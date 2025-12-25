@@ -8,14 +8,12 @@ document.querySelectorAll('.panel-item').forEach(item => {
         document.getElementById("iframe").src = `/assets/iframes/blacksmith?outfit=${item.id}`;
 
         fetch('/assets/json/outfits.json')
-            .then(res => res.json())
-            .then(outfits => {
-                const outfit = outfits.find(o => o.id === item.id);
+        .then(res => res.json())
+        .then(outfits => {
+            const outfit = outfits[item.id];
+            console.log("Outfit :", outfit);
+        })
+        .catch(err => console.error(err));
 
-                console.log("Outfit :", outfit);
-            })
-            .catch(err => {
-                console.error("Error:", err);
-            });
     });
 });
