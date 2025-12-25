@@ -220,6 +220,7 @@ button:hover {
 }
 
 .line-seperator {
+    opacity: 0.25;
     width: 100px;
     position: relative;
     bottom: 12.5px;
