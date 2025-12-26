@@ -133,6 +133,14 @@ h1 {
     margin: auto;
 }
 
+.outfit-image {
+    position: absolute;
+    left: 162.5px;
+    width: 275px;
+    height: 275px;
+    top: 20px;
+}
+
 button {
     position: relative;
     width: 100px;
