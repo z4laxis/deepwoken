@@ -59,7 +59,15 @@ body {
 }
 
 main {
+    height: 750px;
     width: 750px;
+    overflow-y: scroll;
+}
+
+main::-webkit-scrollbar-thumb {
+    background-image: url('/assets/img/scrollbar/scroll.png');
+    background-size: cover; 
+    border-radius: 10px; 
 }
 
 ul {
