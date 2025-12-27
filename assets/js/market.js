@@ -19,3 +19,5 @@ function randomize() {
         .catch(error => console.error("Error loading JSON:", error));
     }
 }
+
+randomize()
