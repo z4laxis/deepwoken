@@ -3,18 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Deepwoken - Library</title>
+    <title>Deepwoken Library</title>
     <link href="/assets/css/styles.css" rel="stylesheet" type="text/css" media="all">
     <link href="/assets/css/book.css" rel="stylesheet" type="text/css" media="all">
+    <style>
+        @font-face {
+    font-family: "RomuloRegular";
+    src: url("assets/fonts/romul-font.ttf") format("opentype");
+}
+    </style>
 </head>
 <body>
     <main class="book-container">
-      <h1 class="tab-title">Book</h1>
-      <img class="tab-cross" src="/assets/img/icons/book/cross.png">
-      <div class="book-background"></div>
-      <h1 class="book-title">Munet Journal, XIV</h1>
-      <h2 class="book-flavour">by Wakeguard Wiano Munet</h2>
-      <p class="book-content">
+      <img class="tab-cross" src="/assets/img/icons/book/cross.png" style="filter: invert(1); z-index: 2; top: 1%; left: 95%;">
+      <div style="width:100%; height:100%; position: relative; z-index: 1; border: 1px solid transparent; border-image: url(/assets/img/border/border.png) 15 stretch; border-image-width: 21px; background: none; pointer-events: none;"></div>
+      <div class="book-background" style="height: 92.5%;transform: translate(-50%, -53.5%);"></div>
+      <h1 class="book-title" style="top: 5%">Munet Journal, XIV</h1>
+      <h2 class="book-flavour" style="top: 12%">by Wakeguard Wiano Munet</h2>
+      <p class="book-content" style="font-family: RomuloRegular;">
       The aftermath of a battle is always ugly. <br>
       Many soldiers despise it for the injuries, the breaking of gear, or the politics that come after the victor is decided. <br>
       For me, it is the process of body watching that I dread the most.<br><br>
@@ -24,8 +30,8 @@
       The dealings are always deathly quiet, disturbed only by the squeaking of my cart's old wheels.
       </p>
       <p class="page-number">1/4</p>
-      <img class="arrow-left" src="/assets/img/icons/book/arrow.png" hidden>
-      <img class="arrow-right" src="/assets/img/icons/book/arrow.png">
+      <button class="arrow-left" style="width: 10%; border: none; background: none; left:27.5%; top:89%"><img style="width: 100%;height: 100%;" src="/assets/img/icons/book/arrow.png"></button>
+      <button class="arrow-right" style="width: 10%; border: none; background: none;"><img style="width: 100%;height: 100%;" src="/assets/img/icons/book/arrow.png"></button>
     </main>
 
     <script src="/assets/js/book.js"></script>

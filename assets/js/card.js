@@ -1,18 +1,18 @@
 const icons = [
-  "open_eye.png", 
   "adrenaline_surge.png", 
   "air_force.png", 
   "arcwarder.png", 
   "ash_slam.png", 
-  "astral_wind.png", 
+  "astral_wind.png",
   "ball.png",
+  "ball_old.png", 
   "bell.png", 
   "bladeharper.png", 
-  "blindseer.png",
+  "blindseer.png", 
   "blood.png", 
   "bolt_piercer.png", 
-  "boots.png", 
-  "brace.png",
+  "boots.png",
+  "brace.png", 
   "brain.png", 
   "burning_servants.png", 
   "ceaseless_slashes.png", 
@@ -20,31 +20,33 @@ const icons = [
   "champions_whirlthrow.png",
   "claw.png", 
   "contractor.png", 
-  "cube.png", 
+  "cube.png",
+  "cube_old.png", 
   "daggers.png", 
   "dash.png", 
   "dawnwalker.png", 
   "disguise.png",
   "electro_carve.png", 
   "emotion_wave.png", 
-  "explosion.png", 
+  "explosion.png",
+  "explosion_old.png", 
   "ether_barrage.png", 
   "exhaustion_strike.png",
-  "fadetrimmer.png", 
+  "fadetrimmer.png",
   "fire.png", 
-  "fire_blade.png", 
-  "fire_eruption.png", 
+  "fire_blade.png",
+  "fire_eruption.png",
   "fire_gun.png", 
   "fire_palm.png",
   "fist.png", 
   "flame_assault.png", 
-  "flame_ballista.png", 
+  "flame_ballista.png",
   "flame_bind.png", 
-  "flame_grab.png", 
+  "flame_grab.png",
   "flame_leap.png",
-  "flame_of_denial.png", 
+  "flame_of_denial.png",
   "flame_repulsion.png", 
-  "flame_sentinel.png", 
+  "flame_sentinel.png",
   "flame_wisp.png", 
   "flaming_scourge.png",
   "flare_volley.png", 
@@ -55,24 +57,25 @@ const icons = [
   "gale_wisp.png", 
   "gaze.png", 
   "glare.png", 
+  "glare_old.png", 
   "graceful_flame.png", 
   "grand_javelin.png", 
   "greatsword.png",
   "handshake.png", 
   "heavenly_wind.png", 
   "holding_on.png", 
-  "ironsing.png", 
-  "jetstriker.png", 
+  "ironsing.png",
+  "jetstriker.png",
   "jolt_grab.png",
   "karita_divebomb.png", 
-  "karita_leap.png", 
+  "karita_leap.png",
   "leaf.png", 
   "lightning.png",
   "lightning_assault.png", 
   "lightning_beam.png",
   "lightning_blade.png", 
-  "lightning_cloak.png", 
-  "lightning_clones.png", 
+  "lightning_cloak.png",
+  "lightning_clones.png",
   "lightning_impact.png",
   "lightning_stream.png", 
   "lightning_strike.png", 
@@ -81,49 +84,50 @@ const icons = [
   "masters_flourish.png",
   "mountains.png", 
   "oathless.png", 
-  "onslaught.png", 
-  "orb.png", 
-  "potion.png", 
+  "onslaught.png",
+  "openeye.png",  
+  "orb.png",
+  "potion.png",
   "prediction.png",
-  "pressure_blast.png", 
-  "prominence_draw.png", 
+  "pressure_blast.png",
+  "prominence_draw.png",
   "punishment.png", 
-  "question.png", 
-  "rally.png", 
+  "question.png",
+  "rally.png",
   "rapid_punches.png",
-  "rapid_slashes.png", 
-  "reinforce.png", 
-  "relentless_flames.png", 
+  "rapid_slashes.png",
+  "reinforce.png",
+  "relentless_flames.png",
   "revenge.png", 
   "rift.png", 
   "rising_thunder.png",
-  "rising_wind.png", 
-  "roll2.png", 
+  "rising_wind.png",
+  "roll2.png",
   "saintsworn.png", 
-  "saltchemist.png", 
-  "shield.png", 
+  "saltchemist.png",
+  "shield.png",
   "shoulder_bash.png",
   "silentheart.png", 
-  "sing.png", 
+  "sing.png",
   "skeleton.png",
-  "skull.png", 
+  "skull.png",
   "skyshatter_kick.png", 
-  "snowflake.png", 
+  "snowflake.png",
   "soulbreaker.png",
   "spark_swap.png", 
-  "starkindred.png", 
+  "starkindred.png",
   "storm_blades.png",
-  "strong_leap.png", 
+  "strong_leap.png",
   "strong_left.png",
-  "summon_cauldron.png", 
-  "sword.png", 
-  "table_flip.png", 
-  "tacet_drop_kick.png", 
+  "summon_cauldron.png",
+  "sword.png",
+  "table_flip.png",
+  "tacet_drop_kick.png",
   "taunt.png", 
   "teeth.png",
   "tempest_blitz.png", 
-  "thunder_kick.png", 
-  "thunder_wisp.png", 
+  "thunder_kick.png",
+  "thunder_wisp.png",
   "tornado.png", 
   "tornado_kick.png",
   "twincleave.png", 
@@ -132,26 +136,23 @@ const icons = [
   "visionshaper.png",
   "voidhunter.png", 
   "wind.png",
-  "wind_gun.png",
+  "wind_gun.png", 
   "wind_passage.png"
 ];
 
 let currentIndex = 0;
 
 const centerImage = document.getElementById("center-image");
-const centerText = document.getElementById("center-text");
 const cardIcon = document.getElementById("card-icon");
-const updateButton = document.getElementById("update-card");
 
-const titleInput = document.getElementById("title-input");
-const classInput = document.getElementById("class-input");
-const descriptionInput = document.getElementById("description-input");
+const titleSizeInput = document.getElementById("title-size-input");
+const descSizeInput = document.getElementById("desc-size-input");
+
 const frozenInput = document.getElementById("frozen-input");
 const bonusesInput = document.getElementById("bonuses-input");
 const rarityInput = document.getElementById("rarities");
 const starsInput = document.getElementById("stars");
 const iconInput = document.getElementById("icon-input");
-const borderInput = document.getElementById("border-input");
 const colorInput = document.getElementById("color-input");
 
 const cardTitle = document.getElementById("card-title");
@@ -168,29 +169,21 @@ const threeStar = document.querySelector(".threestar");
 function updateIcon() {
   const iconPath = `/assets/img/icons/talent/${icons[currentIndex]}`;
   centerImage.src = iconPath;
-  centerText.textContent = formatIconName(icons[currentIndex]);
-}
-
-function formatIconName(fileName) {
-  return fileName.replace(".png", "").replace(/_/g, " ").replace(/\b\w/g, (char) => char.toUpperCase());
 }
 
 function previousIcon() {
   currentIndex = (currentIndex - 1 + icons.length) % icons.length;
   updateIcon();
+  updateCard();
 }
 
 function nextIcon() {
   currentIndex = (currentIndex + 1) % icons.length;
   updateIcon();
+  updateCard();
 }
 
-updateButton.addEventListener("click", () => {
-  cardIcon.src = `/assets/img/icons/talent/${icons[currentIndex]}`;
-
-  const title = titleInput.value;
-  const tclass = classInput.value;
-  const description = descriptionInput.value;
+function updateCard() {
   const frozen = frozenInput.checked;
   const bonuses = bonusesInput.value.split(",");
   const rarity = rarityInput.value;
@@ -198,56 +191,66 @@ updateButton.addEventListener("click", () => {
   const icon = iconInput.value;
   const customColor = colorInput.value;
 
-  if (icon) cardIcon.src = icon;
-  if (title) cardTitle.textContent = title;
-  if (tclass) cardClass.textContent = tclass;
-  if (description) cardDescription.textContent = description;
+  cardIcon.src = icon || `/assets/img/icons/talent/${icons[currentIndex]}`;
 
-  cardFrozen.style.display = frozen ? "block" : "none";
+  cardFrozen.hidden = !frozen;
 
   cardBonuses.innerHTML = "";
   bonuses.forEach((bonus) => {
-    const bonusDiv = document.createElement("div");
-    bonusDiv.classList.add("bonus");
-    bonusDiv.textContent = bonus.trim();
-    cardBonuses.appendChild(bonusDiv);
+    if (bonus.trim()) {
+      const div = document.createElement("div");
+      div.classList.add("bonus");
+      div.textContent = bonus.trim();
+      cardBonuses.appendChild(div);
+    }
   });
 
   const rarityColors = {
-    "Common": "var(--color-card-common)", 
-    "Rare": "var(--color-card-rare)", 
-    "Advanced": "var(--color-card-advanced)", 
-    "Legendary": "var(--color-card-legendary)", 
-    "Mantra": "var(--color-card-mantra)", "Bell": 
-    "var(--color-card-bell)", "Legendary Bell": 
-    "var(--color-card-legendary-bell)", 
-    "Drowned Bell": "var(--color-card-drowned-bell)", 
-    "Corrupted Bell": "var(--color-card-corrupted-bell)", 
-    "Oath": "var(--color-card-oath)", 
-    "Mystery": "var(--color-card-mystery)", 
-    "Trait": "var(--color-card-trait)", 
+    "Common": "var(--color-card-common)",
+    "Rare": "var(--color-card-rare)",
+    "Advanced": "var(--color-card-advanced)",
+    "Legendary": "var(--color-card-legendary)",
+    "Mantra": "var(--color-card-mantra)",
+    "Bell": "var(--color-card-bell)",
+    "Legendary Bell": "var(--color-card-legendary-bell)",
+    "Drowned Bell": "var(--color-card-drowned-bell)",
+    "Corrupted Bell": "var(--color-card-corrupted-bell)",
+    "Oath": "var(--color-card-oath)",
+    "Mystery": "var(--color-card-mystery)",
+    "Trait": "var(--color-card-trait)",
     "Faction": "var(--color-card-faction)"
   };
-
-  cardColor.style.backgroundColor = customColor || rarityColors[rarity] || alert("Please select a valid rarity.");
+  cardColor.style.backgroundColor = customColor || rarityColors[rarity] || "transparent";
 
   const starsDisplay = {
-    "0 stars": [false, false, false], "1 star": [true, false, false], "2 stars": [false, true, false], "3 stars": [false, false, true],
+    "0 stars": [false, false, false],
+    "1 star": [true, false, false],
+    "2 stars": [false, true, false],
+    "3 stars": [false, false, true]
   };
+  [oneStar, twoStar, threeStar].forEach((el, i) => el.hidden = !starsDisplay[stars][i]);
 
-  if (starsDisplay[stars]) {
-    [oneStar, twoStar, threeStar].forEach((el, i) => el.style.display = starsDisplay[stars][i] ? "block" : "none");
-  } else {
-    alert("Please select a valid star amount.");
-  }
+  if (titleSizeInput.value) cardTitle.style.fontSize = `${titleSizeInput.value}px`;
+  if (descSizeInput.value) cardDescription.style.fontSize = `${descSizeInput.value}px`;
+}
 
-  const descriptionLength = description.length;
-  const fontSizeMap = [[50, "14px", "90%"], [40, "16px", "85%"], [30, "18px", "80%"], [0, "20px", "75%"]];
-  
-  for (const [limit, size, width] of fontSizeMap) {
-    if (descriptionLength > limit) {
-      Object.assign(cardDescription.style, { fontSize: size, width });
-      break;
-    }
-  }
+[
+  titleSizeInput, descSizeInput, frozenInput,
+  bonusesInput, rarityInput, starsInput, iconInput,
+  colorInput
+].forEach(input => {
+  input?.addEventListener("input", updateCard);
+  input?.addEventListener("change", updateCard);
 });
+
+document.getElementById("imageInput")?.addEventListener("change", (e) => {
+  const file = e.target.files[0];
+  if (file) cardIcon.src = URL.createObjectURL(file);
+});
+
+document.getElementById("border-file-input")?.addEventListener("change", (e) => {
+  const file = e.target.files[0];
+  if (file) document.querySelector(".card-outline").src = URL.createObjectURL(file);
+});
+
+updateCard();
