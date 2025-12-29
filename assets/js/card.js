@@ -118,7 +118,7 @@ const icons = [
   "champions_whirlthrow.png", 
   "gale_lunge.png",
   "gale_punch.png",
-/*  "gale_aura.png", */
+  "gale_trap.png",
   "gale_wisp.png",
   "heavenly_wind.png",
   "pillars_of_erisia.png",
