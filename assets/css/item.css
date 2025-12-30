@@ -77,14 +77,6 @@ section {
     transform: translate(0%, -275%);
 }
 
-.star-2 {
-    transform: translate(110%, -275%);
-}
-
-.star-3 {
-    transform: translate(-110%, -275%);
-}
-
 .title {
     z-index: 1;
     font-family: Balthazar;

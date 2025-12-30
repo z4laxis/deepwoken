@@ -13,126 +13,32 @@
     src: url("/assets/fonts/Guru Regular.otf") format("opentype");
 }
 
-body {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    color: white;
-}
-
-h2 {
-    color: #fff;
-}
-
-label {
-    color: #000;
-    display: block;
-    margin: 10px 0;
-}
-
-.input, .textarea, select {
-    font-family: Arial;
-    color: #fff;
-    background-color: #616e65;
-    border: 1px solid transparent;
-    border-image: url(/assets/img/border/input.png) 7 stretch;
-    border-image-width: 10px;
-    border-image-outset: 2px;
-    width: 100%;
-    padding: 8px;
-    margin-bottom: 10px;
-    font-size: 14px;
-}i
-
-button {
-    font-family: Arial;
-    color: #fff;
-    background-color: #616e65;
-    border: 1px solid transparent;
-    border-image: url(/assets/img/border/borderthin.png) 45%;
-    border-image-width: 10px;
-    border-image-outset: 4px;
-    width: 100%;
-    padding: 8px;
-    margin-bottom: 10px;
-    font-size: 14px;
-}
-
-input:focus, textarea:focus, select:focus, button:focus {
-    outline: none;
-}
-
-.input::placeholder, .textarea::placeholder {
-    color: white;
-}
-
-input::placeholder {
-    color: #000;
-    opacity: 0;
-}
-
-input, textarea {
-    font-family: Fondamento;
-}
-
-option {
-    color: #fff;
-}
-
-button {
-    background: #3f504d;
-    color: white;
-    cursor: pointer;
-}
-
-.customization-panel {
-    max-height: 70vh; 
-    overflow-y: scroll; 
-    overflow-x: hidden;
-    background: #e5e0ca;
-    border: 1px solid transparent;
-    border-image: url("/assets/img/border/border.png") 20 stretch;
-    border-image-width: 21px;
-    width: 400px;
-    height: 85%;
+.cards {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(3, auto);
+    gap: 20px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    width: 100vw; 
+    height: 100vh; 
     padding: 20px;
-    margin-left: 20px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    -ms-overflow-style: none; 
-    scrollbar-width: none; 
+    white-space: nowrap;
 }
 
-.customization-panel::-webkit-scrollbar {
-    display: none;
-}
-
-.custom-title {
-    background-image: url("/assets/img/background/black.png");
-    background-size: 48px 48px;
-    
-    text-align: center;
-    font-family: sourcesans;
-    color: #e9eed1;
-    
-    border-top: 1px solid transparent;   
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-
-    border-bottom: 1px solid transparent;
-    border-image: url("/grey/icons/bar.png") 20 stretch;
-    border-image-width: 21px;
-    
-    padding: 10px 0;
-    width: 109%;
-    
-    position: relative;
-    left: 50%;
-    bottom: 18px;
-    transform: translate(-50%);
+body {
+    overflow-x: auto;
+    overflow-y: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #222;
+    padding: 20px;
 }
 
 .card-container {
+    transform: scale(0.5);
     display: flex;
     justify-content: center;
     flex-grow: 1;
@@ -140,14 +46,21 @@ button {
 
 .card {
     position: relative;
-    width: 300px;
-    height: 425px;
+    width: 150px;
+    height: 212.5px;
     background-size: contain;
     background-position: center;
     text-align: center;
     font-family: "Fondamento", serif;
     z-index: 2;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
 }
+
 
 .card-color {
     transform: translate(0%, 4%);
@@ -160,44 +73,44 @@ button {
 }
 
 .card-frozen {
-    pointer-events: none;
     position: absolute;
     width: 325px;
     height: 450px;
     background-repeat: no-repeat;
     background-size: 100% 100%;
     z-index: 3;
+    background-image: url(/assets/img/card/frozen.png);
     transform: translateY(-15px);
 }
 
 .card-outline {
-    pointer-events: none;
     position: absolute;
     width: 310px;
+    height: 440px;
     background-size: cover;
     z-index: 3;
+    background-image: url(/assets/img/card/outline.png);
     transform: translate(0px, -10px);
 }
 
-.card-front {
+.card-placeholder {
     position: absolute;
     width: 280px;
     height: 400px;
     background-size: cover;
     z-index: 2;
+    background-image: url(/assets/img/card/placeholder.png);
     transform: translateY(10px);
 }
 
-.input-title {
+.title {
     position: absolute;
-    top: 23.5px;
+    top: 25px;
     left: 50%;
     transform: translateX(-50%);
-    font-size: 20px;
-    color: #3a3a3a;
+    font-size: 24px;
+    color: #000;
     width: 80%;
-    border: none;
-    background: transparent;
 }
 
 .image {
@@ -213,48 +126,41 @@ button {
     height: 105%;
 }
 
-.input-card-class {
-    font-family: "PTSerif-Regular";
+.class {
     position: absolute;
-    top: 235px;
+    top: 245px;
     left: 50%;
     transform: translateX(-50%);
     font-size: 16px;
     color: #555;
-    border: none;
-    background: transparent;
-    width: 75%;
 }
 
-.input-card-state {
-    top: 265px;
-    font-weight: 600;
-    background: #dfe6d2;
-    width: 150px;
-    border: solid 1px;
-    border-radius: 6px;
-    font-style: italic;
-}
-
-.input-description {
-    font-family: "PTSerif-Regular";
-    bottom: 6%;
+.description-container {
+    position: absolute;
+    bottom: 7%;
+    left: 10%;
+    width: 80%;
+    height: 32.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     z-index: 1;
+}
+
+.description {
     position: absolute;
     left: 50%;
-    transform: translate(-50%, 10%);
+    transform: translateX(-50%);
     font-size: 18px;
     color: #222;
-    width: 75%;
+    width: 85%;
     overflow-wrap: break-word;
     line-height: 1.5;
-    height: 35%;
-    border: none;
-    background: transparent;
 }
 
 .bonuses {
-    width: 100%;
+    width: 15%;
     position: absolute;
     margin-top: 430px;
     text-align: center;
@@ -262,7 +168,7 @@ button {
     font-family: "Guru", serif;
     color: #f5f5dc;
     -webkit-text-stroke: 0.15px #5D553B;
-    text-shadow: -1px -1px 0 #5D553B, 1px -1px 0 #5D553B, -1px 1px 0 #5D553B, 1px 1px 0 #5D553B;
+    text-shadow: #5D553B 1px 1px 3px, #5D553B -1px 1px 3px, #5D553B 1px -1px 3px, #5D553B -1px -1px 3px;
 }
 
 .onestar {
@@ -283,30 +189,7 @@ button {
     left: 14%;
 }
 
-.button-container {
-    position: relative;
-}
-
-.left-button,
-.right-button {
-    height: 32px;
-    background: #3f504d;
-    border: 1px solid transparent;
-    border-image: url(/assets/img/border/borderthin.png) 45%;
-    border-image-width: 10px;
-    border-image-outset: 2px;
-}
-
-.icon-preview {
-    border: 1px solid transparent;
-    border-image: var(--border-button) 7 stretch;
-    border-image-width: 10;
-    border-image-outset: 1px;
-    width: 175px;
-    background: white;
-}
-
-.icon-background {
+.card-icon {
     position: relative;
     width: 105%;
     height: 105%;
@@ -314,24 +197,8 @@ button {
     bottom: 2.5%;
 }
 
-.card-icon {
-    opacity: 0.75;
+.bg {
     position: relative;
     bottom: 107.5%;
     left: -2%;
-}
-
-.checkbox-label {
-    display: flex;
-    align-items: center;
-}
-
-.checkbox-label input {
-    position: relative;
-    right: 50%;
-    transform: translateX(50%);
-}
-
-p {
-    text-shadow: black 0px 0px 7px;
 }
