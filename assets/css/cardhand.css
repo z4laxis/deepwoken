@@ -1,0 +1,22 @@
+.card-container {
+    zoom: 0.74;
+    position: relative;
+    bottom: 5%;
+    display: flex;
+    justify-content: center;
+    flex-grow: 0;
+}
+
+.orb {
+    position: absolute;
+    width: 100px;
+    margin: 10px auto;
+    image-rendering: pixelated;
+}
+
+main {
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
