@@ -15,6 +15,6 @@ main {
     justify-content: center;
 }
 
-input {
+input, textarea {
     text-align: center;
 }
