@@ -1,10 +1,10 @@
 .choice {
-    zoom: 0.74;
+    zoom: 0.75;
     position: relative;
     bottom: 5%;
     display: flex;
     justify-content: center;
-    flex-grow: 0;
+    flex-grow: 0.05;
 }
 
 main {
