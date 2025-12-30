@@ -193,7 +193,7 @@ button {
     top: 23.5px;
     left: 50%;
     transform: translateX(-50%);
-    font-size: 20px;
+    font-size: 24px;
     color: #3a3a3a;
     width: 80%;
     border: none;
@@ -216,7 +216,7 @@ button {
 .input-card-class {
     font-family: "PTSerif-Regular";
     position: absolute;
-    top: 235px;
+    top: 240px;
     left: 50%;
     transform: translateX(-50%);
     font-size: 16px;
@@ -227,10 +227,15 @@ button {
 }
 
 .input-card-state {
-    top: 265px;
+    font-family: "PTSerif-Regular";
+    top: 270px;
+    height: 25px;
     font-weight: 600;
+    position: relative;
+    font-size: 20px;
+    color: #575445;
     background: #dfe6d2;
-    width: 150px;
+    width: 175px;
     border: solid 1px;
     border-radius: 6px;
     font-style: italic;
