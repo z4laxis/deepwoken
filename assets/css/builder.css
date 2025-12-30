@@ -43,7 +43,7 @@ span {
 }
 
 section {
-    transform: scale(0.5);
+    zoom: 0.25;
     width: 256px;
     height: 256px;
     display: grid;
