@@ -36,7 +36,7 @@ section {
 
 .mantra {
     border-image: url(/assets/img/border/mantra.png) 45%;
-    border-image-width: 60px;
+    border-image-width: 65px;
 }
 
 .enchant-indicator {
