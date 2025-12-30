@@ -11,8 +11,8 @@
 .item-background {
     position: absolute;
     background: var(--color-item-mantra);
-    width: 90%;
-    height: 90%;
+    width: 85%;
+    height: 85%;
 }
 
 section {
@@ -55,7 +55,7 @@ section {
 
 .mantra-icon {
   position: absolute;
-  width: 240px;
+  width: 220px;
   opacity: 0.75;
 }
 
@@ -128,12 +128,4 @@ section {
 
 .hotbar-count {
     transform: translateY(-250%);
-}
-
-.gale-icon {
-  filter: invert(90%) sepia(100%) saturate(400%) hue-rotate(66deg) brightness(88%) contrast(83%);
-}
-
-.blood-icon {
-  filter: invert(6%) sepia(100%) saturate(4000%) hue-rotate(11deg) brightness(100%) contrast(100%);
 }
