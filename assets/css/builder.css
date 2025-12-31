@@ -146,6 +146,7 @@ section {
 }
 
 .stat-label {
+    font-family: Balthazarg;
     top: -10px;
     font-size: 8px;
 }
@@ -196,6 +197,7 @@ section {
 }
 
 .strength {
+    left: 0;
     background: radial-gradient(circle, #7f5849, #7f5849, #333333, #000000);
 }
 
@@ -208,6 +210,7 @@ section {
 }
 
 .intelligence {
+    left: 0;
     background: radial-gradient(circle, #61637f, #61637f, #333333, #000000);
 }
 
@@ -220,6 +223,7 @@ section {
 }
 
 .heavyweapons {
+    left: 0;
     background: radial-gradient(circle, #57657f, #57657f, #333333, #000000);
 }
 
@@ -229,6 +233,10 @@ section {
 
 .lightweapons {
     background: radial-gradient(circle, #637f65, #637f65, #333333, #000000);
+}
+
+.trait {
+    background: radial-gradient(circle, #6b492c, #6b492c, #333333, #000000);
 }
 
 .vitality {
