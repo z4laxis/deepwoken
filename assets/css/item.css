@@ -10,7 +10,6 @@
 
 .item-background {
     position: absolute;
-    background-image: linear-gradient(180deg, #ffffff, #cccccc);
     width: 85%;
     height: 85%;
 }
@@ -128,4 +127,16 @@ section {
 
 .hotbar-count {
     transform: translateY(-250%);
+}
+
+.attunementless {
+    background-image: linear-gradient(180deg, #ffffff, #cccccc);
+}
+
+.thunder {
+    background-image: linear-gradient(180deg, #dcd18f, #a59d6e);
+}
+
+.gale {
+    background-image: linear-gradient(180deg, #9bc6a4, #6f9f79);
 }
