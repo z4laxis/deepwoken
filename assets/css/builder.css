@@ -135,6 +135,21 @@ section {
     justify-content: center;
 }
 
+.traits {
+    left: 220px;
+    top: 10px;
+    width: 75px;
+    gap: 15px 17px;
+}
+
+.details {
+    left: 67px;
+    top: 8px;
+    width: 150px;
+    gap: 1px;
+    justify-content: normal;
+}
+
 .stat-label,
 .stat-name {
     position: absolute;
