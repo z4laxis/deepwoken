@@ -132,6 +132,7 @@ section {
     display: flex;
     flex-wrap: wrap;
     gap: 17px;
+    justify-content: center;
 }
 
 .stat-label,
@@ -140,7 +141,7 @@ section {
     margin: 0;
     text-align: center;
     color: wheat;
-    font-family: SourceSans;
+    font-family: JosefinSans;
     font-weight: bold;
 }
 

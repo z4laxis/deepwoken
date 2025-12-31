@@ -48,6 +48,11 @@
     src: url("/assets/fonts/PTSerif-Regular.ttf") format("truetype");
 }
 
+@font-face {
+    font-family: "JosefinSans";
+    src: url("/assets/fonts/JosefinSans-Regular.ttf") format("truetype");
+}
+
 :root {
     --background: url(/assets/img/background/black.png);
     
