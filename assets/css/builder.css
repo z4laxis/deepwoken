@@ -43,7 +43,7 @@ span {
 }
 
 section {
-    zoom: 0.3;
+    zoom: 0.25;
     width: 256px;
     height: 256px;
     display: grid;
@@ -83,6 +83,7 @@ section {
 
 .power-shadow {
     z-index: 1;
+    opacity: 0.5;
     text-shadow: -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000;
 }
 

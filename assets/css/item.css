@@ -10,7 +10,7 @@
 
 .item-background {
     position: absolute;
-    background: var(--color-item-mantra);
+    background-image: linear-gradient(180deg, #ffffff, #cccccc);
     width: 85%;
     height: 85%;
 }
