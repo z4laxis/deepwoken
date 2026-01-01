@@ -1,144 +1,112 @@
 [
     {
         "name": "Blood Scourge",
-        "cardtype": "bell",
         "class": "Resonance",
-        "icon": "death",
         "desc": "Conjure a swirling mass of chaotic energy that will drain the life out of your foes."
 
     },
 
     {
         "name": "Crazy Slots",
-        "cardtype": "bell",
         "class": "Resonance",
-        "icon": "sword",
         "desc": "Conjure an arsenal of weapons."
 
     },
     
     {
         "name": "Chorus Divide",
-        "cardtype": "bell",
         "class": "Resonance",
-        "icon": "sword",
         "desc": "Using your bell to channel your energy into a high pressure beam"
 
     },
 
     {
         "name": "Gravity Field",
-        "cardtype": "bell",
         "class": "Resonance",
-        "icon": "cube",
         "desc": "Conjure a gravity field that cripples your foes."
 
     },
 
     {
         "name": "Jar of Souls",
-        "cardtype": "bell",
         "class": "Resonance",
-        "icon": "potion",
         "desc": "Consume the souls of your enemies and unleash them in devastating attacks."
 
     },
 
     {
         "name": "Payback",
-        "cardtype": "bell",
         "class": "Resonance",
-        "icon": "fist",
         "desc": "Pay back your enemies for the damage they deal to you."
 
     },
 
     {
         "name": "Portals",
-        "cardtype": "bell",
         "class": "Resonance",
-        "icon": "spark",
         "desc": "Dive into a portal and emerge from a different point a few seconds later."
 
     },
 
     {
         "name": "Preservation",
-        "cardtype": "bell",
         "class": "Resonance",
-        "icon": "handshake",
         "desc": "Conjure a protective energy that will guide those fallen in battle towards you. The protective energy will stay the hands of death, preventing starvation, drowning and incineration."
 
     },
 
     {
         "name": "Resurrection",
-        "cardtype": "bell",
         "class": "Resonance",
-        "icon": "saviour",
         "desc": "Bless targeted allies on the battlefied that revives them when defeated."
 
     },
 
     {
         "name": "Run it Back",
-        "cardtype": "bell",
         "class": "Resonance",
-        "icon": "boots",
         "desc": "Set down a marker in space and time, returning to it after a duration."
 
     },
 
     {
         "name": "Sacred Field",
-        "cardtype": "bell",
         "class": "Resonance",
-        "icon": "cube",
         "desc": "Conjure a field of sacred light. Protecting you and your allies from harm."
 
     },
 
     {
         "name": "Shard Bow",
-        "cardtype": "bell",
         "class": "Resonance",
-        "icon": "throw",
         "desc": "Conjure a mythical bow that hails down crystallized arrows."
 
     },
 
     {
         "name": "Skeleton Key",
-        "cardtype": "bell",
         "class": "Resonance",
-        "icon": "chime",
         "desc": "Summon skeletal barriers that trap opponents and launch them across the battlefield."
 
     },
 
     {
         "name": "Smite",
-        "cardtype": "bell",
         "class": "Resonance",
-        "icon": "bolt",
         "desc": "Summon a halo of rotating orbs that will strike your foes automatically."
 
     },
 
     {
         "name": "Smokescreen",
-        "cardtype": "bell",
         "class": "Resonance",
-        "icon": "wind",
         "desc": "Create a smokescreen for a diversion!"
 
     },
 
     {
         "name": "Wind-Up",
-        "cardtype": "bell",
         "class": "Resonance",
-        "icon": "fist",
         "desc": "Wind up your arm, storing successively more energy until you finally unleash it."
 
     },
@@ -146,18 +114,14 @@
 
     {
         "name": "Dimensional Travel",
-        "cardtype": "legendary_bell",
         "class": "Legendary Resonance",
-        "icon": "eye",
         "desc": "Slip into an alternate dimension that exists alongside our own."
 
     },
 
     {
         "name": "Teleportation",
-        "cardtype": "legendary_bell",
         "class": "Legendary Resonance",
-        "icon": "mountains",
         "desc": "Travel across huge distances."
 
     }
