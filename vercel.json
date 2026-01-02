@@ -5,7 +5,7 @@
       "has": [
         { "type": "host", "value": "api.deepwoken.app" }
       ],
-      "destination": "/api/index"
+      "destination": "/api/index.js"
     },
     {
       "source": "/:path+",
