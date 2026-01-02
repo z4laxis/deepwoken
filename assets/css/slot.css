@@ -132,6 +132,10 @@ main {
     margin-bottom: 2px;
 }
 
+.pinbutton:hover, .editbutton:hover, .skullbutton:hover {
+    filter: brightness(1.5);
+}
+
 .skullbutton {
     border: 1px solid #4d3e39;
 }

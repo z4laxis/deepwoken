@@ -3,6 +3,16 @@
     {
       "source": "/:path*",
       "destination": "/:path*.html"
+    },
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "api.deepwoken.app"
+        }
+      ],
+      "destination": "/api/:path*"
     }
   ]
 }
