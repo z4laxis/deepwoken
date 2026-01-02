@@ -1,3 +1,11 @@
+main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 1200px;
+    margin: auto;
+}
+
 #contcontainer {
     margin-top: 160px;
     text-align: center;
@@ -40,10 +48,6 @@
 
 .charactercontainer {
     display: flex;
-    width: fit-content;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 25px;
 }
 
 .avatarbox {
