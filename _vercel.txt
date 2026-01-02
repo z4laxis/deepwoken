@@ -1,0 +1,1 @@
+vc-domain-verify=www.deepwoken.app,cbdcc1484194f0040f1f
