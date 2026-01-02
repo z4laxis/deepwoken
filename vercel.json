@@ -1,24 +1,7 @@
 {
   "rewrites": [
     {
-      "source": "/",
-      "has": [
-        { "type": "host", "value": "api.deepwoken.app" }
-      ],
-      "destination": "/api/index.js"
-    },
-    {
-      "source": "/:path+",
-      "has": [
-        { "type": "host", "value": "api.deepwoken.app" }
-      ],
-      "destination": "/api/:path+"
-    },
-    {
       "source": "/:path*",
-      "has": [
-        { "type": "host", "value": "deepwoken.app" }
-      ],
       "destination": "/:path*.html"
     }
   ]
