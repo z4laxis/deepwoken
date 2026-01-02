@@ -3,15 +3,15 @@
     {
       "source": "/:path*",
       "has": [
-        {
-          "type": "host",
-          "value": "api.deepwoken.app"
-        }
+        { "type": "host", "value": "api.deepwoken.app" }
       ],
       "destination": "/api/:path*"
     },
     {
       "source": "/:path*",
+      "has": [
+        { "type": "host", "value": "deepwoken.app" }
+      ],
       "destination": "/:path*.html"
     }
   ]
