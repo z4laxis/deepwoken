@@ -2,10 +2,6 @@
   "rewrites": [
     {
       "source": "/:path*",
-      "destination": "/:path*.html"
-    },
-    {
-      "source": "/:path*",
       "has": [
         {
           "type": "host",
@@ -13,6 +9,10 @@
         }
       ],
       "destination": "/api/:path*"
+    },
+    {
+      "source": "/:path*",
+      "destination": "/:path*.html"
     }
   ]
 }
