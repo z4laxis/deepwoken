@@ -119,6 +119,10 @@ body {
     background-attachment: fixed;
 }
 
+a {
+    text-decoration: none;
+}
+
 a, button, input[type="button"], input[type="submit"] {
     cursor: url("/assets/img/cursor/pointer.png"), pointer;
 }

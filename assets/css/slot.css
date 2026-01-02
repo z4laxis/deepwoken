@@ -135,3 +135,7 @@ main {
 .skullbutton {
     border: 1px solid #4d3e39;
 }
+
+#victim {
+    filter: invert(1)
+}
