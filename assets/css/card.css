@@ -170,6 +170,10 @@ button {
     transform: translateY(-15px);
 }
 
+input {
+    z-index: 2;
+}
+
 .card-outline {
     pointer-events: none;
     position: absolute;
@@ -184,8 +188,8 @@ button {
     width: 280px;
     height: 400px;
     background-size: cover;
-    z-index: 2;
-    transform: translateY(10px);
+    z-index: 1;
+    transform: translate(-77.5px, 10px);
 }
 
 .input-title {
@@ -216,10 +220,10 @@ button {
 .input-card-class {
     font-family: "PTSerif-Regular";
     position: absolute;
-    top: 240px;
+    top: 237.5px;
     left: 50%;
     transform: translateX(-50%);
-    font-size: 16px;
+    font-size: 14px;
     color: #555;
     border: none;
     background: transparent;
@@ -228,14 +232,14 @@ button {
 
 .input-card-state {
     font-family: "PTSerif-Regular";
-    top: 270px;
+    top: 265px;
     height: 25px;
     font-weight: 600;
     position: relative;
     font-size: 20px;
     color: #575445;
     background: #dfe6d2;
-    width: 175px;
+    width: 125px;
     border: solid 1px;
     border-radius: 6px;
     font-style: italic;
@@ -314,17 +318,18 @@ button {
 }
 
 .icon-background {
+    z-index: 0;
     position: relative;
-    width: 105%;
-    height: 105%;
-    right: 2.5%;
-    bottom: 2.5%;
+    right: 6%;
+    width: 110%;
+    height: 110%;
+    bottom: 6%;
 }
 
 .card-icon {
     opacity: 0.75;
     position: relative;
-    bottom: 107.5%;
+    bottom: 112%;
     left: -2%;
 }
 
