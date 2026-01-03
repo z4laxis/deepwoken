@@ -4,6 +4,7 @@ main {
     gap: 20px;
     width: 1200px;
     margin: auto;
+    font-family: Fondamento;
 }
 
 #contcontainer {
@@ -124,6 +125,7 @@ main {
 }
 
 .pinbutton, .editbutton, .skullbutton {
+    vertical-align: top;
     border: 1px solid #4d534e;
     background-color: transparent;
     transition: 0.1s;
