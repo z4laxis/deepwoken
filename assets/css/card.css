@@ -212,11 +212,6 @@ input {
     height: 135px;
 }
 
-.image img {
-    width: 105%;
-    height: 105%;
-}
-
 .input-card-class {
     font-family: "PTSerif-Regular";
     position: absolute;
@@ -327,6 +322,8 @@ input {
 }
 
 .card-icon {
+    width: 105%;
+    height: 105%;
     opacity: 0.75;
     position: relative;
     bottom: 112%;
