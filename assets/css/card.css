@@ -189,7 +189,7 @@ input {
     height: 400px;
     background-size: cover;
     z-index: 1;
-    transform: translate(-77.5px, 10px);
+    transform: translate(-140px, 10px);
 }
 
 .input-title {
