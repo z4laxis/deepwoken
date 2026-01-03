@@ -88,7 +88,6 @@ main {
 .charactertext {
     margin-left: 15px;
     margin-top: 12px;
-    font-family: selectfont;
     color: white;
     font-size: 16px;
 }
@@ -96,20 +95,17 @@ main {
 .smallertext {
     margin-left: 15px;
     margin-top: 5px;
-    font-family: selectfont;
     color: rgb(184, 184, 184);
     font-size: 16px;
     display: flex;
 }
 
 .nicknametext {
-    font-family: selectfont;
     color: rgb(184, 184, 184);
     font-size: 16px;
 }
 
 #nickname {
-    font-family: selectfont;
     color: rgb(184, 184, 184);
     font-size: 16px;
     margin-left: 175px;
