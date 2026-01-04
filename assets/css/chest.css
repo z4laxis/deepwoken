@@ -12,7 +12,7 @@ body {
     font-family: Arial, sans-serif;
     background-image: url(/assets/img/background/black.png);
     background-size: 48px 48px;
-    width: 800;
+    width: 800px;
     height: 650px;
     background-color: #2d2d2d;
     border: 2px solid #444;
@@ -20,12 +20,11 @@ body {
 }
 
 .header {
-    background-image: url(/assets/img/background/black.png);
-    background-color: #3c3c3c;
     text-align: center;
-    padding: 10px;
-    font-size: 1.2rem;
-    font-weight: bold;
+    color: var(--header-text-color);
+    margin: 10px 0 10px 0;
+    font-weight: 600;
+    font-family: sourcesans;
 }
 
 .item-list {
@@ -41,8 +40,9 @@ body {
     align-items: center;
     justify-content: space-between;
     border: 7.5px solid transparent;
-    border-image: url(/assets/img/border/border.png) 20 stretch;
-    border-image-width: 21px;
+    border-image: url(/assets/img/border/button.png) 7 stretch;
+    border-image-width: 10px;
+    border-image-outset: 2px;
     margin-bottom: 10px;
     padding: 5px;
 }

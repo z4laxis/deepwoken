@@ -80,14 +80,24 @@
     --input-bg-color: #5f6e65;
     --header-text-color: #e9eed1;
 
-    /* Loot Colors */
+    /* Item Colors */
     --color-item-mantra: #bbcecd;
-    --color-loot-mob: #a3d1b4;
-    --color-loot-schematic: #b1cac4;
-    --color-loot-training: #c9c2b2;
-    --color-loot-weapon: #a9928e;
-    --color-loot-equipment: #aa9f8d;
-    --color-loot-enchanted: #9693a8;
+    --color-item-mob: #a3d1b4;
+    --color-item-schematic: #b1cac4;
+    --color-item-training: #c9c2b2;
+    --color-item-weapon: #a9928e;
+    --color-item-equipment: #aa9f8d;
+    --color-item-enchanted: #9693a8;
+
+    /* Loot Colors */
+    --color-loot-common: #a3d1b4;
+    --color-loot-uncommon: #b1cac4;
+    --color-loot-rare: #c9c2b2;
+    --color-loot-legendary: #45af99;
+    --color-loot-mythical: #aa9f8d;
+    --color-loot-unique: #9693a8;
+    --color-loot-relic: #86ce7f;
+    --color-loot-enchanted: #c1d9c5;
     
     /* Template Borders */
     --border-window: url(/assets/img/border/border.png);
