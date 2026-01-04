@@ -32,6 +32,7 @@ main {
 
 .header {
     height: 30px;
+    font-size: 14px;
     margin-top: 5px;
     font-family: SourceSans;
     font-weight: bold;
