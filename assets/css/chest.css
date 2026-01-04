@@ -15,16 +15,24 @@ body {
     width: 800px;
     height: 650px;
     background-color: #2d2d2d;
-    border: 2px solid #444;
     overflow: hidden;
+    border: 1px solid transparent;
+    border-image: var(--border-window) 20 stretch;
+    border-image-width: 20px;
+    border-image-outset: 2px;
 }
 
 .header {
+    font-family: SourceSans;
+    position: relative;
     text-align: center;
+    font-weight: 600;
+    border: 1px solid transparent;
+    border-image: var(--border-bar) 7;
+    border-image-width: 8px;
+    border-image-outset: 10px;
     color: var(--header-text-color);
     margin: 10px 0 10px 0;
-    font-weight: 600;
-    font-family: sourcesans;
 }
 
 .item-list {
