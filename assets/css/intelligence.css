@@ -1,0 +1,10 @@
+button {
+    margin: 5px;
+    width: 90%;
+    height: 50px;
+}
+
+.cancel {
+    margin-bottom: 20px;
+    background: #9b704f;
+}
