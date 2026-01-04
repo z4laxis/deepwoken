@@ -31,8 +31,6 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
-    background-color: #2b2b2b;
     color: #fff;
     display: flex;
     justify-content: center;
@@ -42,16 +40,29 @@ body {
 }
 
 .container {
-    width: 800px;
-    background-color: #3b3b3b;
     padding: 10px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background-image: url(/assets/img/background/black.png);
+    background-size: 48px 48px;
+    width: 800px;
+    height: 650px;
+    background-color: #2d2d2d;
+    border: 1px solid transparent;
+    border-image: var(--border-window) 20 stretch;
+    border-image-width: 20px;
+    border-image-outset: 2px;
 }
 
 .header {
+    font-family: SourceSans;
+    position: relative;
     text-align: center;
-    margin-bottom: 10px;
+    font-weight: 600;
+    border: 1px solid transparent;
+    border-image: var(--border-bar) 7;
+    border-image-width: 8px;
+    border-image-outset: 10px;
+    color: var(--header-text-color);
+    margin: 10px 0 10px 0;
 }
 
 .header button {
@@ -71,11 +82,12 @@ body {
 }
 
 .item {
-    background-color: #4b4b4b;
     padding: 10px;
-    border-radius: 5px;
-    border: 2px solid #000;
     position: relative;
+    border: 7.5px solid transparent;
+    border-image: url(/assets/img/border/button.png) 7 stretch;
+    border-image-width: 10px;
+    border-image-outset: 2px;
 }
 
 .item img {
