@@ -92,10 +92,10 @@
     /* Loot Colors */
     --color-loot-common: #a3d1b4;
     --color-loot-uncommon: #b1cac4;
-    --color-loot-rare: #c9c2b2;
+    --color-loot-rare: #784f4f;
     --color-loot-legendary: #45af99;
-    --color-loot-mythical: #aa9f8d;
-    --color-loot-unique: #9693a8;
+    --color-loot-mythical: #805296;
+    --color-loot-unique: #832762;
     --color-loot-relic: #86ce7f;
     --color-loot-enchanted: #c1d9c5;
     
