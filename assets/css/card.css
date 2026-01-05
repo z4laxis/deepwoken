@@ -322,9 +322,11 @@ input {
 }
 
 .card-icon {
+    background-color: #433523;
+    mask-image: url(/assets/img/icons/talent/question.png);
+    mask-size: 141.75px;
     width: 105%;
     height: 105%;
-    opacity: 0.75;
     position: relative;
     bottom: 112%;
     left: -2%;

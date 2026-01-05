@@ -26,6 +26,10 @@
     background-color: var(--color-loot-relic);
 }
 
+.item.war {
+    background-color: var(--color-loot-war);
+}
+
 .item.enchanted {
     background-color: var(--color-loot-enchanted);
 }
