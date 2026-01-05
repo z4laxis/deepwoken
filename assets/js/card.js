@@ -199,7 +199,7 @@ function updateCard() {
   const icon = iconInput.value;
   const customColor = colorInput.value;
 
-  cardIcon.src = icon || `/assets/img/icons/talent/${icons[currentIndex]}`;
+  cardIcon.style.maskImage = icon || `url(/assets/img/icons/talent/${icons[currentIndex]})`;
 
   cardFrozen.hidden = !frozen;
 
