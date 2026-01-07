@@ -74,7 +74,7 @@ const fetchBook = async (name, page = 1) => {
 };
 
 const urlParams = new URLSearchParams(window.location.search);
-const book = urlParams.get("query");
+const book = urlParams.get("book");
 const page = parseInt(urlParams.get("page"), 10) || 1;
 
 if (book) {
