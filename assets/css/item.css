@@ -85,6 +85,7 @@ section {
 }
 
 .title-2d {
+    outline: none;
     margin-top: 45px;
     position: absolute;
     top: 0px;
