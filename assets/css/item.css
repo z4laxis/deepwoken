@@ -97,7 +97,8 @@ section {
     text-align: center;
     color: #ffffff;
     border: none;
-    height: 50px;
+    height: 100px;
+    overflow: hidden;
     background: none;
 }
 
@@ -123,6 +124,27 @@ section {
     font-weight: 500;
     font-family: sourcesans;
     font-size: 2rem;
+}
+
+.left-button,
+.right-button {
+    margin: 0 5px;
+    width: 32px;
+    height: 32px;
+    background: #3f504d;
+    border: 1px solid transparent;
+    border-image: url(/assets/img/border/borderthin.png) 45%;
+    border-image-width: 10px;
+    border-image-outset: 2px;
+}
+
+.icon-preview {
+    border: 1px solid transparent;
+    border-image: var(--border-button) 7 stretch;
+    border-image-width: 10;
+    border-image-outset: 1px;
+    width: 175px;
+    background: white;
 }
 
 .item-count {
