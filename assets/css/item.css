@@ -88,12 +88,12 @@ section {
     margin-top: 45px;
     position: absolute;
     top: 0px;
-    width: 200px;
+    width: 250px;
     -webkit-text-stroke: 0.15px #000;
     text-shadow: #000 1px 1px 3px, #000 -1px 1px 3px, #000 1px -1px 3px, #000 -1px -1px 3px;
     opacity: 0.75;
     font-family: Balthazar;
-    font-size: 3rem;
+    font-size: 3.5rem;
     text-align: center;
     color: #ffffff;
     border: none;
