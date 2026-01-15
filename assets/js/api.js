@@ -39,8 +39,7 @@ async function fetchTalentData(talentName) {
 
   document.getElementById("card-title").textContent = data.name || "Unknown Talent";
   document.getElementById("card-class").textContent = data.category || "Unknown Category";
-  document.getElementById("card-description").textContent =
-    data.desc || "No description available.";
+  document.getElementById("card-description").textContent = data.description || "No description available.";
 
   const iconElement = document.getElementById("card-icon");
   iconElement.src = "/assets/img/icons/talent/" + data.icon + ".png" || "/assets/img/icons//question.png";
@@ -65,9 +64,7 @@ async function fetchTalentData(talentName) {
   const cardColorElement = document.getElementsByClassName("card-color")[0];
   if (cardColorElement && data.rarity) {
     cardColorElement.style.backgroundColor =
-      data.rarity === "Quest"
-        ? "var(--color-common)"
-        : `var(--color-${data.rarity.toLowerCase()})`;
+      data.rarity === `var(--color-card-${data.rarity.toLowerCase()})`;
   }
 
   const descriptionElement = document.getElementById("card-description");
