@@ -47,18 +47,20 @@ async function fetchTalentData(talentName) {
   if (data.stats) {
     const bonus1Element = document.getElementById("bonus-1");
     const bonus2Element = document.getElementById("bonus-2");
-    const statsArray = data.stats.split(", ");
 
-    bonus1Element.textContent = statsArray[0] === "N/A" ? "" : statsArray[0] || "";
+    data.stats.array.forEach(bonus, index => {
+        
+    });
 
-    if (statsArray.length > 1) {
-      bonus2Element.textContent = statsArray[1];
+    bonus1Element.textContent = bonus|| "";
+
+    if (index > 1) {
+      bonus2Element.textContent = bonus;
       bonus2Element.style.display = "block";
     } else {
       bonus2Element.style.display = "none";
     }
   }
-
 
   const cardColorElement = document.getElementsByClassName("card-color")[0];
   if (cardColorElement && data.rarity) {
