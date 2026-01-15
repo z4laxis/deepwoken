@@ -30,6 +30,7 @@ async function fetchData(talentName) {
 
 async function fetchTalentData(talentName) {
   const data = await fetchData(talentName);
+  console.log(data);
 
   if (!data) {
     console.error("Talent not found.");
@@ -44,6 +45,7 @@ async function fetchTalentData(talentName) {
   const iconElement = document.getElementById("card-icon");
   iconElement.src = "/assets/img/icons/talent/" + data.icon + ".png" || "/assets/img/icons//question.png";
 
+/*
   if (data.stats) {
     const bonus1Element = document.getElementById("bonus-1");
     const bonus2Element = document.getElementById("bonus-2");
@@ -58,6 +60,7 @@ async function fetchTalentData(talentName) {
       bonus2Element.style.display = "none";
     }
   }
+*/
 
   const cardColorElement = document.getElementsByClassName("card-color")[0];
   if (cardColorElement && data.rarity) {
