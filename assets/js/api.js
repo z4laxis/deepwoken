@@ -1,89 +1,95 @@
-function fetchTalentData(talentName) {
-    if (!talentName) {
-        console.error("No talent name provided!");
-        return;
+const SUPABASE_URL = 'https://idyjvmmldtdvpklkzrgr.supabase.co';
+const SUPABASE_ANON_KEY =
+  'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImlkeWp2bW1sZHRkdnBrbGt6cmdyIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTMyODg4NTgsImV4cCI6MjA2ODg2NDg1OH0.DB-6F-joVK-oaFCw9jBoiqXlPFAMzbzh4TLE2EdD_b0';
+
+/**
+ * Fetch a single talent from Supabase by name
+ */
+async function fetchData(talentName) {
+  if (!talentName) {
+    console.error("No talent name provided!");
+    return null;
+  }
+
+  const endpoint = 'talents';
+  const url = `${SUPABASE_URL}/rest/v1/${endpoint}?select=*&name=eq.${encodeURIComponent(talentName)}&limit=1`;
+
+  const res = await fetch(url, {
+    headers: {
+      apikey: SUPABASE_ANON_KEY,
+      Authorization: `Bearer ${SUPABASE_ANON_KEY}`,
+      'Content-Type': 'application/json'
     }
+  });
 
-    fetch(`https://api.deepwoken.app/talents?name=${encodeURIComponent(talentName)}`)
-        .then(response => {
-            if (!response.ok) {
-                throw new Error('Network response was not ok');
-            }
-            return response.json();
-        })
-        .then(data => {
-            console.log("API Response:", data);
+  if (!res.ok) {
+    console.error('Supabase fetch failed:', await res.text());
+    return null;
+  }
 
-            document.getElementById("card-title").textContent = data.name || "Unknown Talent";
-            document.getElementById("card-class").textContent = data.category || "Unknown Category";
-            document.getElementById("card-description").textContent = data.desc || "No description available.";
-
-            const iconElement = document.getElementById("card-icon");
-            iconElement.src = data.icon || "/assets/img/icons/talents/question.png";
-
-            if (data.stats) {
-                const bonus1Element = document.getElementById("bonus-1");
-                const bonus2Element = document.getElementById("bonus-2");
-                const statsArray = data.stats.split(", ");
-                
-                if (statsArray[0] == "N/A") {
-                  bonus1Element.textContent = "";
-                } else {
-                  bonus1Element.textContent = statsArray[0] || "";
-                }
-                
-                
-                if (statsArray.length > 1) {
-                    bonus2Element.textContent = statsArray[1];
-                    bonus2Element.style.display = "block";
-                } else {
-                    bonus2Element.style.display = "none";
-                }
-            } else {
-                console.error("No stats available in API response.");
-                document.getElementById("bonus-1").textContent = "";
-                document.getElementById("bonus-2").style.display = "none";
-            }
-
-            const cardColorElement = document.getElementsByClassName("card-color")[0];
-            if (cardColorElement && data.rarity) {
-                cardColorElement.style.backgroundColor = `var(--color-${data.rarity.toLowerCase()})`;
-                if (data.rarity === "Quest") {
-                    cardColorElement.style.backgroundColor = "var(--color-common)";
-                }
-            } else {
-                console.error("Element with class 'card-color' not found or data.rarity is missing.");
-            }
-
-            const descriptionElement = document.getElementById("card-description");
-            const descriptionLength = descriptionElement.textContent.length;
-            if (descriptionLength > 140) {
-                descriptionElement.style.fontSize = "14px";
-            } else if (descriptionLength > 120) {
-                descriptionElement.style.fontSize = "16px";
-            } else if (descriptionLength > 90) {
-                descriptionElement.style.fontSize = "18px";
-            } else {
-                descriptionElement.style.fontSize = "20px";
-            }
-        })
-        .catch(error => {
-            console.error("Fetch error:", error);
-        });
+  const data = await res.json();
+  return data[0] ?? null;
 }
 
-document.getElementById("update-card").addEventListener("click", () => {
-    const title = document.getElementById("title-input").value.trim();
-    if (!title) {
-        console.error("Title is empty!");
-        return;
+/**
+ * UI logic (unchanged, now Supabase-backed)
+ */
+async function fetchTalentData(talentName) {
+  const data = await fetchData(talentName);
+
+  if (!data) {
+    console.error("Talent not found.");
+    return;
+  }
+
+  document.getElementById("card-title").textContent = data.name || "Unknown Talent";
+  document.getElementById("card-class").textContent = data.category || "Unknown Category";
+  document.getElementById("card-description").textContent =
+    data.desc || "No description available.";
+
+  const iconElement = document.getElementById("card-icon");
+  iconElement.src = data.icon || "/assets/img/icons/talents/question.png";
+
+  if (data.stats) {
+    const bonus1Element = document.getElementById("bonus-1");
+    const bonus2Element = document.getElementById("bonus-2");
+    const statsArray = data.stats.split(", ");
+
+    bonus1Element.textContent = statsArray[0] === "N/A" ? "" : statsArray[0] || "";
+
+    if (statsArray.length > 1) {
+      bonus2Element.textContent = statsArray[1];
+      bonus2Element.style.display = "block";
+    } else {
+      bonus2Element.style.display = "none";
     }
-    fetchTalentData(title);
+  }
+
+  const cardColorElement = document.getElementsByClassName("card-color")[0];
+  if (cardColorElement && data.rarity) {
+    cardColorElement.style.backgroundColor =
+      data.rarity === "Quest"
+        ? "var(--color-common)"
+        : `var(--color-${data.rarity.toLowerCase()})`;
+  }
+
+  const descriptionElement = document.getElementById("card-description");
+  const len = descriptionElement.textContent.length;
+  descriptionElement.style.fontSize =
+    len > 140 ? "14px" :
+    len > 120 ? "16px" :
+    len > 90  ? "18px" : "20px";
+}
+
+/**
+ * Event bindings
+ */
+document.getElementById("update-card").addEventListener("click", () => {
+  const title = document.getElementById("title-input").value.trim();
+  if (!title) return;
+  fetchTalentData(title);
 });
 
 const urlParams = new URLSearchParams(window.location.search);
-const talent = urlParams.get('query');
-
-if (talent) {
-  fetchTalentData(talent);
-}
+const talent = urlParams.get("query");
+if (talent) fetchTalentData(talent);
