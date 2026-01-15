@@ -44,7 +44,6 @@ async function fetchTalentData(talentName) {
   const iconElement = document.getElementById("card-icon");
   iconElement.src = "/assets/img/icons/talent/" + data.icon + ".png" || "/assets/img/icons//question.png";
 
-/*
   if (data.stats) {
     const bonus1Element = document.getElementById("bonus-1");
     const bonus2Element = document.getElementById("bonus-2");
@@ -59,7 +58,7 @@ async function fetchTalentData(talentName) {
       bonus2Element.style.display = "none";
     }
   }
-*/
+
 
   const cardColorElement = document.getElementsByClassName("card-color")[0];
   if (cardColorElement && data.rarity) {
@@ -75,9 +74,6 @@ async function fetchTalentData(talentName) {
     len > 90  ? "18px" : "20px";
 }
 
-/**
- * Event bindings
- */
 document.getElementById("update-card").addEventListener("click", () => {
   const title = document.getElementById("title-input").value.trim();
   if (!title) return;
