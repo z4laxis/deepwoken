@@ -4,7 +4,7 @@ function fetchTalentData(talentName) {
         return;
     }
 
-    fetch(`https://api.deepwoken.co/get?type=talent&name=${encodeURIComponent(talentName)}`)
+    fetch(`https://api.deepwoken.app/talents?name=${encodeURIComponent(talentName)}`)
         .then(response => {
             if (!response.ok) {
                 throw new Error('Network response was not ok');
@@ -19,20 +19,7 @@ function fetchTalentData(talentName) {
             document.getElementById("card-description").textContent = data.desc || "No description available.";
 
             const iconElement = document.getElementById("card-icon");
-            if (data.reqs?.attunement) {
-                if (data.reqs.attunement.Flamecharm > 0) iconElement.src = "/assets/img/icons/talent/fire.png";
-                else if (data.reqs.attunement.Frostdraw > 0) iconElement.src = "/assets/img/icons/talent/snowflake.png";
-                else if (data.reqs.attunement.Thundercall > 0) iconElement.src = "/assets/img/icons/talent/lightning.png";
-                else if (data.reqs.attunement.Galebreathe > 0) iconElement.src = "/assets/img/icons/talent/wind.png";
-                else if (data.reqs.attunement.Shadowcast > 0) iconElement.src = "/assets/img/icons/talent/rift.png";
-                else if (data.reqs.attunement.Bloodrend > 0) iconElement.src = "/assets/img/icons/talent/blood.png";
-            }
-
-            if (data.reqs?.base) {
-                if (data.reqs.base.Charisma > 0) iconElement.src = "/assets/img/icons/talent/handshake.png";
-                else if (data.reqs.base.Agility > 0) iconElement.src = "/assets/img/icons/talent/boots.png";
-                else if (data.reqs.base.Intelligence > 0) iconElement.src = "/assets/img/icons/talent/brain.png";
-            }
+            iconElement.src = data.icon || "/assets/img/icons/talents/question.png";
 
             if (data.stats) {
                 const bonus1Element = document.getElementById("bonus-1");
