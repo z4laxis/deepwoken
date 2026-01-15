@@ -2,9 +2,6 @@ const SUPABASE_URL = 'https://idyjvmmldtdvpklkzrgr.supabase.co';
 const SUPABASE_ANON_KEY =
   'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImlkeWp2bW1sZHRkdnBrbGt6cmdyIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTMyODg4NTgsImV4cCI6MjA2ODg2NDg1OH0.DB-6F-joVK-oaFCw9jBoiqXlPFAMzbzh4TLE2EdD_b0';
 
-/**
- * Fetch a single talent from Supabase by name
- */
 async function fetchData(talentName) {
   if (!talentName) {
     console.error("No talent name provided!");
@@ -31,9 +28,6 @@ async function fetchData(talentName) {
   return data[0] ?? null;
 }
 
-/**
- * UI logic (unchanged, now Supabase-backed)
- */
 async function fetchTalentData(talentName) {
   const data = await fetchData(talentName);
 
@@ -48,7 +42,7 @@ async function fetchTalentData(talentName) {
     data.desc || "No description available.";
 
   const iconElement = document.getElementById("card-icon");
-  iconElement.src = data.icon || "/assets/img/icons/talents/question.png";
+  iconElement.src = "/assets/img/icons/talent/" + data.icon + ".png" || "/assets/img/icons//question.png";
 
   if (data.stats) {
     const bonus1Element = document.getElementById("bonus-1");
