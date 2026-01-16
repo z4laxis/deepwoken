@@ -262,11 +262,13 @@ input {
     position: absolute;
     margin-top: 430px;
     text-align: center;
+    right: 75px;
 }
 
 .bonus {
     background: none;
     border: none;
+    width: 150%;
     font-size: 32px;
     font-family: "Guru", serif;
     color: #f5f5dc;

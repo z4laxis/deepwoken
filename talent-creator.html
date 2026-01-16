@@ -74,10 +74,6 @@
             <p>Vow of Iron</p>
         </div>
 
-        <div class="panel-item" data-active="false" id="bonus">
-            <p>Bonuses</p>
-        </div>
-
         <div class="panel-item" data-active="false" id="border">
             <p>Border</p>
         </div>
@@ -117,8 +113,9 @@
             <img src="/assets/img/card/3star.png" alt="3 Star" class="threestar" hidden>
 
             <div class="bonuses" id="card-bonuses">
-                <input type="text" class="bonus">
-                <input type="text" class="bonus">
+                <input type="text" spellcheck="false" class="bonus" value="Bonus 1">
+                <input type="text" spellcheck="false" class="bonus" value="Bonus 2">
+                <input type="text" spellcheck="false" class="bonus" value="NOTE: You only have 3 Bonuses" >
             </div>
         </div>
     </div>
@@ -504,18 +501,6 @@
 
           <label for="custom-card-picker">Custom Color Picker:</label>
           <input type="color" id="color-picker-input" placeholder="Enter RGB code">
-        </center>
-    </div>
-    
-    <div class="right-panel hidden" id="bonus-window">
-        <div class="background"></div>
-        <div class="border"></div>
-        <header>
-            <h1>Bonuses</h1>
-        </header>
-        <center>
-          <label for="bonuses-input">Bonuses (comma-separated):</label>
-          <input type="text" id="bonuses-input" placeholder="Enter bonuses">
         </center>
     </div>
 
