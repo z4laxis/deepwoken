@@ -50,7 +50,7 @@ body {
 .panel-item p {
     user-select: none;
     text-shadow: #000 0px 0px 2px;
-    margin: 2px 0 0 5px;
+    margin: 7.5% auto;
     color: #bbb;
     font-size: 9px;
     position: relative;
