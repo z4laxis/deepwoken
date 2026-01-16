@@ -19,12 +19,20 @@ body {
     top: 15%;
 }
 
-.left-panel {
+.center-panel {
     zoom: 1.25;
     top: 3.5%;
     margin: auto;
     position: absolute;
     display: flex;
+}
+
+.left-panel {
+    transform: scale(1.5);
+    left: 7.5%;
+    top: 17.5%;
+    position: absolute;
+    width: 199px;
 }
 
 .hidden {
