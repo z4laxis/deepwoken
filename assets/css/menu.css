@@ -20,8 +20,8 @@ body {
 }
 
 .left-panel {
-    zoom: 1.1;
-    top: 7%;
+    zoom: 1.25;
+    top: 3.5%;
     margin: auto;
     position: absolute;
     display: flex;
@@ -47,10 +47,15 @@ body {
     background: #597977;
 }
 
+.panel-item[data-active="true"] p {
+    color: #eee;
+}
+
 .panel-item p {
     user-select: none;
+    width: 80%;
     text-shadow: #000 0px 0px 2px;
-    margin: 7.5% auto;
+    margin: 10% auto;
     color: #bbb;
     font-size: 9px;
     position: relative;
