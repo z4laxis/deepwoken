@@ -117,8 +117,8 @@
             <img src="/assets/img/card/3star.png" alt="3 Star" class="threestar" hidden>
 
             <div class="bonuses" id="card-bonuses">
-                <div class="bonus" id="bonus-1"></div>
-                <div class="bonus" id="bonus-2"></div>
+                <input type="text" class="bonus">
+                <input type="text" class="bonus">
             </div>
         </div>
     </div>
@@ -480,6 +480,9 @@
                   <option value="Rare">Rare</option>
                   <option value="Advanced">Advanced</option>
                   <option value="Legendary">Legendary</option>
+                  <option value="Oath">Oath / Memento</option>
+                  <option value="Trait">Trait / Quest</option>
+                  <option value="Faction">Faction</option>
               </optgroup>
               <optgroup label="Bell">
                   <option value="Bell">Bell</option>
@@ -489,15 +492,18 @@
               </optgroup>
               <optgroup label="Misc.">
                   <option value="Mantra">Mantra</option>
-                  <option value="Oath">Oath</option>
-                  <option value="Mystery">Mystery</option>
-                  <option value="Trait">Trait</option>
-                  <option value="Faction">Faction</option>
+                  <option value="Mystery">Mystery / Roll 2</option>
               </optgroup>
           </select>
           
-          <label for="custom-card-color">Custom Color:</label>
+          <label for="custom-card-color">Custom Color (HEX):</label>
           <input type="text" id="color-input" placeholder="Enter HEX code">
+          
+          <label for="custom-card-rgb">Custom Color (RGB):</label>
+          <input type="text" id="color-rgb-input" placeholder="Enter RGB code">
+
+          <label for="custom-card-picker">Custom Color Picker:</label>
+          <input type="color" id="color-picker-input" placeholder="Enter RGB code">
         </center>
     </div>
     
@@ -559,6 +565,18 @@
         </header>
 
         <center>
+          <label for="state-input">Status :</label>
+          <select id="state">
+            <option value="Berserk" selected>Berserk</option>
+            <option value="1H Guns">1H GUNS</option>
+            <option value="Rapiers">Rapiers</option>
+            <option value="Clubs">Clubs</option>
+          </select>
+          
+          <label class="checkbox-label">
+              Enabled:
+              <input id="enabled-input" type="checkbox" name="enableFeature" value="yes">
+          </label>
 
         </center>
     </div>
@@ -572,6 +590,31 @@
 
         <center>
 
+        </center>
+    </div>
+
+    <div class="right-panel hidden" id="background-window">
+        <div class="background"></div>
+        <div class="border"></div>
+        <header>
+            <h1>Background</h1>
+        </header>
+
+        <center>
+            <label for="background-input">Background URL:</label>
+            <input type="text" id="background-input" placeholder="Enter image link">
+            
+            <label for="background-file-input">Background Image:</label>
+            <input type="file" id="background-file-input" accept="image/*">
+            
+            <label for="custom-card-color">Custom Color (HEX):</label>
+            <input type="text" id="color-input" placeholder="Enter HEX code">
+          
+            <label for="custom-card-rgb">Custom Color (RGB):</label>
+            <input type="text" id="color-rgb-input" placeholder="Enter RGB code">
+
+            <label for="custom-card-picker">Custom Color Picker:</label>
+            <input type="color" id="color-picker-input" placeholder="Enter RGB code">
         </center>
     </div>
     <script src="/assets/js/card.js"></script>

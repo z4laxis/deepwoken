@@ -157,7 +157,6 @@ const titleSizeInput = document.getElementById("title-size-input");
 const descSizeInput = document.getElementById("desc-size-input");
 
 const frozenInput = document.getElementById("frozen-input");
-const bonusesInput = document.getElementById("bonuses-input");
 const rarityInput = document.getElementById("rarities");
 const starsInput = document.getElementById("stars");
 const iconInput = document.getElementById("icon-input");
@@ -167,7 +166,6 @@ const cardTitle = document.getElementById("card-title");
 const cardClass = document.getElementById("card-class");
 const cardDescription = document.getElementById("card-description");
 const cardFrozen = document.querySelector(".card-frozen");
-const cardBonuses = document.getElementById("card-bonuses");
 const cardColor = document.querySelector(".card-color");
 
 const oneStar = document.querySelector(".onestar");
@@ -193,7 +191,6 @@ function nextIcon() {
 
 function updateCard() {
   const frozen = frozenInput.checked;
-  const bonuses = bonusesInput.value.split(",");
   const rarity = rarityInput.value;
   const stars = starsInput.value;
   const icon = iconInput.value;
@@ -202,16 +199,6 @@ function updateCard() {
   cardIcon.style.maskImage = icon || `url(/assets/img/icons/talent/${icons[currentIndex]})`;
 
   cardFrozen.hidden = !frozen;
-
-  cardBonuses.innerHTML = "";
-  bonuses.forEach((bonus) => {
-    if (bonus.trim()) {
-      const div = document.createElement("div");
-      div.classList.add("bonus");
-      div.textContent = bonus.trim();
-      cardBonuses.appendChild(div);
-    }
-  });
 
   const rarityColors = {
     "Common": "var(--color-card-common)",
@@ -244,7 +231,7 @@ function updateCard() {
 
 [
   titleSizeInput, descSizeInput, frozenInput,
-  bonusesInput, rarityInput, starsInput, iconInput,
+  rarityInput, starsInput, iconInput,
   colorInput
 ].forEach(input => {
   input?.addEventListener("input", updateCard);

@@ -262,7 +262,12 @@ input {
     position: absolute;
     margin-top: 430px;
     text-align: center;
-    font-size: 24px;
+}
+
+.bonus {
+    background: none;
+    border: none;
+    font-size: 32px;
     font-family: "Guru", serif;
     color: #f5f5dc;
     -webkit-text-stroke: 0.15px #5D553B;
