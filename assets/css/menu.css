@@ -20,8 +20,8 @@ body {
 }
 
 .left-panel {
-    zoom: 1.5;
-    top: 2.5%;
+    zoom: 1.1;
+    top: 7%;
     margin: auto;
     position: absolute;
     display: flex;
@@ -33,9 +33,9 @@ body {
 
 .panel-item {
     background: #434e4d;
-    height: 25px;
-    width: 85px;
-    margin: 1px;
+    height: 30px;
+    width: 75px;
+    margin: 1px; 
     text-align: center;
     cursor: pointer;
     border: 1px solid transparent;
@@ -44,7 +44,7 @@ body {
 }
 
 .panel-item[data-active="true"] {
-    background: #5c766f;
+    background: #597977;
 }
 
 .panel-item p {
