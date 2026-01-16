@@ -20,11 +20,11 @@ body {
 }
 
 .left-panel {
-    transform: scale(1.5);
-    left: 7.5%;
-    top: 17.5%;
+    zoom: 1.5;
+    top: 2.5%;
+    margin: auto;
     position: absolute;
-    width: 199px;
+    display: flex;
 }
 
 .hidden {
@@ -33,9 +33,10 @@ body {
 
 .panel-item {
     background: #434e4d;
-    height: 18px;
-    width: 131px;
+    height: 25px;
+    width: 85px;
     margin: 1px;
+    text-align: center;
     cursor: pointer;
     border: 1px solid transparent;
     border-image: var(--border-button) 7;
