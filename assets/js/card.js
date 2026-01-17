@@ -240,7 +240,7 @@ function updateCard() {
 
 document.getElementById("imageInput")?.addEventListener("change", (e) => {
   const file = e.target.files[0];
-  if (file) cardIcon.src = URL.createObjectURL(file);
+  if (file) cardIcon.style.maskImage = "url(" + URL.createObjectURL(file) + ")";
 });
 
 document.getElementById("border-file-input")?.addEventListener("change", (e) => {

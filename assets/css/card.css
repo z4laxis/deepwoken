@@ -266,6 +266,8 @@ input {
 }
 
 .bonus {
+    zoom: 0.75;
+    transform: none;
     background: none;
     border: none;
     width: 150%;
