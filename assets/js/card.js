@@ -161,6 +161,11 @@ const rarityInput = document.getElementById("rarities");
 const starsInput = document.getElementById("stars");
 const iconInput = document.getElementById("icon-input");
 const colorInput = document.getElementById("color-input");
+const backgroundColorInput = document.getElementById("background-color-input");
+const backgroundColorRGBInput = document.getElementById("background-color-rgb-input");
+const backgroundColorPicker = document.getElementById("background-color-picker-input");
+const cardContainer = document.querySelector(".card-container");
+const cardScaleInput = document.getElementById("card-scale-input");
 
 const cardTitle = document.getElementById("card-title");
 const cardClass = document.getElementById("card-class");
@@ -189,6 +194,22 @@ function nextIcon() {
   updateCard();
 }
 
+function applyBackgroundColor() {
+  let color = "";
+
+  if (backgroundColorPicker?.value) {
+    color = backgroundColorPicker.value;
+  } else if (backgroundColorInput?.value) {
+    color = backgroundColorInput.value;
+  } else if (backgroundColorRGBInput?.value) {
+    color = `rgb(${backgroundColorRGBInput.value})`;
+  }
+
+  if (color) {
+    cardFront.style.backgroundColor = color;
+  }
+}
+
 function updateCard() {
   const frozen = frozenInput.checked;
   const rarity = rarityInput.value;
@@ -215,7 +236,23 @@ function updateCard() {
     "Trait": "var(--color-card-trait)",
     "Faction": "var(--color-card-faction)"
   };
+
   cardColor.style.backgroundColor = customColor || rarityColors[rarity] || "transparent";
+
+  let color = "";
+
+  if (backgroundColorPicker?.value) {
+    color = backgroundColorPicker.value;
+  } else if (backgroundColorInput?.value) {
+    color = backgroundColorInput.value;
+  } else if (backgroundColorRGBInput?.value) {
+    color = `rgb(${backgroundColorRGBInput.value})`;
+  }
+
+  if (color) {
+    document.body.style.backgroundImage = "none";
+    document.body.style.backgroundColor = color;
+  }
 
   const starsDisplay = {
     "0 stars": [false, false, false],
@@ -227,16 +264,31 @@ function updateCard() {
 
   if (titleSizeInput.value) cardTitle.style.fontSize = `${titleSizeInput.value}px`;
   if (descSizeInput.value) cardDescription.style.fontSize = `${descSizeInput.value}px`;
+
+  if (!cardScaleInput || !cardContainer) return;
+  const scale = cardScaleInput.value || 100;
+  cardContainer.style.zoom = `${scale}%`;
 }
 
 [
-  titleSizeInput, descSizeInput, frozenInput,
-  rarityInput, starsInput, iconInput,
-  colorInput
+  titleSizeInput, 
+  descSizeInput, 
+  frozenInput,
+  rarityInput, 
+  starsInput, 
+  iconInput,
+  colorInput,  
+  backgroundColorInput, 
+  backgroundColorInput,
+  backgroundColorRGBInput,
+  backgroundColorPicker,
+  cardScaleInput,
 ].forEach(input => {
   input?.addEventListener("input", updateCard);
   input?.addEventListener("change", updateCard);
 });
+
+
 
 document.getElementById("imageInput")?.addEventListener("change", (e) => {
   const file = e.target.files[0];

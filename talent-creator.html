@@ -50,12 +50,12 @@
             <p>Icon</p>
         </div>
 
-        <div class="panel-item" data-active="false" id="class">
+        <div class="panel-item" data-active="false" id="class" hidden>
             <p>Class</p>
         </div>
 
         <div class="panel-item" data-active="false" id="state">
-            <p>Status Effect</p>
+            <p>Effect State</p>
         </div>
 
         <div class="panel-item" data-active="false" id="description">
@@ -86,7 +86,7 @@
             <p>Background</p>
         </div>
 
-        <div class="panel-item" data-active="false" id="animation">
+        <div class="panel-item" data-active="false" id="animation" hidden>
             <p>Animations</p>
         </div>
     </div>
@@ -553,7 +553,7 @@
           <label for="state-input">Status :</label>
           <select id="state">
             <option value="Berserk" selected>Berserk</option>
-            <option value="1H Guns">1H GUNS</option>
+            <option value="1H Guns">1H Guns</option>
             <option value="Rapiers">Rapiers</option>
             <option value="Clubs">Clubs</option>
           </select>
@@ -578,6 +578,20 @@
         </center>
     </div>
 
+    <div class="right-panel hidden" id="size-window">
+    <div class="background"></div>
+    <div class="border"></div>
+    <header>
+        <h1>Size</h1>
+    </header>
+
+    <center>
+        <label for="card-scale-input">Card Size (%):</label>
+        <input type="number" id="card-scale-input" class="input" min="50" max="150" value="100">
+    </center>
+    </div>
+
+
     <div class="right-panel hidden" id="background-window">
         <div class="background"></div>
         <div class="border"></div>
@@ -593,13 +607,13 @@
             <input type="file" id="background-file-input" accept="image/*">
             
             <label for="custom-card-color">Custom Color (HEX):</label>
-            <input type="text" id="color-input" placeholder="Enter HEX code">
+            <input type="text" id="background-color-input" placeholder="Enter HEX code">
           
             <label for="custom-card-rgb">Custom Color (RGB):</label>
-            <input type="text" id="color-rgb-input" placeholder="Enter RGB code">
+            <input type="text" id="background-color-rgb-input" placeholder="Enter RGB code">
 
             <label for="custom-card-picker">Custom Color Picker:</label>
-            <input type="color" id="color-picker-input" placeholder="Enter RGB code">
+            <input type="color" id="background-color-picker-input" placeholder="Enter RGB code">
         </center>
     </div>
     <script src="/assets/js/card.js"></script>

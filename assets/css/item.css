@@ -94,11 +94,11 @@ section {
     text-shadow: #000 1px 1px 3px, #000 -1px 1px 3px, #000 1px -1px 3px, #000 -1px -1px 3px;
     opacity: 0.75;
     font-family: Balthazar;
-    font-size: 3.5rem;
+    font-size: 3.75rem;
     text-align: center;
     color: #ffffff;
     border: none;
-    height: 100px;
+    height: 150px;
     overflow: hidden;
     background: none;
 }
