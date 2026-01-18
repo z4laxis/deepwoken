@@ -160,10 +160,12 @@ const frozenInput = document.getElementById("frozen-input");
 const rarityInput = document.getElementById("rarities");
 const starsInput = document.getElementById("stars");
 const iconInput = document.getElementById("icon-input");
-const colorInput = document.getElementById("color-input");
-const backgroundColorPicker = document.getElementById("background-color-picker-input");
+const colorInput = document.getElementById("color-picker-input");
 const cardContainer = document.querySelector(".card-container");
 const cardScaleInput = document.getElementById("card-scale-input");
+const backgroundColorPicker = document.getElementById("background-color-picker-input");
+const backgroundInput = document.getElementById("background-input");
+const backgroundFileInput = document.getElementById("background-file-input");
 
 const cardTitle = document.getElementById("card-title");
 const cardClass = document.getElementById("card-class");
@@ -197,6 +199,7 @@ function updateCard() {
   const rarity = rarityInput.value;
   const stars = starsInput.value;
   const icon = iconInput.value;
+  const selectedColor = colorInput?.value;
 
   cardIcon.style.maskImage = icon || `url(/assets/img/icons/talent/${icons[currentIndex]})`;
 
@@ -218,20 +221,15 @@ function updateCard() {
     "Faction": "var(--color-card-faction)"
   };
 
-  let backgroundcolor = "";
-  let color = "";
-
-  if (backgroundcolor) {
+  if (backgroundColorPicker.value) {
     document.body.style.backgroundImage = "none";
     document.body.style.backgroundColor = backgroundColorPicker.value;
-  }
-  else {
-      document.body.style.backgroundImage = "radial-gradient(#223125, #06110e);";
+  } else {
+    document.body.style.backgroundColor = "";
+    document.body.style.backgroundImage = "radial-gradient(#223125, #06110e)";
   }
 
-  if (color) {
-    cardColor.style.backgroundColor = color || rarityColors[rarity] || "transparent";
-  }
+  cardColor.style.backgroundColor = selectedColor || rarityColors[rarity] || "transparent";
 
   const starsDisplay = {
     "0 stars": [false, false, false],
@@ -247,6 +245,13 @@ function updateCard() {
   if (!cardScaleInput || !cardContainer) return;
   const scale = cardScaleInput.value || 100;
   cardContainer.style.zoom = `${scale}%`;
+
+  if (backgroundInput.value) {
+  document.body.style.backgroundImage = `url(${backgroundInput.value})`;
+  document.body.style.backgroundSize = "cover";
+  document.body.style.backgroundRepeat = "no-repeat";
+  document.body.style.backgroundPosition = "center";
+}
 }
 
 [
@@ -258,12 +263,13 @@ function updateCard() {
   iconInput,
   colorInput,  
   backgroundColorPicker,
+  backgroundInput,
+  backgroundFileInput,
   cardScaleInput,
 ].forEach(input => {
   input?.addEventListener("input", updateCard);
   input?.addEventListener("change", updateCard);
 });
-
 
 
 document.getElementById("imageInput")?.addEventListener("change", (e) => {
@@ -275,5 +281,17 @@ document.getElementById("border-file-input")?.addEventListener("change", (e) => 
   const file = e.target.files[0];
   if (file) document.querySelector(".card-outline").src = URL.createObjectURL(file);
 });
+
+backgroundFileInput?.addEventListener("change", (e) => {
+  const file = e.target.files[0];
+  if (!file) return;
+
+  const url = URL.createObjectURL(file);
+  document.body.style.backgroundImage = `url(${url})`;
+  document.body.style.backgroundSize = "cover";
+  document.body.style.backgroundRepeat = "no-repeat";
+  document.body.style.backgroundPosition = "center";
+});
+
 
 updateCard();
