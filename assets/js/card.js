@@ -218,7 +218,6 @@ function updateCard() {
     "Faction": "var(--color-card-faction)"
   };
 
-
   let backgroundcolor = "";
   let color = "";
 
