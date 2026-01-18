@@ -231,10 +231,8 @@ function updateCard() {
   }
 
   if (color) {
-    customColor = color
+    cardColor.style.backgroundColor = color || rarityColors[rarity] || "transparent";
   }
-
-  cardColor.style.backgroundColor = customColor || rarityColors[rarity] || "transparent";
 
   const starsDisplay = {
     "0 stars": [false, false, false],
