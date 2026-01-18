@@ -161,8 +161,6 @@ const rarityInput = document.getElementById("rarities");
 const starsInput = document.getElementById("stars");
 const iconInput = document.getElementById("icon-input");
 const colorInput = document.getElementById("color-input");
-const backgroundColorInput = document.getElementById("background-color-input");
-const backgroundColorRGBInput = document.getElementById("background-color-rgb-input");
 const backgroundColorPicker = document.getElementById("background-color-picker-input");
 const cardContainer = document.querySelector(".card-container");
 const cardScaleInput = document.getElementById("card-scale-input");
@@ -194,28 +192,11 @@ function nextIcon() {
   updateCard();
 }
 
-function applyBackgroundColor() {
-  let color = "";
-
-  if (backgroundColorPicker?.value) {
-    color = backgroundColorPicker.value;
-  } else if (backgroundColorInput?.value) {
-    color = backgroundColorInput.value;
-  } else if (backgroundColorRGBInput?.value) {
-    color = `rgb(${backgroundColorRGBInput.value})`;
-  }
-
-  if (color) {
-    cardFront.style.backgroundColor = color;
-  }
-}
-
 function updateCard() {
   const frozen = frozenInput.checked;
   const rarity = rarityInput.value;
   const stars = starsInput.value;
   const icon = iconInput.value;
-  const customColor = colorInput.value;
 
   cardIcon.style.maskImage = icon || `url(/assets/img/icons/talent/${icons[currentIndex]})`;
 
@@ -237,22 +218,23 @@ function updateCard() {
     "Faction": "var(--color-card-faction)"
   };
 
-  cardColor.style.backgroundColor = customColor || rarityColors[rarity] || "transparent";
 
+  let backgroundcolor = "";
   let color = "";
 
-  if (backgroundColorPicker?.value) {
-    color = backgroundColorPicker.value;
-  } else if (backgroundColorInput?.value) {
-    color = backgroundColorInput.value;
-  } else if (backgroundColorRGBInput?.value) {
-    color = `rgb(${backgroundColorRGBInput.value})`;
+  if (backgroundcolor) {
+    document.body.style.backgroundImage = "none";
+    document.body.style.backgroundColor = backgroundColorPicker.value;
+  }
+  else {
+      document.body.style.backgroundImage = "radial-gradient(#223125, #06110e);";
   }
 
   if (color) {
-    document.body.style.backgroundImage = "none";
-    document.body.style.backgroundColor = color;
+    customColor = color
   }
+
+  cardColor.style.backgroundColor = customColor || rarityColors[rarity] || "transparent";
 
   const starsDisplay = {
     "0 stars": [false, false, false],
@@ -278,9 +260,6 @@ function updateCard() {
   starsInput, 
   iconInput,
   colorInput,  
-  backgroundColorInput, 
-  backgroundColorInput,
-  backgroundColorRGBInput,
   backgroundColorPicker,
   cardScaleInput,
 ].forEach(input => {
