@@ -14,13 +14,13 @@
 }
 
 @font-face {
-    font-family: "Oronteus Finaeus";
-    src: url("/assets/fonts/Oronteus\ Finaeus\ W01\ Regular.ttf") format("truetype");
+    font-family: "Lato";
+    src: url("/assets/fonts/Lato-Regular.ttf") format("truetype");
 }
 
 @font-face {
-    font-family: "Lato";
-    src: url("/assets/fonts/Lato-Regular.ttf") format("truetype");
+    font-family: "RomanAntique";
+    src: url("/assets/fonts/RomanAntique.ttf") format("truetype");
 }
 
 @font-face {

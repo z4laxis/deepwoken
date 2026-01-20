@@ -33,10 +33,10 @@ body {
 }
 
 .title {
-  font-family: "Oronteus Finaeus" ;
   color: white;
   position: relative;
   z-index: 1;
+  font-family: RomanAntique;
 }
 
 .description-container {
@@ -67,6 +67,7 @@ body {
   color: white;
   position: relative;
   z-index: 1;
+  font-family: Guru;
 }
 
 .icon {
