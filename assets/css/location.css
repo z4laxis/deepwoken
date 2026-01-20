@@ -33,6 +33,7 @@ body {
 }
 
 .title {
+  font-family: "Oronteus Finaeus" ;
   color: white;
   position: relative;
   z-index: 1;
@@ -43,7 +44,7 @@ body {
   width: 550px;
   margin: 0 auto;
   text-align: center;
-  top: 56%;
+  top: 100%;
   left: 50%;
   transform: translateX(-50%)
 }
@@ -72,4 +73,5 @@ body {
   width: 30px;
   height: 45px;
   transform: translateY(10px);
+  margin: 0 15px;
 }

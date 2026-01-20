@@ -14,6 +14,11 @@
 }
 
 @font-face {
+    font-family: "Oronteus Finaeus ";
+    src: url("/assets/fonts/Oronteus\ Finaeus\ W01\ Regular.ttf") format("truetype");
+}
+
+@font-face {
     font-family: "Lato";
     src: url("/assets/fonts/Lato-Regular.ttf") format("truetype");
 }
