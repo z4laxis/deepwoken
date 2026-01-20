@@ -322,6 +322,7 @@ input {
 }
 
 .icon-background {
+    background-color: #fff;
     z-index: 0;
     position: relative;
     right: 6%;

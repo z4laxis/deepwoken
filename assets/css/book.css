@@ -87,13 +87,15 @@ body {
 }
 
 .book-content {
+    overflow: scroll;
     font-family: RomanAntique;
     font-size: 1.35rem;
     left: 5%;
     top: 22.5%;
     position: absolute;
     width: 90%;
-    height: 50%;
+    margin: 0;
+    height: 70%;
     color: #433b2d;
 }
 

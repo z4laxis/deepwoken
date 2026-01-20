@@ -4,6 +4,11 @@
 }
 
 @font-face {
+    font-family: "RomuloRegular";
+    src: url("assets/fonts/romul-font.otf") format("opentype");
+}
+
+@font-face {
     font-family: "Fondamento";
     src: url("/assets/fonts/Fondamento-Regular.ttf") format("truetype");
 }
