@@ -23,6 +23,7 @@ main {
     border: 1px solid transparent;
     border-image: var(--border-window) 20 stretch;
     border-image-width: 20px;
+    border-image-outset: 4px;
 }
 
 .background {

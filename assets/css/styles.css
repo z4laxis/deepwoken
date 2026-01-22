@@ -176,3 +176,35 @@ textarea {
     inset: 0;
     position: absolute;
 }
+
+header {
+    width: 100%;
+}
+
+.menubutton {
+    background: none;
+    border: none;
+    padding: 0;
+    width: 40px;
+}
+
+.menubutton img {
+    width: 100%;
+}
+
+#infothingy {
+    margin-top: -40px;
+    font-family: sourcesans;
+    font-size: 16px;
+    border: 1px solid transparent;
+}
+
+#infotoptext {
+    display: inline-flex;
+    color: rgb(230, 228, 228);
+}
+
+#infobottomtext {
+    margin-top: -30px;
+    color: #afb0af;
+}

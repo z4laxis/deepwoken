@@ -127,13 +127,12 @@ label {
     right: 0px;
 }
 
-
 section {
     gap: 10px;
     flex-direction: row;
 }
 
 header p {
-    margin: 0px 0 10px 0;
+    margin: 2.5px 0 10px 0;
     font-size: 14px;
 }

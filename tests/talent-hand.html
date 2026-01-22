@@ -42,117 +42,94 @@
     <img src="https://static.wikia.nocookie.net/project-deepwoken/images/c/cc/Power_Card_Icon.png" style="position: absolute;width: 100px;margin: 10px auto;image-rendering: pixelated;" class="center">
 
     <main class="center">
-        <div class="card-container choice">
-            <div class="card-color" style="background-color: var(--color-card-legendary-bell);"></div>
-            <img class="card-outline" src="/assets/img/card/outline.png">
-            <img class="card-front" src="/assets/img/card/front.png">
-            <img class="card-frozen" src="/assets/img/card/frozen.png" hidden>
+        <div class="card">
+            <div class="title" id="card-title">Talent Title</div>
+            <div class="image">
+                <img class="icon-background" src="/assets/img/card/icon.png">
+                <img class="card-icon" id="card-icon" src="/assets/img/icons/talent/question.png">
+            </div>
 
-            <div class="card">
-                <input type="text" class="input-title" id="card-title" value="Talent Title" spellcheck="false">
-                <div class="image">
-                    <img class="icon-background" src="/assets/img/card/icon.png">
-                    <img class="card-icon" id="card-icon" src="/assets/img/icons/talent/open_eye.png">
-                </div>
+            <div type="text" class="card-class" id="card-class" >Talent Class</div>
+            <div type="text" class="card-state" id="card-state"hidden>Talent State</div>
+            <div class="description-container">
+                <div class="description" id="card-description">Talent description.</div>
+            </div>
 
-                <input type="text" class="input-card-class" id="card-class" spellcheck="false" value="Talent Category" maxlength="25">
-                <input type="text" class="input-card-state" id="card-state" spellcheck="false" value="In Berserk State" maxlength="25" hidden></input>
-                <textarea class="input-description" id="card-description" spellcheck="false" rows="4" maxlength="150">Talent Description</textarea>
+            <img src="/assets/img/card/1star.png" alt="1 Star" class="onestar" hidden>
+            <img src="/assets/img/card/2star.png" alt="2 Star" class="twostar" hidden>
+            <img src="/assets/img/card/3star.png" alt="3 Star" class="threestar" hidden>
 
-                <img src="/assets/img/card/1star.png" alt="1 Star" class="onestar" hidden>
-                <img src="/assets/img/card/2star.png" alt="2 Star" class="twostar" hidden>
-                <img src="/assets/img/card/3star.png" alt="3 Star" class="threestar" hidden>
-
-                <div class="bonuses" id="card-bonuses">
-                    <div class="bonus" id="bonus-1"></div>
-                    <div class="bonus" id="bonus-2"></div>
-                </div>
+            <div class="bonuses" id="card-bonuses">
+                <div class="bonus" id="bonus-1">Bonus 1</div>
+                <div class="bonus" id="bonus-2">Bonus 2</div>
             </div>
         </div>
-        
-        <div class="card-container choice">
-            <div class="card-color" style="background-color: var(--color-card-legendary-bell);"></div>
-            <img class="card-outline" src="/assets/img/card/outline.png">
-            <img class="card-front" src="/assets/img/card/front.png">
-            <img class="card-frozen" src="/assets/img/card/frozen.png" hidden>
-
-            <div class="card">
-                <input type="text" class="input-title" id="card-title" value="Talent Title" spellcheck="false">
-                <div class="image">
-                    <img class="icon-background" src="/assets/img/card/icon.png">
-                    <img class="card-icon" id="card-icon" src="/assets/img/icons/talent/open_eye.png">
-                </div>
-
-                <input type="text" class="input-card-class" id="card-class" spellcheck="false" value="Talent Category" maxlength="25">
-                <input type="text" class="input-card-state" id="card-state" spellcheck="false" value="In Berserk State" maxlength="25" hidden></input>
-                <textarea class="input-description" id="card-description" spellcheck="false" rows="4" maxlength="150">Talent Description</textarea>
-
-                <img src="/assets/img/card/1star.png" alt="1 Star" class="onestar" hidden>
-                <img src="/assets/img/card/2star.png" alt="2 Star" class="twostar" hidden>
-                <img src="/assets/img/card/3star.png" alt="3 Star" class="threestar" hidden>
-
-                <div class="bonuses" id="card-bonuses">
-                    <div class="bonus" id="bonus-1"></div>
-                    <div class="bonus" id="bonus-2"></div>
-                </div>
+        <div class="card">
+            <div class="title" id="card-title">Talent Title</div>
+            <div class="image">
+                <img class="icon-background" src="/assets/img/card/icon.png">
+                <img class="card-icon" id="card-icon" src="/assets/img/icons/talent/question.png">
             </div>
-        </div>
-        
-        <div class="card-container choice">
-            <div class="card-color" style="background-color: var(--color-card-legendary-bell);"></div>
-            <img class="card-outline" src="/assets/img/card/outline.png">
-            <img class="card-front" src="/assets/img/card/front.png">
-            <img class="card-frozen" src="/assets/img/card/frozen.png" hidden>
 
-            <div class="card">
-                <input type="text" class="input-title" id="card-title" value="Talent Title" spellcheck="false">
-                <div class="image">
-                    <img class="icon-background" src="/assets/img/card/icon.png">
-                    <img class="card-icon" id="card-icon" src="/assets/img/icons/talent/open_eye.png">
-                </div>
-
-                <input type="text" class="input-card-class" id="card-class" spellcheck="false" value="Talent Category" maxlength="25">
-                <input type="text" class="input-card-state" id="card-state" spellcheck="false" value="In Berserk State" maxlength="25" hidden></input>
-                <textarea class="input-description" id="card-description" spellcheck="false" rows="4" maxlength="150">Talent Description</textarea>
-
-                <img src="/assets/img/card/1star.png" alt="1 Star" class="onestar" hidden>
-                <img src="/assets/img/card/2star.png" alt="2 Star" class="twostar" hidden>
-                <img src="/assets/img/card/3star.png" alt="3 Star" class="threestar" hidden>
-
-                <div class="bonuses" id="card-bonuses">
-                    <div class="bonus" id="bonus-1"></div>
-                    <div class="bonus" id="bonus-2"></div>
-                </div>
+            <div type="text" class="card-class" id="card-class" >Talent Class</div>
+            <div type="text" class="card-state" id="card-state"hidden>Talent State</div>
+            <div class="description-container">
+                <div class="description" id="card-description">Talent description.</div>
             </div>
-        </div>
 
-        <div class="card-container choice">
-            <div class="card-color" style="background-color: var(--color-card-drowned-bell);"></div>
-            <img class="card-outline" src="/assets/img/card/outline.png">
-            <img class="card-front" src="/assets/img/card/front.png">
-            <img class="card-frozen" src="/assets/img/card/frozen.png" hidden>
+            <img src="/assets/img/card/1star.png" alt="1 Star" class="onestar" hidden>
+            <img src="/assets/img/card/2star.png" alt="2 Star" class="twostar" hidden>
+            <img src="/assets/img/card/3star.png" alt="3 Star" class="threestar" hidden>
 
-            <div class="card">
-                <input type="text" class="input-title" id="card-title" value="Talent Title" spellcheck="false">
-                <div class="image">
-                    <img class="icon-background" src="/assets/img/card/icon.png">
-                    <img class="card-icon" id="card-icon" src="/assets/img/icons/talent/open_eye.png">
-                </div>
-
-                <input type="text" class="input-card-class" id="card-class" spellcheck="false" value="Talent Category" maxlength="25">
-                <input type="text" class="input-card-state" id="card-state" spellcheck="false" value="In Berserk State" maxlength="25" hidden></input>
-                <textarea class="input-description" id="card-description" spellcheck="false" rows="4" maxlength="150">Talent Description</textarea>
-
-                <img src="/assets/img/card/1star.png" alt="1 Star" class="onestar" hidden>
-                <img src="/assets/img/card/2star.png" alt="2 Star" class="twostar" hidden>
-                <img src="/assets/img/card/3star.png" alt="3 Star" class="threestar" hidden>
-
-                <div class="bonuses" id="card-bonuses">
-                    <div class="bonus" id="bonus-1"></div>
-                    <div class="bonus" id="bonus-2"></div>
-                </div>
+            <div class="bonuses" id="card-bonuses">
+                <div class="bonus" id="bonus-1">Bonus 1</div>
+                <div class="bonus" id="bonus-2">Bonus 2</div>
             </div>
-        </div>
+        </div>  
+        <div class="card">
+            <div class="title" id="card-title">Talent Title</div>
+            <div class="image">
+                <img class="icon-background" src="/assets/img/card/icon.png">
+                <img class="card-icon" id="card-icon" src="/assets/img/icons/talent/question.png">
+            </div>
+
+            <div type="text" class="card-class" id="card-class" >Talent Class</div>
+            <div type="text" class="card-state" id="card-state"hidden>Talent State</div>
+            <div class="description-container">
+                <div class="description" id="card-description">Talent description.</div>
+            </div>
+
+            <img src="/assets/img/card/1star.png" alt="1 Star" class="onestar" hidden>
+            <img src="/assets/img/card/2star.png" alt="2 Star" class="twostar" hidden>
+            <img src="/assets/img/card/3star.png" alt="3 Star" class="threestar" hidden>
+
+            <div class="bonuses" id="card-bonuses">
+                <div class="bonus" id="bonus-1">Bonus 1</div>
+                <div class="bonus" id="bonus-2">Bonus 2</div>
+            </div>
+        </div>  
+        <div class="card">
+            <div class="title" id="card-title">Talent Title</div>
+            <div class="image">
+                <img class="icon-background" src="/assets/img/card/icon.png">
+                <img class="card-icon" id="card-icon" src="/assets/img/icons/talent/question.png">
+            </div>
+
+            <div type="text" class="card-class" id="card-class" >Talent Class</div>
+            <div type="text" class="card-state" id="card-state"hidden>Talent State</div>
+            <div class="description-container">
+                <div class="description" id="card-description">Talent description.</div>
+            </div>
+
+            <img src="/assets/img/card/1star.png" alt="1 Star" class="onestar" hidden>
+            <img src="/assets/img/card/2star.png" alt="2 Star" class="twostar" hidden>
+            <img src="/assets/img/card/3star.png" alt="3 Star" class="threestar" hidden>
+
+            <div class="bonuses" id="card-bonuses">
+                <div class="bonus" id="bonus-1">Bonus 1</div>
+                <div class="bonus" id="bonus-2">Bonus 2</div>
+            </div>
+        </div> 
     </main>
 </body>
 </html>
