@@ -33,6 +33,7 @@ const icons = [
   "daggers.png", 
   "greatsword.png",
   "blood.png",
+  "silentheart.png",
   "bladeharper.png", 
   "blindseer.png",
   "chainwarden.png",

@@ -1,15 +1,16 @@
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Deepwoken - Talent API</title>
-    
+
     <link rel="stylesheet" href="/assets/css/styles.css">
     <link rel="stylesheet" href="/assets/css/template.css">
     <link rel="stylesheet" href="/assets/css/card-creator.css">
-    
+
     <link rel="icon" href="/favicon.png">
-    
+
     <link rel="preload" href="/assets/fonts/sourcesans.ttf" as="font" type="font/ttf" crossorigin="anonymous">
     <link rel="preload" href="/assets/fonts/Fondamento-Regular.ttf" as="font" type="font/ttf" crossorigin="anonymous">
     <link rel="preload" href="/assets/fonts/Guru%20Regular.otf" as="font" type="font/opentype" crossorigin="anonymous">
@@ -17,14 +18,14 @@
 </head>
 
 <body>
-  <div class="customization-panel">
-    <div class="custom-title">Customize Card</div>
+    <div class="customization-panel">
+        <div class="custom-title">Customize Card</div>
 
-    <label for="title-input">Title:</label>
-    <input type="text" id="title-input" placeholder="Enter title">
+        <label for="title-input">Title:</label>
+        <input type="text" id="title-input" placeholder="Enter title">
 
-    <button class="button" id="update-card">Submit</button>
-</div>
+        <button class="button" id="update-card">Submit</button>
+    </div>
     <div class="card-container">
         <div class="card-color"></div>
         <img class="card-outline" src="/assets/img/card/outline.png">
@@ -33,12 +34,12 @@
         <div class="card">
             <div class="title" id="card-title">Talent Title</div>
             <div class="image">
-                <img class="icon-background" src="/assets/img/card/icon.png">
+                <div class="icon-background"></div>
                 <img class="card-icon" id="card-icon" src="/assets/img/icons/talent/question.png">
             </div>
 
-            <div type="text" class="card-class" id="card-class" >Talent Class</div>
-            <div type="text" class="card-state" id="card-state"hidden>Talent State</div>
+            <div type="text" class="card-class" id="card-class">Talent Class</div>
+            <div type="text" class="card-state" id="card-state" hidden>Talent State</div>
             <div class="description-container">
                 <div class="description" id="card-description">Talent description.</div>
             </div>
@@ -51,9 +52,10 @@
                 <div class="bonus" id="bonus-1">Bonus 1</div>
                 <div class="bonus" id="bonus-2">Bonus 2</div>
             </div>
-        </div>        
+        </div>
     </div>
 
     <script src="/assets/js/api.js"></script>
 </body>
+
 </html>
