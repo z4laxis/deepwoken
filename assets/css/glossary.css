@@ -13,6 +13,12 @@
 }
 
 .content::-webkit-scrollbar-thumb {
-  background-image: url("/assets/img/scrollbar/test.png");
-  background-size: cover;
-}
+  background:
+    url("/assets/img/scrollbar/vertical/l_start.png") top center no-repeat,
+    url("/assets/img/scrollbar/vertical/l_middle.png") center center repeat-y,
+    url("/assets/img/scrollbar/vertical/l_end.png") bottom center no-repeat;
+
+  background-size:
+    100% auto,
+    100% auto,
+    100% auto;}
