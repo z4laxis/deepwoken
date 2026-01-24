@@ -13,6 +13,6 @@
 }
 
 .content::-webkit-scrollbar-thumb {
-  background-image: url("/assets/img/scrollbar/vertical/l_middle.png");
+  background-image: url("/assets/img/scrollbar/test.png");
   background-size: cover;
 }
