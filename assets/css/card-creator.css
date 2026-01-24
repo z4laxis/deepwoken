@@ -301,6 +301,7 @@ button {
 }
 
 .icon-background {
+    background-color: #fff;
     position: relative;
     width: 105%;
     height: 105%;
@@ -329,7 +330,6 @@ button {
 p {
     text-shadow: black 0px 0px 7px;
 }
-
 
 .left-button,
 .right-button {
