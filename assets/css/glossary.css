@@ -1,5 +1,5 @@
 .content {
-  background-color: grey;
+  background-color: #33393e;
   opacity: 0.75;
   height: 100%;
 }
@@ -9,7 +9,7 @@
 }
 
 .content::-webkit-scrollbar-track { 
-  background-color: lightgray;
+  background: none;
 }
 
 .content::-webkit-scrollbar-thumb {
