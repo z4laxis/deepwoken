@@ -1,0 +1,39 @@
+main {
+    height: 600px;
+    width: 800px;
+}
+
+.header {
+    display: flex;
+    height: 35px;
+    font-size: 14px;
+    font-family: SourceSans;
+    font-weight: bold;
+    position: relative;
+    text-align: center;
+    border: 1px solid transparent;
+    border-image: var(--border-bar) 3.5 stretch;
+    border-image-width: 8px;
+    color: var(--header-text-color);
+    justify-content: space-evenly;
+}
+
+.button {
+    width: 49%;
+    top: 5px;
+    position: relative;
+    height: 20px;
+    text-shadow: 1px -1px 0 black, 1px 1px 0 black, -1px -1px 0 black, -1px 1px 0 black;
+    color: white;
+    font-size: 10px;
+    cursor: pointer;
+    background-color: var(--button-bg-color);
+    border: 1px solid transparent;
+    border-image: var(--border-button) 7 stretch;
+    border-image-width: 6;
+    border-image-outset: 1px;
+}
+
+.button:active {
+    background-color: #597977;
+}
