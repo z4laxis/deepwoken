@@ -118,3 +118,24 @@ li {
     font-size: 12px;
     margin: 5px 0px;
 }
+
+.name {
+    margin: 0px 28px;
+    top: 5px;
+    font-size: 13px;
+    font-family: LibreBaskerville;
+    text-align: left;
+    position: absolute;
+}
+
+.category {
+    color: #86827a;
+    margin: 0px 28px;
+    right: 1px;
+    font-style: italic;
+    top: 5px;
+    font-size: 10px;
+    font-family: LibreBaskerville;
+    text-align: left;
+    position: absolute;
+}
