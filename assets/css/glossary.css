@@ -126,7 +126,7 @@ li {
     font-size: 13px;
     font-family: LibreBaskerville;
     text-align: left;
-    position: absolute;
+    position: relative;
 }
 
 .category {
