@@ -113,5 +113,8 @@ ul {
 li {
     display: block;
     color: #9d9c9a;
-    text-shadow: 1px -1px 1px black, 1px 1px 1px black, -1px -1px 1px black, -1px 1px 1px black;
+    text-shadow: 1px -1px 1px #44413e, 1px 1px 1px #44413e, -1px -1px 1px #44413e, -1px 1px 1px #44413e;
+    font-family: LibreBaskerville;
+    font-size: 12px;
+    margin: 5px 0px;
 }
