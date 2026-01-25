@@ -7,7 +7,10 @@ main {
     display: none;
 }
 
-img {image-rendering: pixelated; width: 100%; height: 100%;}
+.background {
+    background-image: url(https://cdn.discordapp.com/attachments/1457493227195207700/1464953914687226051/image.png?ex=69775826&is=697606a6&hm=1098ff5…);
+    background-size: 100%;
+}
 
 .header {
     display: flex;
