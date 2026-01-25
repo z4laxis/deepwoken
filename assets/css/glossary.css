@@ -26,8 +26,8 @@ input {
     border-image: url(/assets/img/border/text.png) 160 stretch;
     border-image-width: 7px;
     border-image-outset: 2px;
-    height: 20px;
-    width: 190px;
+    height: 25px;
+    width: 200px;
     position: absolute;
     top: 5px;
     right: 12.5px;
@@ -36,9 +36,16 @@ input {
     text-align: left;
 }
 
-input[type="text"]::placeholder {
+input::placeholder {
     color: #c0b5bf;
     opacity: 0.5;
+}
+
+input::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+    height: 8px;
+    width: 8px;
+    background-image: url(/assets/img/icons/book/cross.png);
 }
 
 .header {
