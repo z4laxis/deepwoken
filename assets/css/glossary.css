@@ -12,6 +12,10 @@ main {
     background-size: 100%;
 }
 
+input {
+    border-image: url(/assets/img/border/text.png);
+}
+
 .header {
     display: flex;
     height: 35px;
