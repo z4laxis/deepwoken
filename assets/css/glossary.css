@@ -7,11 +7,6 @@ main {
     display: none;
 }
 
-.background {
-    background-image: url(https://catbox.to/secure/file/vdZxG5JvRmVjK);
-    background-size: 100%;
-}
-
 .topbar {
     background: #c5beb3;
     width: 98.5%;
@@ -33,6 +28,7 @@ main {
 }
 
 .section {
+    overflow: scroll;
     background: #dad3c7;
     border: solid #bdb7ac 1px;
     width: 640px;
