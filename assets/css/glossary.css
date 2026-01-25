@@ -119,6 +119,11 @@ li {
     margin: 5px 0px;
 }
 
+.entry {
+    width: 100%;
+    height: 110px;
+}
+
 .name {
     margin: 0px 28px;
     top: 5px;
@@ -130,12 +135,24 @@ li {
 
 .category {
     color: #86827a;
-    margin: 0px 28px;
-    right: 1px;
+    left: 570px;
+    margin: 0;
+    width: 50px;
     font-style: italic;
-    top: 5px;
+    top: -15px;
     font-size: 10px;
     font-family: LibreBaskerville;
     text-align: left;
-    position: absolute;
+    position: relative;
+}
+
+.window {
+    width: 93.5%;
+    height: 85px;
+    background: linear-gradient(180deg, rgba(232, 227, 216, 1) 0%, rgba(218, 213, 203, 1) 100%);
+    border: solid #bdb7ac 1px;
+    position: relative;
+    left: 20px;
+    top: -10px;
+    border-radius: 2px;
 }
