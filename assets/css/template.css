@@ -45,6 +45,7 @@ main {
 }
 
 .content {
+    text-align: center;
     position: relative;
     height: calc(100% - 35px);
     overflow-y: auto;
