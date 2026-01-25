@@ -22,6 +22,15 @@ main {
     left: 6px;
 }
 
+.sidebar {
+    background: #6d6963;
+    width: 150px;
+    position: absolute;
+    left: 10px;
+    top: 35px;
+    height: 510px;
+}
+
 input {
     border-image: url(/assets/img/border/text.png) 160 stretch;
     border-image-width: 7px;
@@ -46,6 +55,7 @@ input::-webkit-search-cancel-button {
     height: 8px;
     width: 8px;
     background-image: url(/assets/img/icons/book/cross.png);
+    background-size: cover;
 }
 
 .header {
