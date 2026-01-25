@@ -197,10 +197,6 @@ button:hover {
     color: white;
 }
 
-.panel-item[data-active="true"]::marker {
-    background: red;
-}
-
 .stats {
     padding: 0px;
     line-height: 1.25;

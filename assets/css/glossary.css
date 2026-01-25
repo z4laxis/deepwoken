@@ -3,12 +3,8 @@ main {
     width: 800px;
 }
 
-.content {
-    position: relative;
-    height: calc(100% - 35px);
-    overflow-y: auto;
-    overflow-x: auto;
-    background-color: var(--background-color);
+.hidden {
+    display: none;
 }
 
 .header {
@@ -42,6 +38,6 @@ main {
     border-image-outset: 1px;
 }
 
-.button:active {
+.button[data-active="true"] {
     background-color: #597977;
 }
