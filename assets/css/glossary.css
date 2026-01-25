@@ -12,8 +12,33 @@ main {
     background-size: 100%;
 }
 
+.topbar {
+    background: #c5beb3;
+    width: 98.5%;
+    position: absolute;
+    border-radius: 1px;
+    border: solid #bdb7ac 1px;
+    height: 35px;
+    left: 6px;
+}
+
 input {
-    border-image: url(/assets/img/border/text.png);
+    border-image: url(/assets/img/border/text.png) 160 stretch;
+    border-image-width: 7px;
+    border-image-outset: 2px;
+    height: 20px;
+    width: 190px;
+    position: absolute;
+    top: 5px;
+    right: 12.5px;
+    font-size: 10px;
+    background-color: #676c70;
+    text-align: left;
+}
+
+input[type="text"]::placeholder {
+    color: #c0b5bf;
+    opacity: 0.5;
 }
 
 .header {
