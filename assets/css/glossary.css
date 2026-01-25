@@ -24,11 +24,22 @@ main {
 
 .sidebar {
     background: #6d6963;
+    border: solid #bdb7ac 1px;
     width: 150px;
     position: absolute;
-    left: 10px;
-    top: 35px;
-    height: 510px;
+    left: 6px;
+    top: 40px;
+    height: 517.5px;
+}
+
+.section {
+    background: #dad3c7;
+    border: solid #bdb7ac 1px;
+    width: 640px;
+    position: absolute;
+    left: 155px;
+    top: 40px;
+    height: 517.5px;
 }
 
 input {
@@ -91,4 +102,16 @@ input::-webkit-search-cancel-button {
 
 .button[data-active="true"] {
     background-color: #597977;
+}
+
+ul {
+    padding: 0;
+    margin: 5px 10px;
+    text-align: left;
+}
+
+li {
+    display: block;
+    color: #9d9c9a;
+    text-shadow: 1px -1px 1px black, 1px 1px 1px black, -1px -1px 1px black, -1px 1px 1px black;
 }
