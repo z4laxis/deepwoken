@@ -101,13 +101,20 @@ input::-webkit-search-cancel-button {
     background-color: #597977;
 }
 
+button[data-pressed="true"] {
+    color: #fff;
+}
+
 .categories {
     padding: 0;
     margin: 7.5px;
     text-align: left;
 }
 
-.categories li {
+.categories button {
+    padding: 0;
+    border: none;
+    background: none;
     display: block;
     color: #9d9c9a;
     text-shadow: 1px -1px 1px #44413e, 1px 1px 1px #44413e, -1px -1px 1px #44413e, -1px 1px 1px #44413e;

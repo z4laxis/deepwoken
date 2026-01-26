@@ -1,4 +1,5 @@
 const panelItems = document.querySelectorAll(".panel-item");
+const buttons = document.querySelectorAll(".filter");
 const rightPanels = document.querySelectorAll(".right-panel");
 
 panelItems.forEach(item => {
@@ -21,5 +22,15 @@ panelItems.forEach(item => {
         this.setAttribute("data-active", "true");
 
         if (panel) panel.classList.remove("hidden");
+    });
+});
+
+buttons.array.forEach(button => {
+    item.addEventListener("click", function () {
+        panelItems.forEach(panel => {
+            panel.setAttribute("data-active", "false");
+        });
+
+        this.setAttribute("data-active", "true");
     });
 });
