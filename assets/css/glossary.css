@@ -58,6 +58,7 @@ input::placeholder {
 }
 
 input::-webkit-search-cancel-button {
+    opacity: 0.75;
     -webkit-appearance: none;
     height: 8px;
     width: 8px;
@@ -102,7 +103,7 @@ input::-webkit-search-cancel-button {
 
 .categories {
     padding: 0;
-    margin: 5px 10px;
+    margin: 7.5px;
     text-align: left;
 }
 
@@ -151,6 +152,7 @@ input::-webkit-search-cancel-button {
     left: 20px;
     top: -5px;
     border-radius: 2px;
+    margin: 2px 0;
 }
 
 .window ul {
@@ -165,4 +167,8 @@ input::-webkit-search-cancel-button {
     padding: 5px 0;
     opacity: 0.75;
     font-family: LibreBaskerville;
+}
+
+li::marker {
+    font-size: 1.1em;
 }
