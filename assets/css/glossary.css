@@ -117,7 +117,6 @@ input::-webkit-search-cancel-button {
 
 .entry {
     width: 100%;
-    height: 110px;
 }
 
 .name {
@@ -146,11 +145,24 @@ input::-webkit-search-cancel-button {
 
 .window {
     width: 93.5%;
-    height: 85px;
     background: linear-gradient(180deg, rgba(232, 227, 216, 1) 0%, rgba(218, 213, 203, 1) 100%);
     border: solid #bdb7ac 1px;
     position: relative;
     left: 20px;
-    top: -10px;
+    top: -5px;
     border-radius: 2px;
+}
+
+.window ul {
+    list-style-type: square;
+    padding-inline-start: 0px;
+    margin: 2.5px 0 0 20px;
+}
+
+.window ul li {
+    text-align: left;
+    font-size: 11px;
+    padding: 5px 0;
+    opacity: 0.75;
+    font-family: LibreBaskerville;
 }
