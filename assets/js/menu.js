@@ -25,10 +25,10 @@ panelItems.forEach(item => {
     });
 });
 
-buttons.array.forEach(button => {
-    item.addEventListener("click", function () {
-        panelItems.forEach(panel => {
-            panel.setAttribute("data-active", "false");
+buttons.forEach(button => {
+    button.addEventListener("click", function () {
+        buttons.forEach(btn => {
+            btn.setAttribute("data-active", "false");
         });
 
         this.setAttribute("data-active", "true");
