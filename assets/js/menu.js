@@ -28,9 +28,9 @@ panelItems.forEach(item => {
 buttons.forEach(button => {
     button.addEventListener("click", function () {
         buttons.forEach(btn => {
-            btn.setAttribute("data-active", "false");
+            btn.setAttribute("data-pressed", "false");
         });
 
-        this.setAttribute("data-active", "true");
+        this.setAttribute("data-pressed", "true");
     });
 });
