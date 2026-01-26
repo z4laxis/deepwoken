@@ -132,15 +132,15 @@ input::-webkit-search-cancel-button {
 
 .category {
     color: #86827a;
-    left: 570px;
+    right: 30px;
     margin: 0;
-    width: 50px;
+    width: 100%;
     font-style: italic;
     top: -7.5px;
     opacity: 9.75;
     font-size: 10px;
     font-family: LibreBaskerville;
-    text-align: left;
+    text-align: right;
     position: relative;
 }
 
