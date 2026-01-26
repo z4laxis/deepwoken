@@ -101,7 +101,7 @@ input::-webkit-search-cancel-button {
     background-color: #597977;
 }
 
-button[data-pressed="true"] {
+.filter[data-pressed="true"] {
     color: #fff;
 }
 
@@ -138,6 +138,7 @@ button[data-pressed="true"] {
 }
 
 .category {
+    pointer-events: none;
     color: #86827a;
     right: 30px;
     margin: 0;
