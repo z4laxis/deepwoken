@@ -41,9 +41,26 @@ h2 {
     top: 42.5px;
 }
 
+.triumph-divider {
+    top: 85px;
+}
+
 .echo {
     left: 30px;
     top: 450px;
+}
+
+.echo-divider {
+    top: 490px;
+}
+
+.triumph-divider,
+.echo-divider {
+    left: 175px;
+    width: 700px;
+    height: 2px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0)); 
+    position: absolute;
 }
 
 .triumphs {
