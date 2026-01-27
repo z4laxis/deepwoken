@@ -43,7 +43,7 @@ h2 {
 
 .echo {
     left: 30px;
-    top: 445px;
+    top: 450px;
 }
 
 .triumphs {
@@ -58,6 +58,10 @@ h2 {
 
 .triumphs, 
 .echoes {
+    border: 1px solid transparent;
+    border-image: url(/assets/img/border/borderthin.png) 11 stretch;
+    border-image-width: 15px;
+    border-image-outset: 2px;
     text-align: center;
     position: relative;
     margin: auto;
