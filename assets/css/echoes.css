@@ -1,9 +1,44 @@
+.background {
+    background-image: url(/bin/W_rank.png);
+    background-size: cover;
+}
+
 main {
     width: 900px;
     height: 700px;
 }
 
-.background {
-    background-image: url(/bin/W_rank.png);
-    background-size: cover;
+h1 {
+    position: absolute;
+    color: #fff;
+    font-weight: 100;
+}
+
+.triumph {
+    left: 35px;
+    top: 42.5px;
+}
+
+.echoe {
+    left: 30px;
+    top: 445px;
+}
+
+.triumphs {
+    height: 50%;
+    top: 100px;
+}
+
+.echoes {
+    height: 25%;
+    top: 135px;
+}
+
+.triumphs, 
+.echoes {
+    text-align: center;
+    position: relative;
+    margin: auto;
+    width: 95%;
+    background-color: red;
 }
