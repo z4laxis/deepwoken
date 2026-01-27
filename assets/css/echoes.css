@@ -51,14 +51,14 @@ h2 {
 }
 
 .echo-divider {
-    top: 490px;
+    top: 492.5px;
 }
 
 .triumph-divider,
 .echo-divider {
     left: 175px;
     width: 700px;
-    height: 2px;
+    height: 1.5px;
     background-image: linear-gradient(to right, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0)); 
     position: absolute;
 }
@@ -66,6 +66,12 @@ h2 {
 .triumphs {
     height: 50%;
     top: 85px;
+    overflow: scroll;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
+    gap: 5px;
 }
 
 .echoes {
@@ -84,4 +90,11 @@ h2 {
     margin: auto;
     width: 96%;
     background-color: var(--background-color);;
+}
+
+.task {
+    width: 100%;
+    background: red;
+    height: 100px;
+    text-align: center;
 }
