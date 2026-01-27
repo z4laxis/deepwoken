@@ -4,6 +4,6 @@ main {
 }
 
 .background {
-    background-image: url(https://static.wikia.nocookie.net/project-deepwoken/images/8/81/W_rank.png);
+    background-image: url(/bin/W_rank.png);
     background-size: cover;
 }
