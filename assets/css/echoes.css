@@ -67,11 +67,9 @@ h2 {
     height: 50%;
     top: 85px;
     overflow: scroll;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    justify-items: center;
-    align-content: center;
-    gap: 5px;
+    overflow: auto;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .echoes {
@@ -92,7 +90,7 @@ h2 {
 }
 
 .task {
-    width: 100%;
+    width: 50%;
     height: 70px;
 }
 
