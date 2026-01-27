@@ -19,19 +19,19 @@ h1 {
     top: 42.5px;
 }
 
-.echoe {
+.echo {
     left: 30px;
     top: 445px;
 }
 
 .triumphs {
     height: 50%;
-    top: 100px;
+    top: 115px;
 }
 
 .echoes {
     height: 25%;
-    top: 135px;
+    top: 170px;
 }
 
 .triumphs, 
@@ -39,6 +39,6 @@ h1 {
     text-align: center;
     position: relative;
     margin: auto;
-    width: 95%;
-    background-color: red;
+    width: 97.5%;
+    background-color: var(--background-color);;
 }
