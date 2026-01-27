@@ -1,0 +1,9 @@
+main {
+    width: 900px;
+    height: 700px;
+}
+
+.background {
+    background-image: url(https://static.wikia.nocookie.net/project-deepwoken/images/8/81/W_rank.png);
+    background-size: cover;
+}
