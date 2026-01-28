@@ -99,3 +99,11 @@ h2 {
     margin: 4.5% 4%;
     font-style: italic;    
 }
+
+.underline {
+    background: #817b68;
+    left: 10px;
+    top: -15px;
+    position: relative;
+    width: 400px;
+}
