@@ -130,9 +130,9 @@ h2 {
 
 .triumphs::-webkit-scrollbar-thumb {
     background: 
-    url(/assets/img/scrollbar/vertical/l_start.png) top center no-repeat, 
-    url(/assets/img/scrollbar/vertical/l_middle.png) center center no-repeat, 
-    url(/assets/img/scrollbar/vertical/l_end.png) bottom center no-repeat;
+    url(/assets/img/scrollbar/vertical/start.png) top center no-repeat, 
+    url(/assets/img/scrollbar/vertical/middle.png) center center no-repeat, 
+    url(/assets/img/scrollbar/vertical/end.png) bottom center no-repeat;
     
     background-size: 100% 8px, 100% calc(100% - 16px), 100% 8px;
 }
