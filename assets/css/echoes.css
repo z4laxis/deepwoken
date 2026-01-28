@@ -97,13 +97,21 @@ h2 {
 .name {
     font-size: 22px;
     margin: 4.5% 4%;
-    font-style: italic;    
+    font-style: italic;
+    opacity: O.75;
 }
 
 .underline {
+    height: 1px;
     background: #817b68;
-    left: 10px;
+    left: 15px;
     top: -15px;
     position: relative;
     width: 400px;
+}
+
+.bonus {
+    position: relative;
+    font-weight: bold;
+    left: 275px;
 }
