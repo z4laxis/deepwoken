@@ -98,7 +98,7 @@ h2 {
     font-size: 22px;
     margin: 4.5% 4%;
     font-style: italic;
-    opacity: O.75;
+    opacity: 0.75;
 }
 
 .underline {
@@ -113,5 +113,6 @@ h2 {
 .bonus {
     position: relative;
     font-weight: bold;
-    left: 275px;
+    float: right;
+    margin-right: 0.1rem;
 }
