@@ -120,6 +120,23 @@ h2 {
     margin-right: 0.1rem;
 }
 
+.letter {
+    position: absolute;
+    right: 165px;
+    bottom: -130px;
+    font-family: 'Guru';
+    font-size: 135px;
+    font-style: italic;
+}
+
+.rank {
+    position: absolute;
+    right: 75px;
+    bottom: 25px;
+    font-style: italic;
+    font-size: 50px;
+}
+
 .triumphs::-webkit-scrollbar { 
   width: 6px;
 }
