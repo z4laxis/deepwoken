@@ -158,6 +158,8 @@ const titleSizeInput = document.getElementById("title-size-input");
 const descSizeInput = document.getElementById("desc-size-input");
 
 const frozenInput = document.getElementById("frozen-input");
+const favouredInput = document.getElementById("favoured-input");
+const foretoldInput = document.getElementById("foretold-input");
 const rarityInput = document.getElementById("rarities");
 const starsInput = document.getElementById("stars");
 const iconInput = document.getElementById("icon-input");
@@ -172,6 +174,8 @@ const cardTitle = document.getElementById("card-title");
 const cardClass = document.getElementById("card-class");
 const cardDescription = document.getElementById("card-description");
 const cardFrozen = document.querySelector(".card-frozen");
+const cardFavour = document.querySelector(".card-favour");
+const cardForetold = document.querySelector(".card-foretold");
 const cardColor = document.querySelector(".card-color");
 
 const oneStar = document.querySelector(".onestar");
@@ -197,6 +201,8 @@ function nextIcon() {
 
 function updateCard() {
   const frozen = frozenInput.checked;
+  const favoured = favouredInput.checked;
+  const foretold = foretoldInput.checked;
   const rarity = rarityInput.value;
   const stars = starsInput.value;
   const icon = iconInput.value;
@@ -205,6 +211,20 @@ function updateCard() {
   cardIcon.style.maskImage = icon || `url(/assets/img/icons/talent/${icons[currentIndex]})`;
 
   cardFrozen.hidden = !frozen;
+  cardFavour.hidden = !favoured;
+  cardForetold.hidden = !foretold;
+
+  if (!cardFrozen.hidden) {
+    cardFavour.hidden = true;
+    cardForetold.hidden = true;
+   } else if (!cardFavour.hidden) {
+    cardFrozen.hidden = true;
+    cardForetold.hidden = true;
+   } else if (!cardForetold.hidden) {
+    cardFrozen.hidden = true;
+    cardFavour.hidden = true;
+    }
+  }
 
   const rarityColors = {
     "Common": "var(--color-card-common)",
@@ -253,12 +273,13 @@ function updateCard() {
   document.body.style.backgroundRepeat = "no-repeat";
   document.body.style.backgroundPosition = "center";
 }
-}
 
 [
   titleSizeInput, 
   descSizeInput, 
   frozenInput,
+  favouredInput,
+  foretoldInput,
   rarityInput, 
   starsInput, 
   iconInput,

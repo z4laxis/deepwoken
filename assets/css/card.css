@@ -159,7 +159,9 @@ button {
     z-index: 1;
 }
 
-.card-frozen {
+.card-frozen,
+.card-favour,
+.card-foretold {
     pointer-events: none;
     position: absolute;
     width: 325px;
@@ -298,6 +300,13 @@ input {
 
 .button-container {
     position: relative;
+}
+
+.card-favour,
+.card-foretold {
+    width: 280px;
+    height: 400px;
+    transform: translateY(10px);
 }
 
 .left-button,
