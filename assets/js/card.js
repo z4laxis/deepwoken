@@ -217,13 +217,12 @@ function updateCard() {
   if (!cardFrozen.hidden) {
     cardFavour.hidden = true;
     cardForetold.hidden = true;
-   } else if (!cardFavour.hidden) {
+  } else if (!cardFavour.hidden) {
     cardFrozen.hidden = true;
     cardForetold.hidden = true;
-   } else if (!cardForetold.hidden) {
+  } else if (!cardForetold.hidden) {
     cardFrozen.hidden = true;
     cardFavour.hidden = true;
-    }
   }
 
   const rarityColors = {
@@ -292,6 +291,7 @@ function updateCard() {
   input?.addEventListener("input", updateCard);
   input?.addEventListener("change", updateCard);
 });
+}
 
 
 document.getElementById("imageInput")?.addEventListener("change", (e) => {
