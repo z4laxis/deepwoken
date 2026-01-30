@@ -90,6 +90,7 @@ main {
     margin-top: 12px;
     color: white;
     font-size: 16px;
+    width: 375px;
 }
 
 .smallertext {
@@ -108,8 +109,9 @@ main {
 #nickname {
     color: rgb(184, 184, 184);
     font-size: 16px;
-    margin-left: 175px;
     text-align: center;
+    float: right;
+    margin: 0;
 }
 
 .buttonholder {
