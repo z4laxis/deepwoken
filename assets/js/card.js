@@ -154,6 +154,7 @@ let currentIconIndex = 0;
 const centerImage = document.getElementById("center-image");
 const cardIcon = document.getElementById("card-icon");
 const cardContainer = document.querySelector(".card-container");
+const cardColor = document.querySelector(".card-color");
 
 const titleSizeInput = document.getElementById("title-size-input");
 const descSizeInput = document.getElementById("desc-size-input");
@@ -270,8 +271,7 @@ function updateCard() {
   cardIcon.style.maskImage = `url(/assets/img/icons/talent/${icons[currentIconIndex]})`;
 
   const rarity = rarityInput.value;
-  cardIcon.style.backgroundColor =
-    colorInput.value || rarityColors[rarity] || "#fff";
+  cardColor.style.backgroundColor = colorInput.value || rarityColors[rarity] || "#fff";
 
   if (titleSizeInput.value)
     cardTitle.style.fontSize = titleSizeInput.value + "px";
