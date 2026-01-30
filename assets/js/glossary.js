@@ -15,10 +15,13 @@ function search() {
 }
 
 function filter(category) {
-  entries.forEach(entry => {
-    const cat = entry.querySelector(".category").textContent.toLowerCase();
+  const selected = category.toLowerCase();
 
-    if (cat.includes(category)) {
+  entries.forEach(entry => {
+    const entryCategory =
+      entry.querySelector(".category").textContent.toLowerCase();
+
+    if (entryCategory === selected) {
       entry.classList.remove("hidden");
     } else {
       entry.classList.add("hidden");
