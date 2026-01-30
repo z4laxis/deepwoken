@@ -149,171 +149,154 @@ const icons = [
   "tempest_blitz.png"
 ];
 
-let currentIndex = 0;
+let currentIconIndex = 0;
 
 const centerImage = document.getElementById("center-image");
 const cardIcon = document.getElementById("card-icon");
+const cardContainer = document.querySelector(".card-container");
 
 const titleSizeInput = document.getElementById("title-size-input");
 const descSizeInput = document.getElementById("desc-size-input");
 
 const frozenInput = document.getElementById("frozen-input");
-const favouredInput = document.getElementById("favoured-input");
+const favouredInput = document.getElementById("favour-input");
 const foretoldInput = document.getElementById("foretold-input");
+
 const rarityInput = document.getElementById("rarities");
 const starsInput = document.getElementById("stars");
-const iconInput = document.getElementById("icon-input");
+
 const colorInput = document.getElementById("color-picker-input");
-const cardContainer = document.querySelector(".card-container");
-const cardScaleInput = document.getElementById("card-scale-input");
-const backgroundColorPicker = document.getElementById("background-color-picker-input");
-const backgroundInput = document.getElementById("background-input");
-const backgroundFileInput = document.getElementById("background-file-input");
+const scaleInput = document.getElementById("card-scale-input");
+
+const bgColorInput = document.getElementById("background-color-picker-input");
+const bgUrlInput = document.getElementById("background-input");
 
 const cardTitle = document.getElementById("card-title");
-const cardClass = document.getElementById("card-class");
 const cardDescription = document.getElementById("card-description");
+
 const cardFrozen = document.querySelector(".card-frozen");
 const cardFavour = document.querySelector(".card-favour");
 const cardForetold = document.querySelector(".card-foretold");
-const cardColor = document.querySelector(".card-color");
 
 const oneStar = document.querySelector(".onestar");
 const twoStar = document.querySelector(".twostar");
 const threeStar = document.querySelector(".threestar");
 
-function updateIcon() {
-  const iconPath = `/assets/img/icons/talent/${icons[currentIndex]}`;
-  centerImage.src = iconPath;
-}
+const rarityColors = {
+  Common: "var(--color-card-common)",
+  Rare: "var(--color-card-rare)",
+  Advanced: "var(--color-card-advanced)",
+  Legendary: "var(--color-card-legendary)",
 
-function previousIcon() {
-  currentIndex = (currentIndex - 1 + icons.length) % icons.length;
-  updateIcon();
-  updateCard();
+  Mantra: "var(--color-card-mantra)",
+  Bell: "var(--color-card-bell)",
+  "Legendary Bell": "var(--color-card-legendary-bell)",
+  "Drowned Bell": "var(--color-card-drowned-bell)",
+  "Corrupted Bell": "var(--color-card-corrupted-bell)",
+
+  Oath: "var(--color-card-oath)",
+  Mystery: "var(--color-card-mystery)",
+  Trait: "var(--color-card-trait)",
+  Faction: "var(--color-card-faction)",
+};
+
+function updateIcon() {
+  centerImage.src = `/assets/img/icons/talent/${icons[currentIconIndex]}`;
 }
 
 function nextIcon() {
-  currentIndex = (currentIndex + 1) % icons.length;
+  currentIconIndex++;
+  if (currentIconIndex >= icons.length) currentIconIndex = 0;
   updateIcon();
   updateCard();
 }
 
-function updateCard() {
-  const frozen = frozenInput.checked;
-  const favoured = favouredInput.checked;
-  const foretold = foretoldInput.checked;
-  const rarity = rarityInput.value;
-  const stars = starsInput.value;
-  const icon = iconInput.value;
-  const selectedColor = colorInput?.value;
-
-  cardIcon.style.maskImage = icon || `url(/assets/img/icons/talent/${icons[currentIndex]})`;
-
-  cardFrozen.hidden = !frozen;
-  cardFavour.hidden = !favoured;
-  cardForetold.hidden = !foretold;
-
-  if (!cardFrozen.hidden) {
-    cardFavour.hidden = true;
-    cardForetold.hidden = true;
-  } else if (!cardFavour.hidden) {
-    cardFrozen.hidden = true;
-    cardForetold.hidden = true;
-  } else if (!cardForetold.hidden) {
-    cardFrozen.hidden = true;
-    cardFavour.hidden = true;
-  }
-
-  const rarityColors = {
-    "Common": "var(--color-card-common)",
-    "Rare": "var(--color-card-rare)",
-    "Advanced": "var(--color-card-advanced)",
-    "Legendary": "var(--color-card-legendary)",
-    "Mantra": "var(--color-card-mantra)",
-    "Bell": "var(--color-card-bell)",
-    "Legendary Bell": "var(--color-card-legendary-bell)",
-    "Drowned Bell": "var(--color-card-drowned-bell)",
-    "Corrupted Bell": "var(--color-card-corrupted-bell)",
-    "Oath": "var(--color-card-oath)",
-    "Mystery": "var(--color-card-mystery)",
-    "Trait": "var(--color-card-trait)",
-    "Faction": "var(--color-card-faction)"
-  };
-
-  if (backgroundColorPicker.value) {
-    document.body.style.backgroundImage = "none";
-    document.body.style.backgroundColor = backgroundColorPicker.value;
-  } else {
-    document.body.style.backgroundColor = "";
-    document.body.style.backgroundImage = "radial-gradient(#223125, #06110e)";
-  }
-
-  cardColor.style.backgroundColor = selectedColor || rarityColors[rarity] || "transparent";
-
-  const starsDisplay = {
-    "0 stars": [false, false, false],
-    "1 star": [true, false, false],
-    "2 stars": [false, true, false],
-    "3 stars": [false, false, true]
-  };
-  [oneStar, twoStar, threeStar].forEach((el, i) => el.hidden = !starsDisplay[stars][i]);
-
-  if (titleSizeInput.value) cardTitle.style.fontSize = `${titleSizeInput.value}px`;
-  if (descSizeInput.value) cardDescription.style.fontSize = `${descSizeInput.value}px`;
-
-  if (!cardScaleInput || !cardContainer) return;
-  const scale = cardScaleInput.value || 100;
-  cardContainer.style.zoom = `${scale}%`;
-
-  if (backgroundInput.value) {
-  document.body.style.backgroundImage = `url(${backgroundInput.value})`;
-  document.body.style.backgroundSize = "cover";
-  document.body.style.backgroundRepeat = "no-repeat";
-  document.body.style.backgroundPosition = "center";
+function previousIcon() {
+  currentIconIndex--;
+  if (currentIconIndex < 0) currentIconIndex = icons.length - 1;
+  updateIcon();
+  updateCard();
 }
 
+function updateSpecialBadges() {
+  cardFrozen.hidden = !frozenInput.checked;
+  cardFavour.hidden = !favouredInput.checked;
+  cardForetold.hidden = !foretoldInput.checked;
+
+  if (frozenInput.checked) {
+    cardFavour.hidden = true;
+    cardForetold.hidden = true;
+  }
+  if (favouredInput.checked) {
+    cardFrozen.hidden = true;
+    cardForetold.hidden = true;
+  }
+  if (foretoldInput.checked) {
+    cardFrozen.hidden = true;
+    cardFavour.hidden = true;
+  }
+}
+
+function updateStars() {
+  oneStar.hidden = true;
+  twoStar.hidden = true;
+  threeStar.hidden = true;
+
+  if (starsInput.value === "1 star") oneStar.hidden = false;
+  if (starsInput.value === "2 stars") twoStar.hidden = false;
+  if (starsInput.value === "3 stars") threeStar.hidden = false;
+}
+
+function updateBackground() {
+  if (bgColorInput.value) {
+    document.body.style.background = bgColorInput.value;
+    return;
+  }
+
+  if (bgUrlInput.value) {
+    document.body.style.background =
+      `url(${bgUrlInput.value}) center / cover no-repeat`;
+    return;
+  }
+
+  document.body.style.background = "radial-gradient(#223125, #06110e)";
+}
+
+function updateCard() {
+  updateSpecialBadges();
+  updateStars();
+  updateBackground();
+
+  cardIcon.style.maskImage = `url(/assets/img/icons/talent/${icons[currentIconIndex]})`;
+
+  const rarity = rarityInput.value;
+  cardIcon.style.backgroundColor =
+    colorInput.value || rarityColors[rarity] || "#fff";
+
+  if (titleSizeInput.value)
+    cardTitle.style.fontSize = titleSizeInput.value + "px";
+
+  if (descSizeInput.value)
+    cardDescription.style.fontSize = descSizeInput.value + "px";
+
+  if (scaleInput.value)
+    cardContainer.style.zoom = scaleInput.value + "%";
+}
 [
-  titleSizeInput, 
-  descSizeInput, 
+  titleSizeInput,
+  descSizeInput,
   frozenInput,
   favouredInput,
   foretoldInput,
-  rarityInput, 
-  starsInput, 
-  iconInput,
-  colorInput,  
-  backgroundColorPicker,
-  backgroundInput,
-  backgroundFileInput,
-  cardScaleInput,
+  rarityInput,
+  starsInput,
+  colorInput,
+  scaleInput,
+  bgColorInput,
+  bgUrlInput
 ].forEach(input => {
-  input?.addEventListener("input", updateCard);
-  input?.addEventListener("change", updateCard);
-});
-}
-
-
-document.getElementById("imageInput")?.addEventListener("change", (e) => {
-  const file = e.target.files[0];
-  if (file) cardIcon.style.maskImage = "url(" + URL.createObjectURL(file) + ")";
+  input.addEventListener("input", updateCard);
 });
 
-document.getElementById("border-file-input")?.addEventListener("change", (e) => {
-  const file = e.target.files[0];
-  if (file) document.querySelector(".card-outline").src = URL.createObjectURL(file);
-});
-
-backgroundFileInput?.addEventListener("change", (e) => {
-  const file = e.target.files[0];
-  if (!file) return;
-
-  const url = URL.createObjectURL(file);
-  document.body.style.backgroundImage = `url(${url})`;
-  document.body.style.backgroundSize = "cover";
-  document.body.style.backgroundRepeat = "no-repeat";
-  document.body.style.backgroundPosition = "center";
-});
-
-
+updateIcon();
 updateCard();
