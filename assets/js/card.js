@@ -272,6 +272,7 @@ function updateCard() {
 
   const rarity = rarityInput.value;
   cardColor.style.backgroundColor = colorInput.value || rarityColors[rarity] || "#fff";
+  console.log(colorInput.value)
 
   if (titleSizeInput.value)
     cardTitle.style.fontSize = titleSizeInput.value + "px";

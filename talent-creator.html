@@ -50,7 +50,7 @@
             <p>Icon</p>
         </div>
 
-        <div class="panel-item" data-active="false" id="class" hidden>
+        <div class="panel-item" data-active="false" id="class">
             <p>Class</p>
         </div>
 
@@ -143,6 +143,9 @@
         </header>
 
         <center>
+            <label for="class-size-input">Class size:</label>
+            <input type="number" class="input" id="class-size-input" placeholder="Enter class size" min="20" max="24">
+
             <label for="category-input">Category:</label>
             <select id="categories" name="categories">
                 <optgroup label="Agility">
@@ -202,7 +205,6 @@
                 
                 <optgroup label="Strength">
                     <option value="annihilator">Annihilator</option>
-                    <option value="berserker">Berserker</option>
                     <option value="colossus">Colossus</option>
                     <option value="duelist">Duelist</option>
                     <option value="elementalrebound">Elemental Rebound</option>
@@ -300,6 +302,11 @@
                     <option value="superconductor">Super Conductor</option>
                 </optgroup>
                 
+                <optgroup label="Lifeweave">
+                    <option value="lifeweaver">Lifeweaver</option>
+                    <option value="lifeweavermaster">Lifeweave Master</option>
+                </optgroup>
+
                 <optgroup label="Shadowcast">
                     <option value="darksiphon">Darksiphon</option>
                     <option value="deathspeaker">Death Speaker</option>
@@ -348,6 +355,28 @@
                     <option value="soulbreaker">Soulbreaker</option>
                     <option value="starkindred">Starkindred</option>
                     <option value="visionshaper">Visionshaper</option>
+                    <option value="voidhunter">Voidhunter</option>
+                </optgroup>
+
+                <optgroup label="Memento">
+                    <option value="berserker">Berserker</option>
+                    <option value="breaker">Breaker</option>
+                    <option value="drifter">Drifter</option>
+                    <option value="ethererudite">Ether Erudite</option>
+                    <option value="flameworshipper">Flame Worshipper</option>
+                    <option value="flashingthunder">Flashing thunder</option>
+                    <option value="inheritorofthegale">Inheritor of the Gale</option>
+                    <option value="ironvessel">Iron Vessel</option>
+                    <option value="princeofthemoon">Prince of the Moon</option>
+                    <option value="rogueassasin">Rogue Assasin</option>
+                    <option value="sightless">Sightless</option>
+                    <option value="solborn">Solborn</option>
+                    <option value="speardancer">Spear Dancer</option>
+                    <option value="steampunksoldier">Steampunk Soldier</option>
+                    <option value="strangemerchant">Strange Merchant</option>
+                    <option value="therosdisciple">Theros Disciple</option>
+                    <option value="voidglutton">Void Glutton</option>
+                    <option value="wanderingdemon">Wandering Demon</option>
                 </optgroup>
                 
                 <optgroup label="Origins">
@@ -556,7 +585,12 @@
         </header>
 
         <center>
-          <label for="condition-input">Status :</label>
+          <label class="checkbox-label">
+              Enabled:
+              <input id="enabled-input" type="checkbox" name="enableFeature" value="yes">
+          </label>
+
+          <label for="condition-input">Condition :</label>
           <select id="condition">
             <option value="Berserk" selected>Berserk</option>
             <option value="1H Guns">In Arc Suit</option>
@@ -564,16 +598,11 @@
             <option value="Rapiers">1H Guns</option>
             <option value="Rapiers">Rifles</option>
             <option value="Rapiers">Rapiers</option>
-            <option value="Rapiers">Rapiers</option>
+            <option value="Clubs">Clubs</option>
             <option value="Rapiers">Rapiers</option>
             <option value="Rapiers">Rapiers</option>
             <option value="Clubs">Clubs</option>
           </select>
-          
-          <label class="checkbox-label">
-              Enabled:
-              <input id="enabled-input" type="checkbox" name="enableFeature" value="yes">
-          </label>
 
         </center>
     </div>
