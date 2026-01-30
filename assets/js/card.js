@@ -224,16 +224,16 @@ function updateSpecialBadges() {
   cardForetold.hidden = !foretoldInput.checked;
 
   if (frozenInput.checked) {
-    cardFavour.hidden = true;
-    cardForetold.hidden = true;
+    favouredInput.checked = false;
+    foretoldInput.checked = false;
   }
   if (favouredInput.checked) {
-    cardFrozen.hidden = true;
-    cardForetold.hidden = true;
+    frozenInput.checked = true;
+    foretoldInput.checked = false;
   }
   if (foretoldInput.checked) {
-    cardFrozen.hidden = true;
-    cardFavour.hidden = true;
+    frozenInput.checked = false;
+    favouredInput.checked = false;
   }
 }
 

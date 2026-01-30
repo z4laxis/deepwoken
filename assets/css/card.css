@@ -245,7 +245,7 @@ input {
 .input-description {
     font-family: "PTSerif-Regular";
     bottom: 6%;
-    z-index: 1;
+    z-index: 2;
     position: absolute;
     left: 50%;
     transform: translate(-50%, 10%);
@@ -281,18 +281,21 @@ input {
 }
 
 .onestar {
+    z-index: 1;
     position: absolute;
     bottom: 15%;
     left: 32%;
 }
 
 .twostar {
+    z-index: 1;
     position: absolute;
     bottom: 15%;
     left: 22%;
 }
 
 .threestar {
+    z-index: 1;
     position: absolute;
     bottom: 10%;
     left: 14%;
