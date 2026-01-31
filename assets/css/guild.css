@@ -54,6 +54,7 @@ button img {
 
 .emblem-list,
 .colorpicker {
+    text-align: left;
     position: absolute;
     width: 47.5%;
 }
@@ -62,6 +63,7 @@ button img {
     overflow-y: scroll;
     background: #727065;
     height: 85px;
+    margin-left: 10px;
 }
 
 .colorpicker {
@@ -130,6 +132,9 @@ label {
 section {
     gap: 10px;
     flex-direction: row;
+    align-items: center;
+    display: flex;
+    flex-direction: initial;
 }
 
 header p {
