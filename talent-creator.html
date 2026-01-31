@@ -54,7 +54,7 @@
             <p>Class</p>
         </div>
 
-        <div class="panel-item" data-active="false" id="condition">
+        <div class="panel-item" data-active="false" id="condition" hidden>
             <p>Condition</p>
         </div>
 
@@ -66,11 +66,7 @@
             <p>Color</p>
         </div>
 
-        <div class="panel-item" data-active="false" id="mantra">
-            <p>Mantra</p>
-        </div>
-
-        <div class="panel-item" data-active="false" id="ironvow">
+        <div class="panel-item" data-active="false" id="ironvow" hidden>
             <p>Vow of Iron</p>
         </div>
 
@@ -78,8 +74,12 @@
             <p>Border</p>
         </div>
 
+        <div class="panel-item" data-active="false" id="misc">
+            <p>Miscellanous</p>
+        </div>
+
         <div class="panel-item" data-active="false" id="size">
-            <p>Size</p>
+            <p>Export</p>
         </div>
         
         <div class="panel-item" data-active="false" id="background">
@@ -106,18 +106,18 @@
                 <div class="card-icon" id="card-icon"></div>
             </div>
 
-            <input type="text" class="input-card-class" id="card-class" spellcheck="false" value="Talent Category" maxlength="25">
-            <input type="text" class="input-card-condition" id="card-condition" spellcheck="false" value="Talent State" maxlength="25" hidden></input>
-            <textarea class="input-description" id="card-description" spellcheck="false" rows="4" maxlength="150">Talent Description</textarea>
+            <input type="text" class="input-card-class" id="card-class" spellcheck="false" value="Talent Category" maxlength="50">
+            <input type="text" class="input-card-condition" id="card-condition" spellcheck="false" value="Talent State" maxlength="50" hidden></input>
+            <textarea class="input-description" id="card-description" spellcheck="false" rows="4" maxlength="250">Talent Description</textarea>
 
             <img src="/assets/img/card/1star.png" alt="1 Star" class="onestar" hidden>
             <img src="/assets/img/card/2star.png" alt="2 Star" class="twostar" hidden>
             <img src="/assets/img/card/3star.png" alt="3 Star" class="threestar" hidden>
 
             <div class="bonuses" id="card-bonuses">
-                <input type="text" spellcheck="false" class="bonus" value="Bonus 1">
-                <input type="text" spellcheck="false" class="bonus" value="Bonus 2">
-                <input type="text" spellcheck="false" class="bonus" value="Bonus 3" >
+                <input type="text" spellcheck="false" class="bonus" value="Talent Bonus 1">
+                <input type="text" spellcheck="false" class="bonus" value="Talent Bonus 2">
+                <input type="text" spellcheck="false" class="bonus" value="Talent Bonus 3" >
             </div>
         </div>
     </div>
@@ -131,7 +131,7 @@
 
         <center>
             <label for="title-size-input">Title size:</label>
-            <input type="number" class="input" id="title-size-input" placeholder="Enter title size" min="20" max="24">
+            <input type="number" class="input" id="title-size-input" placeholder="Enter title size" min="10" max="30">
         </center>
     </div>
 
@@ -468,7 +468,7 @@
 
         <center>
             <label for="desc-size-input">Text size:</label>
-            <input type="number" id="desc-size-input" class="input" placeholder="Enter description size" min="14" max="20">
+            <input type="number" id="desc-size-input" class="input" placeholder="Enter description size" min="10" max="30">
         </center>
     </div>
     
@@ -520,7 +520,8 @@
               </optgroup>
               <optgroup label="Misc.">
                   <option value="Mantra">Mantra</option>
-                  <option value="Mystery">Mystery / Roll 2</option>²
+                  <option value="Mystery">Mystery / Roll 2</option>
+                  <option value="Custom Color">Custom Color</option>
               </optgroup>
           </select>
 
@@ -544,11 +545,11 @@
         </center>
     </div>
     
-    <div class="right-panel hidden" id="mantra-window">
+    <div class="right-panel hidden" id="misc-window">
         <div class="background"></div>
         <div class="border"></div>
         <header>
-            <h1>Mantra</h1>
+            <h1>Miscellanous</h1>
         </header>
 
         <center>
