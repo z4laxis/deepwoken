@@ -139,6 +139,13 @@ body {
 /*  background-image: radial-gradient(#4f3c29, #1a1814); Hallowtide */
 
     background-attachment: fixed;
+    animation: gradientShift 4s ease-in-out infinite alternate;
+}
+
+@keyframes gradientShift {
+    to {
+        background-image: radial-gradient(#2c3f30, #06110e);
+    }
 }
 
 a {
