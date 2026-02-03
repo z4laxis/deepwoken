@@ -184,9 +184,6 @@ function nextIcon() {
 }
 
 function updateItem() {
-  if (titleInput.value) {
-    itemTitle.textContent = titleInput.value;
-  }
 
   if (titleSizeInput.value) {
     itemTitle.style.fontSize = `${titleSizeInput.value}px`;
