@@ -85,29 +85,27 @@
         <div class="panel-item" data-active="false" id="background">
             <p>Background</p>
         </div>
-
-        <div class="panel-item" data-active="false" id="animation" hidden>
-            <p>Animations</p>
-        </div>
     </div>
 
     <div class="card-container center">
         <div class="card-color"></div>
         <img class="card-outline" src="/assets/img/card/outline.png">
+        <img class="card-front" src="/assets/img/card/front.png">
+
         <img class="card-frozen" src="/assets/img/card/frozen.png" hidden>
         <img class="card-favour" src="/assets/img/card/favoured.png" hidden>
         <img class="card-foretold" src="/assets/img/card/foretold.png" hidden>
 
-        <div class="card">
-            <img class="card-front" src="/assets/img/card/front.png">
-            <input type="text" class="input-title" id="card-title" value="Talent Title" spellcheck="false">
-            <div class="image">
-                <div class="icon-background"></div>
-                <div class="card-icon" id="card-icon"></div>
-            </div>
+        <div class="image">
+            <div class="icon-background"></div>
+            <div class="card-icon" id="card-icon"></div>
+        </div>
 
+        <div class="card">
+            <input type="text" class="input-title" id="card-title" value="Talent Title" spellcheck="false" maxlength="50">
             <input type="text" class="input-card-class" id="card-class" spellcheck="false" value="Talent Category" maxlength="50">
-            <input type="text" class="input-card-condition" id="card-condition" spellcheck="false" value="Talent State" maxlength="50" hidden></input>
+            <input type="text" class="input-card-condition" id="card-condition" spellcheck="false" value="Talent Condition" maxlength="50" hidden></input>
+
             <textarea class="input-description" id="card-description" spellcheck="false" rows="4" maxlength="250">Talent Description</textarea>
 
             <img src="/assets/img/card/1star.png" alt="1 Star" class="onestar" hidden>
@@ -655,5 +653,6 @@
     </div>
     <script src="/assets/js/card.js"></script>
     <script src="/assets/js/menu.js"></script>
+    <script src="/assets/js/screenshot.js"></script>
 </body>
 </html>

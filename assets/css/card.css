@@ -190,8 +190,8 @@ input {
     width: 280px;
     height: 400px;
     background-size: cover;
-    z-index: 1;
-    transform: translate(-140px, 10px);
+    z-index: 2;
+    transform: translate(0px, 10px);
 }
 
 .input-title {
@@ -212,6 +212,7 @@ input {
     transform: translate(-50%, 62%);
     width: 135px;
     height: 135px;
+    z-index: 1;
 }
 
 .input-card-class {
@@ -227,7 +228,7 @@ input {
     width: 75%;
 }
 
-.input-card-state {
+.input-card-condition {
     font-family: "PTSerif-Regular";
     top: 265px;
     height: 25px;

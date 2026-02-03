@@ -18,23 +18,19 @@
 </div>
 <script type="text/javascript">
 	function report() {
-  let region = document.querySelector("body"); // whole screen
+  let region = document.querySelector("body");
   html2canvas(region, {
     onrendered: function(canvas) {
       let pngUrl = canvas.toDataURL();
       let img = document.querySelector(".screen");
       img.src = pngUrl; // pngUrl contains screenshot graphics data in url form
 
-      // here you can allow user to set bug-region
-      // and send it with 'pngUrl' to server
       console.log('screenshot taken')
 
 
     },
   });
 }
-
-setInterval(()=>report(),3000);
 </script>
 <style type="text/css">
 	.container {
