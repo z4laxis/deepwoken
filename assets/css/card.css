@@ -245,7 +245,7 @@ input {
 
 .input-description {
     font-family: "PTSerif-Regular";
-    bottom: 6%;
+    bottom: 10%;
     z-index: 2;
     position: absolute;
     left: 50%;
@@ -254,8 +254,8 @@ input {
     color: #222;
     width: 75%;
     overflow-wrap: break-word;
-    line-height: 1.5;
-    height: 35%;
+    line-height: 1.375;
+    height: 30%;
     border: none;
     background: transparent;
 }
@@ -263,9 +263,8 @@ input {
 .bonuses {
     width: 100%;
     position: absolute;
-    margin-top: 430px;
     text-align: center;
-    right: 75px;
+    bottom: -22.5%;
 }
 
 .bonus {
@@ -273,7 +272,7 @@ input {
     transform: none;
     background: none;
     border: none;
-    width: 150%;
+    width: 100%;
     font-size: 32px;
     font-family: "Guru", serif;
     color: #f5f5dc;
