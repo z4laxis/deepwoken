@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.min.js"></script>
+<div>Screenshot tester</div>
+<form>
+	Email : &nbsp;<input type="text" name=""><br/>
+	Password :&nbsp; <input type="password" name="">
+</form>
+<!--<button onclick="report()">Take screenshot</button> -->
+
+<div class="container">
+  <img width="75%" class="screen">
+</div>
+<script type="text/javascript">
+	function report() {
+  let region = document.querySelector("body"); // whole screen
+  html2canvas(region, {
+    onrendered: function(canvas) {
+      let pngUrl = canvas.toDataURL();
+      let img = document.querySelector(".screen");
+      img.src = pngUrl; // pngUrl contains screenshot graphics data in url form
+
+      // here you can allow user to set bug-region
+      // and send it with 'pngUrl' to server
+      console.log('screenshot taken')
+
+
+    },
+  });
+}
+
+setInterval(()=>report(),3000);
+</script>
+<style type="text/css">
+	.container {
+  margin-top: 10px;
+  border: solid 1px ;
+}
+</style>
+</body>
+</html>
