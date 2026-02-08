@@ -269,9 +269,9 @@ function updateCard() {
   updateBackground();
 
   cardIcon.style.maskImage = `url(/assets/img/icons/talent/${icons[currentIconIndex]})`;
-
-  cardColor.style.backgroundColor = rarityColors[rarity]
+  
   const rarity = rarityInput.value;
+  cardColor.style.backgroundColor = rarityColors[rarity]
   console.log(rarity)
   
   if (rarity === "Custom Color") {
