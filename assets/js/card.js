@@ -219,7 +219,7 @@ function previousIcon() {
   updateCard();
 }
 
-function updateSpecialBadges() {
+function updateCardStates() {
   cardFrozen.hidden = !frozenInput.checked;
   cardFavour.hidden = !favouredInput.checked;
   cardForetold.hidden = !foretoldInput.checked;
@@ -264,15 +264,19 @@ function updateBackground() {
 }
 
 function updateCard() {
-  updateSpecialBadges();
+  updateCardStates();
   updateStars();
   updateBackground();
 
   cardIcon.style.maskImage = `url(/assets/img/icons/talent/${icons[currentIconIndex]})`;
 
+  cardColor.style.backgroundColor = rarityColors[rarity]
   const rarity = rarityInput.value;
-  cardColor.style.backgroundColor = colorInput.value || rarityColors[rarity] || "#fff";
-  console.log(colorInput.value)
+  console.log(rarity)
+  
+  if (rarity === "Custom Color") {
+      cardColor.style.backgroundColor = colorInput.value
+  }
 
   if (titleSizeInput.value)
     cardTitle.style.fontSize = titleSizeInput.value + "px";
