@@ -12,6 +12,10 @@ li {
     font-weight: bold;
 }
 
+li:hover {
+    cursor: pointer;
+}
+
 li::marker {
     font-weight: normal;
 }
@@ -38,6 +42,9 @@ ol {
 }
 
 .name {
+    transform: none;
+    text-align: left;
+    border: none;
     z-index: 2;
     margin: 10px 0 5px 10px;
     font-family: LibreBaskerville;
@@ -45,6 +52,8 @@ ol {
     background: linear-gradient(to top, #aaaaaa 0%, #FFFFFF 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    font-size: 16px;
+    padding: 0;
 }
 
 .shadow {
