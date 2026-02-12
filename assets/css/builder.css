@@ -189,6 +189,7 @@ section {
 
 .stat-border,
 .stat-background {
+    pointer-events: none;
     position: relative;
     height: 28px;
     width: 28px;
