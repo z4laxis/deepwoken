@@ -19,15 +19,21 @@ h1 {
     width: 50px;
 }
 
-h2 {
+input {
     text-shadow: -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000;
     top: 6px;
+    appearance: textfield;
+    padding: 0;
     color: white;
     font-family: LibreBaskerville;
     text-align: center;
-    font-size: 13px;
+    font-size: 12px;
     margin: 0;
+    background: none;
+    font-weight: bold;
+    outline: none;
     position: absolute;
+    border: none;
     z-index: 2;
     width: 20px;
 }
