@@ -176,6 +176,13 @@ section {
     font-weight: bold;
 }
 
+.journal-border {
+    position: absolute;
+    width: 98%;
+    height: 100px;
+    top: 0px;
+}
+
 .stat-label {
     font-family: Balthazar;
     top: -10px;
