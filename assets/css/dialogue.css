@@ -17,6 +17,7 @@ li::marker {
 }
 
 ol {
+    margin-top: 0;
     font-weight: 500;
     padding-left: 25px;
     color: #a8afb1;
@@ -62,8 +63,8 @@ ol {
     font-size: 16px;
     width: 96%;
     color: black;
-    height: 70px;
-    padding: 5px 7.5px 0;
+    height: 75px;
+    padding: 2.5px 7.5px 0;
 }
 
 .line {
