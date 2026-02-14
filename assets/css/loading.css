@@ -33,6 +33,7 @@ body {
     bottom: -20px;
     position: absolute;
     filter: invert(1) brightness(0.625);
+    animation: scroll 9s linear infinite;
 }
 
 @keyframes scroll {
