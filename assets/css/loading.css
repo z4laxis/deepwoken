@@ -1,0 +1,13 @@
+@keyframes marquee {
+  0% { left: 0; }
+  100% { left: -100%; }
+}
+
+body {
+    background-image: radial-gradient(#ffffff, #979797);
+    background-attachment: fixed;
+}
+
+.waves {
+    animation: marquee 5s linear infinite;
+}
