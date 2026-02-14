@@ -71,16 +71,16 @@
         <section class="center dialogue-background"></section>
         <div class="border"></div>
 
-        <input type="text" spellcheck="false" class="name" value="Zalaxis">
-        <p class="name shadow">Zalaxis</p>
+        <input type="text" spellcheck="false" class="name" value="NPC" oninput="document.querySelector('.shadow').innerHTML = document.querySelector('.name').value">
+        <p class="name shadow">NPC</p>
         <div class="message line" style="top: -17px;"></div>
-        <textarea spellcheck="false" class="message">I don't care about aura...</textarea>
+        <textarea spellcheck="false" class="message">To edit my dialogue, all you have to do is type here!</textarea>
 
-        <div class="message line" style="top: 110px;transform: rotate(180deg);"></div>
+        <div class="message line" style="pointer-events: none;top: 110px;transform: rotate(180deg);"></div>
         <ol>
-            <li>Cause right now im hyyyyper [Charisma]</li>
-            <li>It's a beautiful day [Lifeweave]</li>
-            <li>[End Dialogue]</li>
+            <li><input type="text" spellcheck="false" class="option" value="Option 1"></li>
+            <li><input type="text" spellcheck="false" class="option" value="Option 2"></li>
+            <li><input type="text" spellcheck="false" class="option" value="[End Dialogue]"></li>
         </ol>  
     </section>
 

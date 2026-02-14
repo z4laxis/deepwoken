@@ -238,9 +238,9 @@ function updateCardStates() {
   }
 }
 
-var input = document.querySelector('input'); // get the input element
-input.addEventListener('input', resizeInput); // bind the "resizeInput" callback on "input" event
-resizeInput.call(input); // immediately call the function
+var input = document.querySelector('input'); 
+input.addEventListener('input', resizeInput);
+resizeInput.call(input); 
 
 function resizeInput() {
   this.style.width = this.value.length + "ch";
@@ -295,6 +295,7 @@ function updateCard() {
   if (scaleInput.value)
     cardContainer.style.zoom = scaleInput.value + "%";
 }
+
 [
   titleSizeInput,
   descSizeInput,
