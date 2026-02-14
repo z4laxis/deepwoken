@@ -8,6 +8,6 @@ body {
     background-attachment: fixed;
 }
 
-.waves {
+.waves img {
     animation: marquee 5s linear infinite;
 }
