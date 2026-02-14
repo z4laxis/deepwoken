@@ -6,6 +6,7 @@
 body {
     background-image: radial-gradient(#ffffff, #979797);
     background-attachment: fixed;
+    margin: 0;
 }
 
 .waves {
@@ -16,6 +17,7 @@ body {
 }
 
 .marquee {
+    position: relative;
     display: flex;
     width: max-content;
     animation: scroll 8s linear infinite;
@@ -25,6 +27,12 @@ body {
     width: 100vw;
     height: auto;
     flex-shrink: 0;
+}
+
+.small {
+    bottom: -20px;
+    position: absolute;
+    filter: invert(1) brightness(0.625);
 }
 
 @keyframes scroll {
