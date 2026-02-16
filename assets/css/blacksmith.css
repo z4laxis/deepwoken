@@ -96,6 +96,7 @@ h1 {
 }
 
 .requirements {
+    text-align: left;
     left: 20px;
 }
 
@@ -127,7 +128,7 @@ h1 {
 .outfit {
     width: 400px;
     border: none;
-    bottom: 30px;
+    bottom: -100px;
     height: 400px;
     position: relative;
     margin: auto;
