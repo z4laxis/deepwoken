@@ -7,8 +7,10 @@ function returnToMenu() {
 function changeIcon() {
     isOpen = !isOpen
     const img = document.getElementById("encyclopedia").querySelector("img");
-    
+
     img.src = isOpen
         ? "/assets/img/icons/topbar/encyclopediaopen.png"
         : "/assets/img/icons/topbar/encyclopediaclosed.png";
+    
+    window.location = "https://www.deepwoken.app/glossary";
 }

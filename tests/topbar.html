@@ -20,29 +20,33 @@
     <link rel="stylesheet" href="/assets/css/styles.css">
     <link rel="stylesheet" href="/assets/css/header.css">
     <link rel="stylesheet" href="/assets/css/template.css">
+    <link rel="stylesheet" href="/assets/css/glossary.css">    
 </head>
 <body>
     <header>
-        <div id="infobuttons" style="position: absolute; display: inline-flex;">
-            <button class="menubutton" id="returntomenu" onclick="returnToMenu()"><img src="/assets/img/icons/topbar/returntomenu.png"></button>
+        <div id="infobuttons">
+            <button class="menubutton" id="returntomenu" onclick="window.location.replace('/');"><img src="/assets/img/icons/topbar/returntomenu.png"></button>
             <button class="menubutton" id="settings"><img src="/assets/img/icons/topbar/settings.png"></button>
-            <button class="menubutton" id="encyclopedia" onclick="changeIcon()"><img src="/assets/img/icons/topbar/encyclopediaclosed.png"></button>
-            <button class="menubutton" id="help"><img src="/assets/img/icons/topbar/help.png"></button>
-            <button class="menubutton" id="squad" hidden><img src="/assets/img/icons/topbar/squad.png"></button>
+            <button class="menubutton" id="encyclopedia" onclick="window.location.replace('/glossary')"><img src="/assets/img/icons/topbar/encyclopediaclosed.png"></button>
+            <button class="menubutton" id="help" onclick="window.location.replace('/map/eastern')"><img src="/assets/img/icons/topbar/map.png"></button>
+            <button class="menubutton" id="squad" onclick="window.location.replace('/server-list')"><img src="/assets/img/icons/topbar/squad.png"></button>
         </div>
     </header>
+    
     <main class="center">
-        <div class="border center"></div>
-        <div class="background center"></div>
-        <section class="header">
-            Template Window
-        </section>
-        
-        <section class="content">
-            <p>Are you sure of leaving this page ?</p>
-        <button onclick="returnToMenu">Log</button>
-    </section>
-</main>
-<script src="/assets/js/header.js"></script>
+      <div class="border center"></div>
+      
+      <section class="content">
+          <p>A</p>
+          <p>A</p>
+          <p>A</p>
+          <p>A</p>
+          <p>A</p>
+          <p>A</p>
+          <p>A</p>
+          <p>A</p>
+          <p>A</p>
+      </section>
+    </main>
 </body>
 </html>

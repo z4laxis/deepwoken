@@ -182,6 +182,11 @@ header {
     width: 100%;
 }
 
+.infobuttons {
+    position: absolute; 
+    display: inline-flex;
+}
+
 .menubutton {
     background: none;
     border: none;
