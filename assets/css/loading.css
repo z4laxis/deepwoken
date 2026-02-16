@@ -11,7 +11,7 @@ body {
 
 .waves {
     position: absolute;
-    bottom: 0;
+    bottom: -50px;
     width: 100%;
     overflow: hidden;
 }
