@@ -178,7 +178,9 @@ textarea {
     position: absolute;
 }
 
-header {
+.topbar {
+    position: absolute;
+    top: 0;
     width: 100%;
 }
 
