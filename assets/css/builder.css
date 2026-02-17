@@ -183,6 +183,13 @@ section {
     top: 0px;
 }
 
+.sidebar {
+    position: absolute;
+    width: 35px;
+    height: 100%;
+    left: -35px;
+}
+
 .stat-label {
     font-family: Balthazar;
     top: -10px;
