@@ -190,6 +190,10 @@ section {
     left: -35px;
 }
 
+.sidebar .menubutton {
+    width: 32px;
+}
+
 .stat-label {
     font-family: Balthazar;
     top: -10px;
