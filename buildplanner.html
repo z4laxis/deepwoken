@@ -48,15 +48,11 @@
 </head>
 
 <body>
-    <button class="menubutton" id="returntomenu" onclick="window.location.replace('/');"><img
-            src="/assets/img/icons/topbar/returntomenu.png"></button>
+    <button class="menubutton" id="returntomenu" onclick="window.location.replace('/');"><img src="/assets/img/icons/topbar/returntomenu.png"></button>
     <button class="menubutton" id="settings"><img src="/assets/img/icons/topbar/settings.png"></button>
-    <button class="menubutton" id="encyclopedia" onclick="window.location.replace('/glossary')"><img
-            src="/assets/img/icons/topbar/encyclopediaclosed.png"></button>
-    <button class="menubutton" id="help" onclick="window.location.replace('/map/eastern')"><img
-            src="/assets/img/icons/topbar/map.png"></button>
-    <button class="menubutton" id="squad" onclick="window.location.replace('/server-list')"><img
-            src="/assets/img/icons/topbar/squad.png"></button>
+    <button class="menubutton" id="encyclopedia" onclick="window.location.replace('/glossary')"><img src="/assets/img/icons/topbar/encyclopediaclosed.png"></button>
+    <button class="menubutton" id="help" onclick="window.location.replace('/map/eastern')"><img src="/assets/img/icons/topbar/map.png"></button>
+    <button class="menubutton" id="squad" onclick="window.location.replace('/server-list')"><img src="/assets/img/icons/topbar/squad.png"></button>
 
     <div class="stats-container" style="background: none">
         <div class="sidebar">
@@ -172,26 +168,32 @@
         </div>
 
         <div class="stat-row" style="left: 23px; top: 150px;">
-            <p class="stat-label" style="left: 7px;">STR</p>
-            <input type="number" id="strength" value="50">
-            <div class="stat-background strength"></div>
-            <div class="stat-border"></div>
-            <div class="stat-lock"></div>
-            <p class="stat-name" style="left: -4px">Strength</p>
+            <div class="attribute">
+                <p class="stat-label" style="left: 7px;">STR</p>
+                <input type="number" id="strength" value="50">
+                <div class="stat-background strength"></div>
+                <div class="stat-border"></div>
+                <div class="stat-lock"></div>
+                <p class="stat-name" style="left: -4px">Strength</p>
+            </div>
 
-            <p class="stat-label" style="left: 52px;">FTD</p>
-            <input type="number" id="fortitude" value="50">
-            <div class="stat-background fortitude" style="left:45px"></div>
-            <div class="stat-border"></div>
-            <div class="stat-lock" style="left: 64px"></div>
-            <p class="stat-name" style="left: 40px;">Fortitude</p>
+            <div class="attribute">
+                <p class="stat-label" style="left: 52px;">FTD</p>
+                <input type="number" id="fortitude" value="50">
+                <div class="stat-background fortitude" style="left:45px"></div>
+                <div class="stat-border"></div>
+                <div class="stat-lock" style="left: 64px"></div>
+                <p class="stat-name" style="left: 40px;">Fortitude</p>
+            </div>
 
-            <p class="stat-label" style="left: 97px;">AGL</p>
-            <input type="number" id="agility" value="50">
-            <div class="stat-background agility" style="left:90px"></div>
-            <div class="stat-border"></div>
-            <div class="stat-lock" style="left: 110px"></div>
-            <p class="stat-name" style="left: 92px;">Agility</p>
+            <div class="attribute">
+                <p class="stat-label" style="left: 97px;">AGL</p>
+                <input type="number" id="agility" value="50">
+                <div class="stat-background agility" style="left:90px"></div>
+                <div class="stat-border"></div>
+                <div class="stat-lock" style="left: 110px"></div>
+                <p class="stat-name" style="left: 92px;">Agility</p>
+            </div>
         </div>
 
         <div class="stat-row" style="left: 191px; top: 150px;">
