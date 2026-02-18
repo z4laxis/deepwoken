@@ -189,9 +189,13 @@ section {
 
 .journal-border {
     position: absolute;
-    width: 98%;
-    height: 100px;
+    height: 118px;
     top: 0px;
+}
+
+.right {
+    right: 0;
+    transform: rotate(180deg)
 }
 
 .sidebar {
