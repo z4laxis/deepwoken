@@ -198,6 +198,10 @@ section {
     transform: rotate(180deg)
 }
 
+.tall {
+    height: 212px;
+}
+
 .sidebar {
     position: absolute;
     width: 35px;
