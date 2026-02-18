@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,22 +12,26 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
-        
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
+        rel="stylesheet">
+
     <meta name="title" content="Deepwoken">
-    <meta name="description" content="A card creator for talents and mantras with multiple options to make suggestions & more!">
-    
+    <meta name="description"
+        content="A card creator for talents and mantras with multiple options to make suggestions & more!">
+
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://deepwoken.app/talent-creator"> 
+    <meta property="og:url" content="https://deepwoken.app/talent-creator">
     <meta property="og:title" content="Deepwoken">
-    <meta property="og:description" content="A custom deepwoken talent creator, with multiple options for suggestions & more!">
-    <meta property="og:image" content="https://deepwoken.app/icon.png"> 
-    
-    <meta property="twitter:url" content="https://deepwoken.app/"> 
+    <meta property="og:description"
+        content="A custom deepwoken talent creator, with multiple options for suggestions & more!">
+    <meta property="og:image" content="https://deepwoken.app/icon.png">
+
+    <meta property="twitter:url" content="https://deepwoken.app/">
     <meta property="twitter:title" content="Deepwoken">
-    <meta property="twitter:description" content="A custom deepwoken talent creator, with multiple options for suggestions & more!">
-    <meta property="twitter:image" content="https://deepwoken.app/favicon.png"> 
-    
+    <meta property="twitter:description"
+        content="A custom deepwoken talent creator, with multiple options for suggestions & more!">
+    <meta property="twitter:image" content="https://deepwoken.app/favicon.png">
+
     <link rel="icon" href="/favicon.png">
     <link rel="manifest" href="/manifest.json">
 
@@ -36,16 +41,22 @@
     <link rel="apple-touch-icon" sizes="256x256" href="/favicon.png">
 
     <meta name="robots" content="index, follow">
-    <meta name="keywords" content="Deepwoken, Mantra Preview, Deepwoken Card Creator, Deepwoken Build Maker, Deepwoken Website, Talent Creator, Card Creator, Mantra Creator, Deepwoken Talent">
+    <meta name="keywords"
+        content="Deepwoken, Mantra Preview, Deepwoken Card Creator, Deepwoken Build Maker, Deepwoken Website, Talent Creator, Card Creator, Mantra Creator, Deepwoken Talent">
     <meta name="author" content="zalaxis">
     <meta name="copyright" content="Deepwoken">
 </head>
+
 <body>
-    <button class="menubutton" id="returntomenu" onclick="window.location.replace('/');"><img src="/assets/img/icons/topbar/returntomenu.png"></button>
+    <button class="menubutton" id="returntomenu" onclick="window.location.replace('/');"><img
+            src="/assets/img/icons/topbar/returntomenu.png"></button>
     <button class="menubutton" id="settings"><img src="/assets/img/icons/topbar/settings.png"></button>
-    <button class="menubutton" id="encyclopedia" onclick="window.location.replace('/glossary')"><img src="/assets/img/icons/topbar/encyclopediaclosed.png"></button>
-    <button class="menubutton" id="help" onclick="window.location.replace('/map/eastern')"><img src="/assets/img/icons/topbar/map.png"></button>
-    <button class="menubutton" id="squad" onclick="window.location.replace('/server-list')"><img src="/assets/img/icons/topbar/squad.png"></button>
+    <button class="menubutton" id="encyclopedia" onclick="window.location.replace('/glossary')"><img
+            src="/assets/img/icons/topbar/encyclopediaclosed.png"></button>
+    <button class="menubutton" id="help" onclick="window.location.replace('/map/eastern')"><img
+            src="/assets/img/icons/topbar/map.png"></button>
+    <button class="menubutton" id="squad" onclick="window.location.replace('/server-list')"><img
+            src="/assets/img/icons/topbar/squad.png"></button>
 
     <div class="stats-container" style="background: none">
         <div class="sidebar">
@@ -62,179 +73,231 @@
         <img src="/assets/img/border/journal.png" class="journal-border">
         <h1 id="power">20</h1>
         <h1 class="power-shadow">20</h1>
-            
+
         <div class="power-icon"></div>
         <div class="power-background"></div>
         <div class="orbs-icon"></div>
         <p class="stat-name" style="left: 18px;top: 62px;">POWER</p>
-        
+
         <div class="stat-row details">
             <div class="detail">
-                <p><b>Origin:</b> Stranded</p>
+                <p><b>Origin: </b>
+                    <select>
+                        <option>Stranded</option>
+                        <option>Lone Warrior</option>
+                        <option>Deepbound</option>
+                        <option>Voidwalker</option>
+                        <option>Authority Ensign</option>
+                    </select>
+                </p>
             </div>
-            
+
             <div class="detail">
-                <p><b>Oath:</b> Blightsurger</p>
+                <p><b>Oath: </b>
+                    <select>
+                        <option>Arcwarder</option>
+                        <option>Bladeharper</option>
+                        <option>Blightsurger</option>
+                        <option>Blindseer</option>
+                        <option>Chainwarden</option>
+                        <option>Dawnwalker</option>
+                        <option>Fadetrimmer</option>
+                        <option>Jetstriker</option>
+                        <option>Linkstrider</option>
+                        <option>Oathless</option>
+                        <option>Saltchemist</option>
+                        <option>Saintsworn</option>
+                        <option>Silentheart</option>
+                        <option>Soulbreaker</option>
+                        <option hidden>Spellbinder</option>
+                        <option>Starkindred</option>
+                        <option>Visionshaper</option>
+                        <option hidden>Voidhunter</option>
+                        <option hidden>Warmaster</option>
+                    </select>
+                </p>
             </div>
-            
+
             <div class="detail">
-                <p><b>Aspect:</b> Vesperian</p>
+                <p><b>Aspect: </b>
+                    <select>
+                        <option hidden>Aberrant Capra</option>
+                        <option>Adret</option>
+                        <option>Canor</option>
+                        <option>Capra</option>
+                        <option>Celtor</option>
+                        <option>Chrysid</option>
+                        <option hidden>Drakkard</option>
+                        <option>Etrean</option>
+                        <option>Felinor</option>
+                        <option>Ganymede</option>
+                        <option>Gremor</option>
+                        <option hidden>Heliodar</option>
+                        <option>Khan</option>
+                        <option>Kiron</option>
+                        <option hidden>Levit</option>
+                        <option>Lightborn</option>
+                        <option hidden>Primal Vesperian</option>
+                        <option>Tiran</option>
+                        <option>Vesperian</option>
+                    </select>
+                </p>
             </div>
-            
+
             <div class="detail">
-                <p><b>Age:</b> 18 <span>(Born Summer, 1622 CE)</span></p>
+                <p><b>Age: </b> 18 <span>(Born Summer, 1622 CE)</span></p>
             </div>
         </div>
-        
+
         <div class="stat-row traits">
             <input type="number" id="vitality" value="6">
-            <div class="stat-background trait" style="left: 1px"></div>         
+            <div class="stat-background trait" style="left: 1px"></div>
             <div class="stat-border vitality"></div>
 
             <input type="number" id="erudition" value="4">
-            <div class="stat-background trait" style="left: 46px"></div>         
+            <div class="stat-background trait" style="left: 46px"></div>
             <div class="stat-border erudition"></div>
 
             <input type="number" id="proficiency" value="2">
-            <div class="stat-background trait" style="left: 1px; top: 46px"></div>         
+            <div class="stat-background trait" style="left: 1px; top: 46px"></div>
             <div class="stat-border proficiency"></div>
 
             <input type="number" id="songchant" value="0">
-            <div class="stat-background trait" style="left: 46px; top: 46px"></div>         
+            <div class="stat-background trait" style="left: 46px; top: 46px"></div>
             <div class="stat-border songchant"></div>
 
             <input type="number" id="dexterity" value="0" hidden>
-            <div class="stat-background trait" hidden></div>         
+            <div class="stat-background trait" hidden></div>
             <div class="stat-border dexterity" hidden></div>
         </div>
-        
-        <div class="stat-row" style="left: 23px; top: 127px;">
+
+        <div class="stat-row" style="left: 23px; top: 150px;">
             <p class="stat-label" style="left: 7px;">STR</p>
             <input type="number" id="strength" value="50">
-            <div class="stat-background strength"></div>       
-            <div class="stat-border"></div>        
+            <div class="stat-background strength"></div>
+            <div class="stat-border"></div>
             <div class="stat-lock"></div>
             <p class="stat-name" style="left: -4px">Strength</p>
-            
+
             <p class="stat-label" style="left: 52px;">FTD</p>
             <input type="number" id="fortitude" value="50">
-            <div class="stat-background fortitude" style="left:45px"></div>     
-            <div class="stat-border"></div>       
+            <div class="stat-background fortitude" style="left:45px"></div>
+            <div class="stat-border"></div>
             <div class="stat-lock" style="left: 64px"></div>
             <p class="stat-name" style="left: 40px;">Fortitude</p>
-    
+
             <p class="stat-label" style="left: 97px;">AGL</p>
             <input type="number" id="agility" value="50">
-            <div class="stat-background agility" style="left:90px"></div>   
-            <div class="stat-border"></div>        
+            <div class="stat-background agility" style="left:90px"></div>
+            <div class="stat-border"></div>
             <div class="stat-lock" style="left: 110px"></div>
             <p class="stat-name" style="left: 92px;">Agility</p>
         </div>
-    
-        <div class="stat-row" style="left: 191px; top: 127px;">
+
+        <div class="stat-row" style="left: 191px; top: 150px;">
             <p class="stat-label" style="left: 7px;">HVY</p>
             <input type="number" id="heavyweapons" value="50">
-            <div class="stat-background heavyweapons"></div>         
-            <div class="stat-border"></div>        
+            <div class="stat-background heavyweapons"></div>
+            <div class="stat-border"></div>
             <div class="stat-lock"></div>
             <p class="stat-name" style="left: -4px;">Heavy <br> Weapons</p>
-            
+
             <p class="stat-label" style="left: 52px;">MED</p>
             <input type="number" id="mediumweapons" value="50">
-            <div class="stat-background heavyweapons" style="left:45px"></div>      
-            <div class="stat-border"></div>        
+            <div class="stat-background heavyweapons" style="left:45px"></div>
+            <div class="stat-border"></div>
             <div class="stat-lock" style="left: 64px"></div>
             <p class="stat-name" style="left: 40px;">Medium <br> Weapons</p>
-            
+
             <p class="stat-label" style="left: 97px;">LHT</p>
             <input type="number" id="lightweapons" value="50">
-            <div class="stat-background lightweapons" style="left:90px"></div>       
-            <div class="stat-border"></div>        
+            <div class="stat-background lightweapons" style="left:90px"></div>
+            <div class="stat-border"></div>
             <div class="stat-lock" style="left: 110px"></div>
             <p class="stat-name" style="left: 86px;">Light <br> Weapons</p>
         </div>
-    
-        <div class="stat-row" style="left: 23px; top: 189px;">
+
+        <div class="stat-row" style="left: 23px; top: 215px;">
             <p class="stat-label" style="left: 7px;">INT</p>
             <input type="number" id="intelligence" value="50">
-            <div class="stat-background intelligence"></div>         
-            <div class="stat-border"></div>        
+            <div class="stat-background intelligence"></div>
+            <div class="stat-border"></div>
             <div class="stat-lock"></div>
             <p class="stat-name" style="left: -10px">Intelligence</p>
-            
+
             <p class="stat-label" style="left: 52px;">WLL</p>
             <input type="number" id="willpower" value="50">
-            <div class="stat-background willpower" style="left:45px"></div>    
+            <div class="stat-background willpower" style="left:45px"></div>
             <div class="stat-border"></div>
             <div class="stat-lock" style="left: 64px"></div>
             <p class="stat-name" style="left: 40px;">Willpower</p>
-        
+
             <p class="stat-label" style="left: 97px;">CHA</p>
             <input type="number" id="charisma" value="50">
-            <div class="stat-background charisma" style="left:90px"></div>    
-            <div class="stat-border"></div>        
+            <div class="stat-background charisma" style="left:90px"></div>
+            <div class="stat-border"></div>
             <div class="stat-lock" style="left: 110px"></div>
             <p class="stat-name" style="left: 86px;">Charisma</p>
         </div>
-    
-        <div class="stat-row" style="left: 191px; top: 196px;">
+
+        <div class="stat-row" style="left: 191px; top: 215px;">
             <p class="stat-label" style="left: 7px;">FLM</p>
             <input type="number" id="strength" value="50">
-            <div class="stat-background strength"></div>       
-            <div class="stat-border"></div>        
+            <div class="stat-background strength"></div>
+            <div class="stat-border"></div>
             <div class="stat-lock"></div>
             <p class="stat-name" style="left: -4px">Flamecharm</p>
-            
+
             <p class="stat-label" style="left: 52px;">ICE</p>
             <input type="number" id="fortitude" value="50">
-            <div class="stat-background fortitude" style="left:45px"></div>     
-            <div class="stat-border"></div>       
+            <div class="stat-background fortitude" style="left:45px"></div>
+            <div class="stat-border"></div>
             <div class="stat-lock" style="left: 64px"></div>
             <p class="stat-name" style="left: 40px;">Frostdraw</p>
-    
+
             <p class="stat-label" style="left: 97px;">LTN</p>
             <input type="number" id="agility" value="50">
-            <div class="stat-background agility" style="left:90px"></div>   
-            <div class="stat-border"></div>        
+            <div class="stat-background agility" style="left:90px"></div>
+            <div class="stat-border"></div>
             <div class="stat-lock" style="left: 110px"></div>
             <p class="stat-name" style="left: 92px;">Thundercall</p>
         </div>
 
-        <div class="stat-row" style="left: 191px; top: 246px;">
+        <div class="stat-row" style="left: 191px; top: 246px;" hidden>
             <p class="stat-label" style="left: 7px;">WND</p>
             <input type="number" id="strength" value="50">
-            <div class="stat-background strength"></div>       
-            <div class="stat-border"></div>        
+            <div class="stat-background strength"></div>
+            <div class="stat-border"></div>
             <div class="stat-lock"></div>
             <p class="stat-name" style="left: -4px">Galebreathe</p>
-            
+
             <p class="stat-label" style="left: 52px;">SDW</p>
             <input type="number" id="fortitude" value="50">
-            <div class="stat-background fortitude" style="left:45px"></div>     
-            <div class="stat-border"></div>       
+            <div class="stat-background fortitude" style="left:45px"></div>
+            <div class="stat-border"></div>
             <div class="stat-lock" style="left: 64px"></div>
             <p class="stat-name" style="left: 40px;">Shadowcast</p>
-    
+
             <p class="stat-label" style="left: 97px;">MTL</p>
             <input type="number" id="agility" value="50">
-            <div class="stat-background agility" style="left:90px"></div>   
-            <div class="stat-border"></div>        
+            <div class="stat-background agility" style="left:90px"></div>
+            <div class="stat-border"></div>
             <div class="stat-lock" style="left: 110px"></div>
             <p class="stat-name" style="left: 92px;">Ironsing</p>
         </div>
 
-        <div class="stat-row" style="left: 191px; top: 296px;">
+        <div class="stat-row" style="left: 191px; top: 296px;" hidden>
             <p class="stat-label" style="left: 52px;">BLD</p>
             <input type="number" id="fortitude" value="50">
-            <div class="stat-background fortitude" style="left:45px"></div>     
-            <div class="stat-border"></div>       
+            <div class="stat-background fortitude" style="left:45px"></div>
+            <div class="stat-border"></div>
             <div class="stat-lock" style="left: 64px"></div>
             <p class="stat-name" style="left: 40px;">Bloodrend</p>
 
             <p class="stat-label" style="left: 52px;" hidden>LFE</p>
             <input type="number" id="fortitude" hidden value="50">
-            <div class="stat-background fortitude" style="left:45px" hidden></div>     
-            <div class="stat-border" hidden></div>       
+            <div class="stat-background fortitude" style="left:45px" hidden></div>
+            <div class="stat-border" hidden></div>
             <div class="stat-lock" style="left: 64px" hidden></div>
             <p class="stat-name" style="left: 40px;" hidden>Lifeweave</p>
         </div>
@@ -244,184 +307,185 @@
         <section id="item1">
             <div class="item-background weapon"></div>
             <div class="item-border center item"></div>
-        
+
             <img src="/assets/img/icons/item/enchant.png" class="enchant-indicator" hidden>
             <img src="/assets/img/icons/item/weapon.png" class="weapon-indicator">
-        
+
             <img src="/assets/img/icons/talent/strong_left.png" class="mantra-icon" hidden>
-   
+
             <p class="title">Greataxe</p>
-                    
+
             <p class="hotbar-count" hidden>3</p>
             <p class="item-count" hidden>x3</p>
         </section>
-        
+
         <section id="item2">
             <div class="item-background attunementless"></div>
             <div class="item-border center mantra"></div>
             <div class="item-border center item" hidden></div>
-        
+
             <img src="/assets/img/icons/item/enchant.png" class="enchant-indicator" hidden>
             <img src="/assets/img/icons/item/weapon.png" class="weapon-indicator" hidden>
-        
+
             <img src="/assets/img/icons/talent/strong_left.png" class="mantra-icon">
-   
+
             <p class="title-2d">Strong Left</p>
-            
+
             <img src="/assets/img/icons/item/blood.png" class="mantra-indicator" hidden>
-        
+
             <p class="hotbar-count" hidden>3</p>
             <p class="item-count" hidden>x3</p>
         </section>
-        
+
         <section id="item3">
             <div class="item-background fire"></div>
             <div class="item-border center mantra"></div>
             <div class="item-border center item" hidden></div>
-        
+
             <img src="/assets/img/icons/item/enchant.png" class="enchant-indicator" hidden>
             <img src="/assets/img/icons/item/weapon.png" class="weapon-indicator" hidden>
-        
+
             <img src="/assets/img/icons/talent/fire_palm.png" class="mantra-icon">
-            
+
             <img src="/assets/img/icons/item/star.png" class="star-icon star-1">
-    
+
             <p class="title-2d">Fire Palm</p>
-            
+
             <img src="/assets/img/icons/item/fire.png" class="mantra-indicator">
-        
+
             <p class="hotbar-count" hidden>3</p>
             <p class="item-count" hidden>x3</p>
         </section>
-        
+
         <section id="item4">
             <div class="item-background frost"></div>
             <div class="item-border center mantra"></div>
             <div class="item-border center item" hidden></div>
-        
+
             <img src="/assets/img/icons/item/enchant.png" class="enchant-indicator" hidden>
             <img src="/assets/img/icons/item/weapon.png" class="weapon-indicator" hidden>
-        
+
             <img src="/assets/img/icons/talent/snowflake.png" class="mantra-icon">
-   
+
             <p class="title-2d">Ice Smash</p>
-            
+
             <img src="/assets/img/icons/item/ice.png" class="mantra-indicator">
-        
+
             <p class="hotbar-count" hidden>3</p>
             <p class="item-count" hidden>x3</p>
         </section>
-        
+
         <section id="item5">
             <div class="item-background thunder"></div>
             <div class="item-border center mantra"></div>
             <div class="item-border center item" hidden></div>
-        
+
             <img src="/assets/img/icons/item/enchant.png" class="enchant-indicator" hidden>
             <img src="/assets/img/icons/item/weapon.png" class="weapon-indicator" hidden>
-        
+
             <img src="/assets/img/icons/talent/thunder_kick.png" class="mantra-icon">
-   
+
             <p class="title-2d">Thunder Kick</p>
-            
+
             <img src="/assets/img/icons/item/lightning.png" class="mantra-indicator">
-        
+
             <p class="hotbar-count" hidden>3</p>
             <p class="item-count" hidden>x3</p>
         </section>
-        
+
         <section id="item6">
             <div class="item-background gale"></div>
             <div class="item-border center mantra"></div>
             <div class="item-border center item" hidden></div>
-        
+
             <img src="/assets/img/icons/item/enchant.png" class="enchant-indicator" hidden>
             <img src="/assets/img/icons/item/weapon.png" class="weapon-indicator" hidden>
-        
+
             <img src="/assets/img/icons/talent/tornado.png" class="mantra-icon">
-   
+
             <p class="title-2d">Tornado</p>
-            
+
             <img src="/assets/img/icons/item/gale.png" class="mantra-indicator">
-        
+
             <p class="hotbar-count" hidden>3</p>
             <p class="item-count" hidden>x3</p>
         </section>
-        
+
         <section id="item7">
             <div class="item-background shadow"></div>
             <div class="item-border center mantra"></div>
             <div class="item-border center item" hidden></div>
-        
+
             <img src="/assets/img/icons/item/enchant.png" class="enchant-indicator" hidden>
             <img src="/assets/img/icons/item/weapon.png" class="weapon-indicator" hidden>
-        
+
             <img src="/assets/img/icons/talent/rift.png" class="mantra-icon">
-   
+
             <p class="title-2d">Shadow Eruption</p>
-            
+
             <img src="/assets/img/icons/item/shadow.png" class="mantra-indicator">
-        
+
             <p class="hotbar-count" hidden>3</p>
             <p class="item-count" hidden>x3</p>
         </section>
-        
+
         <section id="item8">
             <div class="item-background iron"></div>
             <div class="item-border center mantra"></div>
             <div class="item-border center item" hidden></div>
-        
+
             <img src="/assets/img/icons/item/enchant.png" class="enchant-indicator" hidden>
             <img src="/assets/img/icons/item/weapon.png" class="weapon-indicator" hidden>
-        
+
             <img src="/assets/img/icons/talent/ironsing.png" class="mantra-icon">
-   
+
             <p class="title-2d">Iron Skin</p>
-            
+
             <img src="/assets/img/icons/item/ironsing.png" class="mantra-indicator">
-        
+
             <p class="hotbar-count" hidden>3</p>
             <p class="item-count" hidden>x3</p>
         </section>
-        
+
         <section id="item9">
             <div class="item-background blood"></div>
             <div class="item-border center mantra"></div>
             <div class="item-border center item" hidden></div>
-        
+
             <img src="/assets/img/icons/item/enchant.png" class="enchant-indicator" hidden>
             <img src="/assets/img/icons/item/weapon.png" class="weapon-indicator" hidden>
-        
+
             <img src="/assets/img/icons/talent/blood.png" class="mantra-icon">
-   
+
             <p class="title-2d">Vicious Descent</p>
-            
+
             <img src="/assets/img/icons/item/blood.png" class="mantra-indicator">
-        
+
             <p class="hotbar-count" hidden>3</p>
             <p class="item-count" hidden>x3</p>
         </section>
-        
+
         <section id="item10">
             <div class="item-background attunementless"></div>
             <div class="item-border center mantra"></div>
             <div class="item-border center item" hidden></div>
-        
+
             <img src="/assets/img/icons/item/enchant.png" class="enchant-indicator" hidden>
             <img src="/assets/img/icons/item/weapon.png" class="weapon-indicator" hidden>
-        
+
             <img src="/assets/img/icons/talent/saintsworn.png" class="mantra-icon">
-   
+
             <p class="title-2d">Saintblade</p>
-            
+
             <img src="/assets/img/icons/item/blood.png" class="mantra-indicator" hidden>
-        
+
             <p class="hotbar-count" hidden>3</p>
             <p class="item-count" hidden>x3</p>
         </section>
-        
+
     </div>
 
     <img src="/bin/Screenshot_1565.webp" class="bg-image" style="opacity: 0">
 </body>
+
 </html>

@@ -38,6 +38,17 @@ input {
     width: 20px;
 }
 
+select {
+    border: none;
+    padding-right: 0;
+    width: 62px;
+    outline: none;
+    font-family: SourceSans;
+    font-size: 9px;
+    background: none;
+    appearance: none;
+}
+
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
   -webkit-appearance: none;
