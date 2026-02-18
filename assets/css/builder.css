@@ -203,6 +203,30 @@ section {
     zoom: 0.75;
 }
 
+.boon,
+.flaw {
+    width: 10px;
+    position: absolute;
+    left: 26px;
+    top: 98px;
+}
+
+#boon1 {
+    left: 13px;
+}
+
+#boon2 {
+    left: 26px;
+}
+
+#flaw1 {
+    left: 50px;
+}
+
+#flaw2 {
+    left: 63px;
+}
+
 .sidebar {
     position: absolute;
     width: 35px;
