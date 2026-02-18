@@ -144,25 +144,35 @@
         </div>
 
         <div class="stat-row traits">
-            <input type="number" id="vitality" value="6">
-            <div class="stat-background trait" style="left: 1px"></div>
-            <div class="stat-border vitality"></div>
+            <div class="attribute">
+                <input type="number" id="vitality" value="6">
+                <div class="stat-background trait" style="left: 1px"></div>
+                <div class="stat-border vitality"></div>
+            </div>
 
+            <div class="attribute">
             <input type="number" id="erudition" value="4">
-            <div class="stat-background trait" style="left: 46px"></div>
-            <div class="stat-border erudition"></div>
+                <div class="stat-background trait" style="left: 46px"></div>
+                <div class="stat-border erudition"></div>
+            </div>
 
-            <input type="number" id="proficiency" value="2">
-            <div class="stat-background trait" style="left: 1px; top: 46px"></div>
-            <div class="stat-border proficiency"></div>
+            <div class="attribute">
+                <input type="number" id="proficiency" value="2">
+                <div class="stat-background trait" style="left: 1px; top: 46px"></div>
+                <div class="stat-border proficiency"></div>
+            </div>
 
-            <input type="number" id="songchant" value="0">
-            <div class="stat-background trait" style="left: 46px; top: 46px"></div>
-            <div class="stat-border songchant"></div>
+            <div class="attribute">
+                <input type="number" id="songchant" value="0">
+                <div class="stat-background trait" style="left: 46px; top: 46px"></div>
+                <div class="stat-border songchant"></div>
+            </div>
 
-            <input type="number" id="dexterity" value="0" hidden>
-            <div class="stat-background trait" hidden></div>
-            <div class="stat-border dexterity" hidden></div>
+            <div class="attribute">
+                <input type="number" id="dexterity" value="0" hidden>
+                <div class="stat-background trait" hidden></div>
+                <div class="stat-border dexterity" hidden></div>
+            </div>
         </div>
 
         <div class="stat-row" style="left: 23px; top: 150px;">
@@ -195,74 +205,94 @@
         </div>
 
         <div class="stat-row" style="left: 191px; top: 150px;">
-            <p class="stat-label" style="left: 7px;">HVY</p>
-            <input type="number" id="heavyweapons" value="50">
-            <div class="stat-background heavyweapons"></div>
-            <div class="stat-border"></div>
-            <div class="stat-lock"></div>
-            <p class="stat-name" style="left: -4px;">Heavy <br> Weapons</p>
+            <div class="attribute">
+                <p class="stat-label" style="left: 7px;">HVY</p>
+                <input type="number" id="heavyweapons" value="50">
+                <div class="stat-background heavyweapons"></div>
+                <div class="stat-border"></div>
+                <div class="stat-lock"></div>
+                <p class="stat-name" style="left: -4px;">Heavy <br> Weapons</p>
+            </div>
 
-            <p class="stat-label" style="left: 52px;">MED</p>
-            <input type="number" id="mediumweapons" value="50">
-            <div class="stat-background heavyweapons" style="left:45px"></div>
-            <div class="stat-border"></div>
-            <div class="stat-lock" style="left: 64px"></div>
-            <p class="stat-name" style="left: 40px;">Medium <br> Weapons</p>
+            <div class="attribute">
+                <p class="stat-label" style="left: 52px;">MED</p>
+                <input type="number" id="mediumweapons" value="50">
+                <div class="stat-background heavyweapons" style="left:45px"></div>
+                <div class="stat-border"></div>
+                <div class="stat-lock" style="left: 64px"></div>
+                <p class="stat-name" style="left: 40px;">Medium <br> Weapons</p>
+            </div>
 
-            <p class="stat-label" style="left: 97px;">LHT</p>
-            <input type="number" id="lightweapons" value="50">
-            <div class="stat-background lightweapons" style="left:90px"></div>
-            <div class="stat-border"></div>
-            <div class="stat-lock" style="left: 110px"></div>
-            <p class="stat-name" style="left: 86px;">Light <br> Weapons</p>
+            <div class="attribute">
+                <p class="stat-label" style="left: 97px;">LHT</p>
+                <input type="number" id="lightweapons" value="50">
+                <div class="stat-background lightweapons" style="left:90px"></div>
+                <div class="stat-border"></div>
+                <div class="stat-lock" style="left: 110px"></div>
+                <p class="stat-name" style="left: 86px;">Light <br> Weapons</p>
+            </div>
         </div>
 
         <div class="stat-row" style="left: 23px; top: 215px;">
-            <p class="stat-label" style="left: 7px;">INT</p>
-            <input type="number" id="intelligence" value="50">
-            <div class="stat-background intelligence"></div>
-            <div class="stat-border"></div>
-            <div class="stat-lock"></div>
-            <p class="stat-name" style="left: -10px">Intelligence</p>
+            <div class="attribute">
+                <p class="stat-label" style="left: 7px;">INT</p>
+                <input type="number" id="intelligence" value="50">
+                <div class="stat-background intelligence"></div>
+                <div class="stat-border"></div>
+                <div class="stat-lock"></div>
+                <p class="stat-name" style="left: -10px">Intelligence</p>
+            </div>
 
-            <p class="stat-label" style="left: 52px;">WLL</p>
-            <input type="number" id="willpower" value="50">
-            <div class="stat-background willpower" style="left:45px"></div>
-            <div class="stat-border"></div>
-            <div class="stat-lock" style="left: 64px"></div>
-            <p class="stat-name" style="left: 40px;">Willpower</p>
+            <div class="attribute"> 
+                <p class="stat-label" style="left: 52px;">WLL</p>
+                <input type="number" id="willpower" value="50">
+                <div class="stat-background willpower" style="left:45px"></div>
+                <div class="stat-border"></div>
+                <div class="stat-lock" style="left: 64px"></div>
+                <p class="stat-name" style="left: 40px;">Willpower</p>
 
-            <p class="stat-label" style="left: 97px;">CHA</p>
-            <input type="number" id="charisma" value="50">
-            <div class="stat-background charisma" style="left:90px"></div>
-            <div class="stat-border"></div>
-            <div class="stat-lock" style="left: 110px"></div>
-            <p class="stat-name" style="left: 86px;">Charisma</p>
+            </div>
+            
+            <div class="attribute">
+                <p class="stat-label" style="left: 97px;">CHA</p>
+                <input type="number" id="charisma" value="50">
+                <div class="stat-background charisma" style="left:90px"></div>
+                <div class="stat-border"></div>
+                <div class="stat-lock" style="left: 110px"></div>
+                <p class="stat-name" style="left: 86px;">Charisma</p>
+            </div>
         </div>
 
         <div class="stat-row" style="left: 191px; top: 215px;">
-            <p class="stat-label" style="left: 7px;">FLM</p>
-            <input type="number" id="strength" value="50">
-            <div class="stat-background strength"></div>
-            <div class="stat-border"></div>
-            <div class="stat-lock"></div>
-            <p class="stat-name" style="left: -4px">Flamecharm</p>
+            <div class="attribute">
+                <p class="stat-label" style="left: 7px;">FLM</p>
+                <input type="number" id="strength" value="50">
+                <div class="stat-background strength"></div>
+                <div class="stat-border"></div>
+                <div class="stat-lock"></div>
+                <p class="stat-name" style="left: -4px">Flamecharm</p>
+            </div>
 
-            <p class="stat-label" style="left: 52px;">ICE</p>
-            <input type="number" id="fortitude" value="50">
-            <div class="stat-background fortitude" style="left:45px"></div>
-            <div class="stat-border"></div>
-            <div class="stat-lock" style="left: 64px"></div>
-            <p class="stat-name" style="left: 40px;">Frostdraw</p>
+            <div class="attribute">
+                <p class="stat-label" style="left: 52px;">ICE</p>
+                <input type="number" id="fortitude" value="50">
+                <div class="stat-background fortitude" style="left:45px"></div>
+                <div class="stat-border"></div>
+                <div class="stat-lock" style="left: 64px"></div>
+                <p class="stat-name" style="left: 40px;">Frostdraw</p>
+            </div>
 
-            <p class="stat-label" style="left: 97px;">LTN</p>
-            <input type="number" id="agility" value="50">
-            <div class="stat-background agility" style="left:90px"></div>
-            <div class="stat-border"></div>
-            <div class="stat-lock" style="left: 110px"></div>
-            <p class="stat-name" style="left: 92px;">Thundercall</p>
+            <div class="attribute">
+                <p class="stat-label" style="left: 97px;">LTN</p>
+                <input type="number" id="agility" value="50">
+                <div class="stat-background agility" style="left:90px"></div>
+                <div class="stat-border"></div>
+                <div class="stat-lock" style="left: 110px"></div>
+                <p class="stat-name" style="left: 92px;">Thundercall</p>
+            </div>
         </div>
-        <!--
+
+    <!--
         <div class="stat-row" style="left: 191px; top: 246px;" hidden>
             <p class="stat-label" style="left: 7px;">WND</p>
             <input type="number" id="strength" value="50">
@@ -301,8 +331,8 @@
             <div class="stat-lock" style="left: 64px" hidden></div>
             <p class="stat-name" style="left: 40px;" hidden>Lifeweave</p>
         </div>
+    -->
 
--->
     </div>
     <div class="toolbar">
         <section id="item1">
@@ -485,8 +515,5 @@
         </section>
 
     </div>
-
-    <img src="/bin/Screenshot_1565.webp" class="bg-image" style="opacity: 0">
 </body>
-
 </html>
