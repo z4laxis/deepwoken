@@ -199,7 +199,8 @@ section {
 }
 
 .tall {
-    height: 212px;
+    height: 223px;
+    zoom: 0.75;
 }
 
 .sidebar {
