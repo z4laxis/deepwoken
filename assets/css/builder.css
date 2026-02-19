@@ -175,6 +175,8 @@ section {
 .window ul li {
     text-align: left;
     font-size: 11px;
+    padding: 0;
+    opacity: 1;
     font-family: LibreBaskerville;
 }
 
