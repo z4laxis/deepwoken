@@ -346,6 +346,8 @@ span {
     left: 10px;
     top: -5px;
     border-radius: 2px;
+    border: none;
+    background: none;
     margin: 2px 0;
 }
 
