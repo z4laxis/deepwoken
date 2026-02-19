@@ -293,6 +293,54 @@ section {
     height: 16px;
 }
 
+.entry {
+    margin-bottom: 2px;
+    width: 90%;
+    text-align: left;
+    background: #e5e0ca;
+    border: solid #dad5c0 1px;
+    border-radius: 8px;
+}
+
+.name {
+    margin: 0 0 10px 0;
+    top: 5px;
+    width: 50%;
+    font-size: 13px;
+    opacity: 0.75;
+    font-family: 'SourceSans';
+    text-align: left;
+    position: relative;
+}
+
+.window ul {
+    width: 150px;
+    list-style-type: square;
+    padding-inline-start: 0px;
+    margin: 5px 0 0 10px;
+}
+
+.window ul li {
+    display: inline-block;
+    line-height: 10px;
+    margin-bottom: 2px;
+    text-align: center;
+    font-size: 11px;
+    border: solid #aca897 1px;
+    border-radius: 6px;
+    padding: 5px;
+    opacity: 0.75;
+    font-family: LibreBaskerville;
+    background: linear-gradient(180deg, #e3dbc5 0%, #d7d1c4 100%);
+}
+
+span {
+    top: 2px;
+    position: relative;
+    font-size: 8px;
+    color: #646464;
+}
+
 .strength {
     left: 0;
     background: radial-gradient(circle, #7f5849, #7f5849, #333333, #000000);
