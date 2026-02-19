@@ -175,6 +175,11 @@ section {
     justify-content: center;
 }
 
+.maglass {
+    vertical-align: sub;
+    margin-left: 2px;
+}
+
 .traits {
     left: 220px;
     top: 10px;
