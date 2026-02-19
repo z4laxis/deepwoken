@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,6 +9,7 @@
     <link rel="stylesheet" href="/assets/css/styles.css">
     <link rel="stylesheet" href="/assets/css/item.css">
     <link rel="stylesheet" href="/assets/css/builder.css">
+    <link rel="stylesheet" href="/assets/css/glossary.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -45,12 +47,17 @@
     <meta name="author" content="zalaxis">
     <meta name="copyright" content="Deepwoken">
 </head>
+
 <body>
-    <button class="menubutton" id="returntomenu" onclick="window.location.replace('/');"><img src="/assets/img/icons/topbar/returntomenu.png"></button>
+    <button class="menubutton" id="returntomenu" onclick="window.location.replace('/');"><img
+            src="/assets/img/icons/topbar/returntomenu.png"></button>
     <button class="menubutton" id="settings"><img src="/assets/img/icons/topbar/settings.png"></button>
-    <button class="menubutton" id="encyclopedia" onclick="window.location.replace('/glossary')"><img src="/assets/img/icons/topbar/encyclopediaclosed.png"></button>
-    <button class="menubutton" id="help" onclick="window.location.replace('/map/eastern')"><img src="/assets/img/icons/topbar/map.png"></button>
-    <button class="menubutton" id="squad" onclick="window.location.replace('/server-list')"><img src="/assets/img/icons/topbar/squad.png"></button>
+    <button class="menubutton" id="encyclopedia" onclick="window.location.replace('/glossary')"><img
+            src="/assets/img/icons/topbar/encyclopediaclosed.png"></button>
+    <button class="menubutton" id="help" onclick="window.location.replace('/map/eastern')"><img
+            src="/assets/img/icons/topbar/map.png"></button>
+    <button class="menubutton" id="squad" onclick="window.location.replace('/server-list')"><img
+            src="/assets/img/icons/topbar/squad.png"></button>
 
     <div class="stats-container" style="background: none">
         <div class="sidebar">
@@ -163,7 +170,7 @@
             </div>
 
             <div class="attribute">
-            <input type="number" id="erudition" value="4">
+                <input type="number" id="erudition" value="4">
                 <div class="stat-background trait" style="left: 46px"></div>
                 <div class="stat-border erudition"></div>
             </div>
@@ -255,7 +262,7 @@
                 <p class="stat-name" style="left: -10px">Intelligence</p>
             </div>
 
-            <div class="attribute"> 
+            <div class="attribute">
                 <p class="stat-label" style="left: 52px;">WLL</p>
                 <input type="number" id="willpower" value="50">
                 <div class="stat-background willpower" style="left:45px"></div>
@@ -304,7 +311,7 @@
             </div>
         </div>
 
-    <!--
+        <!--
         <div class="stat-row" style="left: 191px; top: 246px;" hidden>
             <p class="stat-label" style="left: 7px;">WND</p>
             <input type="number" id="strength" value="50">
@@ -346,6 +353,45 @@
     -->
 
     </div>
+
+    <div class="stats-container" style="background: #e5e0ca; text-align: -webkit-center;">
+        <div class="border"
+            style="z-index: 2;pointer-events: none;border: 1px solid transparent;border-image: var(--border-window) 20 stretch;border-image-width: 20px;border-image-outset: 1px;width: 100%;position: absolute;height: 100%;">
+        </div>
+        <input type="search" id="search" onkeyup="search()" placeholder="Search..." style=" border-image: url(/assets/img/border/text.png) 160 stretch; border-image-width: 8px; border-image-outset: 2px; height: 25px; width: 150px; position: absolute; top: 5px; right: 12.5px; font-size: 10px; background-color: #676c70; text-align: left; text-shadow: none; ">
+        <div class="entry">
+            <h1 class="name">Campfire pit</h1>
+
+            <div class="window">
+                <ul>
+                    <li>Wood</li>
+                    <br>
+                    <li>Stick
+                        <br>
+                        <span>x3</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="entry">
+            <h1 class="name">Chum</h1>
+
+            <div class="window">
+                <ul>
+                    <li>Fish Meat
+                        <br>
+                        <span>x2</span>
+                    </li>
+                    <li>Crustacean Meat
+                        <br>
+                        <span>x2</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
     <div class="toolbar">
         <section id="item1">
             <div class="item-background weapon"></div>
@@ -528,4 +574,5 @@
 
     </div>
 </body>
+
 </html>

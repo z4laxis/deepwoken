@@ -42,10 +42,13 @@ select {
     border: none;
     padding-right: 0;
     width: 62px;
+    top: 1px;
+    position: relative;
     outline: none;
+    height: 12px;
     font-family: SourceSans;
     font-size: 9px;
-    background: none;
+    background: #ead7af;
     appearance: none;
 }
 
@@ -227,14 +230,14 @@ section {
     left: 63px;
 }
 
-.sidebar {
+.side {
     position: absolute;
     width: 35px;
     height: 100%;
-    left: -35px;
+    left: -40px;
 }
 
-.sidebar .menubutton {
+.side .menubutton {
     width: 32px;
 }
 
