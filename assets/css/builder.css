@@ -155,6 +155,16 @@ section {
     z-index: 1;
 }
 
+.crafting {
+    background: #e5e0ca;
+    overflow: hidden scroll;
+    text-align: -webkit-center;
+    border: 1px solid transparent;
+    border-image: var(--border-window) 20 stretch;
+    border-image-width: 20px;
+    border-image-outset: 1px;
+}
+
 .stat-row {
     position: absolute;
     width: 118px;
