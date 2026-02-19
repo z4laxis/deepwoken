@@ -341,6 +341,14 @@ span {
     color: #646464;
 }
 
+.window {
+    position: relative;
+    left: 10px;
+    top: -5px;
+    border-radius: 2px;
+    margin: 2px 0;
+}
+
 .strength {
     left: 0;
     background: radial-gradient(circle, #7f5849, #7f5849, #333333, #000000);
