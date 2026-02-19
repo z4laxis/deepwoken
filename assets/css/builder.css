@@ -321,6 +321,7 @@ section {
 }
 
 h6 {
+    font-weight: 100;
     margin: 0;
     display: inline-block;
     line-height: 10px;
