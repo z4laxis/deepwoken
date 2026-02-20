@@ -52,6 +52,11 @@ const icons = [
   "arcwarder.png",
   "oathless.png", 
   "roll2.png", 
+  "assasin.png",
+  "spear.png",
+  "dodge.png",
+  "wing.png",
+  "angry.png",
   
   "ceaseless_slashes.png", 
   "karita_divebomb.png", 
