@@ -170,6 +170,11 @@ section {
     top: 100px;
 }
 
+li img,
+li h6 {
+    vertical-align: middle;
+}
+
 .stat-row {
     position: absolute;
     width: 118px;
