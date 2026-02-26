@@ -198,6 +198,7 @@ li h6 {
 }
 
 .window ul li {
+    width: 290px;
     text-align: left;
     font-size: 11px;
     padding: 0;
