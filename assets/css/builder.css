@@ -333,7 +333,7 @@ li h6 {
     text-align: left;
     background: #e5e0ca;
     border: solid #dad5c0 1px;
-    border-radius: 8px;
+    border-radius: 6px;
 }
 
 .name {
@@ -341,7 +341,7 @@ li h6 {
     top: 5px;
     width: 75%;
     font-size: 13px;
-    opacity: 0.75;
+    opacity: 1;
     font-family: 'SourceSans';
     text-align: left;
     position: relative;
