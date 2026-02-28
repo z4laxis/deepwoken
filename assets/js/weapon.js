@@ -18,36 +18,54 @@ renderer.setSize(window.innerWidth, window.innerHeight);
 document.body.appendChild(renderer.domElement);
 
 const controls = new OrbitControls(camera, renderer.domElement);
+controls.enableDamping = true;
 
-const light = new THREE.DirectionalLight(0xffffff, 1);
-light.position.set(5, 5, 5);
-scene.add(light);
+const directionalLight = new THREE.DirectionalLight(0xffffff, 1.5);
+directionalLight.position.set(5, 5, 5);
+scene.add(directionalLight);
 
-const ambient = new THREE.AmbientLight(0x404040, 2);
-scene.add(ambient);
+const ambientLight = new THREE.AmbientLight(0xffffff, 0.8);
+scene.add(ambientLight);
 
 const loader = new OBJLoader();
+
 loader.load(
-  "/assets/3d/axe.obj", 
+  '/assets/3d/axe.obj',
   (object) => {
+    object.traverse((child) => {
+      if (child.isMesh) {
+        child.material = new THREE.MeshStandardMaterial({
+          color: 0xffffff,
+          metalness: 0.6,
+          roughness: 0.4
+        });
+      }
+    });
+
     object.scale.set(1, 1, 1);
     object.position.set(0, 0, 0);
+
     scene.add(object);
   },
   (xhr) => {
-    console.log((xhr.loaded / xhr.total) * 100 + "% loaded");
+    if (xhr.total) {
+      console.log(((xhr.loaded / xhr.total) * 100).toFixed(1) + '% loaded');
+    }
   },
   (error) => {
-    console.error("An error occurred while loading the OBJ", error);
+    console.error('OBJ loading error:', error);
   }
 );
 
-window.addEventListener("resize", () => {
+window.addEventListener('resize', () => {
   camera.aspect = window.innerWidth / window.innerHeight;
   camera.updateProjectionMatrix();
   renderer.setSize(window.innerWidth, window.innerHeight);
 });
 
-renderer.setAnimationLoop(() => {
+function animate() {
+  controls.update();
   renderer.render(scene, camera);
-});
+}
+
+renderer.setAnimationLoop(animate);
