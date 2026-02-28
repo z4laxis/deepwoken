@@ -36,7 +36,7 @@ function init() {
     const loader = new THREE.OBJLoader();
 
     loader.load(
-        '/assets/3d/axe.obj',
+        '/assets/3d/a.obj',
         function (object) {
 
             model = object;
