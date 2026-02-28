@@ -1,71 +1,76 @@
-import * as THREE from 'https://unpkg.com/three@0.160.0/build/three.module.js';
-import { OrbitControls } from 'https://unpkg.com/three@0.160.0/examples/jsm/controls/OrbitControls.js';
-import { OBJLoader } from 'https://unpkg.com/three@0.160.0/examples/jsm/loaders/OBJLoader.js';
+let scene, camera, renderer, controls, model;
 
-const scene = new THREE.Scene();
-scene.background = new THREE.Color(0x111111);
+function init() {
 
-const camera = new THREE.PerspectiveCamera(
-  75,
-  window.innerWidth / window.innerHeight,
-  0.1,
-  1000
-);
-camera.position.set(2, 2, 3);
+    scene = new THREE.Scene();
 
-const renderer = new THREE.WebGLRenderer({ antialias: true });
-renderer.setSize(window.innerWidth, window.innerHeight);
-document.body.appendChild(renderer.domElement);
+    camera = new THREE.PerspectiveCamera(
+        75,
+        window.innerWidth / window.innerHeight,
+        0.1,
+        1000
+    );
 
-const controls = new OrbitControls(camera, renderer.domElement);
-controls.enableDamping = true;
+    renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
+    renderer.setSize(window.innerWidth, window.innerHeight);
+    document.body.appendChild(renderer.domElement);
 
-const directionalLight = new THREE.DirectionalLight(0xffffff, 1.5);
-directionalLight.position.set(5, 5, 5);
-scene.add(directionalLight);
+    controls = new THREE.OrbitControls(camera, renderer.domElement);
+    controls.enableZoom = true;
+    controls.enablePan = false;
+    controls.enableRotate = true;
 
-const ambientLight = new THREE.AmbientLight(0xffffff, 0.8);
-scene.add(ambientLight);
-
-const loader = new OBJLoader();
-
-loader.load(
-  '/assets/3d/axe.obj',
-  (object) => {
-    object.traverse((child) => {
-      if (child.isMesh) {
-        child.material = new THREE.MeshStandardMaterial({
-          color: 0xffffff,
-          metalness: 0.6,
-          roughness: 0.4
-        });
-      }
+    window.addEventListener('resize', () => {
+        renderer.setSize(window.innerWidth, window.innerHeight);
+        camera.aspect = window.innerWidth / window.innerHeight;
+        camera.updateProjectionMatrix();
     });
 
-    object.scale.set(1, 1, 1);
-    object.position.set(0, 0, 0);
+    const ambientLight = new THREE.AmbientLight(0xffffff, 0.6);
+    scene.add(ambientLight);
 
-    scene.add(object);
-  },
-  (xhr) => {
-    if (xhr.total) {
-      console.log(((xhr.loaded / xhr.total) * 100).toFixed(1) + '% loaded');
-    }
-  },
-  (error) => {
-    console.error('OBJ loading error:', error);
-  }
-);
+    const directionalLight = new THREE.DirectionalLight(0xffffff, 1);
+    directionalLight.position.set(5, 10, 5);
+    scene.add(directionalLight);
 
-window.addEventListener('resize', () => {
-  camera.aspect = window.innerWidth / window.innerHeight;
-  camera.updateProjectionMatrix();
-  renderer.setSize(window.innerWidth, window.innerHeight);
-});
+    const loader = new THREE.OBJLoader();
 
-function animate() {
-  controls.update();
-  renderer.render(scene, camera);
+    loader.load(
+        '/assets/3d/axe.obj',
+        function (object) {
+
+            model = object;
+
+            model.traverse(function (child) {
+                if (child.isMesh) {
+                    child.material = new THREE.MeshStandardMaterial({
+                        color: 0xffffff,
+                        metalness: 0.7,
+                        roughness: 0.3
+                    });
+                }
+            });
+
+            model.position.set(0, 0, 0);
+            model.scale.set(1, 1, 1);
+
+            scene.add(model);
+        },
+        undefined,
+        function (error) {
+            console.error('Error loading axe:', error);
+        }
+    );
+
+    camera.position.set(0, 1, 4);
+
+    animate();
 }
 
-renderer.setAnimationLoop(animate);
+function animate() {
+    requestAnimationFrame(animate);
+    controls.update();
+    renderer.render(scene, camera);
+}
+
+window.onload = init;
