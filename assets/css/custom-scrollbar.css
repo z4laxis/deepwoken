@@ -1,0 +1,62 @@
+.dw-scroll-host {
+    overflow-y: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.dw-scroll-host::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+.dw-scroll-overlay {
+    position: fixed;
+    width: 12px;
+    pointer-events: none;
+    z-index: 20;
+}
+
+.dw-scroll-track {
+    position: absolute;
+    inset: 0;
+    pointer-events: auto;
+}
+
+.dw-scroll-thumb {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 12px;
+    min-height: 36px;
+    cursor: pointer;
+}
+
+.dw-scroll-thumb-top,
+.dw-scroll-thumb-middle,
+.dw-scroll-thumb-bottom {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    pointer-events: none;
+}
+
+.dw-scroll-thumb-top {
+    top: 0;
+    height: 12px;
+    background: url('/assets/scroll/topscroll.png') center center no-repeat;
+    background-size: 100% 100%;
+}
+
+.dw-scroll-thumb-middle {
+    top: 12px;
+    bottom: 12px;
+    background: url('/assets/scroll/middlescroll.png') center top repeat-y;
+    background-size: 100% 12px;
+}
+
+.dw-scroll-thumb-bottom {
+    bottom: 0;
+    height: 12px;
+    background: url('/assets/scroll/bottomscroll.png') center center no-repeat;
+    background-size: 100% 100%;
+}

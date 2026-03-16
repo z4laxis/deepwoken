@@ -65,12 +65,6 @@ main {
     overflow-y: scroll;
 }
 
-main::-webkit-scrollbar-thumb {
-    background-image: url('/assets/img/scrollbar/scroll.png');
-    background-size: cover; 
-    border-radius: 10px; 
-}
-
 ul {
     font-family: SourceSans;
     list-style: none;

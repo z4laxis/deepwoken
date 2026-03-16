@@ -1,3 +1,31 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    position: relative;
+    overflow-x: hidden;
+}
+
+.menu-particles {
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    z-index: 0;
+    overflow: hidden;
+}
+
+.menu-particle {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    opacity: 0;
+    background: radial-gradient(circle at center, rgba(220, 226, 214, 0.95) 0%, rgba(220, 226, 214, 0) 72%);
+    filter: blur(0.3px);
+    will-change: transform, opacity;
+}
+
 main {
     display: flex;
     flex-wrap: wrap;
@@ -5,6 +33,27 @@ main {
     width: 1200px;
     margin: auto;
     font-family: Fondamento;
+    position: relative;
+    z-index: 1;
+    max-height: calc(100vh - 32px);
+    overflow-y: auto;
+    padding-right: 8px;
+}
+
+main::-webkit-scrollbar {
+    width: 10px;
+}
+
+main::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+main::-webkit-scrollbar-thumb {
+    background:
+        url('/assets/img/scrollbar/vertical/start.png') top center no-repeat,
+        url('/assets/img/scrollbar/vertical/middle.png') center center repeat-y,
+        url('/assets/img/scrollbar/vertical/end.png') bottom center no-repeat;
+    background-size: 100% 8px, 100% calc(100% - 16px), 100% 8px;
 }
 
 #contcontainer {
