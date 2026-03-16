@@ -1,8 +1,3 @@
-::-webkit-scrollbar, ::-moz-scrollbar {
-    display: none;
-    scrollbar-width: none;
-}
-
 body {
     background-image: radial-gradient(#223125, #06110e);
     user-select: none;
@@ -81,7 +76,6 @@ main {
 }
 
 .update-logs {
-    overflow-y: hidden;   
     width: 325px;
     height: 325px;
     position: absolute;
@@ -144,24 +138,14 @@ main {
 
 .orb {
     position: absolute;
-    bottom: -20px;
+    top: 100%;
+    left: 0;
     width: 10px;
     height: 10px;
-    background-color: white;
+    background: radial-gradient(circle at center, rgba(238, 243, 232, 1) 0%, rgba(238, 243, 232, 0) 75%);
     border-radius: 50%;
-    opacity: 0.08;
-    animation-name: floatUp;
-    animation-timing-function: ease-out;
-    filter: blur(1px);
-}
-
-@keyframes floatUp {
-    0% {
-transform: translateY(0) translateX(0);
-opacity: 0.08;
-    }
-    100% {
-transform: translateY(-110vh) translateX(var(--drift));
-opacity: 0;
-    }
+    opacity: 0;
+    filter: blur(0.6px);
+    box-shadow: 0 0 8px rgba(235, 240, 226, 0.35);
+    will-change: transform, opacity;
 }
