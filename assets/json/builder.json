@@ -12,7 +12,7 @@
     "width": "23px"
   },
   "Chrysid": {
-    "width": "0.55rem"
+    "width": "30px"
   },
   "Drakkard": {
     "width": "0.55rem"
@@ -24,10 +24,10 @@
     "width": "27px"
   },
   "Ganymede": {
-    "width": "21px"
+    "width": "40px"
   },
   "Gremor": {
-    "width": "0.55rem"
+    "width": "30px"
   },
   "Khan": {
     "width": "21px"
@@ -36,12 +36,12 @@
     "width": "23px"
   },
   "Lightborn": {
-    "width": "0.55rem"
+    "width": "40px"
   },
   "Tiran": {
-    "width": "0.55rem"
+    "width": "23px"
   },
   "Vesperian": {
-    "width": "0.55rem"
+    "width": "39px"
   }
 }
