@@ -526,9 +526,13 @@ span {
 }
 
 .faction-icon {
-    image-rendering: pixelated;
-    filter: drop-shadow(0px 2px 1px #000);
-    position: absolute;
-    width: 150px;
+    transform: none;
     left: 20px;
+}
+
+.faction-text, .status-text {
+    font-family: "Garamond";
+    text-align: left;
+    position: relative;
+    bottom: 40px;
 }
