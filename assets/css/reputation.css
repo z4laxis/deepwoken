@@ -36,12 +36,11 @@ body {
 }
 
 .faction-icon {
-    z-index: 1;
     image-rendering: pixelated;
     filter: drop-shadow(0px 2px 1px #000);
     position: absolute;
-    width: 130px;
-    transform: translate(25px, 30px);
+    width: 150px;
+    transform: translate(15px, 20px);
 }
 
 .faction-text,
@@ -49,6 +48,7 @@ body {
     color: rgba(0, 0, 0, 0.75);
     font-family: "Garamond";
     font-size: 48px;
+    font-weight: bold;
     margin: auto;
     margin-left: auto;
     width: 500px;
