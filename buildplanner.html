@@ -62,16 +62,16 @@
 
     <div class="stats-container" style="background: none">
         <div class="side">
-            <button class="menubutton" id="journal"><img src="/assets/img/icons/builder/tabs/journal.png"></button>
-            <button class="menubutton" id="crafting"><img src="/assets/img/icons/builder/tabs/crafting.png"></button>
-            <button class="menubutton" id="mantras"><img src="/assets/img/icons/builder/tabs/mantras.png"></button>
-            <button class="menubutton" id="talents"><img src="/assets/img/icons/builder/tabs/talents.png"></button>
-            <button class="menubutton" id="factions"><img src="/assets/img/icons/builder/tabs/factions.png"></button>
-            <button class="menubutton" id="stats"><img src="/assets/img/icons/builder/tabs/stats.png"></button>
+            <button class="menubutton panel-item" data-active="false" id="journal"><img src="/assets/img/icons/builder/tabs/journal.png"></button>
+            <button class="menubutton panel-item" data-active="false" id="crafting"><img src="/assets/img/icons/builder/tabs/crafting.png"></button>
+            <button class="menubutton panel-item" data-active="false" id="mantras"><img src="/assets/img/icons/builder/tabs/mantras.png"></button>
+            <button class="menubutton panel-item" data-active="false" id="talents"><img src="/assets/img/icons/builder/tabs/talents.png"></button>
+            <button class="menubutton panel-item" data-active="false" id="factions"><img src="/assets/img/icons/builder/tabs/factions.png"></button>
+            <button class="menubutton panel-item" data-active="false" id="stats"><img src="/assets/img/icons/builder/tabs/stats.png"></button>
         </div>
     </div>
 
-    <div class="stats-container">
+    <div class="stats-container" id="journal-window">
         <img src="/assets/img/border/journalborder.png" class="journal-border">
         <img src="/assets/img/border/journalborder.png" class="journal-border right">
         <img src="/assets/img/border/talljournalborder.png" class="journal-border tall" style="top: 170px;">
@@ -96,7 +96,7 @@
         <div class="stat-row details">
             <div class="detail">
                 <p><b>Origin: </b>
-                    <select onchange="select('origin')" id="origin">
+                    <select style="width: 35px;" onchange="select('origin')" id="origin">
                         <option selected>Stranded</option>
                         <option>Lone Warrior</option>
                         <option>Deepbound</option>
@@ -107,7 +107,7 @@
             </div>
             <div class="detail">
                 <p><b>Oath: </b>
-                    <select onchange="select('oath')" id="oath">
+                    <select style="width: 20px;" onchange="select('oath')" id="oath">
                         <option selected>None</option>
                         <option>Arcwarder</option>
                         <option>Bladeharper</option>
@@ -297,7 +297,7 @@
 
     </div>
 
-    <div class="stats-container crafting" hidden>
+    <div class="stats-container crafting hidden" id="crafting-window">
         <input type="search" id="search" onkeyup="search()" placeholder="Search...">
 
         <div class="list">
@@ -1294,6 +1294,7 @@
             <p class="item-count" hidden>x3</p>
         </section>
 
+        <script src="/assets/js/menu.js"></script>
         <script src="/assets/js/builder.js"></script>
     </div>
 </body>
