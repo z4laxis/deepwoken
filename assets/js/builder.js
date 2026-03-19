@@ -1,9 +1,9 @@
-function select() {
-    const selectedAspect = document.getElementById('aspect');
+function select(selectID) {
+    const selectedElement = document.getElementById(selectID);
     fetch('/assets/json/builder.json')
         .then(res => res.json())
-        .then(aspects => {
-            selectedAspect.style.width = aspects[selectedAspect.value].width;
+        .then(elements => {
+            selectedElement.style.width = elements[selectedElement.value].width;
         })
         .catch(err => console.error(err));
 }
