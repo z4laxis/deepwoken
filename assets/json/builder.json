@@ -1,62 +1,47 @@
-[
-  {
-    "text": "Adret",
+{
+  "Adret": {
     "width": "21px"
   },
-  {
-    "text": "Canor",
+  "Canor": {
     "width": "23px"
   },
-  {
-    "text": "Capra",
+  "Capra": {
     "width": "23px"
   },
-  {
-    "text": "Celtor",
+  "Celtor": {
     "width": "23px"
   },
-  {
-    "text": "Chrysid",
+  "Chrysid": {
     "width": "0.55rem"
   },
-  {
-    "text": "Drakkard",
+  "Drakkard": {
     "width": "0.55rem"
   },
-  {
-    "text": "Etrean",
+  "Etrean": {
     "width": "25px"
   },
-  {
-    "text": "Felinor",
+  "Felinor": {
     "width": "27px"
   },
-  {
-    "text": "Ganymede",
+  "Ganymede": {
     "width": "21px"
   },
-  {
-    "text": "Gremor",
+  "Gremor": {
     "width": "0.55rem"
   },
-  {
-    "text": "Khan",
+  "Khan": {
     "width": "21px"
   },
-  {
-    "text": "Kiron",
+  "Kiron": {
     "width": "23px"
   },
-  {
-    "text": "Lightborn",
+  "Lightborn": {
     "width": "0.55rem"
   },
-  {
-    "text": "Tiran",
+  "Tiran": {
     "width": "0.55rem"
   },
-  {
-    "text": "Vesperian",
+  "Vesperian": {
     "width": "0.55rem"
   }
-]
+}
