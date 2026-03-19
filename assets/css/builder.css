@@ -520,3 +520,15 @@ span {
 #lightweapons {
     left: 94.5px;
 }
+
+.faction-frame {
+    transform: scale(0.9);
+}
+
+.faction-icon {
+    image-rendering: pixelated;
+    filter: drop-shadow(0px 2px 1px #000);
+    position: absolute;
+    width: 150px;
+    left: 20px;
+}
