@@ -107,7 +107,7 @@
             </div>
             <div class="detail">
                 <p><b>Oath: </b>
-                    <select style="width:0px">
+                    <select onchange="">
                         <option selected>None</option>
                         <option>Arcwarder</option>
                         <option>Bladeharper</option>
@@ -133,7 +133,7 @@
             </div>
             <div class="detail">
                 <p><b>Aspect: </b>
-                    <select style="width:41px">
+                    <select style="width:41px" onchange="select()" id="aspects">
                         <option hidden>Aberrant Capra</option>
                         <option selected>Adret</option>
                         <option>Canor</option>
@@ -1292,7 +1292,7 @@
             <p class="item-count" hidden>x3</p>
         </section>
 
+        <script src="/assets/js/builder.js"></script>
     </div>
-
 </body>
 </html>
