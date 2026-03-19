@@ -42,11 +42,10 @@ input {
 select {
     border: none;
     padding-right: 0;
-    width: auto; 
-    top: 1px;
+    top: 0;
     position: relative;
     outline: none;
-    height: 12px;
+    height: 100%;
     font-family: SourceSans;
     font-size: 9px;
     background: #ead7af;
