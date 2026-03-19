@@ -42,6 +42,7 @@ input {
 select {
     border: none;
     padding-right: 0;
+    top:1px;
     position: relative;
     outline: none;
     height: 10px;
@@ -329,7 +330,7 @@ li h6 {
 }
 
 .detail span {
-    top: 2px;
+    top: 0px;
 }
 
 .entry {

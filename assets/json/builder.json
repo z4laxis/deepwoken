@@ -1,4 +1,20 @@
 {
+  "Stranded": {
+    "width": "35px"
+  },
+  "Lone Warrior": {
+    "width": "50px"
+  },
+  "Deepbound": {
+    "width": "45px"
+  },
+  "Voidwalker": {
+    "width": "44px"
+  },
+  "Authority Ensign": {
+    "width": "65px"
+  },
+
   "Adret": {
     "width": "21px"
   },
@@ -45,14 +61,18 @@
     "width": "39px"
   },
 
+  "None": {
+    "width": "20px"
+  },
+
   "Arcwarder": {
     "width": "40px"
   },
   "Bladeharper": {
-    "width": "40px"
+    "width": "45px"
   },
   "Blightsurger": {
-    "width": "40px"
+    "width": "48px"
   },
   "Blindseer": {
     "width": "36px"
