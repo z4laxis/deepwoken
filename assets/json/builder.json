@@ -44,7 +44,53 @@
   "Vesperian": {
     "width": "39px"
   },
+
   "Arcwarder": {
     "width": "40px"
+  },
+  "Bladeharper": {
+    "width": "40px"
+  },
+  "Blightsurger": {
+    "width": "40px"
+  },
+  "Blindseer": {
+    "width": "36px"
+  },
+  "Chainwarden": {
+    "width": "50px"
+  },
+  "Dawnwalker": {
+    "width": "49px"
+  },
+  "Fadetrimmer": {
+    "width": "51px"
+  },
+  "Jetstriker": {
+    "width": "36px"
+  },
+  "Linkstrider": {
+    "width": "41px"
+  },
+  "Oathless": {
+    "width": "34px"
+  },
+  "Saltchemist": {
+    "width": "45px"
+  },
+  "Saintsworn": {
+    "width": "45px"
+  },
+  "Silentheart": {
+    "width": "45px"
+  },
+  "Soulbreaker": {
+    "width": "46px"
+  },
+  "Starkindred": {
+    "width": "46px"
+  },
+  "Visionshaper": {
+    "width": "50px"
   }
 }
