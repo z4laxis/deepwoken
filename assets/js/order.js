@@ -11,13 +11,20 @@ function order() {
     var ordernumfinal = 0;
 
     for (var i = 0; i < vars1.length; i++) {
-        if (window[vars1[i]] >= 1) {
-            ordertotal += window[vars1[i]];
+        var el = document.getElementById(vars1[i]);
+        var val = el ? parseInt(el.value) : 0;
+        if (val >= 1) {
+            ordertotal += val;
             ordernum++;
-            orderlist.push(window[vars1[i]]);
+            orderlist.push(val);
             ordernumlist.push(i);
             ismagic.push(i < 9 ? 0 : 1);
         }
+    }
+
+    if (ordertotal > 330) {
+        alert(`Total stats = ${ordertotal}, exceeds 330 by ${ordertotal - 330}.`);
+        return;
     }
 
     for (var i = 0; i < ordernumlist.length; i++) {
@@ -52,9 +59,7 @@ function order() {
     }
 
     for (var i = 0; i < ordernumlist.length; i++) {
-        console.log(`stat [${vars1[ordernumlist[i]]}] -> value: ${Math.floor(orderlistfinal[i])}`);
+        var el = document.getElementById(vars1[ordernumlist[i]]);
+        if (el) el.value = Math.floor(orderlistfinal[i]);
     }
-
 }
-
-order()
