@@ -505,19 +505,22 @@ span {
 
 #strength,
 #willpower, 
-#heavyweapons {
+#heavyweapons,
+#flamecharm {
     left: 4.5px;
 }
 
 #fortitude,
 #intelligence, 
-#mediumweapons {
+#mediumweapons,
+#frostdraw {
     left: 49.5px;
 }
 
 #agility,
 #charisma, 
-#lightweapons {
+#lightweapons,
+#thundercall {
     left: 94.5px;
 }
 
