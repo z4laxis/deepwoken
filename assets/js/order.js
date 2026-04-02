@@ -1,10 +1,4 @@
-const vars1 = ['str', 'fort', 'agil', 'int', 'will', 'char', 'hw', 'mw', 'lw', 'flm', 'ice', 'ltn', 'gale', 'shdw', 'mtl', 'bld'];
-
-const stats = {
-    str: 80, fort: 60, agil: 45, int: 30, will: 20, char: 10,
-    hw: 50, mw: 40, lw: 35,
-    flm: 70, ice: 65, ltn: 55, gale: 48, shdw: 90, mtl: 25, bld: 15, lfe: 5
-};
+const vars1 = ['strength', 'fortitude', 'agility', 'intelligence', 'willpower', 'charisma', 'heavyweapons', 'mediumweapons', 'lightweapons', 'flamecharm', 'frostdraw', 'thundercall', 'galebreathe', 'shadowcast', 'ironsing', 'bloodrend', 'lifeweave'];
 
 function order() {
     var orderlist = [];
@@ -17,10 +11,10 @@ function order() {
     var ordernumfinal = 0;
 
     for (var i = 0; i < vars1.length; i++) {
-        if (stats[vars1[i]] >= 1) {
-            ordertotal += stats[vars1[i]];
+        if (window[vars1[i]] >= 1) {
+            ordertotal += window[vars1[i]];
             ordernum++;
-            orderlist.push(stats[vars1[i]]);
+            orderlist.push(window[vars1[i]]);
             ordernumlist.push(i);
             ismagic.push(i < 9 ? 0 : 1);
         }
