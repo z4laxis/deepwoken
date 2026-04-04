@@ -7,3 +7,16 @@ function select(selectID) {
         })
         .catch(err => console.error(err));
 }
+
+document.querySelectorAll(".attribute").forEach(node => {
+    node.addEventListener("keyup", function(event) {
+        if (event.key === "Enter") {
+            const element = document.getElementById(node.dataset.element);
+            if (element) {
+                let val = parseFloat(element.value);
+                if (val > 100) element.value = 100;
+                if (val < 0) element.value = 0;
+            }
+        }
+    }); 
+});

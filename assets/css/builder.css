@@ -20,7 +20,6 @@ h1 {
 }
 
 input {
-    caret-color: transparent;
     text-shadow: -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000;
     top: 1.5px;
     appearance: textfield;
