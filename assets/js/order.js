@@ -1,4 +1,4 @@
-const vars1 = ['strength', 'fortitude', 'agility', 'intelligence', 'willpower', 'charisma', 'heavyweapons', 'mediumweapons', 'lightweapons', 'flamecharm', 'frostdraw', 'thundercall', 'galebreathe', 'shadowcast', 'ironsing', 'bloodrend', 'lifeweave'];
+const attributes = ['strength', 'fortitude', 'agility', 'intelligence', 'willpower', 'charisma', 'heavyweapons', 'mediumweapons', 'lightweapons', 'flamecharm', 'frostdraw', 'thundercall', 'galebreathe', 'shadowcast', 'ironsing', 'bloodrend', 'lifeweave'];
 
 function order() {
     var orderlist = [];
@@ -10,8 +10,8 @@ function order() {
     var ordernum = 0;
     var ordernumfinal = 0;
 
-    for (var i = 0; i < vars1.length; i++) {
-        var el = document.getElementById(vars1[i]);
+    for (var i = 0; i < attributes.length; i++) {
+        var el = document.getElementById(attributes[i]);
         var val = el ? parseInt(el.value) : 0;
         if (val >= 1) {
             ordertotal += val;
@@ -59,7 +59,7 @@ function order() {
     }
 
     for (var i = 0; i < ordernumlist.length; i++) {
-        var el = document.getElementById(vars1[ordernumlist[i]]);
+        var el = document.getElementById(attributes[ordernumlist[i]]);
         if (el) el.value = Math.floor(orderlistfinal[i]);
     }
 }

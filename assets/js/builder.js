@@ -8,7 +8,7 @@ function select(selectID) {
         .catch(err => console.error(err));
 }
 
-document.querySelectorAll(".attribute").forEach(node => {
+document.querySelectorAll(".stat").forEach(node => {
     node.addEventListener("keyup", function(event) {
         if (event.key === "Enter") {
             const element = document.getElementById(node.dataset.element);
