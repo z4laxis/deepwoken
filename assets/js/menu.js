@@ -22,7 +22,7 @@ panelItems.forEach(item => {
         });
 
         this.setAttribute("data-active", "true");
-        this.img.src = this.id + "hover.png";
+        this.querySelector("img").src = this.id + "hover.png";
 
         if (panel) panel.classList.remove("hidden");
     });
