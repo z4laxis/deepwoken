@@ -17,10 +17,12 @@ panelItems.forEach(item => {
             panel.setAttribute("data-active", "false");
             const panelWindow = document.getElementById(panel.id + "-window");
             if (panelWindow) panelWindow.classList.add("hidden");
+            this.img.src = this.id + ".png");
+
         });
 
         this.setAttribute("data-active", "true");
-        console.log(this.id + "hover.png");
+        this.img.src = this.id + "hover.png");
 
         if (panel) panel.classList.remove("hidden");
     });
