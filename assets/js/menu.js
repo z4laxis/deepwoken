@@ -32,6 +32,6 @@ buttons.forEach(button => {
         });
 
         this.setAttribute("data-pressed", "true");
-        this.img.src = this.id + "hover.png";
+        console.log(this.id + "hover.png");
     });
 });
