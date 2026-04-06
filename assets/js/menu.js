@@ -13,18 +13,20 @@ panelItems.forEach(item => {
     }
 
     item.addEventListener("click", function () {
+        const activeItem = this;
+
         panelItems.forEach(panel => {
             panel.setAttribute("data-active", "false");
             const panelWindow = document.getElementById(panel.id + "-window");
             if (panelWindow) panelWindow.classList.add("hidden");
-            this.querySelector("img").src = "/assets/img/icons/builder/tabs/" + this.id + ".png";
-
+            activeItem.querySelector("img").src = `/assets/img/icons/builder/tabs/${activeItem.id}.png`;
         });
 
-        this.setAttribute("data-active", "true");
-        this.querySelector("img").src = "/assets/img/icons/builder/tabs/" = this.id + "hover.png";
+        activeItem.setAttribute("data-active", "true");
+        activeItem.querySelector("img").src = `/assets/img/icons/builder/tabs/${activeItem.id}hover.png`;
 
-        if (panel) panel.classList.remove("hidden");
+        const activePanel = document.getElementById(activeItem.id + "-window");
+        if (activePanel) activePanel.classList.remove("hidden");
     });
 });
 
