@@ -17,12 +17,12 @@ panelItems.forEach(item => {
             panel.setAttribute("data-active", "false");
             const panelWindow = document.getElementById(panel.id + "-window");
             if (panelWindow) panelWindow.classList.add("hidden");
-            this.querySelector("img").src = this.id + ".png";
+            this.querySelector("img").src = "/assets/img/icons/builder/tabs/" + this.id + ".png";
 
         });
 
         this.setAttribute("data-active", "true");
-        this.querySelector("img").src = this.id + "hover.png";
+        this.querySelector("img").src = "/assets/img/icons/builder/tabs/" = this.id + "hover.png";
 
         if (panel) panel.classList.remove("hidden");
     });
