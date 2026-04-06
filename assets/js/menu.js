@@ -17,7 +17,7 @@ panelItems.forEach(item => {
             panel.setAttribute("data-active", "false");
             const panelWindow = document.getElementById(panel.id + "-window");
             if (panelWindow) panelWindow.classList.add("hidden");
-            this.img.src = this.id + ".png");
+            this.img.src = this.id + ".png";
 
         });
 
