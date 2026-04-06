@@ -20,6 +20,7 @@ panelItems.forEach(item => {
         });
 
         this.setAttribute("data-active", "true");
+        console.log(this.id + "hover.png");
 
         if (panel) panel.classList.remove("hidden");
     });
@@ -32,6 +33,5 @@ buttons.forEach(button => {
         });
 
         this.setAttribute("data-pressed", "true");
-        console.log(this.id + "hover.png");
     });
 });
