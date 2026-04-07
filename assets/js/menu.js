@@ -19,11 +19,9 @@ panelItems.forEach(item => {
             panel.setAttribute("data-active", "false");
             const panelWindow = document.getElementById(panel.id + "-window");
             if (panelWindow) panelWindow.classList.add("hidden");
-            activeItem.querySelector("img").src = `/assets/img/icons/builder/tabs/${activeItem.id}.png`;
         });
 
         activeItem.setAttribute("data-active", "true");
-        activeItem.querySelector("img").src = `/assets/img/icons/builder/tabs/${activeItem.id}hover.png`;
 
         const activePanel = document.getElementById(activeItem.id + "-window");
         if (activePanel) activePanel.classList.remove("hidden");
