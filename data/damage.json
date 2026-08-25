@@ -1,0 +1,1175 @@
+[
+  {
+    "attunements": {
+      "attunementless": [
+        "strength",
+        "fortitude",
+        "agility",
+        "willpower",
+        "intelligence",
+        "charisma",
+        "heavy weapon",
+        "medium weapon",
+        "light weapon"
+      ],
+      "bloodrend": [
+        {
+          "name": "Crucifixion",
+          "damage": [16, 22, 28, 34, 40],
+          "posture": 13,
+          "windup": "0.7s"
+        },
+        {
+          "name": "Scarlet Cyclone",
+          "damage": [70, 85, 100, 115, 130],
+          "posture": 10,
+          "windup": "0.5s"
+        },
+        {
+          "name": "Scarlet Cyclone (Multiplying Spark)",
+          "damage": [84, 102, 120, 138, 156],
+          "posture": 10,
+          "windup": "0.5s"
+        },
+        {
+          "name": "Blood Orb",
+          "damage": [14.5, 19, 23.5, 28, 32.5],
+          "posture": 8,
+          "windup": "0.6s"
+        },
+        {
+          "name": "Blood Orb (Multiplying)",
+          "damage": [20.5, 25, 29.5, 34, 38.5],
+          "posture": 6,
+          "windup": "0.6s"
+        },
+        {
+          "name": "Blood Stakes",
+          "damage": [5, 12, 21, 32, 45],
+          "posture": "2 per stake",
+          "windup": "1.15s"
+        },
+        {
+          "name": "Sanguine Dive",
+          "damage": [24, 28, 32, 36, 40],
+          "posture": 15,
+          "windup": "0.65s (dive) \u003E 0.25s (rise)"
+        },
+        {
+          "name": "Vicious Descent",
+          "damage": [24.05, 33.8, 43.55, 53.3, 63.05],
+          "posture": 14,
+          "windup": "0.75s"
+        },
+        {
+          "name": "Bloodedge",
+          "damage": [16, 20, 24, 28, 32],
+          "posture": 15,
+          "windup": "0.5s"
+        },
+        {
+          "name": "Soulflare Siphon",
+          "damage": [18.75, 25, 31.25, 37.5, 43.75],
+          "posture": 11,
+          "windup": "0.5s"
+        },
+        {
+          "name": "Veinbreaker",
+          "damage": [
+            [15, 35, 40, 45, 90],
+            [20, 40, 45, 50, 95],
+            [25, 45, 50, 55, 100],
+            [30, 50, 55, 60, 105],
+            [35, 55, 60, 65, 110]
+          ],
+          "posture": "25 (1–2 charges), unblockable (3+ charge)",
+          "windup": "0.7s \u003E 0.25s per charge \u003E 0.3s"
+        },
+        {
+          "name": "Crimson Rain",
+          "damage": [
+            [14.25, 28.5],
+            [16.5, 33],
+            [18.75, 37.5],
+            [21, 42],
+            [46.5, 93]
+          ],
+          "posture": [12, 24],
+          "windup": "0.6s \u003E 0.5s (recall)"
+        },
+        {
+          "name": "Vein Tendrils",
+          "damage": [25, 29, 33, 37, 41],
+          "posture": [12],
+          "windup": "1s \u003E 0.3s"
+        },
+        {
+          "name": "Scarlet Cannon",
+          "damage": [17, 25.5, 34, 42.5, 51],
+          "posture": [17],
+          "windup": "1.1s \u003E 0.1s between hits"
+        },
+        {
+          "name": "Razor Blitz",
+          "damage": [22.5, 30, 37.5, 45, 52.5],
+          "posture": [10],
+          "windup": "0.5s \u003E 0.5s + travel time"
+        },
+        {
+          "name": "Crimson Surge",
+          "damage": [24, 30, 36, 42, 48],
+          "posture": [15],
+          "windup": "0.6s \u003E 0.1s \u003E 0.1s"
+        },
+        {
+          "name": "Bloodtide Ritual",
+          "damage": [
+            "24–42",
+            "29–47",
+            "34–52",
+            "39–57",
+            "44–62"
+          ],
+          "posture": [22],
+          "windup": "0.425s \u003E 0.725s between hits \u003E 1.6s (final)"
+        },
+        {
+          "name": "Bloodcurdle",
+          "damage": [17.4, 23.8, 31.2, 39.6, 49],
+          "posture": 12,
+          "windup": "1s"
+        }
+      ],
+      "flamecharm": [
+        {
+          "name": "Burning Servants",
+          "damage": [44, 48.4, 52.8, 57.2, 61.6],
+          "posture": [24, 20],
+          "windup": [0]
+        },
+        {
+          "name": "Flame Grab",
+          "damage": [15, 20, 25, 30, 35],
+          "posture": [6],
+          "windup": [0]
+        },
+        {
+          "name": "Flame Repulsion",
+          "damage": [16, 18.4, 20.8, 23.2, 25.6],
+          "posture": [15],
+          "windup": [0]
+        },
+        {
+          "name": "Flame Repulsion (Spring)",
+          "damage": [31.4, 33.56, 35.72, 37.88, 40.04],
+          "posture": [16],
+          "windup": [0]
+        },
+        {
+          "name": "Fire Gun",
+          "damage": [6.5, 8.5, 10.5, 12.5, 14.5],
+          "posture": [1],
+          "windup": [0]
+        },
+        {
+          "name": "Fire Blade",
+          "damage": [18, 21, 24, 27, 30],
+          "posture": [18],
+          "windup": [0]
+        },
+        {
+          "name": "Fire Palm",
+          "damage": [26, 27.5, 29, 30.5, 32],
+          "posture": [5],
+          "windup": [0]
+        },
+        {
+          "name": "Fire Eruption",
+          "damage": [48, 53, 58, 63, 68],
+          "posture": [40],
+          "windup": [0]
+        },
+        {
+          "name": "Fire Forge",
+          "damage": [25, 28, 31, 34, 37],
+          "posture": [12],
+          "windup": [0]
+        },
+        {
+          "name": "Fire Forge (Tornado)",
+          "damage": [41.7, 46.7, 51.7, 56.7, 61.7],
+          "posture": [13],
+          "windup": [0]
+        },
+        {
+          "name": "Searing Snare",
+          "damage": [20, 25, 30, 35, 40],
+          "posture": [18, 20, 22, 24, 26],
+          "windup": [0]
+        },
+        {
+          "name": "Flame Sentinel",
+          "damage": [5, 6, 7, 8, 9],
+          "posture": [14],
+          "windup": [0]
+        },
+        {
+          "name": "Flame Leap",
+          "damage": [10, 10, 10, 10, 10],
+          "posture": [10],
+          "windup": [0]
+        },
+        {
+          "name": "Flare Volley",
+          "damage": [18, 21, 24, 27, 30],
+          "posture": [5],
+          "windup": [0]
+        },
+        {
+          "name": "Flame Assault",
+          "damage": [8, 16, 24, 32, 40],
+          "posture": [1.5, 3, 4.5, 6, 7.5],
+          "windup": [0]
+        },
+        {
+          "name": "Rising Flame",
+          "damage": [20, 23, 26, 29, 32],
+          "posture": [10],
+          "windup": [0]
+        },
+        {
+          "name": "Relentless Flames",
+          "damage": [74, 81.4, 88.8, 96.2, 103.6],
+          "posture": [5, 7, 9, 11, 13],
+          "windup": [0]
+        },
+        {
+          "name": "Ash Slam",
+          "damage": [16, 22.4, 28.8, 35.2, 41.6],
+          "posture": [6],
+          "windup": [0]
+        },
+        {
+          "name": "Flame Ballista",
+          "damage": [33.5, 37, 40.5, 44, 47.5],
+          "posture": [14],
+          "windup": [0]
+        },
+        {
+          "name": "Flaming Scourge",
+          "damage": [30, 33, 36, 39, 42],
+          "posture": [16.5],
+          "windup": [0]
+        },
+        {
+          "name": "Flaming Scourge (Reversal)",
+          "damage": [20, 22, 24, 26, 28],
+          "posture": [16.5],
+          "windup": [0]
+        }
+      ],
+      "frostdraw": [
+        {
+          "name": "Frozen Servants",
+          "damage": [12, 16, 20, 24, 28],
+          "posture": [10],
+          "windup": [0]
+        },
+        {
+          "name": "Frozen Servants (Blast Spark)",
+          "damage": [40, 48, 56, 64, 72],
+          "posture": [20],
+          "windup": [0]
+        },
+        {
+          "name": "Ice Beam",
+          "damage": [28, 29.2, 30.4, 31.6, 32.8],
+          "posture": [],
+          "windup": [0]
+        },
+        {
+          "name": "Warden Blades",
+          "damage": [51, 56.5, 62, 67.5, 73],
+          "posture": [19],
+          "windup": [0]
+        },
+        {
+          "name": "Ice Spikes",
+          "damage": [25, 25, 25, 25, 25],
+          "posture": [10],
+          "windup": [0]
+        },
+        {
+          "name": "Ice Daggers",
+          "damage": [15, 18, 21, 24, 27],
+          "posture": [3],
+          "windup": [0]
+        },
+        {
+          "name": "Ice Blade",
+          "damage": [28.7, 37.4, 46.1, 54.8, 63.5],
+          "posture": [15],
+          "windup": [0.5]
+        },
+        {
+          "name": "Ice Blade (Glacial Mobility)",
+          "damage": [24, 26, 28, 30, 32],
+          "posture": [8],
+          "windup": [0]
+        },
+        {
+          "name": "Ice Chains",
+          "damage": [20, 22.5, 25, 27.5, 30],
+          "posture": [3],
+          "windup": [0]
+        },
+        {
+          "name": "Ice Eruption",
+          "damage": [25, 25, 25, 25, 25],
+          "posture": [],
+          "windup": [0]
+        },
+        {
+          "name": "Ice Forge",
+          "damage": [18, 23.8, 30.4, 37.8, 46],
+          "posture": [],
+          "windup": [0]
+        },
+        {
+          "name": "Ice Forge (Blast)",
+          "damage": [12, 16.3, 21.4, 27.3, 34],
+          "posture": [],
+          "windup": [0]
+        },
+        {
+          "name": "Ice Forge (Magnet)",
+          "damage": [21, 27.2, 30.4, 37.8, 46],
+          "posture": [],
+          "windup": [0]
+        },
+        {
+          "name": "Ice Forge (Magnet + Blast)",
+          "damage": [10.5, 15.2, 18.4, 24.3, 31],
+          "posture": [],
+          "windup": [0]
+        },
+        {
+          "name": "Ice Smash",
+          "damage": [63, 68.4, 73.8, 79.2, 84.6],
+          "posture": [10, 12, 14, 16],
+          "windup": [0]
+        },
+        {
+          "name": "Glacial Arc",
+          "damage": [37, 42.2, 47.4, 52.6, 57.8],
+          "posture": [20],
+          "windup": [0]
+        },
+        {
+          "name": "Ice Lance",
+          "damage": [25, 30, 35, 40, 45],
+          "posture": [4, 5, 6, 7, 8],
+          "windup": [0.5]
+        },
+        {
+          "name": "Rising Frost",
+          "damage": [41.5, 45.65, 49.8, 53.95, 58.1],
+          "posture": [12, 15, 18, 21, 24],
+          "windup": [0]
+        },
+        {
+          "name": "Ice Flock",
+          "damage": [48, 62.4, 76.8, 91.2, 105.6],
+          "posture": [56],
+          "windup": [0]
+        },
+        {
+          "name": "Frost Grab",
+          "damage": [12, 14.4, 16.8, 19.2, 21.6],
+          "posture": [6],
+          "windup": [0]
+        },
+        {
+          "name": "Frost Grab (Blast Spark)",
+          "damage": [9, 10.8, 12.6, 14.4, 16.2],
+          "posture": [6],
+          "windup": [0]
+        },
+        {
+          "name": "Ice Carve",
+          "damage": [45, 49.5, 54, 58.5, 63],
+          "posture": [9],
+          "windup": [0]
+        },
+        {
+          "name": "Ice Carve (Round Spark)",
+          "damage": [60, 70, 80, 90, 100],
+          "posture": [20],
+          "windup": [0]
+        },
+        {
+          "name": "Ice Carve (Spring Spark)",
+          "damage": [10, 10.5, 11, 11.5, 12],
+          "posture": [1],
+          "windup": [0]
+        },
+        {
+          "name": "Crystal Knee",
+          "damage": [35, 38, 41, 44, 47],
+          "posture": [20, 22, 24, 26, 28],
+          "windup": [0]
+        },
+        {
+          "name": "Crystal Impale",
+          "damage": [23.3, 28.3, 33.3, 38.3, 43.3],
+          "posture": [],
+          "windup": [0]
+        },
+        {
+          "name": "Crystal Impale (Airborne)",
+          "damage": [10.5, 12.75, 15, 17.25, 19.5],
+          "posture": [],
+          "windup": [0]
+        },
+        {
+          "name": "Ice Lasers",
+          "damage": [8, 11, 14, 17, 20],
+          "posture": [],
+          "windup": [0]
+        },
+        {
+          "name": "Ice Cubes",
+          "damage": [24, 30, 36, 42, 48],
+          "posture": [15],
+          "windup": [0]
+        },
+        {
+          "name": "Ice Fissure",
+          "damage": [
+            [33.75, 22.61, 11.48],
+            [38.25, 25.63, 13.01],
+            [42.75, 28.64, 14.54],
+            [47.25, 31.66, 16.07],
+            [51.75, 34.67, 17.6]
+          ],
+          "posture": [],
+          "windup": [0.4]
+        },
+        {
+          "name": "Iceberg",
+          "damage": [15, 17.5, 20, 22.5, 25],
+          "posture": [15],
+          "windup": [0]
+        }
+      ],
+      "galebreathe": [
+        {
+          "name": "Wind Blade",
+          "damage": [18, 20.5, 23, 25.5, 28],
+          "posture": [12],
+          "windup": [0.5]
+        },
+        {
+          "name": "Wind Blade (Tempest Wind)",
+          "damage": [15, 22.5, 30, 37.5, 45],
+          "posture": [4, 5, 6, 7, 8],
+          "windup": [0.5]
+        },
+        {
+          "name": "Air Force",
+          "damage": [22, 24.4, 26.8, 29.2, 31.6],
+          "posture": [5.5, 5.7, 5.9, 6.1, 6.3],
+          "windup": [0.6]
+        },
+        {
+          "name": "Tornado Kick",
+          "damage": [72, 82, 92, 102, 112],
+          "posture": [30],
+          "windup": [0.55, 0.55, 0.5, 0.5]
+        },
+        {
+          "name": "Updraft",
+          "damage": [32.4, 35.3, 38.3, 41.2, 44.2],
+          "posture": [21],
+          "windup": [0.45, 0.1, 0.1]
+        },
+        {
+          "name": "Wind Forge",
+          "damage": [20, 24, 28, 32, 36],
+          "posture": [8],
+          "windup": [1.6]
+        },
+        {
+          "name": "Wind Forge (Multiplying Spark)",
+          "damage": [15, 18, 21, 24, 27],
+          "posture": [15],
+          "windup": [0.85, 0.2, 0.2]
+        },
+        {
+          "name": "Gale Lunge",
+          "damage": [12.5, 13.75, 15, 16.25, 17.5],
+          "posture": [4, 5, 6, 7, 8],
+          "windup": [0.5]
+        },
+        {
+          "name": "Tornado",
+          "damage": [126, 141.12, 156.24, 171.36, 186.48],
+          "posture": [14.4],
+          "windup": [0.9, 0.31]
+        },
+        {
+          "name": "Twister Kicks",
+          "damage": [28, 33.2, 38.4, 43.6, 48.8],
+          "posture": [16],
+          "windup": [0.5, 0.11]
+        },
+        {
+          "name": "Heavenly Wind",
+          "damage": [15, 22, 29, 36, 43],
+          "posture": [10],
+          "windup": [0.65]
+        },
+        {
+          "name": "Galetrap",
+          "damage": [31.5, 32.38, 33.25, 34.13, 35],
+          "posture": [5, 1],
+          "windup": [0.6, 2]
+        },
+        {
+          "name": "Gale Punch",
+          "damage": [37.5, 41.25, 45, 48.75, 52.5],
+          "posture": [24],
+          "windup": [0.55, 0.65, 0.07]
+        },
+        {
+          "name": "Champion's Whirlthrow",
+          "damage": [41, 46, 51, 56, 61],
+          "posture": [20, 22, 24, 26],
+          "windup": [0.7, 0.7, 0.3]
+        },
+        {
+          "name": "Rising Wind",
+          "damage": [30, 34.5, 39, 43.5, 48],
+          "posture": [5],
+          "windup": [0.5]
+        },
+        {
+          "name": "Wind Gun",
+          "damage": [32, 36, 40, 44, 48],
+          "posture": [10],
+          "windup": [0.45]
+        },
+        {
+          "name": "Wind Gun (Multiplying Spark)",
+          "damage": [25.6, 28.8, 32, 35.2, 38.4],
+          "posture": [16],
+          "windup": [0.55]
+        },
+        {
+          "name": "Wind Gun (Blast Spark)",
+          "damage": [32.64, 36.72, 40.8, 44.88, 48.96],
+          "posture": [6.4],
+          "windup": [0.45]
+        },
+        {
+          "name": "Wind Gun (Blast + Multiplying Sparks)",
+          "damage": [48.96, 55.08, 61.2, 67.32, 73.44],
+          "posture": [72],
+          "windup": [0.55]
+        },
+        {
+          "name": "Wind Carve",
+          "damage": [20.4, 26.4, 32.4, 38.4, 44.4],
+          "posture": [12],
+          "windup": [0.55, 0.11]
+        },
+        {
+          "name": "Astral Wind",
+          "damage": [21.25, 26.75, 32.25, 37.75, 43.25],
+          "posture": [12.5],
+          "windup": [0.45, 0.0375]
+        },
+        {
+          "name": "Wind Passage",
+          "damage": [18.5, 27.5, 36.5, 45.5, 54.5],
+          "posture": [15],
+          "windup": [1]
+        },
+        {
+          "name": "Pillars Of Erisia",
+          "damage": [35, 38, 41, 44, 47],
+          "posture": [7],
+          "windup": [0.8]
+        }
+      ],
+      "ironsing": [],
+      "shadowcast": [],
+      "thundercall": [
+        {
+          "name": "Lightning Blade",
+          "damage": [26.25, 30, 33.75, 37.5, 41.25],
+          "posture": [11],
+          "windup": []
+        },
+        {
+          "name": "Lightning Blade (Magnet)",
+          "damage": [35, 40, 45, 50, 55],
+          "posture": [11],
+          "windup": []
+        },
+        {
+          "name": "Jolt Grab",
+          "damage": [20, 22, 24, 26, 28],
+          "posture": [5],
+          "windup": [0.42]
+        },
+        {
+          "name": "Jolt Grab (Magnet)",
+          "damage": [25, 27, 29, 31, 33],
+          "posture": [5],
+          "windup": []
+        },
+        {
+          "name": "Lightning Beam",
+          "damage": [30, 31.5, 33, 34.5, 36],
+          "posture": [7, 8.5, 10, 11.5, 13],
+          "windup": []
+        },
+        {
+          "name": "Lightning Strike",
+          "damage": [5, 6, 7, 8, 9],
+          "posture": [],
+          "windup": []
+        },
+        {
+          "name": "Fleeting Sparks",
+          "damage": [15, 19.5, 24, 28.5, 33],
+          "posture": [15],
+          "windup": []
+        },
+        {
+          "name": "Fleeting Sparks (Multiplying)",
+          "damage": [15, 19.5, 24, 28.5, 33],
+          "posture": [15],
+          "windup": []
+        },
+        {
+          "name": "Lightning Stream (Blast)",
+          "damage": [17, 18.6, 20.2, 21.8, 23.4],
+          "posture": [4],
+          "windup": []
+        },
+        {
+          "name": "Lightning Impact",
+          "damage": [23, 24.5, 26, 27.5, 29],
+          "posture": [10],
+          "windup": []
+        },
+        {
+          "name": "Lightning Impact (Rain of Static)",
+          "damage": [43, 46, 49, 52, 55],
+          "posture": [],
+          "windup": []
+        },
+        {
+          "name": "Lightning Clones",
+          "damage": [12, 15, 18, 21, 24],
+          "posture": [],
+          "windup": []
+        },
+        {
+          "name": "Electro Carve",
+          "damage": [56, 59.5, 63, 66.5, 70],
+          "posture": [7],
+          "windup": []
+        },
+        {
+          "name": "Electro Carve (Blast)",
+          "damage": [35, 37.5, 40, 42.5, 45],
+          "posture": [9],
+          "windup": []
+        },
+        {
+          "name": "Electro Carve (Magnet)",
+          "damage": [59, 62.5, 66, 69.5, 73],
+          "posture": [7],
+          "windup": []
+        },
+        {
+          "name": "Thunder Kick",
+          "damage": [25, 28, 31, 34, 37],
+          "posture": [10, 15, 20, 25],
+          "windup": []
+        },
+        {
+          "name": "Bolt Piercer",
+          "damage": [15, 16, 17, 18, 19],
+          "posture": [3],
+          "windup": []
+        },
+        {
+          "name": "Grand Javelin",
+          "damage": [10.2, 18.7, 27.2, 35.7, 44.2],
+          "posture": [10],
+          "windup": [0.05]
+        },
+        {
+          "name": "Grand Javelin (Multiplying)",
+          "damage": [10.2, 18.7, 27.2, 35.7, 44.2],
+          "posture": [15],
+          "windup": [0.15]
+        },
+        {
+          "name": "Lightning Assault",
+          "damage": [15, 17.5, 20, 22.5, 25],
+          "posture": [7],
+          "windup": []
+        },
+        {
+          "name": "Storm Blades",
+          "damage": [25, 27, 29, 31, 33],
+          "posture": [0],
+          "windup": []
+        },
+        {
+          "name": "Rising Thunder",
+          "damage": [35, 41.3, 47.6, 53.9, 60.2],
+          "posture": [5],
+          "windup": []
+        },
+        {
+          "name": "Emotion Wave",
+          "damage": [35.25, 39.95, 44.65, 49.35, 54.05],
+          "posture": [13.5],
+          "windup": []
+        }
+      ]
+    },
+    "oaths": [
+      {
+        "name": "arcwarder",
+        "mantras": [
+          {
+            "name": "Arcane Pulse",
+            "damage": [28, 35],
+            "posture": [15],
+            "windup": [0.5]
+          },
+          {
+            "name": "Arcane Shield",
+            "damage": [0],
+            "posture": [],
+            "windup": [0.3]
+          },
+          {
+            "name": "Arcane Blade",
+            "damage": [],
+            "posture": [
+              "N/A"
+            ],
+            "windup": [0.75]
+          }
+        ]
+      },
+      {
+        "name": "bladeharper",
+        "mantras": [
+          {
+            "name": "Soaring Storm",
+            "damage": [40, 55],
+            "posture": [20],
+            "windup": [0.8]
+          },
+          {
+            "name": "Float Like a Butterfly",
+            "damage": [0],
+            "posture": [],
+            "windup": [0]
+          },
+          {
+            "name": "Lithe Step",
+            "damage": [0],
+            "posture": [],
+            "windup": [0]
+          }
+        ]
+      },
+      {
+        "name": "blindseer",
+        "mantras": [
+          {
+            "name": "Perfect Dodge",
+            "damage": [],
+            "posture": [0],
+            "windup": [
+              "0.1 (On activation)"
+            ]
+          },
+          {
+            "name": "True Sight",
+            "damage": [],
+            "posture": [0],
+            "windup": [0.5]
+          },
+          {
+            "name": "Focused Blow",
+            "damage": [30, 45],
+            "posture": [30],
+            "windup": [0.6]
+          }
+        ]
+      },
+      {
+        "name": "blightsurger",
+        "mantras": [
+          {
+            "name": "Blighted Rush",
+            "damage": [
+              "Dot + Burst"
+            ],
+            "posture": [10],
+            "windup": [0.5]
+          },
+          {
+            "name": "Noxious Cloud",
+            "damage": [
+              "Dot/AOE"
+            ],
+            "posture": [0],
+            "windup": [0.7]
+          },
+          {
+            "name": "Vile Spore",
+            "damage": [
+              "Burst"
+            ],
+            "posture": [15],
+            "windup": [0.4]
+          }
+        ]
+      },
+      {
+        "name": "chainwarden",
+        "mantras": [
+          {
+            "name": "Chain Grapple",
+            "damage": [10],
+            "posture": [5],
+            "windup": [0.5]
+          },
+          {
+            "name": "Chain Barrier",
+            "damage": [0],
+            "posture": [
+              "Defensive"
+            ],
+            "windup": [0.4]
+          },
+          {
+            "name": "Binding Coils",
+            "damage": [
+              "Tick"
+            ],
+            "posture": [5],
+            "windup": [0.6]
+          }
+        ]
+      },
+      {
+        "name": "contractor",
+        "mantras": [
+          {
+            "name": "Seal",
+            "damage": [
+              "Debuff/Utility"
+            ],
+            "posture": [0],
+            "windup": [0.5]
+          },
+          {
+            "name": "Reap",
+            "damage": [
+              "Execute/Drain"
+            ],
+            "posture": [10],
+            "windup": [1]
+          },
+          {
+            "name": "Banish",
+            "damage": [
+              "Teleport/CC"
+            ],
+            "posture": [0],
+            "windup": [0.4]
+          }
+        ]
+      },
+      {
+        "name": "dawnwalker",
+        "mantras": [
+          {
+            "name": "Solar Flare",
+            "damage": [
+              "Burst/AOE",
+              40, 55],
+            "posture": [25],
+            "windup": [0.8]
+          },
+          {
+            "name": "Ray of Hope",
+            "damage": [
+              "Healing"
+            ],
+            "posture": [0],
+            "windup": [1]
+          },
+          {
+            "name": "Ascension",
+            "damage": [
+              "Buff"
+            ],
+            "posture": [0],
+            "windup": [0.5]
+          }
+        ]
+      },
+      {
+        "name": "fadetrimmer",
+        "mantras": [
+          {
+            "name": "Shift",
+            "damage": [0],
+            "posture": [
+              "Mobility/I-Frame"
+            ],
+            "windup": [0]
+          },
+          {
+            "name": "Afterimage",
+            "damage": [
+              "Clone Damage"
+            ],
+            "posture": [0],
+            "windup": [0.2]
+          },
+          {
+            "name": "Decoy",
+            "damage": [0],
+            "posture": [
+              "Utility/CC"
+            ],
+            "windup": [0.6]
+          }
+        ]
+      },
+      {
+        "name": "jetstriker",
+        "mantras": [
+          {
+            "name": "Skyshatter Kick",
+            "damage": [
+              "High Kick Damage"
+            ],
+            "posture": [30],
+            "windup": [0.7]
+          },
+          {
+            "name": "Jet Stream",
+            "damage": [
+              "Movement/Utility"
+            ],
+            "posture": [0],
+            "windup": [0]
+          },
+          {
+            "name": "Whirlwind Kick",
+            "damage": [
+              "AOE Kick"
+            ],
+            "posture": [15],
+            "windup": [0.5]
+          }
+        ]
+      },
+      {
+        "name": "linkstrider",
+        "mantras": [
+          {
+            "name": "Symbiotic Link",
+            "damage": [
+              "Utility/Buff"
+            ],
+            "posture": [0],
+            "windup": [0.8]
+          },
+          {
+            "name": "Healing Mantra",
+            "damage": [
+              "Healing"
+            ],
+            "posture": [0],
+            "windup": [1.5]
+          },
+          {
+            "name": "Symbiotic Leech",
+            "damage": [
+              "Drain"
+            ],
+            "posture": [5],
+            "windup": [0.4]
+          }
+        ]
+      },
+      {
+        "name": "saintsworn",
+        "mantras": [
+          {
+            "name": "Gale Dash",
+            "damage": [0],
+            "posture": [
+              "Mobility"
+            ],
+            "windup": [0]
+          },
+          {
+            "name": "Radiant Surge",
+            "damage": [
+              "Dash/Burst"
+            ],
+            "posture": [15],
+            "windup": [0.4]
+          },
+          {
+            "name": "Divine Flow",
+            "damage": [
+              "Passive Buff"
+            ],
+            "posture": [0],
+            "windup": [0.5]
+          }
+        ]
+      },
+      {
+        "name": "saltchemist",
+        "mantras": [
+          {
+            "name": "Biotic Salts",
+            "damage": [
+              "Healing/Utility"
+            ],
+            "posture": [0],
+            "windup": [1]
+          },
+          {
+            "name": "Aromatic Salts",
+            "damage": [
+              "Debuff/Utility"
+            ],
+            "posture": [0],
+            "windup": [1]
+          },
+          {
+            "name": "Antithetic Salts",
+            "damage": [
+              "Buff/Utility"
+            ],
+            "posture": [0],
+            "windup": [1]
+          }
+        ]
+      },
+      {
+        "name": "silentheart",
+        "mantras": [
+          {
+            "name": "NONE",
+            "damage": [
+              "Silentheart sacrifices all Mantras"
+            ],
+            "posture": [
+              "N/A"
+            ],
+            "windup": [
+              "N/A"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "soulbreaker",
+        "mantras": [
+          {
+            "name": "Soul Steal",
+            "damage": [
+              "Drain/Utility"
+            ],
+            "posture": [10],
+            "windup": [0.6]
+          },
+          {
+            "name": "Spectral Lunge",
+            "damage": [25, 30],
+            "posture": [15],
+            "windup": [0.4]
+          },
+          {
+            "name": "Phantom Strike",
+            "damage": [],
+            "posture": [20],
+            "windup": [0.5]
+          }
+        ]
+      },
+      {
+        "name": "starkindred",
+        "mantras": [
+          {
+            "name": "Star Fall",
+            "damage": [
+              "AOE Burst",
+              40, 55],
+            "posture": [25],
+            "windup": [1.2]
+          },
+          {
+            "name": "Nova",
+            "damage": [
+              "Close Range Burst",
+              30, 40],
+            "posture": [15],
+            "windup": [0.6]
+          },
+          {
+            "name": "Cosmic Impact",
+            "damage": [],
+            "posture": [20],
+            "windup": [0.5]
+          }
+        ]
+      },
+      {
+        "name": "visionshaper",
+        "mantras": [
+          {
+            "name": "Illusionary Clone",
+            "damage": [],
+            "posture": [0],
+            "windup": [0.5]
+          },
+          {
+            "name": "Purple Gaze",
+            "damage": [],
+            "posture": [10],
+            "windup": [0.7]
+          },
+          {
+            "name": "Flicker",
+            "damage": [0],
+            "posture": [],
+            "windup": [0.1]
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,197 @@
+@font-face {
+    font-family: "Balthazar";
+    src: url("/assets/fonts/Balthazar-Regular.ttf") format("opentype");
+}
+
+@font-face {
+    font-family: "sourcesans";
+    src: url("/assets/fonts/sourcesans.ttf") format("opentype");
+}
+
+.item-background {
+    position: absolute;
+    width: 85%;
+    height: 85%;
+}
+
+section {
+    width: 256px;
+    height: 256px;
+    
+    display: grid;
+    place-items: center;
+    align-content: center;
+}
+
+.border {
+  width: 100%;
+  height: 100%;
+}
+
+.item {
+    border-image: url(/assets/images/border/item.png) 45%;
+    border-image-width: 45px;
+}
+
+.mantra {
+    border-image: url(/assets/images/border/mantra.png) 45%;
+    image-rendering: pixelated;
+    border-image-width: 70px;
+}
+
+.enchant-indicator {
+    transform: translateY(85%);
+    position: absolute;
+    width: 128px;
+    z-index: 3;
+}
+
+.weapon-indicator {
+    transform: translateY(225%);
+    position: absolute;
+    width: 48px;
+    z-index: 3;
+}
+
+.mantra-icon {
+  position: absolute;
+  width: 220px;
+  opacity: 0.5;
+}
+
+.mantra-indicator {
+  z-index: 9;
+  transform: translateY(150%);
+  position: absolute;
+  width: 75px;
+}
+
+.star-icon {
+    filter: brightness(0.5) opacity(0.75);
+    position: absolute;
+    width: 24px;
+    z-index: 2;
+}
+
+.star-1 {
+    transform: translate(0%, -275%);
+}
+
+.title {
+    z-index: 1;
+    font-family: Balthazar;
+    font-size: 3rem;
+    text-align: center;
+    color: #444444;
+}
+
+.title-2d {
+  outline: none;
+  margin-top: 10px;
+  position: absolute;
+  top: 0px;
+  width: 250px;
+  -webkit-text-stroke: 7px #0000009e;
+  font-family: Balthazar;
+  font-size: 3.9rem;
+  text-align: center;
+  color: #ffffff;
+  border: none;
+  height: 150px;
+  overflow: hidden;
+  background: none;
+  paint-order: stroke;
+}
+
+.title-3d {
+    -webkit-text-stroke: 0.15px #000;
+    text-shadow: #000 1px 1px 3px, #000 -1px 1px 3px, #000 1px -1px 3px, #000 -1px -1px 3px;
+    opacity: 0.75;
+    font-family: Balthazar;
+    font-size: 3rem;
+    text-align: center;
+    color: #ffffff;
+}
+
+.item-count, .hotbar-count {
+    z-index: 9;
+    border: black solid 1px;
+    border-radius: 2px;
+    text-align: center;
+    background: lightgoldenrodyellow;
+    position: absolute;
+    width: 60px;
+    height: 45px;
+    font-weight: 500;
+    font-family: sourcesans;
+    font-size: 2rem;
+}
+
+.left-button,
+.right-button {
+    margin: 0 5px;
+    width: 32px;
+    height: 32px;
+    background: #3f504d;
+    border: 1px solid transparent;
+    border-image: url(/assets/images/border/borderthin.png) 45%;
+    border-image-width: 10px;
+    border-image-outset: 2px;
+}
+
+.icon-preview {
+    border: 1px solid transparent;
+    border-image: var(--border-button) 7 stretch;
+    border-image-width: 10;
+    border-image-outset: 1px;
+    width: 175px;
+    background: white;
+}
+
+.item-count {
+    transform: translateY(250%);
+}
+
+.hotbar-count {
+    transform: translateY(-250%);
+}
+
+.attunementless {
+    background-image: linear-gradient(180deg, #ffffff, #cccccc);
+}
+
+.weapon {
+    background-image: linear-gradient(180deg, #c5c8c2, #a4a9a5);
+}
+
+.idk {
+    background-image: linear-gradient(180deg, #b3c6c5, #9ca8a8);
+}
+
+.fire {
+    background-image: linear-gradient(180deg, #dbbc91, #ba9c70);
+}
+
+.frost {
+    background-image: linear-gradient(180deg, #aed8d6, #85b3b0);
+}
+
+.thunder {
+    background-image: linear-gradient(180deg, #dcd18f, #a59d6e);
+}
+
+.gale {
+    background-image: linear-gradient(180deg, #9bc6a4, #6f9f79);
+}
+
+.shadow {
+    background-image: linear-gradient(180deg, #b7a6e1, #796b9f);
+}
+
+.iron {
+    background-image: linear-gradient(180deg, #b1c2cb, #9dacb2);
+}
+
+.blood {
+    background-image: linear-gradient(180deg, #b88e8e, #ab8383);
+}

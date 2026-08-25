@@ -1,0 +1,194 @@
+[
+  {
+    "name": "Armorer's Needle",
+    "price": 1
+  },
+  {
+    "name": "Kindred Edict",
+    "price": 1
+  },
+  {
+    "name": "Brilliant Cape",
+    "price": 1
+  },
+  {
+    "name": "Egg",
+    "price": 1
+  },
+  {
+    "name": "Hemobloom",
+    "price": 1
+  },
+  {
+    "name": "Plumfruit Muffin",
+    "price": 1
+  },
+  {
+    "name": "Rain Spire",
+    "price": 1
+  },
+  {
+    "name": "Strange Tome #3",
+    "price": 1
+  },
+  {
+    "name": "Umbral Candle",
+    "price": 1
+  },
+  {
+    "name": "Void Spire",
+    "price": 1
+  },
+  {
+    "name": "Ardour Manifestation",
+    "price": 2
+  },
+  {
+    "name": "Forge Needle",
+    "price": 2
+  },
+  {
+    "name": "Glumfig",
+    "price": 2
+  },
+  {
+    "name": "Goodie Bag (Hallowtide exclusive)",
+    "price": 2
+  },
+  {
+    "name": "Smith's Alloy",
+    "price": 3
+  },
+  {
+    "name": "Hero's Blade of Frost",
+    "price": 3
+  },
+  {
+    "name": "Hero's Blade of Lightning",
+    "price": 3
+  },
+  {
+    "name": "Hero's Blade of Shadow",
+    "price": 3
+  },
+  {
+    "name": "Hero's Blade of Wind",
+    "price": 3
+  },
+  {
+    "name": "Wraithclaw",
+    "price": 3
+  },
+  {
+    "name": "Crypt Blade",
+    "price": 4
+  },
+  {
+    "name": "Curved Blade of Winds",
+    "price": 4
+  },
+  {
+    "name": "Hero's Blade of Flame",
+    "price": 4
+  },
+  {
+    "name": "Imperator's Edge",
+    "price": 4
+  },
+  {
+    "name": "Red Death",
+    "price": 4
+  },
+  {
+    "name": "Soulthorn",
+    "price": 4
+  },
+  {
+    "name": "Moonseye Tome",
+    "price": 4
+  },
+  {
+    "name": "Aazel's Horns",
+    "price": 5
+  },
+  {
+    "name": "Bluster Enchant Stone",
+    "price": 5
+  },
+  {
+    "name": "Gilded Needle",
+    "price": 5
+  },
+  {
+    "name": "Idol of Yun'Shul",
+    "price": 5
+  },
+  {
+    "name": "Lightkeeper's Medallion",
+    "price": 5
+  },
+  {
+    "name": "Stone Enchant Stone",
+    "price": 5
+  },
+  {
+    "name": "Stormseye",
+    "price": 5
+  },
+  {
+    "name": "Tiran Pendant",
+    "price": 5
+  },
+  {
+    "name": "Warmaster's Medallion",
+    "price": 5
+  },
+  {
+    "name": "Vampirism Enchant Stone",
+    "price": 5
+  },
+  {
+    "name": "Sinner's Ash",
+    "price": 7
+  },
+  {
+    "name": "Curse of Ysley's Ember Enchant Stone",
+    "price": 8
+  },
+  {
+    "name": "First Light",
+    "price": 8
+  },
+  {
+    "name": "Astral Enchant Stone",
+    "price": 15
+  },
+  {
+    "name": "Dark Pearls",
+    "price": 20
+  },
+  {
+    "name": "Darkened Bastion",
+    "price": 25
+  },
+  {
+    "name": "Simmerbloom Diadem",
+    "price": 25
+  },
+  {
+    "name": "Dormant Splinter",
+    "price": 40
+  },
+  {
+    "name": "Celtorian Tideknight",
+    "price": 75
+  },
+  {
+    "name": "Deepshore Fossil",
+    "price": 100
+  },
+  {
+    "name": "Whistling Periapt",
+    "price": 250
+  }
+]

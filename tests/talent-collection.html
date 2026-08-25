@@ -4,7 +4,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Talent Card Grid</title>
-    <link rel="stylesheet" href="/assets/css/card.css">
+    <link rel="stylesheet" href="/assets/styles/card.css">
     <style>
       body {
     display: flex;
@@ -103,7 +103,7 @@ input::placeholder {
     background: rgb(0 0 0 / 50%);
     height: 30px;
     border: 1px solid transparent;
-    border-image: url(/assets/zestful/img/border/input.png) 45%;
+    border-image: url(/assets/images/border/input.png) 45%;
     border-image-width: 20px;
 "><div class="card-grid">
     
@@ -147,14 +147,14 @@ const cardData = [
 
         cardContainer.innerHTML = `
             <div class="card-color"></div>
-            <img src="/assets/zestful/img/card/outline.png" style="position: absolute;z-index: 2;transform: translateY(-10px);width: 310px;height: 442.5px;">
-            <img src="/assets/zestful/img/card/placeholder.png" style="width: 280px;height: 400px;position: absolute;z-index: 1;transform: translateY(10px);">
+            <img src="/assets/images/card/outline.png" style="position: absolute;z-index: 2;transform: translateY(-10px);width: 310px;height: 442.5px;">
+            <img src="/assets/images/card/placeholder.png" style="width: 280px;height: 400px;position: absolute;z-index: 1;transform: translateY(10px);">
 
             <div class="card">
                 <div class="title">${cardInfo.title}</div>
                 <div class="image">
-                    <img src="/assets/zestful/img/card/icon-placeholder.png" alt="Icon" class="card-icon">
-                    <img class="bg" src="/assets/zestful/img/icons/talent/${cardInfo.icon}" alt="Card Icon">
+                    <img src="/assets/images/card/icon-placeholder.png" alt="Icon" class="card-icon">
+                    <img class="bg" src="/assets/images/icons/talent/${cardInfo.icon}" alt="Card Icon">
                 </div>
                 
                 <div class="class">${cardInfo.class}</div>
@@ -162,9 +162,9 @@ const cardData = [
                     <div class="description">${cardInfo.desc}</div>
                 </div>
 
-                <img src="/assets/zestful/img/card/1star.png" alt="1 Star" class="onestar" hidden>
-                <img src="/assets/zestful/img/card/2star.png" alt="2 Star" class="twostar" hidden>
-                <img src="/assets/zestful/img/card/3star.png" alt="3 Star" class="threestar" hidden>
+                <img src="/assets/images/card/1star.png" alt="1 Star" class="onestar" hidden>
+                <img src="/assets/images/card/2star.png" alt="2 Star" class="twostar" hidden>
+                <img src="/assets/images/card/3star.png" alt="3 Star" class="threestar" hidden>
 
                 <div class="bonuses">
                     <div class="bonus">${cardInfo.bonus1}</div>

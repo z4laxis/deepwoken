@@ -1,0 +1,149 @@
+main {
+    width: 900px;
+    height: 700px;
+}
+
+h1 {
+    font-family: Guru;
+    position: absolute;
+    color: #fff;
+    font-weight: 100;
+    font-size: 35px,;
+    text-shadow: 10px 5px 0 black;
+}
+
+h2 {
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    margin: 5px 0;
+}
+
+.legacy {
+    border: 1px solid transparent;
+    border-image: url(/assets/images/border/borderthin.png);
+    border-image-slice: 48%;
+    border-image-outset: 2px;
+    border-image-width: 16px;
+    background: #586865;
+    height: 30px;
+    margin: auto;
+    top: 20px;
+    width: 90%;
+    position: relative;
+}
+
+.triumph {
+    left: 35px;
+    top: 42.5px;
+}
+
+.triumph-divider {
+    top: 85px;
+}
+
+.echo {
+    left: 30px;
+    top: 450px;
+}
+
+.echo-divider {
+    top: 492.5px;
+}
+
+.triumph-divider,
+.echo-divider {
+    left: 175px;
+    width: 700px;
+    height: 1.5px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0)); 
+    position: absolute;
+}
+
+.triumphs {
+    height: 50%;
+    top: 85px;
+    overflow: hidden scroll;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.echoes {
+    height: 23%;
+    top: 140px;
+}
+
+.triumphs, 
+.echoes {
+    background-color: var(--background-color);;
+    border: 1px solid transparent;
+    border-image: url(/assets/images/border/borderthin.png) 11 stretch;
+    border-image-width: 15px;
+    border-image-outset: 2px;
+    position: relative;
+    margin: auto;
+    width: 96%;
+}
+
+.task {
+    width: 50%;
+    height: 70px;
+    opacity: 0.75;
+}
+
+.name {
+    font-size: 22px;
+    margin: 4.5% 4%;
+    font-style: italic;
+}
+
+.underline {
+    height: 1px;
+    background: #817b68;
+    left: 15px;
+    top: -20px;
+    position: relative;
+    width: 400px;
+}
+
+.bonus {
+    position: relative;
+    font-weight: bold;
+    float: right;
+    margin-right: 0.1rem;
+}
+
+.letter {
+    position: absolute;
+    right: 165px;
+    bottom: -130px;
+    font-family: 'Guru';
+    font-size: 135px;
+    font-style: italic;
+}
+
+.rank {
+    position: absolute;
+    right: 75px;
+    bottom: 25px;
+    font-style: italic;
+    font-size: 50px;
+}
+
+.triumphs::-webkit-scrollbar { 
+  width: 10px;
+}
+
+.triumphs::-webkit-scrollbar-track { 
+  background: none;
+}
+
+.triumphs::-webkit-scrollbar-thumb {
+    background: 
+    url(/assets/images/scrollbar/vertical/start.png) top center no-repeat, 
+    url(/assets/images/scrollbar/vertical/middle.png) center center no-repeat, 
+    url(/assets/images/scrollbar/vertical/end.png) bottom center no-repeat;
+    
+    background-size: 100% 8px, 100% calc(100% - 16px), 100% 8px;
+}

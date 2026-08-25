@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deepwoken - Guild Emblem Planner</title>
+    
+    <link href="/assets/styles/styles.css" rel="stylesheet" type="text/css" media="all">
+    <link href="/assets/styles/template.css" rel="stylesheet" type="text/css" media="all">
+    <link href="/assets/styles/guild.css" rel="stylesheet" type="text/css" media="all">
+    
+    <meta name="title" content="Deepwoken">
+    <meta name="description" content="A guild emblem planner with all icons, for you to plan designs for your guild icon.">
+    
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://deepwoken.app/guild-emblem"> 
+    <meta property="og:title" content="Deepwoken">
+    <meta property="og:description" content="A guild emblem maker with all icons, for you to plan designs.">
+    <meta property="og:image" content="https://deepwoken.app/icon.png"> 
+    
+    <meta property="twitter:url" content="https://deepwoken.app/"> 
+    <meta property="twitter:title" content="Deepwoken">
+    <meta property="twitter:description" content="A collection of useful pages featuring Deepwoken-related content.">
+    <meta property="twitter:image" content="https://deepwoken.app/favicon.png"> 
+    
+    <link rel="icon" href="/favicon.png">
+    <link rel="manifest" href="/manifest.json">
+
+    <meta name="theme-color" content="#000">
+    <meta name="mobile-web-app-capable" content="yes">
+
+    <link rel="apple-touch-icon" sizes="256x256" href="/favicon.png">
+
+    <meta name="robots" content="index, follow">
+    <meta name="keywords" content="Deepwoken, Guild, Deepwoken Guild Emblem, Deepwoken Emblem, Deepwoken Guild">
+    <meta name="author" content="zalaxis">
+    <meta name="copyright" content="Deepwoken">
+</head>
+<body>
+    <section class="topbar">
+        <div id="infobuttons">
+            <button class="menubutton" id="returntomenu" onclick="window.location.replace('/');"><img src="/assets/images/icons/topbar/returntomenu.png"></button>
+            <button class="menubutton" id="settings"><img src="/assets/images/icons/topbar/settings.png"></button>
+            <button class="menubutton" id="encyclopedia" onclick="window.location.replace('/glossary')"><img src="/assets/images/icons/topbar/encyclopediaclosed.png"></button>
+            <button class="menubutton" id="help" onclick="window.location.replace('/map/eastern')"><img src="/assets/images/icons/topbar/map.png"></button>
+            <button class="menubutton" id="squad" onclick="window.location.replace('/server-list')"><img src="/assets/images/icons/topbar/squad.png"></button>
+        </div>
+    </section>
+    
+    <input class="target" type="color" value="#FF0000" hidden>
+    <input class="target1" type="color" value="#FFFFFF" hidden>
+
+    <main class="center">
+        <div class="border center"></div>
+        <div class="background center"></div>
+        <header class="header">
+            <p>Guild Emblem</p>
+        </header>
+      
+        <section class="content" style="flex-direction: initial;">
+            <div class="emblems">
+                <div class="color border1"></div>
+                <div class="emblem1"></div>
+                <div class="emblem2"></div>
+
+                <div class="emblem-list border1" style="top: 95px">
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/plus.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/cross.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/dot.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/circle.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/dotted_circle.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/line.png"></button>
+                    
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/vertical.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/thing1.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/thing2.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/little_cross.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/bigsquare.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/square.png"></button>
+                    
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/smallcircle.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/decoration.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/4point.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/star.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/hexagram.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/octogram.png"></button>
+                    
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/flower.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/gear.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/etrea.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/divers.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/authority.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/hive.png"></button>
+                    
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/ministry.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/legions.png" class="selected"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/navae.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/eylis.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/ignition.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/celtor.png"></button>
+
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/skull.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/swords.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/swordR.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/swordL.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/swordM.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/mushroom.png"></button>
+
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/note.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/heart.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/claw.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/teeth.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/moonseye.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/sun.png"></button>
+
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/deepwoken.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/wheel.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/potion.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/wave.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/bell.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/chain.png"></button>
+                    
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/lightborn.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/vesperian.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/music.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/music1.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/gremor.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/wings.png"></button>
+
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/stew.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/kamui.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/lightning.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/air.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/fire.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/bigcircle.png"></button>
+                    
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/fish.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/summer.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/blindseer.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/owl.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/enforcer.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/knight.png"></button>
+
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/squibbo.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/krys.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/brain_sucker.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/ethiron.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/celestial.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/primadon.png"></button>
+                    
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/pomar.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/calabash.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/gobletto.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/fishing.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/anvil.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/question.png"></button>
+
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/book.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/scissors.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/pumpkin.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/jester.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/crab.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/curved.png"></button>
+
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/wind.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/decoration1.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/destroyman.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/arc_warder.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/hammer.png"></button>
+                </div>
+
+                <div class="emblem-list border1" style="top: 190px">
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/plus.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/cross.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/dot.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/circle.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/dotted_circle.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/line.png"></button>
+                    
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/vertical.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/thing1.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/thing2.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/little_cross.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/bigsquare.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/square.png"></button>
+                    
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/smallcircle.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/decoration.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/4point.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/star.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/hexagram.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/octogram.png"></button>
+                    
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/flower.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/gear.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/etrea.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/divers.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/authority.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/hive.png"></button>
+                    
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/ministry.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/legions.png" class="selected"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/navae.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/eylis.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/ignition.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/celtor.png"></button>
+
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/skull.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/swords.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/swordR.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/swordL.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/swordM.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/mushroom.png"></button>
+
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/note.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/heart.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/claw.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/teeth.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/moonseye.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/sun.png"></button>
+
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/deepwoken.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/wheel.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/potion.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/wave.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/bell.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/chain.png"></button>
+                    
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/lightborn.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/vesperian.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/music.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/music1.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/gremor.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/wings.png"></button>
+
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/stew.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/kamui.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/lightning.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/air.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/fire.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/bigcircle.png"></button>
+                    
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/fish.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/summer.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/blindseer.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/owl.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/enforcer.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/knight.png"></button>
+
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/squibbo.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/krys.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/brain_sucker.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/ethiron.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/celestial.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/primadon.png"></button>
+                    
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/pomar.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/calabash.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/gobletto.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/fishing.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/anvil.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/question.png"></button>
+
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/book.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/scissors.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/pumpkin.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/jester.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/crab.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/curved.png"></button>
+
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/wind.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/decoration1.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/destroyman.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/arc_warder.png"></button>
+                    <button class="emblem-btn"><img src="/assets/images/icons/emblems/hammer.png"></button>
+                </div>
+            </div>
+            
+            <div class="seperator"></div>
+            
+            <div class="colors">
+                <div class="colorpicker" style="top: 0px">
+                    <p class="title">Background Color</p>
+                    
+                    <div>
+                        <label for="r">R</label>
+                        <input type="number" class="redlist1" id="r" min=0 max=255 value=255>
+                        <br>
+                        <label for="g">G</label>
+                        <input type="number" class="greenlist1" id="g" min=0 max=255 value=0>
+                        <br>
+                        <label for="b">B</label>
+                        <input type="number" class="bluelist1" id="b" min=0 max=255 value=0>
+                        <br>
+                        <label for="h" style="margin: 0 5px; opacity: 0">H</label>
+                        <input type="text" class="hexlist1" id="h" maxlength=6 spellcheck="false" value="ff0000" style="width: 60px;margin: 7.5px 2.5px;">
+                        
+                        <div class="saturation border1"></div>
+                        <div class="brightness border1"></div>
+                    </div>
+                </div>
+                
+                <div class="colorpicker" style="top: 150px">
+                    <p class="title">Emblem Color</p>
+                    
+                    <div>
+                        <label for="r">R</label>
+                        <input type="number" class="redlist2" id="r" min=0 max=255 value=255>
+                        <br>
+                        <label for="g">G</label>
+                        <input type="number" class="greenlist2" id="g" min=0 max=255 value=255>
+                        <br>
+                        <label for="b">B</label>
+                        <input type="number" class="bluelist2" id="b" min=0 max=255 value=255>
+                        <br>
+                        <label for="h" style="margin: 0 5px; opacity: 0">H</label>
+                        <input type="text" class="hexlist2" id="h" maxlength=6 spellcheck="false" value="ffffff" style="width: 60px;margin: 7.5px 2.5px;">
+                        
+                        <div class="saturation border1"></div>
+                        <div class="brightness border1"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <button hidden>Submit</button>
+    </main>
+        
+    <script type="text/javascript" src="/assets/scripts/color.js"></script>
+</body>
+</html>

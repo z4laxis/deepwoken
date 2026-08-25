@@ -1,0 +1,540 @@
+body {
+    margin: 0;
+}
+
+.detail,
+img, 
+div {
+    image-rendering: pixelated;
+}
+
+h1 {
+    text-align: center;
+    font-family: LibreBaskerville;
+    font-size: 24px;
+    margin: 0;
+    position: absolute;
+    left: 9.5px;
+    top: 20px;
+    width: 50px;
+}
+
+input {
+    text-shadow: -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000;
+    top: 1.5px;
+    appearance: textfield;
+    padding: 0;
+    color: white;
+    font-family: LibreBaskerville;
+    text-align: center;
+    font-size: 12px;
+    margin: 0;
+    background: none;
+    font-weight: bold;
+    outline: none;
+    position: absolute;
+    border: none;
+    z-index: 2;
+    width: 20px;
+}
+
+select {
+    border: none;
+    padding-right: 0;
+    top:1px;
+    position: relative;
+    outline: none;
+    height: 10px;
+    font-family: SourceSans;
+    font-size: 9px;
+    background: #ead7af;
+    appearance: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+p {
+    margin: 0 7px;
+    font-family: SourceSans;
+    font-size: 9px;
+}
+
+span {
+    color: #646464 ;
+}
+
+section {
+    zoom: 0.225;
+    width: 256px;
+    height: 256px;
+    display: grid;
+    position: relative;
+    place-items: center;
+    align-content: center;
+}
+
+.item-border {
+    height: 240px;
+    width: 240px;
+    position: absolute;
+}
+
+.bg-image {
+    image-rendering: auto;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.toolbar {
+    position: absolute;
+    bottom: 10px;
+    z-index: 2;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#power {
+    z-index: 2;
+    background: -webkit-linear-gradient(#333, #eee, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.power-shadow {
+    z-index: 1;
+    opacity: 0.5;
+    text-shadow: -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000;
+}
+
+.power-icon {
+    content: url("/assets/images/icons/builder/journal/power.png");
+    width: 50px;
+    left: 9px;
+    top: 9px;
+    position: relative;
+    z-index: 2;
+}
+
+.power-background {
+    background: radial-gradient(circle, #1d657a, #1d657a, #333333, #000000);
+    border-radius: 30px;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 9px;
+    top: 9px;
+}
+
+.orbs-icon {
+    content: url(/assets/images/icons/builder/journal/orbs.png);
+    width: 65px;
+    left: 1.5px;
+    top: 2.5px;
+    z-index: 3;
+    position: absolute;
+}
+
+.stats-container {
+    background: rgba(0,0,0,0.5);
+    position: fixed;
+    width: 330px;
+    height: 475px;
+    right: 20px;
+    top: 50px;
+    z-index: 1;
+}
+
+.crafting {
+    background: #e5e0ca;
+    overflow: hidden scroll;
+    text-align: -webkit-center;
+    border: 1px solid transparent;
+    border-image: var(--border-window) 20 stretch;
+    border-image-width: 20px;
+    border-image-outset: 1px;
+}
+
+.list {
+    position: relative;
+    top: 50px;
+}
+
+li img,
+li h6 {
+    vertical-align: middle;
+}
+
+.stat-row {
+    position: absolute;
+    width: 118px;
+    height: 29px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 17px;
+    justify-content: center;
+}
+
+.maglass {
+    vertical-align: sub;
+    margin-left: 2px;
+}
+
+.traits {
+    left: 220px;
+    top: 10px;
+    width: 75px;
+    gap: 15px 17px;
+}
+
+.window ul li {
+    width: 290px;
+    text-align: left;
+    font-size: 11px;
+    padding: 0;
+    opacity: 1;
+    font-family: LibreBaskerville;
+}
+
+.details {
+    left: 67px;
+    top: 8px;
+    width: 120px;
+    gap: 1px;
+    justify-content: normal;
+}
+
+.stat-label,
+.stat-name {
+    position: absolute;
+    margin: 0;
+    text-align: center;
+    color: wheat;
+    font-family: JosefinSans;
+    font-weight: bold;
+}
+
+.journal-border {
+    position: absolute;
+    height: 118px;
+    top: 0px;
+}
+
+.right {
+    right: 0;
+    transform: rotate(180deg)
+}
+
+.tall {
+    height: 223px;
+    zoom: 0.75;
+}
+
+.boon,
+.flaw {
+    width: 10px;
+    position: absolute;
+    left: 26px;
+    top: 98px;
+}
+
+#boon1 {
+    left: 13px;
+}
+
+#boon2 {
+    left: 26px;
+}
+
+#flaw1 {
+    left: 50px;
+}
+
+#flaw2 {
+    left: 63px;
+}
+
+.side {
+    position: absolute;
+    width: 35px;
+    height: 100%;
+    left: -40px;
+}
+
+.side .menubutton {
+    width: 34px;
+}
+
+.stat-label {
+    font-family: Balthazar;
+    top: -10px;
+    font-size: 8px;
+}
+
+.stat-name {
+    top: 28px;
+    font-size: 9px;
+}
+
+.stat-border,
+.stat-background {
+    pointer-events: none;
+    position: relative;
+    height: 28px;
+    width: 28px;
+}
+
+.stat-background {
+    height: 24px;
+    top: 3px;
+    position: absolute;
+    border-radius: 100%;
+}
+
+.stat-border {
+    content: url('/assets/images/icons/builder/journal/stat_border.png');
+    z-index: 2;
+}
+
+.max {
+    content: url('/assets/images/icons/builder/journal/max.png');
+    z-index: 2;
+}
+
+.stat-lock {
+    content: url(/assets/images/icons/builder/journal/lock.png);
+    z-index: 2;
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    left: 18px;
+    top: 18px;
+}
+
+.detail {
+    background: url(/assets/images/icons/builder/journal/ribbon.png) no-repeat;
+    background-size: 100% 100%;
+    height: 16px;
+    width: fit-content;    
+    display: inline-block;
+}
+
+.detail span {
+    top: 0px;
+}
+
+.entry {
+    margin-bottom: 2px;
+    width: 90%;
+    text-align: left;
+    background: #e5e0ca;
+    border: solid #dad5c0 1px;
+    border-radius: 6px;
+}
+
+.name {
+    margin: 0 0 15px 0;
+    top: 5px;
+    width: 75%;
+    font-size: 13px;
+    opacity: 1;
+    font-family: 'SourceSans';
+    text-align: left;
+    position: relative;
+}
+
+.window ul {
+    width: 150px;
+    list-style-type: square;
+    padding-inline-start: 0px;
+    margin: 5px 0 0 10px;
+}
+
+h6 {
+    font-weight: 100;
+    margin: 0;
+    display: inline-block;
+    line-height: 10px;
+    margin-bottom: 2px;
+    text-align: center;
+    font-size: 11px;
+    border: solid #aca897 1px;
+    border-radius: 6px;
+    padding: 5px;
+    opacity: 0.75;
+    font-family: LibreBaskerville;
+    background: linear-gradient(180deg, #e3dbc5 0%, #d7d1c4 100%);
+}
+
+.border  {
+    z-index: 2;
+    pointer-events: none;
+    position: absolute;
+    border: 1px solid transparent;
+    border-image: var(--border-window) 20 stretch;
+    border-image-width: 20px;
+    border-image-outset: 1px;
+    width: 100%;
+    height: 100%;
+}
+
+#search {
+    border-image: url(/assets/images/border/text.png) 160 stretch; 
+    border-image-width: 8px; 
+    border-image-outset: 2px; 
+    height: 25px; 
+    width: 150px; 
+    position: absolute; 
+    top: 5px; 
+    right: 12.5px; 
+    font-size: 10px; 
+    background-color: #676c70; 
+    text-align: left; 
+    text-shadow: none; 
+}
+
+span {
+    top: 2px;
+    position: relative;
+    font-size: 8px;
+    color: #646464;
+}
+
+.window {
+    position: relative;
+    left: 10px;
+    top: -5px;
+    border-radius: 2px;
+    border: none;
+    background: none;
+    margin: 2px 0;
+}
+
+.strength {
+    left: 0;
+    background: radial-gradient(circle, #7f5849, #7f5849, #333333, #000000);
+}
+
+.fortitude {
+    background: radial-gradient(circle, #7f7657, #7f7657, #333333, #000000);
+}
+
+.agility {
+    background: radial-gradient(circle, #647f61, #647f61, #333333, #000000);
+}
+
+.intelligence {
+    left: 0;
+    background: radial-gradient(circle, #61637f, #61637f, #333333, #000000);
+}
+
+.willpower {
+    background: radial-gradient(circle, #597a7f, #597a7f, #333333, #000000);
+}
+
+.charisma {
+    background: radial-gradient(circle, #7f6178, #7f6178, #333333, #000000);
+}
+
+.heavyweapons {
+    left: 0;
+    background: radial-gradient(circle, #57657f, #57657f, #333333, #000000);
+}
+
+.mediumweapons {
+    background: radial-gradient(circle, #7f6b53, #7f6b53, #333333, #000000);
+}
+
+.lightweapons {
+    background: radial-gradient(circle, #637f65, #637f65, #333333, #000000);
+}
+
+.trait {
+    background: radial-gradient(circle, #6b492c, #6b492c, #333333, #000000);
+}
+
+.vitality {
+    content: url(/assets/images/icons/builder/journal/vitality.png);
+}
+
+.erudition {
+    content: url(/assets/images/icons/builder/journal/erudition.png);
+}
+
+.proficiency {
+    content: url(/assets/images/icons/builder/journal/proficiency.png);
+}
+
+.songchant {
+    content: url(/assets/images/icons/builder/journal/songchant.png);
+}
+
+.dexterity {
+    content: url(/assets/images/icons/builder/journal/dexterity.png);
+}
+
+#vitality {
+    left: 5px;
+    top: 1.5px;
+}
+
+#erudition {
+    left: 50px;
+    top: 1.5px;
+}
+
+#proficiency {
+    left: 5px;
+    top: 45px;
+}
+
+#songchant {
+    left: 50px;
+    top: 45px;
+}
+
+#strength,
+#willpower, 
+#heavyweapons,
+#flamecharm {
+    left: 4.5px;
+}
+
+#fortitude,
+#intelligence, 
+#mediumweapons,
+#frostdraw {
+    left: 49.5px;
+}
+
+#agility,
+#charisma, 
+#lightweapons,
+#thundercall {
+    left: 94.5px;
+}
+
+.faction-frame {
+    transform: scale(0.9);
+}
+
+.faction-icon {
+    transform: none;
+    left: 15px;
+}
+
+.faction-text, .status-text {
+    font-family: "Garamond";
+    text-align: left;
+    position: relative;
+    bottom: 40px;
+}

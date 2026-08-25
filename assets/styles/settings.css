@@ -1,0 +1,27 @@
+main {
+    height: 466px;
+    width: 546px;
+}
+
+.content {
+  background-color: #33393e;
+  opacity: 0.75;
+  height: 100%;
+}
+
+.content::-webkit-scrollbar { 
+  width: 6px;
+}
+
+.content::-webkit-scrollbar-track { 
+  background: none;
+}
+
+.content::-webkit-scrollbar-thumb {
+    background: 
+    url(/assets/images/scrollbar/vertical/l_start.png) top center no-repeat, 
+    url(/assets/images/scrollbar/vertical/l_middle.png) center center no-repeat, 
+    url(/assets/images/scrollbar/vertical/l_end.png) bottom center no-repeat;
+    
+    background-size: 100% 8px, 100% calc(100% - 16px), 100% 8px;
+}

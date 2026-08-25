@@ -1,0 +1,218 @@
+@font-face {
+    font-family: "Garamond";
+    src: url("/assets/fonts/Garamond.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "RomuloRegular";
+    src: url("assets/fonts/romul-font.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Fondamento";
+    src: url("/assets/fonts/Fondamento-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Lato";
+    src: url("/assets/fonts/Lato-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "RomanAntique";
+    src: url("/assets/fonts/RomanAntique.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Guru";
+    src: url("/assets/fonts/Guru Regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "SourceSans";
+    src: url("/assets/fonts/sourcesans.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "BookAntiqua";
+    src: url("/assets/fonts/bookantiqua.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "LibreBaskerville";
+    src: url("/assets/fonts/LibreBaskerville-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Balthazar";
+    src: url("/assets/fonts/Balthazar-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "LTMuseum";
+    src: url("/assets/fonts/LTMuseum-Light.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "PTSerif-Regular";
+    src: url("/assets/fonts/PTSerif-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "JosefinSans";
+    src: url("/assets/fonts/JosefinSans-Regular.ttf") format("truetype");
+}
+
+:root {
+    --background: url(/assets/images/background/black.png);
+    
+    /* Colors */
+    /* Talent Card Rarity Colors */
+    --color-card-mystery: #97a3af;
+    --color-card-trait: #a6782a;
+    --color-card-common: #64605b;
+    --color-card-rare: #915e5d;
+    --color-card-legendary: #3a7581;
+    --color-card-advanced: #3c7f78;
+    --color-card-mantra: #8f7490;
+    --color-card-bell: #3e4d7e;
+    --color-card-legendary-bell: #e2d5c5;
+    --color-card-drowned-bell: #c7c6fe;
+    --color-card-corrupted-bell: #753050;
+    --color-card-oath: #172b3d;
+    --color-card-faction: #345329;
+    
+    /* Template */
+    --color-button: #5f6e65;
+    --background-color-button: #97a3af;
+    --background-color: #e6e1cc;
+    --button-bg-color: #3f504d;
+    --input-bg-color: #5f6e65;
+    --header-text-color: #e9eed1;
+
+    /* Item Colors */
+    --color-item-mantra: #bbcecd;
+    --color-item-mob: #a3d1b4;
+    --color-item-schematic: #b1cac4;
+    --color-item-training: #c9c2b2;
+    --color-item-weapon: #a9928e;
+    --color-item-equipment: #aa9f8d;
+    --color-item-enchanted: #9693a8;
+
+    /* Loot Colors */
+    --color-loot-common: #a3d1b4;
+    --color-loot-uncommon: #b1cac4;
+    --color-loot-rare: #784f4f;
+    --color-loot-legendary: #45af99;
+    --color-loot-mythical: #805296;
+    --color-loot-unique: #832762;
+    --color-loot-relic: #86ce7f;
+    --color-loot-war: #df1f0e;
+    --color-loot-enchanted: #c1d9c5;
+    
+    /* Template Borders */
+    --border-window: url(/assets/images/border/border.png);
+    --border-thin: url(/assets/images/border/borderthin.png);
+    --border-bar: url(/assets/images/border/bar.png);
+    --border-button: url(/assets/images/border/button.png);
+    --border-input: url(/assets/images/border/input.png);
+    --border-text: url(/assets/images/border/text.png);
+    
+    /* Scrollbars */
+    --scrollbar-vertical-start: url(/assets/images/scrollbar/vertical/start.png);
+    --scrollbar-vertical-end: url(/assets/images/scrollbar/vertical/end.png);
+    --scrollbar-vertical-middle: url(/assets/images/scrollbar/vertical/middle.png);
+
+    --scrollbar-horizontal-start: url(/assets/images/scrollbar/horizontal/start.png);
+    --scrollbar-horizontal-end: url(/assets/images/scrollbar/horizontal/end.png);
+    --scrollbar-horizontal-middle: url(/assets/images/scrollbar/horizontal/middle.png);
+}
+
+html {
+    cursor: url("/assets/images/cursor/cursor.png"), auto;
+}
+
+body {
+    background-image: radial-gradient(#223125, #06110e);
+/*  background-image: radial-gradient(#223125, #06110e); Dephts */
+/*  background-image: radial-gradient(#ffffff, #c3bcba); Layer 2 */
+/*  background-image: radial-gradient(#4f3c29, #1a1814); Hallowtide */
+
+    background-attachment: fixed;
+}
+
+a {
+    text-decoration: none;
+}
+
+a, button, input[type="button"], input[type="submit"] {
+    cursor: url("/assets/images/cursor/pointer.png"), pointer;
+}
+
+a:hover, button:hover, input[type="button"]:hover, input[type="submit"]:hover {
+    cursor: url("/assets/images/cursor/pointer.png"), pointer;
+}
+
+a, button, input[type="button"], input[type="submit"] {
+    cursor: url("/assets/images/cursor/pointer.png"), pointer;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="search"],
+input[type="url"],
+input[type="tel"],
+input[type="number"],
+textarea {
+    cursor: url("/assets/images/cursor/moonseye.png"), text;
+}
+
+[contenteditable="true"] {
+    cursor: url("/assets/images/cursor/moonseye.png"), text;
+}
+
+.center {
+    margin: auto;
+    inset: 0;
+    position: absolute;
+}
+
+.topbar {
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.infobuttons {
+    position: absolute; 
+    display: inline-flex;
+}
+
+.menubutton {
+    background: none;
+    border: none;
+    padding: 0;
+    width: 34px;
+}
+
+.menubutton img {
+    width: 100%;
+}
+
+#infothingy {
+    margin-top: -40px;
+    font-family: sourcesans;
+    font-size: 16px;
+    border: 1px solid transparent;
+}
+
+#infotoptext {
+    display: inline-flex;
+    color: rgb(230, 228, 228);
+}
+
+#infobottomtext {
+    margin-top: -30px;
+    color: #afb0af;
+}

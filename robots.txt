@@ -1,2 +1,2 @@
 User-agent: *
-Disallow: /assets/img/
+Disallow: /assets/images/

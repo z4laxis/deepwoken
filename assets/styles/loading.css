@@ -1,0 +1,46 @@
+@keyframes marquee {
+  0% { left: 0; }
+  100% { left: -100%; }
+}
+
+body {
+    background-image: radial-gradient(#ffffff, #979797);
+    background-attachment: fixed;
+    margin: 0;
+}
+
+.waves {
+    position: absolute;
+    bottom: -50px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.marquee {
+    position: relative;
+    display: flex;
+    width: max-content;
+    animation: scroll 8s linear infinite;
+}
+
+.marquee img {
+    width: 100vw;
+    height: auto;
+    flex-shrink: 0;
+}
+
+.small {
+    bottom: -20px;
+    position: absolute;
+    filter: invert(1) brightness(0.625);
+    animation: scroll 9s linear infinite;
+}
+
+@keyframes scroll {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100vw);
+    }
+}

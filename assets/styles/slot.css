@@ -1,0 +1,194 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    position: relative;
+    overflow-x: hidden;
+}
+
+.menu-particles {
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    z-index: 0;
+    overflow: hidden;
+}
+
+.menu-particle {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    opacity: 0;
+    background: radial-gradient(circle at center, rgba(220, 226, 214, 0.95) 0%, rgba(220, 226, 214, 0) 72%);
+    filter: blur(0.3px);
+    will-change: transform, opacity;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 1200px;
+    margin: auto;
+    font-family: Fondamento;
+    position: relative;
+    z-index: 1;
+    max-height: calc(100vh - 32px);
+    overflow-y: auto;
+    padding-right: 8px;
+}
+
+main::-webkit-scrollbar {
+    width: 10px;
+}
+
+main::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+main::-webkit-scrollbar-thumb {
+    background:
+        url('/assets/images/scrollbar/vertical/start.png') top center no-repeat,
+        url('/assets/images/scrollbar/vertical/middle.png') center center repeat-y,
+        url('/assets/images/scrollbar/vertical/end.png') bottom center no-repeat;
+    background-size: 100% 8px, 100% calc(100% - 16px), 100% 8px;
+}
+
+#contcontainer {
+    margin-top: 160px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+}
+
+.continuetext {
+    color:#afb0af;
+    font-family: deepfont;
+    font-size: 26px;
+    transition: color 0.2s;
+    text-decoration: none;
+    margin-bottom: 2px;
+    margin-top: 20px;
+}
+
+.continuetext:hover {
+    color: white;
+}
+
+.hide1 {
+    width: 165px;
+    opacity: 0%;
+    margin-top: -28px;
+    margin-bottom: 45px;
+    margin-left: 17.5px;
+}
+
+.continuetext:hover + .hide1 {
+  opacity: 100%;
+  transition: opacity 0.2s;
+  color: white;
+}
+
+#maincontainer {
+    margin-top: 60px;
+}
+
+.charactercontainer {
+    display: flex;
+}
+
+.avatarbox {
+    border: 1px solid transparent;
+    border-image: url(/assets/images/border/charborderavatar.png) 23 stretch;
+    border-image-width: 23px;
+    border-image-outset: 3px;
+    background-color: rgba(255, 255, 255, 0.062);
+    width: 90px;
+    height: 90px;
+}
+
+.characterinfo {
+    border: 1px solid transparent;
+    border-image: url(/assets/images/border/charborder.png) 23 stretch;
+    border-image-width: 23px;
+    border-image-outset: 3px;
+    background-color: rgba(0, 0, 0, 0.185);
+    width: 465px;
+    height: 90px;
+    margin-left: 10px;
+    transition-duration: 0.2s;
+
+}
+
+.characterinfo:hover {
+    border: 1px solid transparent;
+    border-image: url(/assets/images/border/charborderhover.png) 23 stretch;
+    border-image-width: 23px;
+    border-image-outset: 3px;
+}
+
+.characterinfo:active {
+    background-color: rgba(133, 133, 133, 0.185);
+}
+
+.charactertext {
+    margin-left: 15px;
+    margin-top: 12px;
+    color: white;
+    font-size: 16px;
+    width: 375px;
+}
+
+.smallertext {
+    margin-left: 15px;
+    margin-top: 5px;
+    color: rgb(184, 184, 184);
+    font-size: 16px;
+    display: flex;
+}
+
+.nicknametext {
+    color: rgb(184, 184, 184);
+    font-size: 16px;
+}
+
+#nickname {
+    color: rgb(184, 184, 184);
+    font-size: 16px;
+    text-align: center;
+    float: right;
+    margin: 0;
+}
+
+.buttonholder {
+    z-index: 2;
+    margin-top: 7px;
+    margin-left: 513px;
+    width: 20px;
+    position: absolute;
+}
+
+.pinbutton, .editbutton, .skullbutton {
+    vertical-align: top;
+    border: 1px solid #4d534e;
+    background-color: transparent;
+    transition: 0.1s;
+    text-align: center;
+    padding: 10%;
+    margin-bottom: 2px;
+}
+
+.pinbutton:hover, .editbutton:hover, .skullbutton:hover {
+    filter: brightness(1.5);
+}
+
+.skullbutton {
+    border: 1px solid #4d3e39;
+}
+
+#victim {
+    filter: invert(1)
+}

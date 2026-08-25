@@ -1,0 +1,20 @@
+.choice {
+    zoom: 0.75;
+    position: relative;
+    bottom: 5%;
+    display: flex;
+    justify-content: center;
+    flex-grow: 0.05;
+}
+
+main {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input, textarea {
+    text-align: center;
+}

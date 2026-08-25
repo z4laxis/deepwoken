@@ -1,8 +1,61 @@
 {
+  "cleanUrls": true,
   "rewrites": [
-    {
-      "source": "/:path*",
-      "destination": "/:path*.html"
-    }
+    { "source": "/talent-creator", "destination": "/src/pages/tools/talent-creator.html" },
+    { "source": "/item-creator", "destination": "/src/pages/tools/item-creator.html" },
+    { "source": "/buildplanner", "destination": "/src/pages/tools/buildplanner.html" },
+    { "source": "/builder", "destination": "/src/pages/tools/buildplanner.html" },
+    { "source": "/guild-emblem", "destination": "/src/pages/tools/guild-emblem.html" },
+    { "source": "/drip-designer", "destination": "/src/pages/tools/drip-designer.html" },
+    { "source": "/dialogue", "destination": "/src/pages/tools/dialogue.html" },
+    { "source": "/blacksmith", "destination": "/src/pages/tools/blacksmith.html" },
+
+    { "source": "/credits", "destination": "/src/pages/site/credits.html" },
+    { "source": "/glossary", "destination": "/src/pages/site/glossary.html" },
+    { "source": "/library", "destination": "/src/pages/site/library.html" },
+    { "source": "/settings", "destination": "/src/pages/site/settings.html" },
+    { "source": "/socials", "destination": "/src/pages/site/socials.html" },
+    { "source": "/server-list", "destination": "/src/pages/site/server-list.html" },
+    { "source": "/updates", "destination": "/src/pages/site/updates.html" },
+    { "source": "/menu", "destination": "/src/pages/site/menu.html" },
+    { "source": "/oldindex", "destination": "/src/pages/site/oldindex.html" },
+
+    { "source": "/echoes-checklist", "destination": "/src/pages/game/echoes-checklist.html" },
+    { "source": "/mathtextbook", "destination": "/src/pages/game/mathtextbook.html" },
+    { "source": "/vowofiron", "destination": "/src/pages/game/vowofiron.html" },
+
+    { "source": "/map/:slug", "destination": "/src/pages/world/map/:slug.html" },
+    { "source": "/market/:slug", "destination": "/src/pages/world/market/:slug.html" },
+    { "source": "/stock/:slug", "destination": "/src/pages/world/stock/:slug.html" },
+
+    { "source": "/game", "destination": "/src/pages/legacy/game/index.html" },
+    { "source": "/game/credits", "destination": "/src/pages/legacy/game/credits.html" }
+  ],
+  "redirects": [
+    { "source": "/talent-creator.html", "destination": "/talent-creator", "permanent": true },
+    { "source": "/item-creator.html", "destination": "/item-creator", "permanent": true },
+    { "source": "/buildplanner.html", "destination": "/buildplanner", "permanent": true },
+    { "source": "/builder.html", "destination": "/buildplanner", "permanent": true },
+    { "source": "/guild-emblem.html", "destination": "/guild-emblem", "permanent": true },
+    { "source": "/drip-designer.html", "destination": "/drip-designer", "permanent": true },
+    { "source": "/dialogue.html", "destination": "/dialogue", "permanent": true },
+    { "source": "/blacksmith.html", "destination": "/blacksmith", "permanent": true },
+    { "source": "/credits.html", "destination": "/credits", "permanent": true },
+    { "source": "/glossary.html", "destination": "/glossary", "permanent": true },
+    { "source": "/library.html", "destination": "/library", "permanent": true },
+    { "source": "/settings.html", "destination": "/settings", "permanent": true },
+    { "source": "/socials.html", "destination": "/socials", "permanent": true },
+    { "source": "/server-list.html", "destination": "/server-list", "permanent": true },
+    { "source": "/updates.html", "destination": "/updates", "permanent": true },
+    { "source": "/menu.html", "destination": "/menu", "permanent": true },
+    { "source": "/oldindex.html", "destination": "/oldindex", "permanent": true },
+    { "source": "/echoes-checklist.html", "destination": "/echoes-checklist", "permanent": true },
+    { "source": "/mathtextbook.html", "destination": "/mathtextbook", "permanent": true },
+    { "source": "/vowofiron.html", "destination": "/vowofiron", "permanent": true },
+    { "source": "/map/:slug.html", "destination": "/map/:slug", "permanent": true },
+    { "source": "/market/:slug.html", "destination": "/market/:slug", "permanent": true },
+    { "source": "/stock/:slug.html", "destination": "/stock/:slug", "permanent": true },
+    { "source": "/game/index.html", "destination": "/game", "permanent": true },
+    { "source": "/game/credits.html", "destination": "/game/credits", "permanent": true }
   ]
 }

@@ -1,0 +1,12 @@
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Node / tooling
+node_modules/
+.npm/
+.vercel/
+
+# Local scratch files
+*.log

@@ -1,0 +1,250 @@
+[
+  {
+    "name": "Brow Stud",
+    "price": 35
+  },
+  {
+    "name": "Dermal Stud",
+    "price": 35
+  },
+  {
+    "name": "Moon Brow Rings",
+    "price": 35
+  },
+  {
+    "name": "Moon Lip Ring",
+    "price": 35
+  },
+  {
+    "name": "Moon Septum Ring",
+    "price": 35
+  },
+  {
+    "name": "Nose Stud",
+    "price": 35
+  },
+  {
+    "name": "Snakebite Studs",
+    "price": 35
+  },
+  {
+    "name": "Frigid Prism",
+    "price": 100
+  },
+  {
+    "name": "Gale Stone",
+    "price": 100
+  },
+  {
+    "name": "Heartstar",
+    "price": 100
+  },
+  {
+    "name": "Dark Sailor's Fleece",
+    "price": 100
+  },
+  {
+    "name": "Sailor's Fleece",
+    "price": 100
+  },
+  {
+    "name": "Bronze Aspis",
+    "price": 100
+  },
+  {
+    "name": "Hired Mercenary",
+    "price": 80
+  },
+  {
+    "name": "Authority Peacekeeper",
+    "price": 80
+  },
+  {
+    "name": "Carefree Garments",
+    "price": 80
+  },
+  {
+    "name": "Cloak of Winds",
+    "price": 80
+  },
+  {
+    "name": "Diver Apprentice Robes",
+    "price": 80
+  },
+  {
+    "name": "Diver Journeyman Robes",
+    "price": 80
+  },
+  {
+    "name": "Flame Worshipper Armor",
+    "price": 80
+  },
+  {
+    "name": "Hive Drone",
+    "price": 80
+  },
+  {
+    "name": "Ignition Union Uniform",
+    "price": 80
+  },
+  {
+    "name": "Keeper",
+    "price": 80
+  },
+  {
+    "name": "Eager Tradesman",
+    "price": 200
+  },
+  {
+    "name": "Merchant Robes",
+    "price": 200
+  },
+  {
+    "name": "Pathfinder Sorcerer",
+    "price": 200
+  },
+  {
+    "name": "Scholar",
+    "price": 200
+  },
+  {
+    "name": "11th Legion Plate",
+    "price": 200
+  },
+  {
+    "name": "Navaen Nomad Robes",
+    "price": 200
+  },
+  {
+    "name": "Pathfinder Thaumaturge",
+    "price": 200
+  },
+  {
+    "name": "Summer Company Uniform",
+    "price": 200
+  },
+  {
+    "name": "Authority Captain Uniform",
+    "price": 200
+  },
+  {
+    "name": "Cerulean Gown",
+    "price": 200
+  },
+  {
+    "name": "Hive Tactician Armor",
+    "price": 200
+  },
+  {
+    "name": "Ignition Trailblazer",
+    "price": 200
+  },
+  {
+    "name": "Seamstress's Attire",
+    "price": 200
+  },
+  {
+    "name": "Varicosan Finery",
+    "price": 200
+  },
+  {
+    "name": "Whaler Coat",
+    "price": 200
+  },
+  {
+    "name": "Legion Centurion",
+    "price": 200
+  },
+  {
+    "name": "Prophet's Cloak",
+    "price": 200
+  },
+  {
+    "name": "Whaling Knife",
+    "price": 300
+  },
+  {
+    "name": "Katana",
+    "price": 300
+  },
+  {
+    "name": "Vigil Longsword",
+    "price": 300
+  },
+  {
+    "name": "Warden Ceremonial Sword",
+    "price": 300
+  },
+  {
+    "name": "Adretian Axe",
+    "price": 650
+  },
+  {
+    "name": "Alloyed Falchion",
+    "price": 650
+  },
+  {
+    "name": "Alloyed Scalesplitter",
+    "price": 650
+  },
+  {
+    "name": "Rifle Spear",
+    "price": 650
+  },
+  {
+    "name": "Scoundrel's Saber",
+    "price": 650
+  },
+  {
+    "name": "Darkalloy Greatsword",
+    "price": 650
+  },
+  {
+    "name": "Needle's Eye",
+    "price": 500
+  },
+  {
+    "name": "True Seraph's Spear",
+    "price": 750
+  },
+  {
+    "name": "Dye Packet",
+    "price": 1000
+  },
+  {
+    "name": "Krulian Knife",
+    "price": 1000
+  },
+  {
+    "name": "Glumfig",
+    "price": 2500
+  },
+  {
+    "name": "Crescendo",
+    "price": 1250
+  },
+  {
+    "name": "Evanspear Greataxe",
+    "price": 1250
+  },
+  {
+    "name": "Hero Blade of Flame",
+    "price": 4500
+  },
+  {
+    "name": "Hero Blade of Lightning",
+    "price": 4500
+  },
+  {
+    "name": "Hero Blade of Shadow",
+    "price": 4500
+  },
+  {
+    "name": "Night Axe",
+    "price": 5000
+  },
+  {
+    "name": "Goodie Bag",
+    "price": 15000
+  }
+]
