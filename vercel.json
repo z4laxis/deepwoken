@@ -24,10 +24,6 @@
     { "source": "/mathtextbook", "destination": "/src/pages/game/mathtextbook.html" },
     { "source": "/vowofiron", "destination": "/src/pages/game/vowofiron.html" },
 
-    { "source": "/map/:slug", "destination": "/src/pages/world/map/:slug.html" },
-    { "source": "/market/:slug", "destination": "/src/pages/world/market/:slug.html" },
-    { "source": "/stock/:slug", "destination": "/src/pages/world/stock/:slug.html" },
-
     { "source": "/game", "destination": "/src/pages/legacy/game/index.html" },
     { "source": "/game/credits", "destination": "/src/pages/legacy/game/credits.html" }
   ],
