@@ -1,7 +1,8 @@
 {
   "cleanUrls": true,
   "rewrites": [
-    { "source": "/talent-creator", "destination": "/src/pages/tools/talent-creator.html" },
+    { "source": "/talent-creator", "destination": "/src/pages/tools/talent-creator" },
+    { "source": "/src/pages/tools/item-creator", "destination": "/item-creator" },    
     { "source": "/item-creator", "destination": "/src/pages/tools/item-creator.html" },
     { "source": "/buildplanner", "destination": "/src/pages/tools/buildplanner.html" },
     { "source": "/builder", "destination": "/src/pages/tools/buildplanner.html" },
