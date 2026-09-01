@@ -1,39 +1,423 @@
 {
-  "cleanUrls": true,
+  "cleanUrls": false,
   "trailingSlash": false,
   "redirects": [
-    { "source": "/src/pages/tools/talent-creator", "destination": "/talent-creator", "permanent": true },
-    { "source": "/src/pages/tools/talent-creator.html", "destination": "/talent-creator", "permanent": true }
+    {
+      "source": "/src/pages/tools/talent-creator.html",
+      "destination": "/talent-creator",
+      "permanent": true
+    },
+    {
+      "source": "/src/pages/tools/talent-creator",
+      "destination": "/talent-creator",
+      "permanent": true
+    },
+    {
+      "source": "/src/pages/tools/item-creator.html",
+      "destination": "/item-creator",
+      "permanent": true
+    },
+    {
+      "source": "/src/pages/tools/item-creator",
+      "destination": "/item-creator",
+      "permanent": true
+    },
+    {
+      "source": "/src/pages/tools/buildplanner.html",
+      "destination": "/buildplanner",
+      "permanent": true
+    },
+    {
+      "source": "/src/pages/tools/buildplanner",
+      "destination": "/buildplanner",
+      "permanent": true
+    },
+    {
+      "source": "/src/pages/tools/guild-emblem.html",
+      "destination": "/guild-emblem",
+      "permanent": true
+    },
+    {
+      "source": "/src/pages/tools/guild-emblem",
+      "destination": "/guild-emblem",
+      "permanent": true
+    },
+    {
+      "source": "/src/pages/tools/drip-designer.html",
+      "destination": "/drip-designer",
+      "permanent": true
+    },
+    {
+      "source": "/src/pages/tools/drip-designer",
+      "destination": "/drip-designer",
+      "permanent": true
+    },
+    {
+      "source": "/src/pages/tools/dialogue.html",
+      "destination": "/dialogue",
+      "permanent": true
+    },
+    {
+      "source": "/src/pages/tools/dialogue",
+      "destination": "/dialogue",
+      "permanent": true
+    },
+    {
+      "source": "/src/pages/tools/blacksmith.html",
+      "destination": "/blacksmith",
+      "permanent": true
+    },
+    {
+      "source": "/src/pages/tools/blacksmith",
+      "destination": "/blacksmith",
+      "permanent": true
+    },
+    {
+      "source": "/src/pages/site/credits.html",
+      "destination": "/credits",
+      "permanent": true
+    },
+    {
+      "source": "/src/pages/site/credits",
+      "destination": "/credits",
+      "permanent": true
+    },
+    {
+      "source": "/src/pages/site/glossary.html",
+      "destination": "/glossary",
+      "permanent": true
+    },
+    {
+      "source": "/src/pages/site/glossary",
+      "destination": "/glossary",
+      "permanent": true
+    },
+    {
+      "source": "/src/pages/site/library.html",
+      "destination": "/library",
+      "permanent": true
+    },
+    {
+      "source": "/src/pages/site/library",
+      "destination": "/library",
+      "permanent": true
+    },
+    {
+      "source": "/src/pages/site/settings.html",
+      "destination": "/settings",
+      "permanent": true
+    },
+    {
+      "source": "/src/pages/site/settings",
+      "destination": "/settings",
+      "permanent": true
+    },
+    {
+      "source": "/src/pages/site/socials.html",
+      "destination": "/socials",
+      "permanent": true
+    },
+    {
+      "source": "/src/pages/site/socials",
+      "destination": "/socials",
+      "permanent": true
+    },
+    {
+      "source": "/src/pages/site/server-list.html",
+      "destination": "/server-list",
+      "permanent": true
+    },
+    {
+      "source": "/src/pages/site/server-list",
+      "destination": "/server-list",
+      "permanent": true
+    },
+    {
+      "source": "/src/pages/site/updates.html",
+      "destination": "/updates",
+      "permanent": true
+    },
+    {
+      "source": "/src/pages/site/updates",
+      "destination": "/updates",
+      "permanent": true
+    },
+    {
+      "source": "/src/pages/site/menu.html",
+      "destination": "/menu",
+      "permanent": true
+    },
+    {
+      "source": "/src/pages/site/menu",
+      "destination": "/menu",
+      "permanent": true
+    },
+    {
+      "source": "/src/pages/site/oldindex.html",
+      "destination": "/oldindex",
+      "permanent": true
+    },
+    {
+      "source": "/src/pages/site/oldindex",
+      "destination": "/oldindex",
+      "permanent": true
+    },
+    {
+      "source": "/src/pages/game/echoes-checklist.html",
+      "destination": "/echoes-checklist",
+      "permanent": true
+    },
+    {
+      "source": "/src/pages/game/echoes-checklist",
+      "destination": "/echoes-checklist",
+      "permanent": true
+    },
+    {
+      "source": "/src/pages/game/mathtextbook.html",
+      "destination": "/mathtextbook",
+      "permanent": true
+    },
+    {
+      "source": "/src/pages/game/mathtextbook",
+      "destination": "/mathtextbook",
+      "permanent": true
+    },
+    {
+      "source": "/src/pages/game/vowofiron.html",
+      "destination": "/vowofiron",
+      "permanent": true
+    },
+    {
+      "source": "/src/pages/game/vowofiron",
+      "destination": "/vowofiron",
+      "permanent": true
+    },
+    {
+      "source": "/src/pages/legacy/game/index.html",
+      "destination": "/game",
+      "permanent": true
+    },
+    {
+      "source": "/src/pages/legacy/game/index",
+      "destination": "/game",
+      "permanent": true
+    },
+    {
+      "source": "/src/pages/legacy/game",
+      "destination": "/game",
+      "permanent": true
+    },
+    {
+      "source": "/src/pages/legacy/game/credits.html",
+      "destination": "/game/credits",
+      "permanent": true
+    },
+    {
+      "source": "/src/pages/legacy/game/credits",
+      "destination": "/game/credits",
+      "permanent": true
+    },
+    {
+      "source": "/src/pages/world/map/depths.html",
+      "destination": "/map/depths",
+      "permanent": true
+    },
+    {
+      "source": "/src/pages/world/map/depths",
+      "destination": "/map/depths",
+      "permanent": true
+    },
+    {
+      "source": "/src/pages/world/map/eastern.html",
+      "destination": "/map/eastern",
+      "permanent": true
+    },
+    {
+      "source": "/src/pages/world/map/eastern",
+      "destination": "/map/eastern",
+      "permanent": true
+    },
+    {
+      "source": "/src/pages/world/map/etrean.html",
+      "destination": "/map/etrean",
+      "permanent": true
+    },
+    {
+      "source": "/src/pages/world/map/etrean",
+      "destination": "/map/etrean",
+      "permanent": true
+    },
+    {
+      "source": "/src/pages/world/map/ironvow.html",
+      "destination": "/map/ironvow",
+      "permanent": true
+    },
+    {
+      "source": "/src/pages/world/map/ironvow",
+      "destination": "/map/ironvow",
+      "permanent": true
+    },
+    {
+      "source": "/src/pages/world/market/naan.html",
+      "destination": "/market/naan",
+      "permanent": true
+    },
+    {
+      "source": "/src/pages/world/market/naan",
+      "destination": "/market/naan",
+      "permanent": true
+    },
+    {
+      "source": "/src/pages/world/market/traan.html",
+      "destination": "/market/traan",
+      "permanent": true
+    },
+    {
+      "source": "/src/pages/world/market/traan",
+      "destination": "/market/traan",
+      "permanent": true
+    },
+    {
+      "source": "/src/pages/world/stock/naan.html",
+      "destination": "/stock/naan",
+      "permanent": true
+    },
+    {
+      "source": "/src/pages/world/stock/naan",
+      "destination": "/stock/naan",
+      "permanent": true
+    },
+    {
+      "source": "/src/pages/world/stock/traan.html",
+      "destination": "/stock/traan",
+      "permanent": true
+    },
+    {
+      "source": "/src/pages/world/stock/traan",
+      "destination": "/stock/traan",
+      "permanent": true
+    }
   ],
   "rewrites": [
-    { "source": "/talent-creator", "destination": "/src/pages/tools/talent-creator.html" },
-    { "source": "/item-creator", "destination": "/src/pages/tools/item-creator.html" },
-    { "source": "/buildplanner", "destination": "/src/pages/tools/buildplanner.html" },
-    { "source": "/builder", "destination": "/src/pages/tools/buildplanner.html" },
-    { "source": "/guild-emblem", "destination": "/src/pages/tools/guild-emblem.html" },
-    { "source": "/drip-designer", "destination": "/src/pages/tools/drip-designer.html" },
-    { "source": "/dialogue", "destination": "/src/pages/tools/dialogue.html" },
-    { "source": "/blacksmith", "destination": "/src/pages/tools/blacksmith.html" },
-
-    { "source": "/credits", "destination": "/src/pages/site/credits.html" },
-    { "source": "/glossary", "destination": "/src/pages/site/glossary.html" },
-    { "source": "/library", "destination": "/src/pages/site/library.html" },
-    { "source": "/settings", "destination": "/src/pages/site/settings.html" },
-    { "source": "/socials", "destination": "/src/pages/site/socials.html" },
-    { "source": "/server-list", "destination": "/src/pages/site/server-list.html" },
-    { "source": "/updates", "destination": "/src/pages/site/updates.html" },
-    { "source": "/menu", "destination": "/src/pages/site/menu.html" },
-    { "source": "/oldindex", "destination": "/src/pages/site/oldindex.html" },
-
-    { "source": "/echoes-checklist", "destination": "/src/pages/game/echoes-checklist.html" },
-    { "source": "/mathtextbook", "destination": "/src/pages/game/mathtextbook.html" },
-    { "source": "/vowofiron", "destination": "/src/pages/game/vowofiron.html" },
-
-    { "source": "/map/:slug", "destination": "/src/pages/world/map/:slug.html" },
-    { "source": "/market/:slug", "destination": "/src/pages/world/market/:slug.html" },
-    { "source": "/stock/:slug", "destination": "/src/pages/world/stock/:slug.html" },
-
-    { "source": "/game", "destination": "/src/pages/legacy/game/index.html" },
-    { "source": "/game/credits", "destination": "/src/pages/legacy/game/credits.html" }
+    {
+      "source": "/talent-creator",
+      "destination": "/src/pages/tools/talent-creator.html"
+    },
+    {
+      "source": "/item-creator",
+      "destination": "/src/pages/tools/item-creator.html"
+    },
+    {
+      "source": "/buildplanner",
+      "destination": "/src/pages/tools/buildplanner.html"
+    },
+    {
+      "source": "/builder",
+      "destination": "/src/pages/tools/buildplanner.html"
+    },
+    {
+      "source": "/guild-emblem",
+      "destination": "/src/pages/tools/guild-emblem.html"
+    },
+    {
+      "source": "/drip-designer",
+      "destination": "/src/pages/tools/drip-designer.html"
+    },
+    {
+      "source": "/dialogue",
+      "destination": "/src/pages/tools/dialogue.html"
+    },
+    {
+      "source": "/blacksmith",
+      "destination": "/src/pages/tools/blacksmith.html"
+    },
+    {
+      "source": "/credits",
+      "destination": "/src/pages/site/credits.html"
+    },
+    {
+      "source": "/glossary",
+      "destination": "/src/pages/site/glossary.html"
+    },
+    {
+      "source": "/library",
+      "destination": "/src/pages/site/library.html"
+    },
+    {
+      "source": "/settings",
+      "destination": "/src/pages/site/settings.html"
+    },
+    {
+      "source": "/socials",
+      "destination": "/src/pages/site/socials.html"
+    },
+    {
+      "source": "/server-list",
+      "destination": "/src/pages/site/server-list.html"
+    },
+    {
+      "source": "/updates",
+      "destination": "/src/pages/site/updates.html"
+    },
+    {
+      "source": "/menu",
+      "destination": "/src/pages/site/menu.html"
+    },
+    {
+      "source": "/oldindex",
+      "destination": "/src/pages/site/oldindex.html"
+    },
+    {
+      "source": "/echoes-checklist",
+      "destination": "/src/pages/game/echoes-checklist.html"
+    },
+    {
+      "source": "/mathtextbook",
+      "destination": "/src/pages/game/mathtextbook.html"
+    },
+    {
+      "source": "/vowofiron",
+      "destination": "/src/pages/game/vowofiron.html"
+    },
+    {
+      "source": "/game",
+      "destination": "/src/pages/legacy/game/index.html"
+    },
+    {
+      "source": "/game/credits",
+      "destination": "/src/pages/legacy/game/credits.html"
+    },
+    {
+      "source": "/map/depths",
+      "destination": "/src/pages/world/map/depths.html"
+    },
+    {
+      "source": "/map/eastern",
+      "destination": "/src/pages/world/map/eastern.html"
+    },
+    {
+      "source": "/map/etrean",
+      "destination": "/src/pages/world/map/etrean.html"
+    },
+    {
+      "source": "/map/ironvow",
+      "destination": "/src/pages/world/map/ironvow.html"
+    },
+    {
+      "source": "/market/naan",
+      "destination": "/src/pages/world/market/naan.html"
+    },
+    {
+      "source": "/market/traan",
+      "destination": "/src/pages/world/market/traan.html"
+    },
+    {
+      "source": "/stock/naan",
+      "destination": "/src/pages/world/stock/naan.html"
+    },
+    {
+      "source": "/stock/traan",
+      "destination": "/src/pages/world/stock/traan.html"
+    }
   ]
 }
