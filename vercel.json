@@ -1,6 +1,9 @@
 {
   "cleanUrls": true,
   "trailingSlash": false,
+  "redirects": [
+    { "source": "/src/pages/tools/talent-creator", "destination": "/talent-creator", "permanent": true }
+  ],
   "rewrites": [
     { "source": "/talent-creator", "destination": "src/pages/tools/talent-creator.html" },
     { "source": "/item-creator", "destination": "src/pages/tools/item-creator.html" },
@@ -33,4 +36,3 @@
     { "source": "/game/credits", "destination": "src/pages/legacy/game/credits.html" }
   ]
 }
-
