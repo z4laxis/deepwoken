@@ -228,19 +228,6 @@ function updateCardStates() {
   cardFrozen.hidden = !frozenInput.checked;
   cardFavour.hidden = !favouredInput.checked;
   cardForetold.hidden = !foretoldInput.checked;
-
-  if (frozenInput.checked) {
-    favouredInput.checked = false;
-    foretoldInput.checked = false;
-  }
-  if (favouredInput.checked) {
-    frozenInput.checked = true;
-    foretoldInput.checked = false;
-  }
-  if (foretoldInput.checked) {
-    frozenInput.checked = false;
-    favouredInput.checked = false;
-  }
 }
 
 var input = document.querySelector('input'); 
