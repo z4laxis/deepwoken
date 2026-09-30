@@ -128,7 +128,8 @@
             <input type="text" class="input-card-class" id="card-class" spellcheck="false" value="Talent Category" maxlength="50">
             <input type="text" class="input-card-condition" id="card-condition" spellcheck="false" value="Talent Condition" maxlength="50" hidden></input>
 
-            <textarea class="input-description" id="card-description" spellcheck="false" rows="4" maxlength="250">Talent Description</textarea>
+            <textarea class="input-description" id="card-description" spellcheck="false" rows="4" maxlength="250" style="opacity: 0;" oninput="document.querySelector('.render-description').innerHTML = document.querySelector('.input-description').value">Talent Description</textarea>
+            <span class="render-description" id="render-description" spellcheck="false" rows="4" maxlength="250">Talent Description</span>
 
             <img src="/assets/images/card/1star.png" alt="1 Star" class="onestar" hidden>
             <img src="/assets/images/card/2star.png" alt="2 Star" class="twostar" hidden>

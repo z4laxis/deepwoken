@@ -208,24 +208,23 @@ input {
 
 .image {
     position: absolute;
-    left: 50%;
-    transform: translate(-50%, 62%);
-    width: 135px;
-    height: 135px;
+    width: 130px;
+    height: 130px;
     z-index: 1;
+    top: 16%;
 }
 
 .input-card-class {
-    font-family: "PTSerif-Regular";
-    position: absolute;
-    top: 237.5px;
-    left: 50%;
-    transform: translateX(-50%);
-    font-size: 14px;
-    color: #555;
-    border: none;
-    background: transparent;
-    width: 75%;
+font-family: "PTSerif-Regular";
+  position: absolute;
+  top: 205px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 14px;
+  color: #555;
+  border: none;
+  background: transparent;
+  width: 75%;
 }
 
 .input-card-condition {
@@ -245,19 +244,20 @@ input {
 
 .input-description {
     font-family: "PTSerif-Regular";
-    bottom: 10%;
-    z-index: 2;
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%, 10%);
-    font-size: 18px;
-    color: #222;
-    width: 75%;
-    overflow-wrap: break-word;
-    line-height: 1.375;
-    height: 30%;
-    border: none;
-    background: transparent;
+  bottom: 10%;
+  z-index: 2;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 10%);
+  font-size: 16px;
+  color: #222;
+  width: 75%;
+  overflow-wrap: break-word;
+  line-height: 1.375;
+  height: 40%;
+  border: none;
+  background: transparent;
+  align-content: center;
 }
 
 .bonuses {
@@ -336,22 +336,19 @@ input {
 .icon-background {
     background-color: #fff;
     z-index: 0;
-    position: relative;
-    right: 6%;
-    width: 110%;
-    height: 110%;
-    bottom: 6%;
+    position: absolute;
+    width: 100%;
+    height: 100%;
 }
 
 .card-icon {
-    background-color: #433523;
-    mask-image: url(/assets/images/icons/talent/question.png);
-    mask-size: 141.75px;
-    width: 105%;
-    height: 105%;
-    position: relative;
-    bottom: 112%;
-    left: -2%;
+background-color: #433523;
+  mask-image: url(/assets/images/icons/talent/question.png);
+  mask-size: 130px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 4%;
 }
 
 .checkbox-label {
